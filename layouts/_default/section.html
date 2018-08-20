@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+  <main>
+  	<h1>{{ .Params.Title }}</h1>
+
+    {{ .Content }}
+
+    {{ partial "talks-list.html" . }}
+  </main>
+{{ end }}

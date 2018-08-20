@@ -1,0 +1,11 @@
+<ul>
+  {{ with .Params.talks }}
+    <strong>Talk{{ if gt (len .) 1 }}s{{ end }}:</strong>
+    {{ range $ind,$val := . }}
+      {{$talk := $val | urlize }}
+      {{- with $.Site.GetPage (printf "talks/%s" $talk)}}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end -}}
+    {{ end }}
+  {{ end }}
+</ul>

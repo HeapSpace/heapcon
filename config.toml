@@ -2,5 +2,9 @@ baseURL = "http://heapcon.io"
 languageCode = "en-us"
 title = "heapcon ⬣ a new conference by heapspace"
 
+[taxonomies]
+  talk = "talks"
+  tag = "tags"
+
 [params]
 	description = "heapcon is a new conference by your friends from heapspace from belgrade, serbia."

@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <hr>
+
+  List of speakers:
+
+  <ul>
+    {{ range .Data.Pages }}
+       <li>
+         <a href="{{ .Permalink}}">{{ .Title }}</a>
+       </li>
+    {{ end }}
+  </ul>
+
+{{ end }}
