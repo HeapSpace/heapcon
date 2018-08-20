@@ -1,3 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://heapcon.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "heapcon ⬣ a new conference by heapspace"
+
+[params]
+	description = "heapcon is a new conference by your friends from heapspace from belgrade, serbia."

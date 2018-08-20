@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>{{ .Title }} - {{ .Site.Title }}</title>
+
+		{{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+		<link rel='stylesheet' href='{{ $style.Permalink }}' type='text/css' media='all' />
+
+		{{ partial "head" . }}
+    </head>
+    <body>
+    	{{ partial "header" . }}
+
+		{{ block "main" . }}{{ end }}
+
+		{{ partial "footer" . }}
+
+		{{ partial "js" . }}
+    </body>
+</html>
