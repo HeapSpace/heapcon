@@ -7,7 +7,7 @@
 		<title>{{ .Title }} - {{ .Site.Title }}</title>
 
 		{{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-		<link rel='stylesheet' href='{{ $style.Permalink }}' type='text/css' media='all' />
+		<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
 
 		{{ partial "head" . }}
     </head>
