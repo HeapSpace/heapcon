@@ -3,7 +3,7 @@
   <ul>
     {{ range .Data.Pages }}
       <li>
-        <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
           <!-- Handling brands that don't have a corresponding page by using .With -->
           {{ .Params.description }}
       </li>
@@ -16,11 +16,11 @@
   <ul>
     {{ range .Data.Pages }}
       <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ $talk := .Title | urlize }}
         <ul>
            {{ range ($.Site.GetPage (printf "talks/%s" $talk)).Pages }}
-            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
            {{ end }}
         </ul>
       </li>
