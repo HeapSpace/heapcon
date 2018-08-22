@@ -28,6 +28,14 @@
 
 	<section>
 	<h1>Speakers</h1>
+	{{ $speakers := (where .Site.Pages "Section" "speakers") }}
+	{{ range ($speakers.ByWeight) }}
+	{{ if (ne .Title "Speakers") }}
+	{{ if (ge (int .Params.Weight) 10) }}
+		{{ partial "speaker-box" . }}
+	{{ end }}
+	{{ end }}
+	{{ end }}
 
 	<a href="/speakers">See all speakers</a>
 
