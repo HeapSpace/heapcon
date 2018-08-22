@@ -1,20 +1,10 @@
 @import "reset";
+@import "variables";
+@import "common";
 
-body {
-  background-color: #efc;
-  padding: 50px;
-}
+@import "structure";
+@import "elements";
 
-footer {
-  margin-top: 50px;
-}
-header {
-  margin-bottom: 50px;
-}
-
-h1 {
-  font-size: 2rem;
-}
-h2 {
-	font-size: 1.5rem;
-}
+@import "header";
+@import "footer";
+@import "media";

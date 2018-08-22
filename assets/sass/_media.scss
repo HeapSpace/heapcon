@@ -1,0 +1,22 @@
+@media screen and (max-width: 1000px) {
+	.boxes {
+		display: grid;
+		grid-template-columns: 100%;
+		margin-top: 3em;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 0.8em;
+	}
+	.content-wrap {
+		padding: 0;
+	}
+}

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.Language.Lang }}">
     <head>
     	<meta charset="UTF-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
   		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 		<title>{{ .Title }} - {{ .Site.Title }}</title>
 
 		{{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
@@ -11,10 +12,18 @@
 
 		{{ partial "head" . }}
     </head>
-    <body>
+    <body class="bg-black">
+    	<header class="grid"><div class="content-wrap">
+
     	{{ partial "header" . }}
 
+		</div></header>
+
+		<main class="grid"><div class="content-wrap">
+
 		{{ block "main" . }}{{ end }}
+
+		</div></main>
 
 		{{ partial "footer" . }}
 
