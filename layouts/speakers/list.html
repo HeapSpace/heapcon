@@ -4,9 +4,7 @@
 
 	<ul>
     {{ range .Data.Pages }}
-       <li>
-         <a href="{{ .RelPermalink}}">{{ .Title }}</a>
-       </li>
+       <li>{{ partial "speaker-box" . }}</li>
     {{ end }}
   </ul>
 
