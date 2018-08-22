@@ -1,8 +1,19 @@
 header {
 	position: fixed;
 	top: 10px;
+	width: 100%;
+	z-index: -1;
 }
 
+#date-right {
+	display: flex;
+	justify-content: space-between;
+	-ms-transform-origin: top right;
+	transform-origin: top right;
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin: 202px 0;
+}
 #date-left {
 	display: flex;
 	align-items: center;
@@ -10,11 +21,4 @@ header {
 	transform-origin: bottom left;
 	-ms-transform: rotate(90deg);
 	transform: rotate(90deg);
-}
-#date-right {
-	display: flex;
-//	-ms-transform-origin: bottom left;
-//	transform-origin: bottom left;
-//	-ms-transform: rotate(90deg);
-//	transform: rotate(90deg);
 }

@@ -1,6 +1,6 @@
 <ul>
   {{ with .Params.talks }}
-    <strong>Talk{{ if gt (len .) 1 }}s{{ end }}:</strong>
+    <b>Talk{{ if gt (len .) 1 }}s{{ end }}:</b>
     {{ range $ind,$val := . }}
       {{$talk := $val | urlize }}
       {{- with $.Site.GetPage (printf "talks/%s" $talk)}}

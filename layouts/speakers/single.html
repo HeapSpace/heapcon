@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+	<h1>{{ .Title }}</h1>
+	<h2>{{ .Params.Company }}</h2>
+	<h3>{{ .Params.Link }}</h2>
+
+	<p>{{ .Content }}</p>
+
+    {{ partial "talks-list.html" . }}
+
+{{ end }}
