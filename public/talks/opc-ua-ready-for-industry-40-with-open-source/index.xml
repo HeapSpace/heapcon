@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OPC UA – ready for Industry 4.0 with open source on heapcon ⬣ a new conference by heapspace</title>
+    <link>https://heapcon.io/talks/opc-ua-ready-for-industry-40-with-open-source/</link>
+    <description>Recent content in OPC UA – ready for Industry 4.0 with open source on heapcon ⬣ a new conference by heapspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heapcon.io/talks/opc-ua-ready-for-industry-40-with-open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jens Reimann</title>
+      <link>https://heapcon.io/speakers/jens-reimann/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/speakers/jens-reimann/</guid>
+      <description>Loving Open Source, comitter at various Eclipse IoT projects, working for Red Hat, focusing on IoT since 1999, can make LEDs blink</description>
+    </item>
+    
+  </channel>
+</rss>

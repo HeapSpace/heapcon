@@ -7,4 +7,4 @@ talks:
   - serverless-the-missing-manual
 ---
 
-James Thomas is a Developer Advocate for IBM’s Cloud division. James is a huge fan of all thing serverless! James is a committer on Apache OpenWhisk, the open-source serverless platform.
+James Thomas is a Lead Developer Advocate (Serverless) for IBM’s Cloud division. James is a huge fan of all thing serverless! He spends his time speaking at conferences, blogging or writing open-source code to share the awesomeness of serverless cloud platforms. James is a committer on Apache OpenWhisk, the open-source serverless platform. He wrote (and maintains) the official JavaScript client library. He also created the OpenWhisk provider plugin for The Serverless Framework.

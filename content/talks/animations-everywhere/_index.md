@@ -2,6 +2,7 @@
 title: "Animations Everywhere!"
 ---
 
-Animations and Transitions are an important UX aspect for any application. I'll be talking about how it has been part of our everyday experience that we have started to ignore.
+How to achieve Shared Element Transition for both iOS and Android using Javascript?
+What are the advantages of having a smooth continuous experience?
 
-I am looking to get into the details on how to implement Animations and Shared element transitions for both iOS and Android using Javascript. Will also get into the details on how the same concept can be used for other platforms as well.
+And, since it's not straightforward to support true shared elements, how we can achieve this? Will explain with a clever trick of smoke and mirror.

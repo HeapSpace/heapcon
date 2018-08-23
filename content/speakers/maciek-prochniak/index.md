@@ -7,4 +7,4 @@ talks:
   - what-if-spring-framework-disappeared-for-a-week
 ---
 
-More than 10 years of experience, currently usually as architect/(lead) developer - but my roles vary from analysis to ops. Most of it Java & Scala. My main fields of interest are integration (Camel, OSGi) and stream processing systems (Akka, Kafka, Flink) but I also did my share of "enterprise" systems with Spring, Hibernate and so on. I also like to give talks at conferences - Confitura, JEEConf, VoxxedDays just to name a few.
+Maciek Próchniak is algebraic topologist, for more than 12 years developing on JVM for food and pleasure. This includes various subjects varying from architecture to operations and from integration to web development. Recently mostly focused on integration and real-time stream processing. Likes to speak at conferences from Bergen to Cairo on wide range of topics – from Scala type system to streaming platforms. For 9 years happy @ TouK, and even more happy husband and father.
