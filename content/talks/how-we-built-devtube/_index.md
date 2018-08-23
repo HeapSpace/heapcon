@@ -12,6 +12,6 @@ In this entertaining, but practical session, Eduards – the founder and core de
 - why sometimes we do not write unit tests
 - how to make OSS contributors happy (or angry)
 - how SaaS vendors helped us survive the load (and why)
-- …and much more!
+- ...and much more!
 
 After this session, you’ll be equipped with interesting real-world take-aways. Great mood guaranteed!

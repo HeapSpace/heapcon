@@ -6,3 +6,5 @@ link: "https://twitter.com/delabassee"
 talks:
   - serverless-java-in-action-with-fn
 ---
+
+DevRel for the Fn Team.
