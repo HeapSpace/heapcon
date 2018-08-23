@@ -1,8 +1,8 @@
 ---
 title: "Harry Roberts"
-company: "Consultant Front-end Architect"
+company: "Individual"
+job: "Consultant Perfomance Engineer"
 link: "https://csswizardry.com"
 talks:
   - its-my-third-party-and-ill-cry-if-i-want-to
 ---
-
