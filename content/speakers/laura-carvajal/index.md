@@ -1,8 +1,8 @@
 ---
 title: "Laura Carvajal"
-company: "Company: The Financial Times"
+company: "The Financial Times"
 job: "Principal Engineer"
-link: "https:\\heapspace.rs"
+link: "https://twitter.com/lc512k"
 talks:
   - what-i-learned-about-serverless-from-building-a-pokemon-radar
 ---

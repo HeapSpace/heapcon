@@ -1,8 +1,8 @@
 ---
-title: "Andraz Tori"
+title: "Andraž Tori"
 company: "Zemanta / Outbrain"
 job: "Zemanta CTO"
-link: "https:\\heapspace.rs"
+link: "http://twitter.com/andraz"
 talks:
   - programmatic-advertising-or-who-decides-what-ads-ill-see
 ---

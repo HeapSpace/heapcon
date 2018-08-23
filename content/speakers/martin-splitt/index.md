@@ -1,8 +1,8 @@
 ---
 title: "Martin Splitt"
-company: ""
-job: ""
-link: "https:\\heapspace.rs"
+company: "Google"
+job: "Developer Relations"
+link: "http://geekonaut.de/"
 talks:
-  - 
+  -
 ---

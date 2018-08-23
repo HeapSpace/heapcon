@@ -1,8 +1,8 @@
 ---
 title: "Radoslav Stankov"
-company: "Individual"
+company: ""
 job: "Developer"
-link: "https:\\heapspace.rs"
+link: "http://blog.rstankov.com"
 talks:
   - improving-your-git-workflows
 ---

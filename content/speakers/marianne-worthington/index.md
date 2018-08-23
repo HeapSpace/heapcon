@@ -1,8 +1,8 @@
 ---
 title: "Marianne Worthington"
 company: "Work Warrior"
-job: "Owner/Founder"
-link: "https:\\heapspace.rs"
+job: "Founder"
+link: "http://work-warrior.com"
 talks:
   - fear-the-driver-behind-our-behavior
 ---

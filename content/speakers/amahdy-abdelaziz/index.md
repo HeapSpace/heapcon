@@ -1,8 +1,8 @@
 ---
-title: "AMahdy Abdelaziz"
+title: "Amahdy Abdelaziz"
 company: "Vaadin"
 job: "Developer Advocate"
-link: "https:\\heapspace.rs"
+link: "http://amahdy.net"
 talks:
   - going-web-native
 ---

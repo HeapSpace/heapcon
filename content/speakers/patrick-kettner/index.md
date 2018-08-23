@@ -2,7 +2,7 @@
 title: "Patrick Kettner"
 company: "Microsoft"
 job: "Program Manager"
-link: "https:\\heapspace.rs"
+link: "https://patrickkettner.com"
 talks:
   - javascript-without-javascript
 ---

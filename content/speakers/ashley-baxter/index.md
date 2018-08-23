@@ -2,7 +2,7 @@
 title: "Ashley Baxter"
 company: "With Jack"
 job: "Director"
-link: "https:\\heapspace.rs"
+link: "http://iamashley.co.uk"
 talks:
   - idea-to-execution-and-beyond
 ---

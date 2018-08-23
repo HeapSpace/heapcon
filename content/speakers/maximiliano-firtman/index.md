@@ -1,8 +1,8 @@
 ---
 title: "Maximiliano Firtman"
-company: "Individual"
+company: ""
 job: "mobile+web developer"
-link: "https:\\heapspace.rs"
+link: "http://www.firt.mobi"
 talks:
   - hacking-web-performance
 ---

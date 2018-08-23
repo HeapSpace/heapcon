@@ -2,7 +2,7 @@
 title: "Narendra Shetty"
 company: "Booking.com"
 job: "Frontend Developer"
-link: "https:\\heapspace.rs"
+link: "https://medium.com/@narendrashetty"
 talks:
   - animations-everywhere
 ---

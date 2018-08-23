@@ -2,7 +2,7 @@
 title: "Rustam Mehmandarov"
 company: "Computas"
 job: "Principal Engineer"
-link: "https:\\heapspace.rs"
+link: "http://mehmandarov.com"
 talks:
   - escaping-developer-nightmares
 ---

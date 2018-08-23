@@ -2,7 +2,7 @@
 title: "Dejan Bosanac"
 company: "Red Hat"
 job: "Engineer"
-link: "https:\\heapspace.rs"
+link: "http://sensatic.net"
 talks:
   - cloud-scale-iot-messaging
 ---

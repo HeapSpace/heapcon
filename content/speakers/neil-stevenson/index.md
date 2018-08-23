@@ -1,8 +1,8 @@
 ---
 title: "Neil Stevenson"
-company: "Company"
+company: "Hazelcast"
 job: "Solutions Architect"
-link: "https:\\heapspace.rs"
+link: "https://twitter.com/hazelcast"
 talks:
   - scaling-data-in-the-cloud
 ---

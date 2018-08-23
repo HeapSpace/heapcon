@@ -1,8 +1,8 @@
 ---
 title: "Paula R. Stern"
 company: "WritePoint Ltd."
-job: "CEO, Senior Technical Writer, Training Manager"
-link: "https:\\heapspace.rs"
+job: "CEO"
+link: "https://twitter.com/writepoint"
 talks:
   - engineers-and-writers-the-documentation-tango
 ---
