@@ -5,11 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
   path: content/speakers
   label: Speakers
   create: all
@@ -19,6 +14,11 @@ sections:
   label: Talks
   create: all
   match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
 - type: directory
   path: content/code-of-conduct
   label: Code of conduct
