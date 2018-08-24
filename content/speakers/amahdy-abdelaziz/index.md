@@ -7,4 +7,4 @@ talks:
   - going-web-native
 ---
 
-International technical speaker, Google developer expert (GDE), Oracle Developer Champion, trainer and developer advocate. Passionate about Web and Mobile apps development, including PWA, offline-first design, in-browser database, and cross platform tools. Also interested in Android internals such as building custom ROMs and customize AOSP for embedded devices. www.amahdy.net
+International technical speaker, Google developer expert, Oracle Developer Champion, trainer and developer advocate. Passionate about Web and Mobile apps development, including PWA, offline-first design, in-browser database, and cross platform tools. Also interested in Android internals such as building custom ROMs and customize AOSP for embedded devices. 

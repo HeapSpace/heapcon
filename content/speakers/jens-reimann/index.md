@@ -7,4 +7,4 @@ talks:
   - opc-ua-ready-for-industry-40-with-open-source
 ---
 
-Loving Open Source, comitter at various Eclipse IoT projects, working for Red Hat, focusing on IoT since 1999, can make LEDs blink
+Loving Open Source, comitter at various Eclipse IoT projects, working for Red Hat, focusing on IoT since 1999, can make LEDs blink.
