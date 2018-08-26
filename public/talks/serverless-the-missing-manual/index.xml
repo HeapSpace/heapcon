@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serverless: The Missing Manual on heapcon ⬣ a new conference by heapspace</title>
+    <link>https://heapcon.io/talks/serverless-the-missing-manual/</link>
+    <description>Recent content in Serverless: The Missing Manual on heapcon ⬣ a new conference by heapspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heapcon.io/talks/serverless-the-missing-manual/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>James Thomas</title>
+      <link>https://heapcon.io/speakers/james-thomas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/speakers/james-thomas/</guid>
+      <description>James Thomas is a Lead Developer Advocate (Serverless) for IBM’s Cloud division. James is a huge fan of all thing serverless! He spends his time speaking at conferences, blogging or writing open-source code to share the awesomeness of serverless cloud platforms. James is a committer on Apache OpenWhisk, the open-source serverless platform. He wrote (and maintains) the official JavaScript client library. He also created the OpenWhisk provider plugin for The Serverless Framework.</description>
+    </item>
+    
+  </channel>
+</rss>

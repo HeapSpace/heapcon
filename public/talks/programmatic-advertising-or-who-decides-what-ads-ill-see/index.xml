@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programmatic advertising - or who decides what ads I&#39;ll see? on heapcon ⬣ a new conference by heapspace</title>
+    <link>https://heapcon.io/talks/programmatic-advertising-or-who-decides-what-ads-ill-see/</link>
+    <description>Recent content in Programmatic advertising - or who decides what ads I&#39;ll see? on heapcon ⬣ a new conference by heapspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heapcon.io/talks/programmatic-advertising-or-who-decides-what-ads-ill-see/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Andraž Tori</title>
+      <link>https://heapcon.io/speakers/andraz-tori/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/speakers/andraz-tori/</guid>
+      <description>Andraž is a technologist and an entrepreneur. In 2007 he co-founded Zemanta which was one of the first Slovenian start-ups. There he helped to develop an advanced programmatic advertising solution. Zemanta bids on billions of requests per day in order to buy native advertising space on behalf of brands. Zemanta was acquired by Outbrain in 2018. Before that, Andraž co-founded a slovenian cybercenter Kiberpipa and was a presenter on Slovenian National Television.</description>
+    </item>
+    
+  </channel>
+</rss>

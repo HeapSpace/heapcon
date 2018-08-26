@@ -1,5 +1,5 @@
 ---
-title: "javascript without javascript"
+title: "Javascript without Javascript"
 ---
 
-Don't Repeat Yourself - transpile! Rather than recreating the wheel for the millionth time, why not consider bringing a time tested and bulletproof library to your website - from another language! Learn how its even possible to bring code from one language to another, and why it just may be the future of javascript.
+With the help of a handful of amazing open source programs, we can now transpile nearly any programming language to JS, making it a sort of modern assembly language. In a fun and code heavy talk, I'll show how you can leverage pre existing libraries today in order to get amazing performance and features in your current web apps, creating possibilities you never dreamt possible in the web browser. To top it off, a sneak peek into what the future of web perf will look like.

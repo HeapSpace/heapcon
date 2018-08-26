@@ -2,7 +2,6 @@
 title: "Improving your Git workflows"
 ---
 
-I would start by explaining how Git works internally. How Git stores and how Git is collection of shell scripts.
-The I'm going to share git shell scripts that can make developers live with git easier like: `git undo`, `git rebase-on-master`, `git delete-merged` and other smaller tricks.
+Almost everybody uses Git nowadays. But how many people actually know how Git works internally? It is powerful, but extremely confusing.
 
-I'm going finish with advice about workflows in general.
+In this talk, I'll would explain how Git works internally and provide useful tips and tricks for improving developer productivity.

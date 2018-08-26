@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on heapcon ⬣ a new conference by heapspace</title>
+    <link>https://heapcon.io/talks/</link>
+    <description>Recent content in Talks on heapcon ⬣ a new conference by heapspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heapcon.io/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A WebXR whirlwind tour</title>
+      <link>https://heapcon.io/talks/a-webxr-whirlwind-tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/a-webxr-whirlwind-tour/</guid>
+      <description>In this session we will explore how VR and AR allow us to immerse our users in new experiences and why web technologies are a great way of building such experiences. We will see how to create virtual worlds with HTML and JavaScript, how to work with 3D models, see some examples of the VR web and see what&amp;rsquo;s out there!</description>
+    </item>
+    
+    <item>
+      <title>A year of mob programming - tips and tricks</title>
+      <link>https://heapcon.io/talks/a-year-of-mob-programming-tips-and-tricks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/a-year-of-mob-programming-tips-and-tricks/</guid>
+      <description>Mob programming is when the whole development team works on the same thing, at the same time, in the same space and with one shared computer. I&amp;rsquo;ve been working in a development team where we&amp;rsquo;ve been mob programming for well over a year, every day, without exceptions. We noticed an enormous boost in productivity as we used the team&amp;rsquo;s overall brain capacity to solve problems and to ship high quality software.</description>
+    </item>
+    
+    <item>
+      <title>Animations Everywhere!</title>
+      <link>https://heapcon.io/talks/animations-everywhere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/animations-everywhere/</guid>
+      <description>How to achieve Shared Element Transition for both iOS and Android using Javascript? What are the advantages of having a smooth continuous experience?
+And, since it&amp;rsquo;s not straightforward to support true shared elements, how we can achieve this? Will explain with a clever trick of smoke and mirror.</description>
+    </item>
+    
+    <item>
+      <title>Beyond Goats &amp; Silos</title>
+      <link>https://heapcon.io/talks/beyond-goats-silos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/beyond-goats-silos/</guid>
+      <description>A lot has changed since the term DevOps was coined. How has this change in the world of technology impacted the relevance of DevOps as we move towards a Cloud Native world. Are the principles of DevOps still applicable, and how to we go beyond the Goats &amp;amp; Silos of DevOps?</description>
+    </item>
+    
+    <item>
+      <title>Bridging Realities with WebXR and Web Bluetooth</title>
+      <link>https://heapcon.io/talks/bridging-realities-with-webxr-and-web-bluetooth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/bridging-realities-with-webxr-and-web-bluetooth/</guid>
+      <description>Mixed Reality is becoming possible on the Web, thanks to the up-and-coming WebXR standard. It&amp;rsquo;s possible to prototype these types of experiences now, using Progressive Enhancement to adapt to whatever kind of device we have, whether it&amp;rsquo;s a mobile phone or a Mixed Reality headset.
+Web Bluetooth is a great technology to combine with XR, since it allows us to use physical objects as input or output devices, further blurring the line between the real and digital worlds.</description>
+    </item>
+    
+    <item>
+      <title>Build a 12-factor microservice with MicroProfile</title>
+      <link>https://heapcon.io/talks/build-a-12factor-microservice-with-microprofile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/build-a-12factor-microservice-with-microprofile/</guid>
+      <description>Planning to build microservices? The best practice of building a first-class microservice is to follow 12-Factor app. But how to fulfill the 12-factor app rules, e.g. how to achieve externalise the configuration, fault tolerance, etc? Come to this session to build a 12-factor microservice using MicroProfile programming mode in half an hour with live code demo.</description>
+    </item>
+    
+    <item>
+      <title>Cloud scale IoT messaging</title>
+      <link>https://heapcon.io/talks/cloud-scale-iot-messaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/cloud-scale-iot-messaging/</guid>
+      <description>Device connectivity is one of the most common issues IoT developers need to solve. Having an open source solution based on the standardized protocols that solves recurring connectivity problems is a very useful tool to have.
+Meet Eclipse Hono, a cloud-based IoT connectivity platform which provides remote interfaces for device connectivity and mechanisms for uniform interaction with devices regardless of the communication protocol.</description>
+    </item>
+    
+    <item>
+      <title>Decomposing Java applications</title>
+      <link>https://heapcon.io/talks/decomposing-java-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/decomposing-java-applications/</guid>
+      <description>Most Java developers happily use libraries in their applications. Many developers split their own code into what they call modules hoping that brings benefits. Yet way too often they end up having a (distributed?) big ball of mud sooner or later? This session aim to answer the question: why simply cutting things down into smaller pieces and calling them libraries, modules, microservices, &amp;hellip; does not work?
+In this talk we&amp;rsquo;ll go one abstraction level above and look at the process of decomposing a Java application into reusable components.</description>
+    </item>
+    
+    <item>
+      <title>Engineers and Writers - The Documentation Tango</title>
+      <link>https://heapcon.io/talks/engineers-and-writers-the-documentation-tango/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/engineers-and-writers-the-documentation-tango/</guid>
+      <description>DDeveloping and documenting a product is like a complicated dance where both sides think to lead. This presentation focuses on how authors and engineers interact. It will focus on ways to improve development cycles without sending both sides off the dance floor. It includes:
+ Examining the relationship between engineer and writer Navigating best practices for maximum output The Frustration Factor Seeking Resolution  Participants will leave the session with some practical ideas for improving their workflow and a better understanding of the engineer-writer relationship and, using some humor, will end with suggestions for getting the development and documentation teams to dance to the tune and sing with the choir.</description>
+    </item>
+    
+    <item>
+      <title>Escaping Developer Nightmares</title>
+      <link>https://heapcon.io/talks/escaping-developer-nightmares/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/escaping-developer-nightmares/</guid>
+      <description>Have you ever worked on a legacy project, like lots of source code, but no unit tests? Or no continuous delivery? Static code analysis completely missing, or even a simple code standard totally absent?
+Projects like these are still more often the case than we like to think. In fact, maybe you are a developer stuck in such a project, even though you have tried to raise these issues as problems?</description>
+    </item>
+    
+    <item>
+      <title>Fear: The Driver Behind Our Behavior</title>
+      <link>https://heapcon.io/talks/fear-the-driver-behind-our-behavior/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/fear-the-driver-behind-our-behavior/</guid>
+      <description>Did you know there are only five root causes of fear? Yep, only five. But those five root causes of fear are real. So real that it drives 80% of our bad behavior. And instead of giving the word the proper respect it deserves, we turn the word into a “cute” Instagram post encouraging the world to simply be fearless. But this isn’t a thing.
+We are born to fear. It’s in our DNA.</description>
+    </item>
+    
+    <item>
+      <title>Field-tested interfaces for the next billion</title>
+      <link>https://heapcon.io/talks/fieldtested-interfaces-for-the-next-billion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/fieldtested-interfaces-for-the-next-billion/</guid>
+      <description>Learn about building products for a different kind of digital landscape than many of us are used to – for the billions of people around the world that now have access to connected smart phones, but who can afford only a few megabytes of data here and there, have cheap, low-powered devices, unreliable electricity, and are learning to use digital interfaces for the first time.</description>
+    </item>
+    
+    <item>
+      <title>Go Reactive with your Data: How to stop blockages using Spring Data &amp; Reactive NoSQL DBs</title>
+      <link>https://heapcon.io/talks/go-reactive-with-your-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/go-reactive-with-your-data/</guid>
+      <description>Reactive programming is a great tool for the skilled developer, enabling us to deliver more scalable, resilient, &amp;amp; responsive services&amp;hellip;but only if we leverage the reactive model throughout the entire stack! Failing to (re)design our systems to leverage fully reactive data storage &amp;amp; retrieval can both increase complexity and degrade performance.
+Using Spring Data and your favorite NoSQL data store, you can exploit the full power of reactive systems, all the way to the metal.</description>
+    </item>
+    
+    <item>
+      <title>Going Web Native</title>
+      <link>https://heapcon.io/talks/going-web-native/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/going-web-native/</guid>
+      <description>In this talk, we&amp;rsquo;ll take a look at the evolving Web platform and how it&amp;rsquo;s becoming possible to build applications that rival native apps in usability and functionality, while still maintaining the best parts of Web – low friction and simple sharing. You&amp;rsquo;ll get an introduction to Progressive Web Apps, Web Components, Web Assembly and why they might be the reason behind your next native app being a web app.</description>
+    </item>
+    
+    <item>
+      <title>Hacking Web Performance</title>
+      <link>https://heapcon.io/talks/hacking-web-performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/hacking-web-performance/</guid>
+      <description>New compression algorithms? New image formats? Client Hints? HTTP/2 Push? Let&amp;rsquo;s hack Web Performance. I’ll briefly cover the important steps that most web professionals are making to improve performance. We’ll get deeply into what&amp;rsquo;s new and extreme that can increase radically user&amp;rsquo;s perception and conversion thanks to a better performance - new image formats, protocols, compression algorithms and a review of old ideas. This talk is based on a research on my recent ebook https://www.</description>
+    </item>
+    
+    <item>
+      <title>How we built Dev.Tube</title>
+      <link>https://heapcon.io/talks/how-we-built-devtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/how-we-built-devtube/</guid>
+      <description>Built by 2 developers in only 2 months, Dev.Tube is gradually becoming the primary hub of developer videos.
+In this entertaining, but practical session, Eduards – the founder and core developer, will tell what went wrong, what went well and what can we learn from Dev.Tube launch. We’ll cover:
+ how we attracted 1 million monthly visitors how we maintain infrastructure (and how much does it cost $$$) why experienced java developers ended up writing javascript why sometimes we do not write unit tests how to make OSS contributors happy (or angry) how SaaS vendors helped us survive the load (and why) &amp;hellip;and much more!</description>
+    </item>
+    
+    <item>
+      <title>Idea to Execution and Beyond</title>
+      <link>https://heapcon.io/talks/idea-to-execution-and-beyond/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/idea-to-execution-and-beyond/</guid>
+      <description>A high-level run-through of what it takes to execute and launch a project. Ashley covers the idea stage, build process, launch, and what to expect post-launch. Idea validation, shipping anxiety, and customer development are just a few of the themes covered.</description>
+    </item>
+    
+    <item>
+      <title>Improving your Git workflows</title>
+      <link>https://heapcon.io/talks/improving-your-git-workflows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/improving-your-git-workflows/</guid>
+      <description>Almost everybody uses Git nowadays. But how many people actually know how Git works internally? It is powerful, but extremely confusing.
+In this talk, I&amp;rsquo;ll would explain how Git works internally and provide useful tips and tricks for improving developer productivity.</description>
+    </item>
+    
+    <item>
+      <title>It’s My (Third) Party and I&#39;ll Cry If I Want To</title>
+      <link>https://heapcon.io/talks/its-my-third-party-and-ill-cry-if-i-want-to/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/its-my-third-party-and-ill-cry-if-i-want-to/</guid>
+      <description>Like it or not, a huge part of modern web development involves the use of third-party providers: fonts, analytics, ads, tracking, and more all have an impact of performance, and can leave us (or, more worryingly, our visitors) susceptible to performance degradation.
+In this talk, we’ll take a look at unruly or uninvited (third-)party guests: how to detect them, how to audit them, and how to manage them. We’ll also look at the different tools available to help us stress-test and quantify the overhead these third parties bring, and what that means for users and businesses alike.</description>
+    </item>
+    
+    <item>
+      <title>Javascript without Javascript</title>
+      <link>https://heapcon.io/talks/javascript-without-javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/javascript-without-javascript/</guid>
+      <description>With the help of a handful of amazing open source programs, we can now transpile nearly any programming language to JS, making it a sort of modern assembly language. In a fun and code heavy talk, I&amp;rsquo;ll show how you can leverage pre existing libraries today in order to get amazing performance and features in your current web apps, creating possibilities you never dreamt possible in the web browser. To top it off, a sneak peek into what the future of web perf will look like.</description>
+    </item>
+    
+    <item>
+      <title>Making great, discoverable web apps</title>
+      <link>https://heapcon.io/talks/making-great-discoverable-web-apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/making-great-discoverable-web-apps/</guid>
+      <description>The web is a great platform, but making web apps fast, semantic and discoverable can be a challenge. In this session we will explore how to build web apps that work great for your users and can be found better via search engines, too. We will discuss PWAs, technical SEO, server side rendering and a few other bits and pieces for you to build successful web apps.</description>
+    </item>
+    
+    <item>
+      <title>Musings and Music: Modular Synths and Microservices</title>
+      <link>https://heapcon.io/talks/musings-and-music-modular-synths-and-microservices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/musings-and-music-modular-synths-and-microservices/</guid>
+      <description>Through a live demonstration of a complex analog synthesizer, I&amp;rsquo;ll take a deep look at decoupled design, and learnings from Ricardo&amp;rsquo;s last year of rebuilding - over 400 repositories dozens of services and apps, and a brand-new platform - and my own journey into modular synthesis . A musical and architectural exploration in design, creativity, and emerging standards in a chaotic world.</description>
+    </item>
+    
+    <item>
+      <title>OPC UA – ready for Industry 4.0 with open source</title>
+      <link>https://heapcon.io/talks/opc-ua-ready-for-industry-40-with-open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/opc-ua-ready-for-industry-40-with-open-source/</guid>
+      <description>Get ready and stay in control for Industry 4.0. This talk will show how production ready open source projects can help build your OPC UA solution on the device and cloud level.
+Get at peek of at what is possible and the take code home to get started.</description>
+    </item>
+    
+    <item>
+      <title>Programmatic advertising - or who decides what ads I&#39;ll see?</title>
+      <link>https://heapcon.io/talks/programmatic-advertising-or-who-decides-what-ads-ill-see/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/programmatic-advertising-or-who-decides-what-ads-ill-see/</guid>
+      <description>Did you ever wonder how the news site decides which ad to show you?
+Enter the world of &amp;ldquo;Real Time Bidding&amp;rdquo; where your each page view is auctioned to the highest bidder to provide ads. How does technology work at low level? Who sends what data to whom? How are millions of ads evaluated in under 10ms, at 250k requests/second.</description>
+    </item>
+    
+    <item>
+      <title>Scaling Data In The Cloud</title>
+      <link>https://heapcon.io/talks/scaling-data-in-the-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/scaling-data-in-the-cloud/</guid>
+      <description>One of the great things about cloud deployments is the easy scaling. You might run your application on multiple machines, changing the number of machines up and down perhaps through a PAAS engine marshalling an IAAS provider.
+This is all fine for processing, but what about data stores?
+If these are hosted on a single server, this quickly becomes a bottleneck that limits the ability for the processing to deliver on the scaling promise.</description>
+    </item>
+    
+    <item>
+      <title>Serverless Java in action with Fn!</title>
+      <link>https://heapcon.io/talks/serverless-java-in-action-with-fn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/serverless-java-in-action-with-fn/</guid>
+      <description>Serverless computing and FaaS (Function as a Service) are the new blacks! They radically change how software is organized, deployed, and charged for.
+This hands-on session will introduce you to Fn Project, an open source FaaS platform. And although Fn is by design polyglot (ex. Go &amp;amp; JavaScript), we will mostly focus on Java and related JVM topics (ex. Spring Cloud Function, Serverless Kotlin). We will also discuss an functions orchestration using the Fn Flow API, a distributed Promise based API, to compose multiple functions into meaningful applications.</description>
+    </item>
+    
+    <item>
+      <title>Serverless: The Missing Manual</title>
+      <link>https://heapcon.io/talks/serverless-the-missing-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/serverless-the-missing-manual/</guid>
+      <description>Do serverless cloud platforms leave you with more questions than answers? This session will focus on migrating from traditional applications to serverless cloud platforms. You’ll learn about serving files without a web server, managing application state in a stateless environment, running background processes in ephemeral runtimes and more. These techniques will enable you to build modern applications using serverless platforms. This session is for developers who see the benefits of serverless but are struggling to adjust to a serverless world.</description>
+    </item>
+    
+    <item>
+      <title>Starting a company, growing from 3 to 300 people, and selling</title>
+      <link>https://heapcon.io/talks/starting-a-company-growing-from-3-to-300-people-and-selling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/starting-a-company-growing-from-3-to-300-people-and-selling/</guid>
+      <description>How the company changed as it went through the various stages of growth (startup, rapid growth, maturing into a “real” company, and finally selling), including the positive things and the challenges about each stage. How we overcame the various challenges and use some funny true stories from our past to illustrate some of the issues we faced. I’d give some tips on starting and growing a company in general.</description>
+    </item>
+    
+    <item>
+      <title>Testing in the 21st Century</title>
+      <link>https://heapcon.io/talks/testing-in-the-21st-century/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/testing-in-the-21st-century/</guid>
+      <description>Microservices architecture has changed how companies develop and deploy applications. This change has affected testing process as well. New techniques have emerged and others have been enhanced.
+Come to this session to learn about service virtualization, contract testing or testing in production to increase deployment velocity from 1 week to N times per day or deploy each service independently without worrying about breaking the compatibility between services anymore.</description>
+    </item>
+    
+    <item>
+      <title>The Engineering-Manager Transition</title>
+      <link>https://heapcon.io/talks/the-engineeringmanager-transition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/the-engineeringmanager-transition/</guid>
+      <description>From mentoring team members to aligning engineering efforts with business priorities, today&amp;rsquo;s companies are in dire need of great technical leaders. There is no management school for this and most organizations lack access to guidance or a mentorship framework that can transition their most talented core contributors into contemporary engineering managers. This talk will share tactics for using an engineer&amp;rsquo;s natural pattern-matching skills within a framework for dealing with the situationally complex problems that arise within growing modern technical teams.</description>
+    </item>
+    
+    <item>
+      <title>Use of JHipster in building next-gen Devops intelligence</title>
+      <link>https://heapcon.io/talks/use-of-jhipster-in-building-nextgen-devops-intelligence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/use-of-jhipster-in-building-nextgen-devops-intelligence/</guid>
+      <description>This talk will focus on the experience of using JHipster in building the newest DevOps product from XebiaLabs, It will talk about the architecture, how JHipster is used and about some issues faced and how we overcome them.</description>
+    </item>
+    
+    <item>
+      <title>Using Chaos Engineering for Building Resilient Systems</title>
+      <link>https://heapcon.io/talks/using-chaos-engineering-for-building-resilient-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/using-chaos-engineering-for-building-resilient-systems/</guid>
+      <description>Chaos Engineering takes the complexity of a distributed system and test it holistically by simulating turbulent conditions and observing how the system responds and performs. The data collected allows to build more resilient applications and improves observability of the system. This talk will provide an an introduction to the history, need and principles of Chaos Engineering. Attendees will learn how to perform Chaos Engineering experiments, collect data, identify the weakness and fix the system.</description>
+    </item>
+    
+    <item>
+      <title>What I learned about Serverless from building a Pokémon Radar</title>
+      <link>https://heapcon.io/talks/what-i-learned-about-serverless-from-building-a-pokemon-radar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/what-i-learned-about-serverless-from-building-a-pokemon-radar/</guid>
+      <description>In 2017 I had been playing Pokémon on and off for about a year and had a few left to catch! Though pokemon tracking maps helped, I wondered, what if THE pokemon I wanted popped up when I wasn&amp;rsquo;t looking? So I set out to build a service that would send me push notifications every time there was an important pokemon around. I had a few constraints. Whatever I built had to:</description>
+    </item>
+    
+    <item>
+      <title>What if Spring framework disappeared for a week?</title>
+      <link>https://heapcon.io/talks/what-if-spring-framework-disappeared-for-a-week/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/what-if-spring-framework-disappeared-for-a-week/</guid>
+      <description>This talk is a bit provocative. Spring framework is probably the most successful of all Java frameworks in the last couple of years. Usually, half of every conference schedule is dedicated to it. It&amp;rsquo;s really great and helpful, but sometimes I see that (especially younger) developers stop to see world outside it. If they cannot use Spring for some (good or bad) reasons, they are helpless and start to moan. I&amp;rsquo;d like to do a kind of a mental experiment – what would one do in such a situation, which stuff is really essential and which is such syntax sugar that is easily replaced.</description>
+    </item>
+    
+    <item>
+      <title>iOS-Factor: A methodology for building high-quality iOS apps on a solid architecture</title>
+      <link>https://heapcon.io/talks/iosfactor-a-methodology-for-building-highquality-ios-apps-on-a-solid-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/talks/iosfactor-a-methodology-for-building-highquality-ios-apps-on-a-solid-architecture/</guid>
+      <description>Felix will talk about how iOS development processes have changed over the last 10 years, and how you can apply more up-to-date engineering practices into your daily development workflow. This includes Continuous Integration and Delivery, clean declarations of dependencies, automation of repeating workflow as well as automated app versioning.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,4 +2,11 @@
 title: "Engineers and Writers - The Documentation Tango"
 ---
 
-Development and documentation teams are both mandatory elements in the successful creation of any product. How well they work together can play a large role in meeting deadlines and ensuring a quality product. This session examines the relationship between the teams, offers best practices for maximum output and suggestions for avoiding conflicts and delays. Ultimately, engineers and writers must learn to "dance" together and this session focuses on how they can accomplish that.
+Developing and documenting a product is like a complicated dance where both sides think to lead. This presentation focuses on how authors and engineers interact. It will focus on ways to improve development cycles without sending both sides off the dance floor. It includes:
+
+1. Examining the relationship between engineer and writer
+2. Navigating best practices for maximum output
+3. The Frustration Factor
+4. Seeking Resolution
+
+Participants will leave the session with some practical ideas for improving their workflow and a better understanding of the engineer-writer relationship and, using some humor, will end with suggestions for getting the development and documentation teams to dance to the tune and sing with the choir.

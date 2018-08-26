@@ -15,6 +15,9 @@
     <body class="bg-black">
 
     	{{ partial "header" }}
+    	{{ if .IsHome }}
+    		{{ partial "zastava" }}
+    	{{ end }}
 
 		<main class="grid"><div class="content-wrap">
 

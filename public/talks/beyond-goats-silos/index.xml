@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beyond Goats &amp; Silos on heapcon ⬣ a new conference by heapspace</title>
+    <link>https://heapcon.io/talks/beyond-goats-silos/</link>
+    <description>Recent content in Beyond Goats &amp; Silos on heapcon ⬣ a new conference by heapspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heapcon.io/talks/beyond-goats-silos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Michael Ducy</title>
+      <link>https://heapcon.io/speakers/michael-ducy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heapcon.io/speakers/michael-ducy/</guid>
+      <description>Born on the rolling plains of central Illinois corn fields, Michael Ducy started his technology journey at a young age. Always curious, he was once threatened that he’d never have toys bought for him again if he didn’t stop taking them apart to see how they worked. Raised in a blue collar family, his first workbench was given to him at the age of 5. His first programming language was BASIC, at the ripe young age of 6.</description>
+    </item>
+    
+  </channel>
+</rss>
