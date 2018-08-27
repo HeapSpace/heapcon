@@ -1,4 +1,7 @@
 <div class="speaker">
-	<a href="{{ .RelPermalink}}">{{ .Title }}</a>
-	 {{ .Params.Company }}
+	<a href="{{ .RelPermalink}}">
+		<img src="{{ .RelPermalink }}/profile.jpg">
+		{{ .Title }}<br>
+		{{ .Params.Company }}
+	</a>
 </div>

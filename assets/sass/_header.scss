@@ -2,6 +2,8 @@ header {
 	position: fixed;
 	width: 100%;
 	z-index: 10;
+	pointer-events: none;
+	top:0;
 }
 
 #get-tickets {
@@ -9,30 +11,34 @@ header {
   text-align: center;
   padding: 20px;
   font-size: 2em;
+  pointer-events: all;
 }
 
 #date-right {
+	color: $color-hs-beige;
 	display: flex;
 	justify-content: space-between;
 	-ms-transform-origin: top right;
 	transform-origin: top right;
 	-ms-transform: rotate(90deg);
 	transform: rotate(90deg);
-	margin: 202px 0;
+	margin: 202px 10px;
 }
 #date-left {
+	color: $color-hs-beige;
 	display: flex;
 	align-items: center;
 	-ms-transform-origin: bottom left;
 	transform-origin: bottom left;
 	-ms-transform: rotate(90deg);
 	transform: rotate(90deg);
+	margin: 0 10px;
 }
 
 .outer-menu {
 	float: right;
 	z-index: 5;
-	
+
 	.checkbox-toggle {
 		position: absolute;
 		right: 16px;
@@ -85,9 +91,10 @@ header {
 				position: absolute;
 				width: 60px;
 				height: 4px;
-				background-color: $color-hs-blue;
+				background-color: $color-hs-beige;
 				content: "";
 				top: -8px;
+				left: -10px;
 			}
 
 			&:after {
@@ -96,9 +103,10 @@ header {
 				position: absolute;
 				width: 60px;
 				height: 4px;
-				background-color: $color-hs-blue;
+				background-color: $color-hs-beige;
 				content: "";
 				top: 6px;
+				left: -10px;
 			}
 		}
 
@@ -189,7 +197,7 @@ header {
 
 						p {
 							margin-bottom: 1.5em;
-						
+
 							a {
 								position: relative;
 								display: inline;

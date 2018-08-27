@@ -2,10 +2,10 @@
 
 	<h1>Speakers</h1>
 
-	<ul>
+	<div class="grid42">
     {{ range .Data.Pages }}
-       <li>{{ partial "speaker-box" . }}</li>
+       {{ partial "speaker-box" . }}
     {{ end }}
-  </ul>
+  	</div>
 
 {{ end }}

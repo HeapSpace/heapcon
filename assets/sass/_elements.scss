@@ -3,7 +3,32 @@ canvas {
 	height: 100%;
 }
 #sublogo {
-	text-align: center;
-	font-size: 0.6em;
 	margin: 1em 0 4em 0;
+}
+.all {
+	text-align: center;
+	font-size: 0.7em;
+	display: block;
+	width: 100%;
+}
+
+.speaker {
+	text-align: center;
+	line-height: 0.7em;
+	margin-bottom: 4em;
+
+	a {
+		font-size: 0.6em;
+	}
+
+	img {
+	    width: 200px;
+	    border-radius: 50%;
+	    transition: all .2s ease;
+	    filter: grayscale(1) sepia(.2);
+	}
+	img:hover {
+	    transform: scale(1.1);
+	    transition: all .2s ease;
+	}
 }

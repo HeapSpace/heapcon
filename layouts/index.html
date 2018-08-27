@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-	<div id="sublogo">
+	<div id="sublogo" class="all">
 		A new conference experience by<br>
 		<a href="https://heapspace.rs">heapspace</a>
 	</div>
@@ -14,28 +14,34 @@
 	</p>
 
 	<section>
-	<h3><a href="/talks">Conference programme</a></h3>
+	<h1><a href="/talks">Conference programme</a></h1>
 
 	<ul>
-		<li class="bg-red">software engineering</li>
+		<li class="bg-black">software engineering</li>
 		<li class="bg-blue">tech business</li>
 		<li class="bg-red">regional expertise</li>
 	</ul>
 	</section>
 
-	<section>
-	<h1>Speakers</h1>
+	<section id="speakers">
+	<h1>Speakers:</h1>
+	<div class="grid42">
 	{{ $speakers := (where .Site.Pages "Section" "speakers") }}
-	{{ range ($speakers.ByWeight) }}
+	{{ range ($speakers.ByWeight.Reverse) }}
 	{{ if (ne .Title "Speakers") }}
 	{{ if (ge (int .Params.Weight) 10) }}
 		{{ partial "speaker-box" . }}
 	{{ end }}
 	{{ end }}
 	{{ end }}
+	</div>
 
-	<a href="/speakers">See all speakers</a>
+	<a href="/speakers" class="all">See all speakers</a>
+	</section>
 
+	<section id="sponsors">
+		<h1>Sponsors:</h1>
+		<a href="/sponsors" class="all">See all sponsors</a>
 	</section>
 
 
