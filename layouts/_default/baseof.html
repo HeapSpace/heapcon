@@ -12,18 +12,19 @@
 
 		{{ partial "head" . }}
     </head>
-    <body class="bg-black">
-
+    <body class="{{ .Params.pageColor | default "bg-black"}} ">
     	{{ partial "header" }}
     	{{ if .IsHome }}
     		{{ partial "zastava" }}
     	{{ end }}
 
 		<main class="grid"><div class="content-wrap">
-
 		{{ block "main" . }}{{ end }}
-
 		</div></main>
+
+		<div class="grid {{ .Params.moreColor | default "bg-black"}}"><div class="content-wrap">
+		{{ block "more" . }}{{ end }}
+		</div></div>
 
 		{{ partial "footer" . }}
 
