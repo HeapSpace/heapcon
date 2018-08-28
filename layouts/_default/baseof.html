@@ -12,7 +12,7 @@
 
 		{{ partial "head" . }}
     </head>
-    <body class="{{ .Params.pageColor | default "bg-black"}} ">
+    <body class="bg-black">
     	{{ partial "header" }}
     	{{ if .IsHome }}
     		{{ partial "zastava" }}
@@ -22,12 +22,13 @@
 		{{ block "main" . }}{{ end }}
 		</div></main>
 
-		<div class="grid {{ .Params.moreColor | default "bg-black"}}"><div class="content-wrap">
-		{{ block "more" . }}{{ end }}
-		</div></div>
-
 		{{ partial "footer" . }}
 
-		{{ partial "js" . }}
     </body>
+    {{ partial "js" . }}
+    {{ if ne .IsHome "true" }}
+    <script>
+		$(function () {initNonHomePage();});
+    </script>
+    {{ end }}
 </html>

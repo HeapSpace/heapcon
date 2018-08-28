@@ -1,6 +1,5 @@
 ---
 layout: "about"
-pageColor: "bg-red"
-moreColor: "bg-black"
+pageColor: "bg-black"
 ---
 # About us
