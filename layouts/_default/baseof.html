@@ -13,8 +13,9 @@
 		{{ partial "head" . }}
 
         {{ partial "js" . }}
-        {{ if ne .IsHome "true" }}
-        <style>body {background-color: #000;}</style>
+        <style>body {background-color: #231f20;}</style>
+        {{ if .IsHome }}
+        {{ else }}
         <script>
             applyRandomBackgroundColor();
             $(function () {initNonHomePage();});
