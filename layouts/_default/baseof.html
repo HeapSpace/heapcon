@@ -11,8 +11,17 @@
 		<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
 
 		{{ partial "head" . }}
+
+        {{ partial "js" . }}
+        {{ if ne .IsHome "true" }}
+        <style>body {background-color: #000;}</style>
+        <script>
+            applyRandomBackgroundColor();
+            $(function () {initNonHomePage();});
+        </script>
+        {{ end }}
     </head>
-    <body class="bg-black">
+    <body>
     	{{ partial "header" }}
     	{{ if .IsHome }}
     		{{ partial "zastava" }}
@@ -25,10 +34,4 @@
 		{{ partial "footer" . }}
 
     </body>
-    {{ partial "js" . }}
-    {{ if ne .IsHome "true" }}
-    <script>
-		$(function () {initNonHomePage();});
-    </script>
-    {{ end }}
 </html>

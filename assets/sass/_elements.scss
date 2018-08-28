@@ -36,3 +36,7 @@ canvas {
 .zoom {
 	font-size: 1.5em;
 }
+
+body {
+	transition: background-color 0.5s ease;
+}
