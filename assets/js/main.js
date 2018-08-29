@@ -2,11 +2,14 @@ $('.checkbox-toggle').click(function(){
 	$('.btn4').toggleClass('open');
 });
 
-/* Calculates the next color */
+
 const colors = ["#384af4", "#fd4000"];
-var colorNdx;
+var colorNdx = 0;
 function nextColor() {
-	colorNdx = Math.floor(Math.random() * colors.length);
+	colorNdx += Math.floor(Math.random() * colors.length);
+	if (colorNdx >= colors.length) {
+		colorNdx = 0;
+	}
 	return colors[colorNdx];
 }
 
@@ -27,7 +30,6 @@ function initNonHomePage() {
 	    	}
 	    }
 	    else {
-	    	console.log(height);
 			if (height < 400) {
 				$("body").css("backgroundColor", nextColor());
 				direction = 1;

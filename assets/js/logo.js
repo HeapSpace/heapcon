@@ -1,3 +1,4 @@
+var BACKGROUND_COLOR = 0x231f20;
 var SHOW_GUI = false;
 var IMAGE_ASPECT_RATIO = 4.36;
 var CAMERA_WIDTH = 8;
@@ -60,7 +61,7 @@ var uniforms = {
     mouseDistortion: { type: "f", value: params.mouseDistortion },
     mouseDistortionWidth: { type: "f", value: params.mouseDistortionWidth },
     timeScale: { type: "f", value: params.timeScale },
-    texture: { type: "t", value: THREE.ImageUtils.loadTexture("images/logo_4k_stretched_2.png") },
+    texture: { type: "t", value: THREE.ImageUtils.loadTexture("images/logo_4k_stretched.png") },
     mousePosition: new THREE.Uniform(new THREE.Vector2(10000, 10000))
 };
 
@@ -135,6 +136,7 @@ var renderer = new THREE.WebGLRenderer({
     canvas: canvas
 });
 var pixelRatio = window.devicePixelRatio || 1;
+renderer.setClearColor(BACKGROUND_COLOR, 1);
 renderer.setPixelRatio(pixelRatio);
 renderer.setSize(canvas.offsetWidth, canvas.offsetHeight);
 
@@ -152,7 +154,8 @@ planeMaterial = new THREE.ShaderMaterial( {
     vertexShader: document.getElementById('vertexShader').textContent,
     fragmentShader: document.getElementById('fragmentShader').textContent,
     wireframe: params.wireframe,
-    side: THREE.DoubleSide
+    side: THREE.DoubleSide,
+    transparent: true
 });
 var planeMesh = new THREE.Mesh(planeGeometry, planeMaterial);
 
