@@ -25,13 +25,22 @@ async function applyRandomBackgroundColor() {
     	// wait until the page gets loaded enough
     	await sleep(1);
     }
-	stylesheet.cssRules[0].style.backgroundColor = nextColor();
+    let color = nextColor();
+	stylesheet.cssRules[0].style.backgroundColor = color;
+	stylesheet.cssRules[1].style.backgroundColor = color;
 }
+
+
+function colorMyBody(color) {
+	$("body").css("backgroundColor", color);
+	$("header").css("backgroundColor", color);
+}
+
 
 let scrollDirection = 1;
 function jQueryInitNonHomePage() {
 	if ($(window).scrollTop() > 500) {
-		$("body").css("backgroundColor", "#231f20");
+		colorMyBody("#231f20");
 		scrollDirection = 2;
 	}
 
@@ -40,21 +49,38 @@ function jQueryInitNonHomePage() {
 
 		if (scrollDirection === 1) {
 			if (height > 500) {
-				$("body").css("backgroundColor", "#231f20");
+				colorMyBody("#231f20");
 				scrollDirection = 2;
 	    	}
 	    }
 	    else {
 			if (height < 400) {
-				$("body").css("backgroundColor", nextColor());
+				colorMyBody(nextColor());
 				scrollDirection = 1;
 	    	}
 	    }
 	});
 }
 
+let scrollDirectionA = 1;
 function jQueryInitAllPages() {
 	$('.checkbox-toggle').click(function(){
 		$('.btn4').toggleClass('open');
+	});
+	$(window).scroll(function() {
+		const height = $(window).scrollTop();
+
+		if (scrollDirectionA === 1) {
+			if (height > 550) {
+				$("header").fadeOut("slow");
+				scrollDirectionA = 2;
+	    	}
+	    }
+	    else {
+			if (height < 400) {
+				$("header").fadeIn("slow");
+				scrollDirectionA = 1;
+	    	}
+	    }
 	});
 }
