@@ -15,11 +15,15 @@ function nextColor() {
 
 function applyRandomBackgroundColor() {
     var stylesheet = document.styleSheets[1];
-    stylesheet.cssRules[0].style.backgroundColor = nextColor();
+	stylesheet.cssRules[0].style.backgroundColor = nextColor();
 }
 
 let scrollDirection = 1;
 function initNonHomePage() {
+	if ($(window).scrollTop() > 500) {
+		$("body").css("backgroundColor", "#231f20");
+		scrollDirection = 2;
+	}
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
 
