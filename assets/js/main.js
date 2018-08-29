@@ -1,7 +1,11 @@
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
 $('.checkbox-toggle').click(function(){
 	$('.btn4').toggleClass('open');
 });
-
 
 const colors = ["#384af4", "#fd4000"];
 var colorNdx = 0;
@@ -13,8 +17,11 @@ function nextColor() {
 	return colors[colorNdx];
 }
 
-function applyRandomBackgroundColor() {
+async function applyRandomBackgroundColor() {
     var stylesheet = document.styleSheets[1];
+    while (stylesheet.cssRules[0].style === undefined) {
+    	 await sleep(1);
+    }
 	stylesheet.cssRules[0].style.backgroundColor = nextColor();
 }
 
