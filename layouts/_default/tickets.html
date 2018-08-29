@@ -1,5 +1,32 @@
 {{ define "style" }}
-<style>body {background-color: #fff4e1;}</style>
+<style>
+body {background-color: #fff4e1; margin-top: 130px;}
+footer {margin-top:0;}
+#description {
+	padding: 4em 0;
+}
+#more ul {
+	list-style: disc;
+}
+#more ul li {
+	margin-left: 2em;
+	font-size: 0.8em;
+}
+#more {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+}
+#note {
+	margin-top: 2em;
+	font-size: 0.6em;
+	line-height: 1.6em;
+}
+.red {
+	font-size: 2em;
+	color: #fd4000;
+}
+</style>
 {{ end }}
 
 {{ define "main" }}
@@ -7,5 +34,30 @@
 	{{ .Content }}
 
 	{{ partial "xing" }}
+{{ end }}
+
+{{ define "after" }}
+
+	<article class="grid bg-black" id="description"><div class="content-wrap">
+
+	<div id="more">
+
+		<div>Single ticket gives you full access to the whole conference area, all tracks.</div>
+		<div>The ticket also includes:
+			<ul>
+				<li>Welcome Bag + Heapcon T-shirt</li>
+				<li>Breakfast, lunch and dinner</li>
+				<li>Sweets, constant coffee and beer flow</li>
+				<li>Access to after-parties and all mingling areas</li>
+			</ul>
+
+			<div id="note">
+				<span class="red">*</span> Note for companies who are interested in buying tickets:
+				Heapspace can provide an invoice outside of our ticketing system which complies with this <a href="Invoice%20payments%20procedure.pdf">procedure</a>.
+				Please read it carefully. Feel free to contact <a href="mailto:vesna@heapspace.rs">vesna@heapspace.rs</a> for more information.
+			</div>
+		</div>
+
+	</div></article>
 
 {{ end }}

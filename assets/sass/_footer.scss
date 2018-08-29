@@ -2,4 +2,12 @@
 footer {
   margin: 2em 0 0 0;
   padding: 1em 0;
+  color: $color-hs-beige;
+  text-align: center;
+
+  #footer {
+	color: $color-hs-beige;
+	font-size: 0.6em;
+	margin: 2em 0;
+  }
 }
