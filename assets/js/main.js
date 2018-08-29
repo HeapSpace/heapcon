@@ -6,7 +6,7 @@ $('.checkbox-toggle').click(function(){
 const colors = ["#384af4", "#fd4000"];
 var colorNdx = 0;
 function nextColor() {
-	colorNdx += Math.floor(Math.random() * colors.length);
+	colorNdx += 1;
 	if (colorNdx >= colors.length) {
 		colorNdx = 0;
 	}
@@ -18,21 +18,21 @@ function applyRandomBackgroundColor() {
     stylesheet.cssRules[0].style.backgroundColor = nextColor();
 }
 
-let direction = 1;
+let scrollDirection = 1;
 function initNonHomePage() {
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
 
-		if (direction === 1) {
+		if (scrollDirection === 1) {
 			if (height > 500) {
 				$("body").css("backgroundColor", "#231f20");
-				direction = 2;
+				scrollDirection = 2;
 	    	}
 	    }
 	    else {
 			if (height < 400) {
 				$("body").css("backgroundColor", nextColor());
-				direction = 1;
+				scrollDirection = 1;
 	    	}
 	    }
 	});

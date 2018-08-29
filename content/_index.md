@@ -1,2 +1,3 @@
 ---
+customBgColor: true
 ---

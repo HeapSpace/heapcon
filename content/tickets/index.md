@@ -1,3 +1,4 @@
 ---
 layout: "tickets"
+customBgColor: true
 ---

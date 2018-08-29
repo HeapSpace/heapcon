@@ -26,6 +26,7 @@
 	<section id="speakers">
 	<h1>Speakers:</h1>
 	<div class="grid42">
+
 	{{ $speakers := (where .Site.Pages "Section" "speakers") }}
 	{{ range ($speakers.ByWeight.Reverse) }}
 	{{ if (ne .Title "Speakers") }}
@@ -34,6 +35,7 @@
 	{{ end }}
 	{{ end }}
 	{{ end }}
+
 	</div>
 
 	<a href="/speakers" class="all">See all speakers</a>
