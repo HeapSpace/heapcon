@@ -22,15 +22,17 @@
         <style>body {background-color: #231f20;}</style>
         {{ end }}
 
-        {{ if (ne .Params.customBgColor true) }}
         <script>
+        {{ if (ne .Params.customBgColor true) }}
             applyRandomBackgroundColor();
-            $(function () {initNonHomePage();});
-        </script>
+            $(function () {jQueryInitNonHomePage();});
         {{ end }}
+            $(function () {jQueryInitAllPages();});
+        </script>
     </head>
     <body>
     	{{ partial "header" }}
+
     	{{ if .IsHome }}
     		{{ partial "zastava" }}
     	{{ end }}

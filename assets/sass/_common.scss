@@ -90,6 +90,7 @@ h6 {
   clear: both;
   padding: 0;
   margin-top: 0;
+  text-align: center;
 }
 
 h1 {
@@ -123,7 +124,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: inherit;
+  color: $color-hs-beige;
   text-decoration: none;
 }
 

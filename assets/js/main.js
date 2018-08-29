@@ -1,11 +1,10 @@
+/// UTILITY
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-
-$('.checkbox-toggle').click(function(){
-	$('.btn4').toggleClass('open');
-});
+/// COLORS
 
 const colors = ["#384af4", "#fd4000"];
 var colorNdx = 0;
@@ -17,20 +16,25 @@ function nextColor() {
 	return colors[colorNdx];
 }
 
+
+/// INIT
+
 async function applyRandomBackgroundColor() {
     var stylesheet = document.styleSheets[1];
     while (stylesheet.cssRules[0].style === undefined) {
-    	 await sleep(1);
+    	// wait until the page gets loaded enough
+    	await sleep(1);
     }
 	stylesheet.cssRules[0].style.backgroundColor = nextColor();
 }
 
 let scrollDirection = 1;
-function initNonHomePage() {
+function jQueryInitNonHomePage() {
 	if ($(window).scrollTop() > 500) {
 		$("body").css("backgroundColor", "#231f20");
 		scrollDirection = 2;
 	}
+
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
 
@@ -46,5 +50,11 @@ function initNonHomePage() {
 				scrollDirection = 1;
 	    	}
 	    }
+	});
+}
+
+function jQueryInitAllPages() {
+	$('.checkbox-toggle').click(function(){
+		$('.btn4').toggleClass('open');
 	});
 }
