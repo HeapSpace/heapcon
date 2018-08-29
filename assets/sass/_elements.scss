@@ -40,3 +40,12 @@ canvas {
 body {
 	transition: background-color 0.5s ease;
 }
+
+#hcis {
+	line-height: 1.8em;
+	img {
+		width: 1.8em;
+		position: relative;
+		top: 5px;
+	}
+}
