@@ -2,18 +2,13 @@
 
   <h1>{{ .Title }}</h1>
 
+  <div style="display:grid; grid-auto-columns: auto;">
+    {{ range .Data.Pages }}
+      {{ partial "speaker-box" . }}
+    {{ end }}
+  </div>
+
   <p>{{ .Content }}</p>
 
-  <hr>
-
-  List of speakers:
-
-  <ul>
-    {{ range .Data.Pages }}
-       <li>
-         <a href="{{ .RelPermalink}}">{{ .Title }}</a>
-       </li>
-    {{ end }}
-  </ul>
 
 {{ end }}

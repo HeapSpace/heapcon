@@ -12,6 +12,15 @@ canvas {
 	width: 100%;
 }
 
+img.profile {
+    width: 30%;
+    border-radius: 50%;
+    filter: grayscale(1) sepia(.2);
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 100px;
+}
+
 .speaker {
 	text-align: center;
 	line-height: 0.7em;
@@ -31,6 +40,10 @@ canvas {
 	    transform: scale(1.1);
 	    transition: all .2s ease;
 	}
+}
+.speaker-info {
+	font-size: 1.1em;
+	line-height: 1.4em;
 }
 
 .zoom {
