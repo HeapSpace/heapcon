@@ -1,10 +1,10 @@
-		<canvas id="canvas" style="width: 100vw; height: 100vh; display: block;"></canvas>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/91/three.min.js"></script>
-		{{ $datajs := resources.Get "js/dat.gui.min.js" }}
-		<script type="text/javascript" src="{{ $datajs.RelPermalink }}"></script>
+<canvas id="canvas" style="width: 100%; height: auto; display: block;"></canvas>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/91/three.min.js"></script>
+{{ $datajs := resources.Get "js/dat.gui.min.js" }}
+<script type="text/javascript" src="{{ $datajs.RelPermalink }}"></script>
 
-		<script id="vertexShader" type="x-shader/x-vertex">
-			uniform float time;
+<script id="vertexShader" type="x-shader/x-vertex">
+	uniform float time;
 			uniform float envelopeFrequencyX;
 			uniform float distortionX;
 			uniform float envelopeFrequencyY;
@@ -129,8 +129,8 @@
 				vUv = uv;
 			}
 		</script>
-		<script id="fragmentShader" type="x-shader/x-fragment">
-			uniform sampler2D texture;
+<script id="fragmentShader" type="x-shader/x-fragment">
+	uniform sampler2D texture;
 			varying vec2 vUv;
 
 			void main()	{
@@ -138,5 +138,5 @@
 			}
 		</script>
 
-		{{ $logojs := resources.Get "js/logo.js" | resources.Minify | resources.Fingerprint }}
-		<script type="text/javascript" src="{{ $logojs.RelPermalink }}"></script>
+{{ $logojs := resources.Get "js/logo.js" | resources.Minify | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $logojs.RelPermalink }}"></script>
