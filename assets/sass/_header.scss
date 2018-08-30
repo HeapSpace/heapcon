@@ -1,8 +1,8 @@
 header {
 	position: fixed;
-	width: 100%;
+	top: 0;
+	width: calc(100% - 40px);
 	z-index: 10;
-	top:0;
 	text-align: center;
 	padding: 20px;
 	font-size: 2em;
@@ -41,15 +41,15 @@ header {
 		height: 40px;
 		opacity: 0;
 
-		&:checked ~ .menu {
+		&:checked~.menu {
 			pointer-events: auto;
 			visibility: visible;
 
-			> div {
+			>div {
 				-webkit-transform: scale(1);
 				transform: scale(1);
 
-				> div {
+				>div {
 					opacity: 1;
 					-webkit-transition: opacity 0.1s ease 0.1s;
 					transition: opacity 0.1s ease 0.1s;

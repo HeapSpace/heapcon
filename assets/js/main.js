@@ -64,9 +64,11 @@ function jQueryInitNonHomePage() {
 
 let scrollDirectionA = 1;
 function jQueryInitAllPages() {
+	
 	$('.checkbox-toggle').click(function(){
 		$('.btn4').toggleClass('open');
 	});
+	
 	$(window).resize(function() {
 		const canvas = document.getElementById("canvas");
 		canvas.style.width  = '100%';
@@ -74,7 +76,6 @@ function jQueryInitAllPages() {
 	})
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
-
 		if (scrollDirectionA === 1) {
 			if (height > 550) {
 				$("header").fadeOut("slow");
@@ -88,4 +89,5 @@ function jQueryInitAllPages() {
 	    	}
 	    }
 	});
+	
 }

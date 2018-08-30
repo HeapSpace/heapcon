@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'HS Grotesk';
   src: url('/fonts/HS Grotesk.otf') format('opentype');
@@ -27,7 +26,6 @@ html {
 }
 
 /** COLORS */
-
 .red {
   color: $color-hs-red;
 }
@@ -71,6 +69,7 @@ html {
 .bg-white {
   background-color: $color-hs-white;
   color: $color-hs-black;
+
   a {
     color: $color-hs-black;
     pointer-events: all;
@@ -78,7 +77,6 @@ html {
 }
 
 /** TEXT */
-
 h1,
 h2,
 h3,
@@ -112,7 +110,6 @@ p {
 }
 
 /** LINKS */
-
 a {
   color: $color-hs-beige;
 }
@@ -138,7 +135,6 @@ a:active {
 }
 
 /** ELEMENTS */
-
 hr {
   background-color: #ccc;
   border: 0;
@@ -147,15 +143,13 @@ hr {
 }
 
 /** IMG **/
-
 img {
-    height: auto;
-    max-width: 100%;
-    border: 0;
+  height: auto;
+  max-width: 100%;
+  border: 0;
 }
 
 /** Alignments */
-
 .align-left {
   display: inline;
   float: left;
@@ -176,23 +170,28 @@ img {
 }
 
 /** CLEAR */
-
 .clear:before,
 .clear:after {
   content: "";
   display: table;
   table-layout: fixed;
 }
+
 .clear:after {
   clear: both;
 }
 
 /** INPUT */
-
-button, input {
-    overflow: visible;
+button,
+input {
+  overflow: visible;
 }
-button, input, optgroup, select, textarea {
+
+button,
+input,
+optgroup,
+select,
+textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -200,7 +199,6 @@ button, input, optgroup, select, textarea {
 }
 
 /** LISTS */
-
 ul {
   margin: 1em 0;
 }
