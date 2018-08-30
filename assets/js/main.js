@@ -67,6 +67,11 @@ function jQueryInitAllPages() {
 	$('.checkbox-toggle').click(function(){
 		$('.btn4').toggleClass('open');
 	});
+	$(window).resize(function() {
+		const canvas = document.getElementById("canvas");
+		canvas.style.width  = '100%';
+		canvas.style.height = 'auto';
+	})
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
 
