@@ -64,7 +64,22 @@ function jQueryInitNonHomePage() {
 
 let scrollDirectionA = 1;
 function jQueryInitAllPages() {
-	
+	$.fn.scrollEnd = function(callback, timeout) {          
+		$(this).scroll(function(){
+		  var $this = $(this);
+		  if ($this.data('scrollTimeout')) {
+			clearTimeout($this.data('scrollTimeout'));
+		  }
+		  $this.data('scrollTimeout', setTimeout(callback,timeout));
+		});
+	  };
+	$(document).on("scroll", function() {
+        $(".decoration").addClass("wobbling");
+	})
+	$(window).scrollEnd(function(){
+		$(".decoration").removeClass("wobbling");
+	}, 1000);
+
 	$('.checkbox-toggle').click(function(){
 		$('.btn4').toggleClass('open');
 	});
