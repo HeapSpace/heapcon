@@ -1,8 +1,19 @@
+{{ define "style" }}
+<style type="text/css">
+.desc {
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
+</style>
+{{ end }}
 {{ define "main" }}
   <h1>Talks</h1>
   <ul>
     {{ range .Data.Pages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li>
+      		<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      		<div class="desc">{{ .Description }}</div>
+      	</li>
     {{ end }}
   </ul>
 
