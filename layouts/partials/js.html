@@ -1,4 +1,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-{{ $datajs := resources.Get "js/jquery.ui.shake.min.js" }}
-{{ $mainjs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint }}
-<script type="text/javascript" src="{{ $mainjs.RelPermalink }}"></script>
+
+{{ $funfunjs := resources.Get "js/funfunctions.js" }}
+{{ $mainjs := resources.Get "js/main.js" }}
+{{ $js := slice $funfunjs $mainjs | resources.Concat "js/script.js" | minify | fingerprint }}
+<script type="text/javascript" src="{{ $js.RelPermalink }}"></script>

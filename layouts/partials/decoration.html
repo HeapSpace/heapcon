@@ -1,2 +1,7 @@
-<img class="decoration" style="position: absolute; animation-duration: {{ .speed }}; {{ .top }}; {{ .left }}; {{ .right }}; {{ .width }};"
+<img class="decoration" style="position: absolute; animation-duration: {{ .speed }};
+	top: {{ .top }}px;
+	left: {{ .left }}px;
+	{{ if not (eq .right "") }} right:{{ .right }}px {{ end  }};
+	width: {{ .width }}px;"
+	data-top="{{ .top }}" data-left="{{ .left }}" data-width="{{ .width }}"
     src="/images/{{ .src }}" />

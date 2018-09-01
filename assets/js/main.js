@@ -4,6 +4,19 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// check if element is in the viewport
+function inViewport($ele) {
+	var lBound = $(window).scrollTop(),
+		uBound = lBound + $(window).height(),
+		top = $ele.offset().top,
+		bottom = top + $ele.outerHeight(true);
+
+	return (top > lBound && top < uBound) ||
+		(bottom > lBound && bottom < uBound) ||
+		(lBound >= top && lBound <= bottom) ||
+		(uBound >= top && uBound <= bottom);
+}
+
 /// COLORS
 
 const colors = ["#384af4", "#fd4000"];
@@ -19,14 +32,17 @@ function nextColor() {
 
 /// INIT
 
+// sets the background color as soon as possible to avoid flicker
 async function applyRandomBackgroundColor() {
     var stylesheet = document.styleSheets[1];
+    let color = nextColor();
     while (stylesheet.cssRules[0].style === undefined) {
-    	// wait until the page gets loaded enough
     	await sleep(1);
     }
-    let color = nextColor();
-	stylesheet.cssRules[0].style.backgroundColor = color;
+    stylesheet.cssRules[0].style.backgroundColor = color;
+	while (stylesheet.cssRules[1].style === undefined) {
+    	await sleep(1);
+    }
 	stylesheet.cssRules[1].style.backgroundColor = color;
 }
 
@@ -64,7 +80,7 @@ function jQueryInitNonHomePage() {
 
 let scrollDirectionA = 1;
 function jQueryInitAllPages() {
-	$.fn.scrollEnd = function(callback, timeout) {          
+	$.fn.scrollEnd = function(callback, timeout) {
 		$(this).scroll(function(){
 		  var $this = $(this);
 		  if ($this.data('scrollTimeout')) {
@@ -72,27 +88,45 @@ function jQueryInitAllPages() {
 		  }
 		  $this.data('scrollTimeout', setTimeout(callback,timeout));
 		});
-	  };
+	};
+
+	// decorations
 	$(document).on("scroll", function() {
-        $(".decoration").addClass("wobbling");
-	})
-	$(window).scrollEnd(function(){
-		$(".decoration").removeClass("wobbling");
-	}, 1000);
+		let $w = $(window);
+		let st = $w.scrollTop();
+		$(".decoration").each(function(index) {
+			let e = $(this);
+			const etop = e.data("top");
+			var _top = st - etop;
+			var _left = e.data("left");
+
+			xy = fun1(e.data("width"), _left, _top);
+
+			if (inViewport(e)) {
+				e.css({'left': xy.x});
+				e.css({'top': etop + xy.y});
+			}
+		});
+	});
+
+	// $(window).scrollEnd(function(){
+	// 	$(".decoration").removeClass("wobbling");
+	// }, 1000);
 
 	$('.checkbox-toggle').click(function(){
 		$('.btn4').toggleClass('open');
 	});
-	
+
 	$(window).resize(function() {
 		const canvas = document.getElementById("canvas");
 		canvas.style.width  = '100%';
 		canvas.style.height = 'auto';
 	})
+
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
 		if (scrollDirectionA === 1) {
-			if (height > 550) {
+			if (height > 600) {
 				$("header").fadeOut("slow");
 				scrollDirectionA = 2;
 	    	}
@@ -104,5 +138,4 @@ function jQueryInitAllPages() {
 	    	}
 	    }
 	});
-	
 }
