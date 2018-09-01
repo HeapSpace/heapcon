@@ -6,7 +6,7 @@ link: "http://geekonaut.de/"
 talks:
   - making-great-discoverable-web-apps
   - a-webxr-whirlwind-tour
-weight: 80
+weight: 60
 ---
 
 Martin is open source contributor and web evangelist by heart from Zurich with a decade experience from the trenches of software engineering in multiple fields.

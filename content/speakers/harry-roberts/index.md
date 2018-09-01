@@ -5,7 +5,6 @@ job: "Consultant Perfomance Engineer"
 link: "https://csswizardry.com"
 talks:
   - its-my-third-party-and-ill-cry-if-i-want-to
-weight: 95
 ---
 
 With a client list including Google, Unilever, and the United Nations, Harry is an award-winning consultant front-end architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs.
