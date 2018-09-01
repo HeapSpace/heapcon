@@ -92,37 +92,23 @@ function jQueryInitAllPages() {
 
 	// decorations
 	$(document).on("scroll", function() {
-		let $w = $(window);
-		let st = $w.scrollTop();
-		$(".decoration").each(function(index) {
-			let e = $(this);
-			const etop = e.data("top");
-			var _top = st - etop;
-			var _left = e.data("left");
-
-			xy = fun1(e.data("width"), _left, _top);
-
-			if (inViewport(e)) {
-				e.css({'left': xy.x});
-				e.css({'top': etop + xy.y});
-			}
-		});
+		makefun();
 	});
+	makefun();
 
-	// $(window).scrollEnd(function(){
-	// 	$(".decoration").removeClass("wobbling");
-	// }, 1000);
-
+	// menu
 	$('.checkbox-toggle').click(function(){
 		$('.btn4').toggleClass('open');
 	});
 
+	// resize flag
 	$(window).resize(function() {
 		const canvas = document.getElementById("canvas");
 		canvas.style.width  = '100%';
 		canvas.style.height = 'auto';
 	})
 
+	// color effect
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
 		if (scrollDirectionA === 1) {

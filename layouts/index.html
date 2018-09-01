@@ -32,10 +32,6 @@ h1 {
 
 {{ define "main" }}
 
-{{ range .Params.decorations }}
-{{ partial "decoration" (dict "top" .top "left" .left "right" .right "speed" .speed "width" .width "src" .src) }}
-{{ end }}
-
 <div id="sublogo" class="all">
 	A new conference experience by<br>
 	<a href="https://heapspace.rs">heapspace</a>
@@ -63,6 +59,7 @@ h1 {
 </section>
 
 <section id="speakers">
+
 	<h1><a href="/speakers">Speakers</a></h1>
 	<div class="grid42">
 
@@ -74,8 +71,9 @@ h1 {
 		{{ end }}
 		{{ end }}
 		{{ end }}
-
 	</div>
+
+{{ partial "decoration2" (dict "left" 50 "width" 30 "src" "fun27.png") }}
 
 	<a href="/speakers" class="all">See all speakers</a>
 </section>
