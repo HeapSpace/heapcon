@@ -15,12 +15,11 @@
 		<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
 
 		{{ partial "head" . }}
+        <style>body {background-color: #231f20;} header {background-color: #231f20;} </style>
+
+        {{ block "style" . }}{{ end }}
 
         {{ partial "js" . }}
-
-        {{ block "style" . }}
-        <style>body {background-color: #231f20;} header {background-color: #231f20;} </style>
-        {{ end }}
 
         <script>
         {{ if (ne .Params.customBgColor true) }}

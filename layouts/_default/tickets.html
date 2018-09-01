@@ -10,12 +10,6 @@ footer {margin-top:0;}
 }
 #more ul li {
 	margin-left: 2em;
-	font-size: 0.8em;
-}
-#more {
-	display: grid;
-	grid-gap: 20px;
-	grid-template-columns: 1fr 1fr;
 }
 #note {
 	margin-top: 2em;
@@ -31,6 +25,8 @@ footer {margin-top:0;}
 
 {{ define "main" }}
 
+	<p class="firstparag black">Single ticket gives you full access to the whole conference area, all tracks.</p>
+
 	{{ .Content }}
 
 	{{ partial "xing" }}
@@ -41,8 +37,6 @@ footer {margin-top:0;}
 	<article class="grid bg-black" id="description"><div class="content-wrap">
 
 	<div id="more">
-
-		<div>Single ticket gives you full access to the whole conference area, all tracks.</div>
 		<div>The ticket also includes:
 			<ul>
 				<li>Welcome Bag + Heapcon T-shirt</li>

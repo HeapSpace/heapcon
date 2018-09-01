@@ -1,3 +1,11 @@
+{{ define "style" }}
+<style>
+h1 {
+	text-align: center;
+}
+</style>
+{{ end }}
+
 {{ define "main" }}
 
 {{ range .Params.decorations }}
@@ -9,11 +17,11 @@
 	<a href="https://heapspace.rs">heapspace</a>
 </div>
 
-<p style="line-height: 1.8em;">
+<p class="firstparag">
 	<a href="/about">The new<br>
 		kid in town.</a>
 </p>
-<p id="hcis">
+<p id="hcis" class="firstparag">
 	Heapcon is a regional tech <img src="/images/hc1.png" id="hc1"> conference
 	for software <img src="/images/hc2.png" id="hc2"> engineers and tech business,
 	<img src="/images/hc3.png" id="hc3"> taking place in <img src="/images/hc4.png" id="hc4">
