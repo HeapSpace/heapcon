@@ -1,5 +1,8 @@
 // inputs for all methods:
 // y - top offset (scroll-dependent)
+// output:
+// x, y: offsets, a: angle
+
 
 jQuery.fn.rotate = function(degrees) {
     $(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
@@ -9,11 +12,12 @@ jQuery.fn.rotate = function(degrees) {
     return $(this);
 };
 
-// simple left to right movement
+
+//
 function fun1(y) {
 	x = (30 * Math.sin(y/80));
 	y = 100 * Math.cos(y/80);
-	return {x: x, y: y, a: y/2};
+	return {x: x/2, y: y/2, a: y/4};
 }
 
 
@@ -29,6 +33,10 @@ function makefun() {
 		let top = $e.data("top")
 		if (top == undefined) {
 			top = $e.position().top;
+			let up = $e.data("up")
+			if (up != undefined) {
+				top -= up;
+			}
 			$e.data("top", top);
 		}
 		const left = mid - $e.data("left") * m / 100;
