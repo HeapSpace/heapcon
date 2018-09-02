@@ -1,4 +1,5 @@
-/// UTILITY
+
+////---- UTILITY
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -17,7 +18,26 @@ function inViewport($ele) {
 		(uBound >= top && uBound <= bottom);
 }
 
-/// COLORS
+////---- UI
+
+function canvasOrientation(canvas) {
+	if (window.matchMedia("(max-width: 600px)").matches) {
+		canvas.style.transform = 'rotate(90deg)';
+		canvas.style.margin = '100px auto';
+	} else {
+		canvas.style.transform = 'rotate(0deg)';
+		canvas.style.width  = '100%';
+		canvas.style.height = 'auto';
+
+	}
+}
+
+function colorMyBody(color) {
+	$("body").css("backgroundColor", color);
+	$("header").css("backgroundColor", color);
+}
+
+////---- COLORS
 
 const colors = ["#384af4", "#fd4000"];
 var colorNdx = 0;
@@ -30,7 +50,7 @@ function nextColor() {
 }
 
 
-/// INIT
+////---- INIT
 
 // sets the background color as soon as possible to avoid flicker
 async function applyRandomBackgroundColor() {
@@ -44,12 +64,6 @@ async function applyRandomBackgroundColor() {
     	await sleep(1);
     }
 	stylesheet.cssRules[1].style.backgroundColor = color;
-}
-
-
-function colorMyBody(color) {
-	$("body").css("backgroundColor", color);
-	$("header").css("backgroundColor", color);
 }
 
 
@@ -101,28 +115,17 @@ function jQueryInitAllPages() {
 		$('.btn4').toggleClass('open');
 	});
 
-	function canvasOrientation() {
-		if (window.matchMedia("(max-width: 600px)").matches) {
-			canvas.style.transform = 'rotate(90deg)';
-			canvas.style.margin = '100px auto'; 
-		} else {
-			canvas.style.transform = 'rotate(0deg)';
+	// resize and orientate the flag
+	const canvas = document.getElementById("canvas");
+	if (canvas != undefined) {
+		canvasOrientation(canvas);
+		$(window).resize(function() {
 			canvas.style.width  = '100%';
 			canvas.style.height = 'auto';
-
-		}
+			// const ctx = canvas.getContext("webgl");
+			canvasOrientation(canvas);
+		});
 	}
-	canvasOrientation()
-
-	// resize flag
-	$(window).resize(function() {
-		const canvas = document.getElementById("canvas");
-		canvas.style.width  = '100%';
-		canvas.style.height = 'auto';
-		// const ctx = canvas.getContext("webgl");
-		canvasOrientation()
-	})
-	
 
 	// color effect
 	$(window).scroll(function() {
