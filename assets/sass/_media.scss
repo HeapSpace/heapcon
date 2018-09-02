@@ -10,16 +10,17 @@
 	body {
 		font-size: 0.9em;
 	}
+
 	.grid42 {
-  		display: grid;
-  		grid-template-columns: 1fr 1fr;
-  		grid-gap: 20px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	#date-left {
-		margin: 0 auto;
+		margin: 5px 20px;
 		position: fixed;
 		text-align: center;
 		width: 100%;
@@ -28,9 +29,11 @@
 		z-index: 50;
 		transform: none;
 	}
+
 	header {
 		padding-top: 30px;
 	}
+
 	body {
 		font-size: 0.8em;
 	}
@@ -41,7 +44,21 @@
 	}
 
 	.content-wrap {
-		padding: 0;
 		font-size: 1em;
+		padding: 0;
+
+		ul,
+		.firstparag,
+		.all {
+			font-size: 1.5em;
+		}
+
+		.speaker-info {
+			font-size: 1.9em;
+		}
+
+		#footer {
+			font-size: 1em;
+		}
 	}
 }
