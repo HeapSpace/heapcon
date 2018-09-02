@@ -4,19 +4,16 @@
 		grid-template-columns: 100%;
 		margin-top: 3em;
 	}
-
-	.content-wrap {
-		font-size: 2em;
-	}
 }
 
 @media screen and (max-width: 768px) {
 	body {
 		font-size: 0.9em;
 	}
-
-	.content-wrap {
-		font-size: 2em;
+	.grid42 {
+  		display: grid;
+  		grid-template-columns: 1fr 1fr;
+  		grid-gap: 20px;
 	}
 }
 
