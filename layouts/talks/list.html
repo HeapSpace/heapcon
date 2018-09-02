@@ -1,13 +1,22 @@
 {{ define "style" }}
 <style type="text/css">
 .desc {
-	font-size: 0.8em;
+	font-size: 0.7em;
 	margin-bottom: 1em;
+}
+li {
+}
+ul {
+  margin: 4em 0;
 }
 </style>
 {{ end }}
+
 {{ define "main" }}
   <h1>Talks</h1>
+  <p class="firstparag">
+    Talks are beautiful TODO
+  </p>
   <ul>
     {{ range .Data.Pages }}
       <li>
