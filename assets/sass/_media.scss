@@ -16,6 +16,9 @@
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 20px;
 	}
+	.outer-menu .menu div div {
+		width: 40%;
+	}
 }
 
 @media screen and (max-width: 600px) {
