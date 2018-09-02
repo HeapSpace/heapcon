@@ -4,11 +4,19 @@
 		grid-template-columns: 100%;
 		margin-top: 3em;
 	}
+
+	.content-wrap {
+		font-size: 2em;
+	}
 }
 
 @media screen and (max-width: 768px) {
 	body {
 		font-size: 0.9em;
+	}
+
+	.content-wrap {
+		font-size: 2em;
 	}
 }
 
@@ -16,7 +24,15 @@
 	body {
 		font-size: 0.8em;
 	}
+
+	header>a {
+		float: left;
+		font-size: 0.8em;
+	}
+
 	.content-wrap {
 		padding: 0;
+		font-size: 1em;
+		margin-right: 15px;
 	}
 }

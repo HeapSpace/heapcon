@@ -14,6 +14,8 @@ let scrollDirection=1;function jQueryInitNonHomePage(){if($(window).scrollTop()>
 $(window).scroll(function(){const height=$(window).scrollTop();if(scrollDirection===1){if(height>500){colorMyBody("#231f20");scrollDirection=2;}}
 else{if(height<400){colorMyBody(nextColor());scrollDirection=1;}}});}
 let scrollDirectionA=1;function jQueryInitAllPages(){$.fn.scrollEnd=function(callback,timeout){$(this).scroll(function(){var $this=$(this);if($this.data('scrollTimeout')){clearTimeout($this.data('scrollTimeout'));}
-$this.data('scrollTimeout',setTimeout(callback,timeout));});};$(document).on("scroll",function(){makefun();});makefun();$('.checkbox-toggle').click(function(){$('.btn4').toggleClass('open');});$(window).resize(function(){const canvas=document.getElementById("canvas");canvas.style.width='100%';canvas.style.height='auto';})
+$this.data('scrollTimeout',setTimeout(callback,timeout));});};$(document).on("scroll",function(){makefun();});makefun();$('.checkbox-toggle').click(function(){$('.btn4').toggleClass('open');});function canvasOrientation(){if(window.matchMedia("(max-width: 600px)").matches){canvas.style.transform='rotate(90deg)';canvas.style.margin='100px auto';}else{canvas.style.transform='rotate(0deg)';canvas.style.width='100%';canvas.style.height='auto';}}
+canvasOrientation()
+$(window).resize(function(){const canvas=document.getElementById("canvas");canvas.style.width='100%';canvas.style.height='auto';canvasOrientation()})
 $(window).scroll(function(){const height=$(window).scrollTop();if(scrollDirectionA===1){if(height>600){$("header").fadeOut("slow");scrollDirectionA=2;}}
 else{if(height<400){$("header").fadeIn("slow");scrollDirectionA=1;}}});}

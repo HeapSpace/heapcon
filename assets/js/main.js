@@ -101,12 +101,28 @@ function jQueryInitAllPages() {
 		$('.btn4').toggleClass('open');
 	});
 
+	function canvasOrientation() {
+		if (window.matchMedia("(max-width: 600px)").matches) {
+			canvas.style.transform = 'rotate(90deg)';
+			canvas.style.margin = '100px auto'; 
+		} else {
+			canvas.style.transform = 'rotate(0deg)';
+			canvas.style.width  = '100%';
+			canvas.style.height = 'auto';
+
+		}
+	}
+	canvasOrientation()
+
 	// resize flag
 	$(window).resize(function() {
 		const canvas = document.getElementById("canvas");
 		canvas.style.width  = '100%';
 		canvas.style.height = 'auto';
+		// const ctx = canvas.getContext("webgl");
+		canvasOrientation()
 	})
+	
 
 	// color effect
 	$(window).scroll(function() {
