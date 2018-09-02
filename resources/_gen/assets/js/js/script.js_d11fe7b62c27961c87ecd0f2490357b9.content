@@ -1,7 +1,7 @@
-function fun1(y){x=(30*Math.sin(y/80));y=100*Math.cos(y/80);return{x:x,y:y};}
+jQuery.fn.rotate=function(degrees){$(this).css({'-webkit-transform':'rotate('+degrees+'deg)','-moz-transform':'rotate('+degrees+'deg)','-ms-transform':'rotate('+degrees+'deg)','transform':'rotate('+degrees+'deg)'});return $(this);};function fun1(y){x=(30*Math.sin(y/80));y=100*Math.cos(y/80);return{x:x,y:y,a:y/2};}
 function makefun(){const $w=$(window);const m=$w.width()/2;const st=$w.scrollTop();$(".decoration").each(function(index){const $e=$(this);const mid=m-$e.width()/2;let top=$e.data("top")
 if(top==undefined){top=$e.position().top;$e.data("top",top);}
-const left=mid-$e.data("left")*m/100;xy=fun1(top-st);if(inViewport($e)){$e.css({'left':left+xy.x});$e.css({'top':top+xy.y});}});}
+const left=mid-$e.data("left")*m/100;xy=fun1(top-st);if(inViewport($e)){$e.css({'left':left+xy.x});$e.css({'top':top+xy.y});$e.rotate(xy.a);}});}
 function sleep(ms){return new Promise(resolve=>setTimeout(resolve,ms));}
 function inViewport($ele){var lBound=$(window).scrollTop(),uBound=lBound+$(window).height(),top=$ele.offset().top,bottom=top+$ele.outerHeight(true);return(top>lBound&&top<uBound)||(bottom>lBound&&bottom<uBound)||(lBound>=top&&lBound<=bottom)||(uBound>=top&&uBound<=bottom);}
 function canvasOrientation(canvas){if(window.matchMedia("(max-width: 600px)").matches){canvas.style.transform='rotate(90deg)';canvas.style.margin='100px auto';}else{canvas.style.transform='rotate(0deg)';canvas.style.width='100%';canvas.style.height='auto';}}
