@@ -51,6 +51,9 @@ main {
 	Belgrade on October 18th and 19th. <img src="/images/hc5.png" id="hc5">
 </p>
 
+{{ partial "decoration2" (dict "left" -30 "up" 100 "width" 10 "maxWidth" 200 "src" "fun01.png") }}
+{{ partial "decoration2" (dict "left" -100 "up" 300 "width" 20 "maxWidth" 500 "src" "fun12.png") }}
+
 <section id="programme">
 	<h1><a href="/talks">Programme</a></h1>
 
@@ -61,8 +64,9 @@ main {
 	</ul>
 </section>
 
-{{ partial "decoration2" (dict "left" 50 "width" 10 "src" "fun23.png") }}
-
+{{ partial "decoration2" (dict "left" 50 "up" 100 "width" 10 "maxWidth" 150 "src" "fun23.png") }}
+{{ partial "decoration2" (dict "left" -100 "up" 200 "width" 40 "maxWidth" 400 "src" "fun24.png") }}
+{{ partial "decoration2" (dict "left" -80 "up" -100 "width" 40 "maxWidth" 150 "src" "fun25.png") }}
 <section id="speakers">
 
 	<h1><a href="/speakers">Speakers</a></h1>
@@ -78,15 +82,30 @@ main {
 		{{ end }}
 	</div>
 
-{{ partial "decoration2" (dict "left" 50 "up" 100 "width" 40 "src" "fun27.png") }}
+{{ partial "decoration2" (dict "left" 100 "up" 300 "width" 40 "maxWidth" 500 "src" "fun27.png") }}
 
 	<a href="/speakers" class="all">See all speakers</a>
 </section>
 
+{{ partial "decoration2" (dict "left" -50 "up" 100 "width" 40 "maxWidth" 200 "src" "fun26.png") }}
+
 <section id="sponsors">
 	<h1><a href="/sponsors">Sponsors</a></h1>
+
+	<div class="grid42">
+		<img src="/sponsors/fis.svg">
+		<img src="/sponsors/interventure.svg">
+		<img src="/sponsors/endava.svg">
+		<img src="/sponsors/telegroup.svg">
+		<img src="/sponsors/tomtom.svg">
+	</div>
+
+	<a href="/sponsors" class="all">See all sponsors</a>
 </section>
 
-{{ partial "decoration2" (dict "left" 50 "up" 100 "width" 30 "src" "fun03.png") }}
+{{ partial "decoration2" (dict "left" 50 "up" 100 "width" 30 "maxWidth" 200 "src" "fun03.png") }}
+{{ partial "decoration2" (dict "left" 70 "up" 300 "width" 30 "maxWidth" 200 "src" "fun28.png") }}
+{{ partial "decoration2" (dict "left" -30 "up" 300 "width" 30 "maxWidth" 200 "src" "fun08.png") }}
+{{ partial "decoration2" (dict "left" -95 "up" 400 "width" 30 "maxWidth" 200 "src" "fun16.png") }}
 
 {{ end }}

@@ -10,7 +10,10 @@
 	body {
 		font-size: 0.9em;
 	}
-
+	.grid {
+		grid-template-columns: 5% 1fr 5%;
+		grid-gap: 0;
+	}
 	.grid42 {
 		display: grid;
 		grid-template-columns: 1fr 1fr;

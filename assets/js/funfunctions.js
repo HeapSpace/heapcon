@@ -13,7 +13,12 @@ jQuery.fn.rotate = function(degrees) {
 };
 
 
-//
+// no movement
+function fun0(y) {
+	return {x: 0, y: 0, a: 0};
+}
+
+// circling and rotating
 function fun1(y) {
 	x = (30 * Math.sin(y/80));
 	y = 100 * Math.cos(y/80);
@@ -22,7 +27,7 @@ function fun1(y) {
 
 
 
-
+// main funciton
 function makefun() {
 	const $w = $(window);
 	const m = $w.width()/2;
@@ -41,7 +46,7 @@ function makefun() {
 		}
 		const left = mid - $e.data("left") * m / 100;
 
-		xy = fun1(top - st);
+		xy = fun0(top - st);
 
 		if (inViewport($e)) {
 			$e.css({'left': left + xy.x});
