@@ -109,6 +109,9 @@ function jQueryInitAllPages() {
 		makefun();
 	});
 	makefun();
+	$(window).resize(function() {
+		makefun();
+	});
 
 	// menu
 	$('.checkbox-toggle').click(function(){
