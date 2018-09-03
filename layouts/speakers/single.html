@@ -1,12 +1,11 @@
 {{ define "main" }}
 
-
 	<h1><a href="{{ .Params.Link }}" target="_blank">{{ .Title }}</a></h1>
-	<h3 >{{ .Params.Job }}<br>
+	<h3>{{ .Params.Job }}<br>
 	{{ .Params.Company }}</h3>
 
 	<p style="margin: 4em 0">
-		<img src="profile.jpg" class="profile" style="float: right; margin-left: 1em; margin-top: 0.4em;">
+		<img src="profile.jpg" class="profile" style="float: right; margin: 0.1em 0 1em 1em; width: 300px;">
 	{{ .Content }}</p>
 
     {{ partial "talks-list.html" . }}

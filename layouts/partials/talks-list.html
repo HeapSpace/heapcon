@@ -1,6 +1,6 @@
 
   {{ with .Params.talks }}
-    <h3 style="text-align: left;">Talk{{ if gt (len .) 1 }}s{{ end }}:</h3>
+    <h2>Talk{{ if gt (len .) 1 }}s{{ end }}:</h2>
     <ul>
     {{ range $ind,$val := . }}
       {{$talk := $val | urlize }}

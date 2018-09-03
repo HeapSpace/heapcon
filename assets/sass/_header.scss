@@ -9,7 +9,7 @@ header {
 }
 
 #date-left {
-	font-size: 1.4em;
+	font-size: 1.5em;
 	position: fixed;
 	color: $color-hs-beige;
 	display: flex;
@@ -18,8 +18,11 @@ header {
 	transform-origin: bottom left;
 	-ms-transform: rotate(90deg);
 	transform: rotate(90deg);
-	margin: 100px 10px;
-	z-index: 5;
+	width: 500px;
+	text-align: center;
+	top: calc(50% - 250px);
+	left: 20px;
+	z-index: 50;
 }
 
 .outer-menu {
