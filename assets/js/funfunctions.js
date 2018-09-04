@@ -14,39 +14,54 @@ jQuery.fn.rotate = function(degrees) {
 
 
 // no movement
-function fun0(y) {
+function fun_none(y) {
 	return {x: 0, y: 0, a: 0};
 }
 
 // circling and rotating
-function fun1(y) {
+function fun_circleAndRotate(y) {
 	x = (30 * Math.sin(y/80));
 	y = 100 * Math.cos(y/80);
 	return {x: x/2, y: y/2, a: y/4};
 }
 
+// just rotate
+function fun_rotate(y) {
+	return {x: 0, y: 0, a: y/4};
+}
 
+const funs = [
+	fun_none,
+	fun_circleAndRotate,
+	fun_rotate
+];
 
-// main funciton
+// main function
 function makefun() {
 	const $w = $(window);
 	const m = $w.width()/2;
 	const st = $w.scrollTop();
-	$(".decoration").each(function(index) {
+
+	$(".decor img").each(function(index) {
 		const $e = $(this);
+		const fn = $e.data("fn");
+		if (fn == undefined) {
+			return;
+		}
+
 		const mid = m - $e.width() / 2;
-		let top = $e.data("top")
+		let top = $e.data("top");
 		if (top == undefined) {
 			top = $e.position().top;
-			let up = $e.data("up")
-			if (up != undefined) {
-				top -= up;
-			}
 			$e.data("top", top);
 		}
-		const left = mid - $e.data("left") * m / 100;
+		let left = $e.data("left");
+		if (left == undefined) {
+			left = $e.position().left;
+			$e.data("left", left);
+		}
 
-		xy = fun0(top - st);
+		xy = funs[fn](top - st);
 
 		if (inViewport($e)) {
 			$e.css({'left': left + xy.x});
