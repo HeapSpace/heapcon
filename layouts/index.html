@@ -7,7 +7,7 @@ main {
 	margin-top: 0;
 }
 #sponsors {
-  margin: 4em 0;
+  margin: 4em 0 10em 0;
   h1 {
     margin-bottom: 1em;
   }
@@ -51,16 +51,24 @@ main {
 	Belgrade on October 18th and 19th. <img src="/images/hc5.png" id="hc5">
 </p>
 
-{{ partial "decoration2" (dict "left" -30 "up" 100 "width" 10 "maxWidth" 200 "src" "fun01.png") }}
-{{ partial "decoration2" (dict "left" -100 "up" 300 "width" 20 "maxWidth" 400 "src" "fun12.png") }}
+<div class="decor">
+	<img src="/images/fun01.png" style="width: 20%; right: 5%; top: -20px;">
+</div>
 
 <section id="programme">
 	<h1><a href="/talks">Programme</a></h1>
 </section>
 
-{{ partial "decoration2" (dict "left" 50 "up" 100 "width" 10 "maxWidth" 150 "src" "fun23.png") }}
-{{ partial "decoration2" (dict "left" -100 "up" 200 "width" 40 "maxWidth" 400 "src" "fun24.png") }}
-{{ partial "decoration2" (dict "left" -80 "up" -100 "width" 40 "maxWidth" 150 "src" "fun25.png") }}
+<p>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+
+<div class="decor">
+	<img src="/images/fun23.png" style="width: 10%; left: 10%; top: -20px;">
+	<img src="/images/fun24.png" style="width: 30%; right: -20%; top: -200px;">
+	<img src="/images/fun25.png" style="width: 15%; right: 0; top: -20px;">
+</div>
+
 <section id="speakers">
 
 	<h1><a href="/speakers">Speakers</a></h1>
@@ -75,13 +83,14 @@ main {
 		{{ end }}
 		{{ end }}
 	</div>
-
-{{ partial "decoration2" (dict "left" 100 "up" 300 "width" 40 "maxWidth" 500 "src" "fun27.png") }}
-
 	<a href="/speakers" class="all">See all speakers</a>
 </section>
 
-{{ partial "decoration2" (dict "left" -50 "up" 100 "width" 40 "maxWidth" 200 "src" "fun26.png") }}
+<div class="decor">
+	<img src="/images/fun27.png" style="width: 40%; left: -30%; top: -250px;">
+	<img src="/images/fun26.png" style="width: 20%; right: 10%; top: -100px;">
+</div>
+
 
 <section id="sponsors">
 	<h1><a href="/sponsors">Sponsors</a></h1>
@@ -97,9 +106,10 @@ main {
 	<a href="/sponsors" class="all">See all sponsors</a>
 </section>
 
-{{ partial "decoration2" (dict "left" 50 "up" 100 "width" 30 "maxWidth" 200 "src" "fun03.png") }}
-{{ partial "decoration2" (dict "left" 70 "up" 300 "width" 30 "maxWidth" 200 "src" "fun28.png") }}
-{{ partial "decoration2" (dict "left" -30 "up" 300 "width" 30 "maxWidth" 200 "src" "fun08.png") }}
-{{ partial "decoration2" (dict "left" -95 "up" 400 "width" 30 "maxWidth" 200 "src" "fun16.png") }}
+<div class="decor">
+	<img src="/images/fun08.png" style="width: 20%; right: 10%; top: -300px;">
+	<img src="/images/fun28.png" style="width: 15%; left: 0; top: -250px;">
+	<img src="/images/fun03.png" style="width: 20%; left: 10%; top: -80px;">
+</div>
 
 {{ end }}
