@@ -1,5 +1,6 @@
 ---
 title: "Decomposing Java applications"
+description: "Ending up with application design that has good chance to evolve over the years without introducing additional accidental complexity."
 ---
 
 Most Java developers happily use libraries in their applications. Many developers split their own code into what they call modules hoping that brings benefits. Yet way too often they end up having a (distributed?) big ball of mud sooner or later? This session aim to answer the question: why simply cutting things down into smaller pieces and calling them libraries, modules, microservices, ... does not work?

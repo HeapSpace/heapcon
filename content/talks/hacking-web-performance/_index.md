@@ -1,5 +1,6 @@
 ---
 title: "Hacking Web Performance"
+description: "Important steps that most web professionals are making to improve performance."
 ---
 
 New compression algorithms? New image formats? Client Hints? HTTP/2 push? Let's hack Web Performance.

@@ -1,5 +1,6 @@
 ---
 title: "Programmatic advertising - or who decides what ads I'll see?"
+description: "How are millions of ads evaluated in under 10ms, at 250k requests/second."
 ---
 
 Did you ever wonder how the news site decides which ad to show you?

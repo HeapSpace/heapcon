@@ -1,5 +1,6 @@
 ---
 title: "Scaling Data In The Cloud"
+description: "One of the great things about cloud deployments is the easy scaling."
 ---
 
 One of the great things about cloud deployments is the easy scaling. You might run your application on multiple machines, changing the number of machines up and down perhaps through a PAAS engine marshalling an IAAS provider.

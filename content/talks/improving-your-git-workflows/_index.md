@@ -1,5 +1,6 @@
 ---
 title: "Improving your Git workflows"
+description: "Tips and tricks for improving developer productivity."
 ---
 
 Almost everybody uses Git nowadays. But how many people actually know how Git works internally? It is powerful, but extremely confusing.

@@ -1,5 +1,6 @@
 ---
 title: "Engineers and Writers - The Documentation Tango"
+description: "Developing and documenting a product is like a complicated dance where both sides think to lead."
 ---
 
 Developing and documenting a product is like a complicated dance where both sides think to lead. This presentation focuses on how authors and engineers interact. It will focus on ways to improve development cycles without sending both sides off the dance floor. It includes:

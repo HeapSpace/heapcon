@@ -1,5 +1,6 @@
 ---
 title: "Serverless: The Missing Manual"
+description: "Serving files without a web server and managing application state in a stateless environment."
 ---
 
 Do serverless cloud platforms leave you with more questions than answers? This session will focus on migrating from traditional applications to serverless cloud platforms. 
