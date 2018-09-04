@@ -14,10 +14,11 @@ return colors[colorNdx];}
 async function applyRandomBackgroundColor(){var stylesheet=document.styleSheets[1];let color=nextColor();while(stylesheet.cssRules[0].style===undefined){await sleep(1);}
 stylesheet.cssRules[0].style.backgroundColor=color;while(stylesheet.cssRules[1].style===undefined){await sleep(1);}
 stylesheet.cssRules[1].style.backgroundColor=color;}
-let scrollDirection=1;function jQueryInitNonHomePage(){if($(window).scrollTop()>500){colorMyBody("#231f20");scrollDirection=2;}
-$(window).scroll(function(){const height=$(window).scrollTop();if(scrollDirection===1){if(height>500){colorMyBody("#231f20");scrollDirection=2;}}
-else{if(height<400){colorMyBody(nextColor());scrollDirection=1;}}});}
+let scrollDirection=1;let colorThreshold=500;function jQueryInitNonHomePage(){if($(window).width<=600){colorThreshold=200;}
+if($(window).scrollTop()>colorThreshold){colorMyBody("#231f20");scrollDirection=2;}
+$(window).scroll(function(){const height=$(window).scrollTop();if(scrollDirection===1){if(height>colorThreshold){colorMyBody("#231f20");scrollDirection=2;}}
+else{if(height<colorThreshold-100){colorMyBody(nextColor());scrollDirection=1;}}});}
 let scrollDirectionA=1;function jQueryInitAllPages(){$.fn.scrollEnd=function(callback,timeout){$(this).scroll(function(){var $this=$(this);if($this.data('scrollTimeout')){clearTimeout($this.data('scrollTimeout'));}
 $this.data('scrollTimeout',setTimeout(callback,timeout));});};$(document).on("scroll",function(){makefun();});makefun();$('.checkbox-toggle').click(function(){$('.btn4').toggleClass('open');});const canvas=document.getElementById("canvas");if(canvas!=undefined){canvasOrientation(canvas);$(window).resize(function(){canvas.style.width='100%';canvas.style.height='auto';canvasOrientation(canvas);});}
-$(window).scroll(function(){const height=$(window).scrollTop();if(scrollDirectionA===1){if(height>600){$("header").fadeOut("slow");scrollDirectionA=2;}}
-else{if(height<400){$("header").fadeIn("slow");scrollDirectionA=1;}}});}
+$(window).scroll(function(){const height=$(window).scrollTop();if(scrollDirectionA===1){if(height>colorThreshold+100){$("header").fadeOut("slow");scrollDirectionA=2;}}
+else{if(height<colorThreshold-100){$("header").fadeIn("slow");scrollDirectionA=1;}}});}

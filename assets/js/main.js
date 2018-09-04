@@ -68,8 +68,14 @@ async function applyRandomBackgroundColor() {
 
 
 let scrollDirection = 1;
+let colorThreshold = 500;
 function jQueryInitNonHomePage() {
-	if ($(window).scrollTop() > 500) {
+	if ($(window).width <= 600) {
+		// detect small screens
+		colorThreshold = 200;
+	}
+
+	if ($(window).scrollTop() > colorThreshold) {
 		colorMyBody("#231f20");
 		scrollDirection = 2;
 	}
@@ -78,13 +84,13 @@ function jQueryInitNonHomePage() {
 		const height = $(window).scrollTop();
 
 		if (scrollDirection === 1) {
-			if (height > 500) {
+			if (height > colorThreshold) {
 				colorMyBody("#231f20");
 				scrollDirection = 2;
 	    	}
 	    }
 	    else {
-			if (height < 400) {
+			if (height < colorThreshold - 100) {
 				colorMyBody(nextColor());
 				scrollDirection = 1;
 	    	}
@@ -131,13 +137,13 @@ function jQueryInitAllPages() {
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
 		if (scrollDirectionA === 1) {
-			if (height > 600) {
+			if (height > colorThreshold + 100) {
 				$("header").fadeOut("slow");
 				scrollDirectionA = 2;
 	    	}
 	    }
 	    else {
-			if (height < 400) {
+			if (height < colorThreshold - 100) {
 				$("header").fadeIn("slow");
 				scrollDirectionA = 1;
 	    	}
