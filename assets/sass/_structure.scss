@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .grid {
   display: grid;
   grid-template-columns: minmax(10%, 80px) minmax(auto, 1200px) 1fr;
