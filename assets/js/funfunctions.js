@@ -30,10 +30,15 @@ function fun_rotate(y) {
 	return {x: 0, y: 0, a: y/4};
 }
 
+function fun_down(y) {
+	return {x: 0, y: y/6, a: 0};
+}
+
 const funs = [
-	fun_none,
-	fun_circleAndRotate,
-	fun_rotate
+	fun_none,				// 0
+	fun_circleAndRotate,	// 1
+	fun_rotate,				// 2
+	fun_down,				// 3
 ];
 
 // main function
@@ -49,11 +54,11 @@ function makefun() {
 			return;
 		}
 
-		const mid = m - $e.width() / 2;
 		let top = $e.data("top");
 		if (top == undefined) {
 			top = $e.position().top;
 			$e.data("top", top);
+			$e.data("st", st);
 		}
 		let left = $e.data("left");
 		if (left == undefined) {
@@ -61,12 +66,12 @@ function makefun() {
 			$e.data("left", left);
 		}
 
-		xy = funs[fn](top - st);
+		xy = funs[fn](st - $e.data("st"));
 
-		if (inViewport($e)) {
+		//if (inViewport($e)) {
 			$e.css({'left': left + xy.x});
 			$e.css({'top': top + xy.y});
 			$e.rotate(xy.a);
-		}
+		//}
 	});
 }
