@@ -6,6 +6,9 @@ h2 {margin: 150px 0 100px 0;}
 	align-self: center;
 	justify-self: center;
 }
+h1 {
+	margin-top: 2em;
+}
 </style>
 {{ end }}
 
@@ -17,43 +20,45 @@ h2 {margin: 150px 0 100px 0;}
 
 <h1>Gold</h1>
 
-<div class="grid42">
-	<img src="/sponsors/fis.svg">
-	<img src="/sponsors/interventure.svg">
-	<img src="/sponsors/endava.svg">
-	<img src="/sponsors/telegroup.svg">
-	<img src="/sponsors/tomtom.svg">
+<div class="grid42 grid-center">
+	{{ partial "sponsor" (dict "n" "fis" "l" "http://www.interventure.info/") }}
+	{{ partial "sponsor" (dict "n" "interventure" "l" "http://www.interventure.info/") }}
+	{{ partial "sponsor" (dict "n" "endava" "l" "http://www.endava.com/en") }}
+	{{ partial "sponsor" (dict "n" "telegroup" "l" "https://www.telegroup-ltd.com/") }}
+	{{ partial "sponsor" (dict "n" "tomtom" "l" "https://www.tomtom.com/") }}
 </div>
 
 <h1>Silver</h1>
 
-<div class="grid42">
-	<img src="/sponsors/msgNETCONOMY.svg">
-	<img src="/sponsors/saga.svg">
+<div class="grid42 grid-center">
+	{{ partial "sponsor" (dict "n" "msgNETCONOMY" "l" "http://www.msgnetconomy.net/") }}
+	{{ partial "sponsor" (dict "n" "saga" "l" "http://www.saga.rs/") }}
+	{{ partial "sponsor" (dict "n" "lotusflare" "l" "https://www.lotusflare.com") }}
 </div>
 
 
 <h1>Bronze</h1>
 
-<div class="grid42">
-	<img src="/sponsors/enjoying.svg">
-	<img src="/sponsors/hooloovoo.svg">
-	<img src="/sponsors/namics.svg">
-	<img src="/sponsors/netcast.svg">
-	<img src="/sponsors/novomatic.svg">
-	<img src="/sponsors/spicefactory.svg">
-	<img src="/sponsors/webcentric.svg">
-	<img src="/sponsors/zuhlke.svg">
-	<img src="/sponsors/telesign.svg">
-	<img src="/sponsors/helloworld.svg">
-	<img src="/sponsors/change.svg">
+<div class="grid42 grid-center">
+	{{ partial "sponsor" (dict "n" "enjoying" "l" "https://www.enjoying.rs/") }}
+	{{ partial "sponsor" (dict "n" "hooloovoo" "l" "http://hooloovoo.rs/") }}
+	{{ partial "sponsor" (dict "n" "namics" "l" "https://www.namics.com/en/") }}
+	{{ partial "sponsor" (dict "n" "netcast" "l" "https://netcast.rs/") }}
+	{{ partial "sponsor" (dict "n" "novomatic" "l" "http://www.novomaticls.com/") }}
+	{{ partial "sponsor" (dict "n" "spicefactory" "l" "https://spicefactory.co/") }}
+	{{ partial "sponsor" (dict "n" "webcentric" "l" "http://www.webcentric.co.rs/") }}
+	{{ partial "sponsor" (dict "n" "zuhlke" "l" "https://www.zuehlke.com/rs/en/") }}
+	{{ partial "sponsor" (dict "n" "telesign" "l" "https://www.telesign.com/") }}
+	{{ partial "sponsor" (dict "n" "helloworld" "l" "https://www.helloworld.rs/") }}
+	{{ partial "sponsor" (dict "n" "change" "l" "http://www.changecon.com/") }}
 </div>
 
 <h1>Supporting partners</h1>
 
-<div class="grid42">
-	<img src="/sponsors/ricardo.svg">
-	<img src="/sponsors/cargo.svg">
+<div class="grid42 grid-center">
+	{{ partial "sponsor" (dict "n" "ricardo" "l" "https://www.ricardo.ch/") }}
+	{{ partial "sponsor" (dict "n" "cargo" "l" "http://appcargo.net/") }}
+	{{ partial "sponsor" (dict "n" "manning" "l" "https://www.manning.com") }}
 </div>
 
 {{ end }}
