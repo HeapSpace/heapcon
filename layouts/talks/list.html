@@ -15,7 +15,7 @@ ul {
 {{ define "main" }}
   <h1>Programme</h1>
   <ul>
-    {{ range .Data.Pages }}
+    {{ range .Data.Pages.ByTitle }}
       <li>
       		<a href="{{ .RelPermalink }}">{{ .Title }}</a>
       		<div class="desc">{{ .Description }}</div>

@@ -1,0 +1,133 @@
+{{ define "style" }}
+
+<style type="text/css">
+
+nav {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+input:checked + label {
+  border: 1px solid #fff;
+  background-color: #FA421D;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}		
+.s-time {
+	grid-column: 1 / span 2;
+	text-align: left;
+	background-color: #FA421D;
+	padding: 0.2em;
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+.s-break {
+	grid-column: 1 / span 2;
+	text-align: left;
+	color: #FFF4E2;
+}
+.s-slot {
+	font-size: 0.8em;
+}
+.s-slot a {
+	letter-spacing: -1px;
+}
+.s-slot p {
+	margin-top: 0.5em;
+	font-size: 0.8em;
+	letter-spacing: -1px;
+}
+</style>
+{{ end }}
+
+
+{{ define "main" }}
+{{ $talks := (where .Site.Pages "Section" "talks") }}
+
+<nav>
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1"><h2>Day 1</h2></label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2"><h2>Day 2</h2></label>
+
+  <section id="content1">
+  	<div style="display: grid; grid-template-columns: 1fr 1fr">
+	  	<div>
+	  		<h3>Track A</h3>
+	  	</div>
+	  	<div>
+	  		<h3>Track B</h3>
+	  	</div>
+
+
+	  	<div class="s-time">10:00 - 11:00</div>
+	  		  
+		{{ partial "s-slot" (dict "talks" $talks "track" "1A" "slot" "10") }}
+		{{ partial "s-slot" (dict "talks" $talks "track" "1B" "slot" "10") }}
+
+
+		<div class="s-time">11:00 - 12:00</div>
+		
+		<div class="s-break">coffee break</div>
+		
+		<div class="s-time">12:00 - 13:00</div>
+
+	  </div>
+
+  </section>
+
+  <section id="content2">
+  	2
+  </section>
+
+</nav>
+
+
+{{ end }}

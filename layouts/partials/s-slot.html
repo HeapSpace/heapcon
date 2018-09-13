@@ -1,0 +1,16 @@
+{{ range where (where .talks "Params.track" .track) ".Params.slot" .slot }}
+<div class="s-slot">
+	<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	<p>
+		{{ .Description }}
+	</p>
+
+	{{ range .Data.Pages }}
+	<div>
+		<a href="{{ .RelPermalink}}">
+		<div class="speaker-info">{{ .Title }} - {{ .Params.Company }}</div>
+		</a>
+	</div>
+    {{ end }}
+</div>
+{{ end }}
