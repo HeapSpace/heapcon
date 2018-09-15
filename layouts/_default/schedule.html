@@ -44,7 +44,7 @@ input:checked + label {
 
 @media screen and (max-width: 650px) {
   label {
-    font-size: 0;
+    font-size: 10px;
   }
   label:before {
     margin: 0;
@@ -99,6 +99,20 @@ input:checked + label {
   font-size: 0.8em;
   margin: 0;
 }
+.s-talks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+@media screen and (max-width: 750px) {
+  .s-talks {
+    display: block;
+  }
+  .s-slot {
+    margin: 3em 0;
+  }
+}
+
 </style>
 {{ end }}
 
@@ -114,7 +128,7 @@ input:checked + label {
   <label for="tab2"><h2>Day 2</h2></label>
 
   <section id="content1">
-  	<div style="display: grid; grid-template-columns: 1fr 1fr">
+  	<div class="s-talks">
 	  	<div>
 	  		<h3>Track A</h3>
 	  	</div>
@@ -140,7 +154,17 @@ input:checked + label {
   </section>
 
   <section id="content2">
-  	2
+  	<div class="s-talks">
+      <div>
+        <h3>Track A</h3>
+      </div>
+      <div>
+        <h3>Track B</h3>
+      </div>
+
+
+      <div class="s-time">10:00 - 11:00</div>
+      
   </section>
 
 </nav>
