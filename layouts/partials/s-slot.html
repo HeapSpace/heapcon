@@ -1,6 +1,6 @@
 {{ range where (where .talks "Params.track" .track) ".Params.slot" .slot }}
 <div class="s-slot">
-	<a href="{{ .RelPermalink }}/index.ics" class="ics">ICS</a><a href="{{ .RelPermalink }}">{{ .Title }}</a>	
+	<a href="{{ .RelPermalink }}/index.ics" class="ics">::</a><a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>	
 
 	<p>
 		{{ .Description }}
