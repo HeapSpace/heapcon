@@ -1,6 +1,8 @@
-{{ range where (where .talks "Params.track" .track) ".Params.slot" .slot }}
+{{ $start := print "2018-10-" .day "T" .start ":00:00+00:00" }}
+{{ $end := print "2018-10-" .day "T" .end ":00:00+00:00" }}
+{{ range where (where (where .talks "Params.track" .track) ".Params.start" ">=" $start) ".Params.start" "<=" $end }}
 <div class="s-slot">
-	<a href="{{ .RelPermalink }}/index.ics" class="ics">::</a><a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>	
+	<a href="{{ .RelPermalink }}/index.ics" class="ics">::</a><a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>
 
 	<p>
 		{{ .Description }}
@@ -8,7 +10,7 @@
 
 	{{ range .Data.Pages }}
 	<div class="speaker-name">
-		<a href="{{ .RelPermalink}}">{{ .Title }} - {{ .Params.Company }}</a>
+		<a href="{{ .RelPermalink}}">{{ .Title }} / {{ .Params.Company }}</a>
 	</div>
     {{ end }}
 </div>

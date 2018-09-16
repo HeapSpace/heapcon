@@ -56,7 +56,7 @@ input:checked + label {
   label {
     padding: 15px;
   }
-}		
+}
 .s-time {
 	grid-column: 1 / span 2;
 	text-align: left;
@@ -95,9 +95,9 @@ input:checked + label {
   padding: 2px;
   text-decoration: none;
 }
-.s-slot .speaker-name {
+.speaker-name {
   font-size: 0.8em;
-  margin: 0;
+  margin: 1em 0 0 0;
 }
 .s-talks {
   display: grid;
@@ -123,7 +123,7 @@ input:checked + label {
 <nav>
   <input id="tab1" type="radio" name="tabs" checked>
   <label for="tab1"><h2>Day 1</h2></label>
-    
+
   <input id="tab2" type="radio" name="tabs">
   <label for="tab2"><h2>Day 2</h2></label>
 
@@ -138,15 +138,14 @@ input:checked + label {
 
 
 	  	<div class="s-time">10:00 - 11:00</div>
-	  		  
-		{{ partial "s-slot" (dict "talks" $talks "track" "1A" "slot" "10") }}
-		{{ partial "s-slot" (dict "talks" $talks "track" "1B" "slot" "10") }}
 
+		{{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "10" "end" "11") }}
+		{{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "10" "end" "11") }}
 
 		<div class="s-time">11:00 - 12:00</div>
-		
+
 		<div class="s-break">coffee break</div>
-		
+
 		<div class="s-time">12:00 - 13:00</div>
 
 	  </div>
@@ -164,7 +163,7 @@ input:checked + label {
 
 
       <div class="s-time">10:00 - 11:00</div>
-      
+
   </section>
 
 </nav>
