@@ -1,6 +1,6 @@
 ---
 title: Amahdy Abdelaziz
-company: Google
+company: Vaadin
 job: Developer Advocate
 link: http://amahdy.net
 talks:
