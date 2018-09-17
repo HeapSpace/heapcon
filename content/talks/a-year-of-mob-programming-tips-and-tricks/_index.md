@@ -1,9 +1,10 @@
 ---
 title: "A year of mob programming - tips and tricks"
 description: "We've learned to master this way of working the hard way, by continuously improving on our processes."
+day: "18"
 track: "B"
-start: 2018-10-18T10:00:00+00:00
-end: 2018-10-18T11:00:00+00:00
+start: "10:00"
+end: "11:00"
 outputs:
 - html
 - calendar

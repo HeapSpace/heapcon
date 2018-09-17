@@ -1,9 +1,10 @@
 ---
 title: "A WebXR whirlwind tour"
 description: "How VR and AR allow us to immerse our users in new experiences?"
+day: "18"
 track: "A"
-start: 2018-10-18T10:00:00+00:00
-end: 2018-10-18T11:00:00+00:00
+start: "10:00"
+end: "11:00"
 outputs:
 - html
 - calendar

@@ -1,6 +1,8 @@
-{{ $start := print "2018-10-" .day "T" .start ":00:00+00:00" }}
-{{ $end := print "2018-10-" .day "T" .end ":00:00+00:00" }}
-{{ range where (where (where .talks "Params.track" .track) ".Params.start" ">=" $start) ".Params.start" "<=" $end }}
+{{ $start := print .day .start "00" }}
+{{ $end := print .day .end "00" }}
+{{ range where .talks "Params.track" .track }}
+{{ $talkstart := print .Params.day (replace .Params.start ":" "") }}
+{{ if (ge $talkstart $start) }}{{ if (le $talkstart $end) }}
 <div class="s-slot">
 	<a href="{{ .RelPermalink }}/index.ics" class="ics">::</a><a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>
 
@@ -14,4 +16,5 @@
 	</div>
     {{ end }}
 </div>
+{{ end }}{{ end }}
 {{ end }}
