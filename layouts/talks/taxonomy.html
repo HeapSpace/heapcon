@@ -14,9 +14,11 @@ li {
 
   <h1>{{ .Title }}</h1>
 
-  <div style="display:grid; grid-auto-columns: auto;">
+  <div style="display:grid;">
     {{ range .Data.Pages }}
+      <div style="grid-row: 1;">
       {{ partial "speaker-box" . }}
+      </div>
     {{ end }}
   </div>
 
