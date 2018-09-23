@@ -6,6 +6,12 @@ h1 {
 main {
 	margin-top: 0;
 }
+#ji1, #ji2, #ji3 {
+	display: none;
+}
+#ji {
+	margin-bottom: 1em;
+}
 #sponsors {
   margin: 4em 0 10em 0;
   h1 {
@@ -41,15 +47,22 @@ main {
 
 {{ define "main" }}
 
+<script>
+$(function() {
+	$("#ji" + Math.floor((Math.random() * 3) + 1)).show();
+});
+</script>
+
 <div id="sublogo" class="all">
 	A new conference experience by<br>
 	<a href="https://heapspace.rs">heapspace</a>
 </div>
 
-<p class="zoom">
-	<a href="/about">The new<br>
-		kid in town.</a>
-</p>
+<div class="zoom" id="ji">//
+	<span id="ji1">Is your code ART or plain text?</span>
+	<span id="ji2">Are you a MAKER or a code monkey?</span>
+	<span id="ji3">Do you believe in SCIENCE or unicorns?</span>
+</div>
 <p id="hcis" class="zoom">
 	Heapcon is a regional tech <img src="/images/hc1.png" id="hc1"> conference
 	for software <img src="/images/hc2.png" id="hc2"> engineers and tech business,
