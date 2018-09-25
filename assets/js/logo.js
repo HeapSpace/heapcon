@@ -16,7 +16,8 @@ var params = {
     wireframe: false,
     subdivision: 40,
     animate: true,
-    rotation: 0
+    rotation: 0,
+    scale: 1.2
 };
 
 if (SHOW_GUI) {
@@ -158,6 +159,7 @@ planeMaterial = new THREE.ShaderMaterial( {
     transparent: true
 });
 var planeMesh = new THREE.Mesh(planeGeometry, planeMaterial);
+planeMesh.scale.set(params.scale, params.scale, params.scale);
 
 createPlane();
 scene.add(planeMesh);

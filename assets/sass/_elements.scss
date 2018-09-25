@@ -45,11 +45,19 @@ img.profile {
 		transition: all .2s ease;
 	}
 }
+.committee .speaker img{
+	float: right;
+	padding: 25px;
+}
 
 .speaker-info {
 	margin-top: 1em;
 	font-size: 1.1em;
 	line-height: 1.4em;
+}
+.committee .speaker-info {
+	text-align: left;
+	line-height: 2.2em;
 }
 .speaker-data {
 	text-align: left;
@@ -60,6 +68,204 @@ img.profile {
 		font-size: 1em;
 	}
 }
+
+.tech{
+	position: relative;
+	height: 65vw;
+	margin: 150px 0 50px 0;
+}
+.tech img{
+	position: absolute;
+
+	-webkit-transition: left 2s, top 2s; /* Safari */
+    transition: left 2s, top 2s;
+}
+.tech .tech-t{
+	width: 21%;
+	top: 35vw;
+	left: -40vw;
+}
+.tech .tech-e{
+	width: 26.6%;
+	top: -25vw;
+	left: -20vw;
+}
+.tech .tech-c{
+	width: 23%;
+	top: -13vw;
+	left: 85vw;
+}
+.tech .tech-h{
+	width: 28%;
+	top: 55vw;
+	left: 65vw;
+}
+.tech .tech-bang1{
+	width: 8%;
+	top: 66vw;
+	left: 21vw;
+}
+.tech .tech-bang2-1{
+	width: 11%;
+	top: 0;
+	left: 93vw;
+}
+.tech .tech-bang2-2{
+	width: 13%;
+	top: 8vw;
+	left: 95vw;
+	transition-duration: 2.2s;
+}
+.tech .tech-bang2-3{
+	width: 13.5%;
+	top: 4vw;
+	left: 105vw;
+	transition-duration: 2.5s;
+}
+.tech.inplace .tech-t{
+	width: 21%;
+	top: 25vw;
+	left: 7vw;
+}
+.tech.inplace .tech-e{
+	width: 26.6%;
+	top: 13vw;
+	left: 19vw;
+}
+.tech.inplace .tech-c{
+	width: 23%;
+	top: 23vw;
+	left: 35vw;
+}
+.tech.inplace .tech-h{
+	width: 28%;
+	top: 31.5vw;
+	left: 45vw;
+}
+.tech.inplace .tech-bang1{
+	width: 8%;
+	top: 36vw;
+	left: 21vw;
+}
+.tech.inplace .tech-bang2-1{
+	width: 11%;
+	top: 0;
+	left: 58vw;
+}
+.tech.inplace .tech-bang2-2{
+	width: 13%;
+	top: 8vw;
+	left: 60vw;
+}
+.tech.inplace .tech-bang2-3{
+	width: 13.5%;
+	top: 4vw;
+	left: 70vw;
+}
+
+
+.community{
+	position: relative;
+	height: 50vw;
+	margin: 100px 0;
+}
+.community img{
+	position: absolute;
+
+	-webkit-transition: left 2s, top 2s; /* Safari */
+    transition: left 2s, top 2s;
+}
+.community .community-c{
+	width: 22%;
+	top: 50vw;
+	left: -15vw;
+}
+.community .community-o{
+	width: 20.5%;
+	top: -15vw;
+	left: -20vw;
+}
+.community .community-m1{
+	width: 28.5%;
+	top: 35vw;
+	left: -25vw;
+}
+.community .community-m2{
+	width: 30.5%;
+	top: -5vw;
+	left: -35vw;
+}
+.community .community-u{
+	width: 18%;
+	top: 50vw;
+	left: 81vw;
+}
+.community .community-n{
+	width: 23%;
+	top: 60vw;
+	left: 90vw;
+}
+.community .community-i{
+	width: 13%;
+	top: -30vw;
+	left: 80vw;
+}
+.community .community-t{
+	width: 20%;
+	top: -8vw;
+	left: 88vw;
+}
+.community .community-y{
+	width: 17%;
+	top: 40vw;
+	left: 99.5vw;
+}
+.community.inplace .community-c{
+	width: 22%;
+	top: 26vw;
+	left: 5vw;
+}
+.community.inplace .community-o{
+	width: 20.5%;
+	top: 5vw;
+	left: 12vw;
+}
+.community.inplace .community-m1{
+	width: 28.5%;
+	top: 22vw;
+	left: 25vw;
+}
+.community.inplace .community-m2{
+	width: 30.5%;
+	top: 2vw;
+	left: 25vw;
+}
+.community.inplace .community-u{
+	width: 18%;
+	top: 16vw;
+	left: 41vw;
+}
+.community.inplace .community-n{
+	width: 23%;
+	top: 19.5vw;
+	left: 50vw;
+}
+.community.inplace .community-i{
+	width: 13%;
+	top: 3.5vw;
+	left: 57.5vw;
+}
+.community.inplace .community-t{
+	width: 20%;
+	top: 8vw;
+	left: 68vw;
+}
+.community.inplace .community-y{
+	width: 17%;
+	top: 24vw;
+	left: 69.5vw;
+}
+
 
 .zoom {
 	font-size: 1.5em;

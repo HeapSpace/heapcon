@@ -69,36 +69,19 @@ async function applyRandomBackgroundColor() {
 
 let scrollDirection = 1;
 let colorThreshold = 500;
+let footerColorThreshold = 10000;
+let nonHome = false;
+$(window).on("load", function() {
+	footerColorThreshold = $(document).height() - 1000;
+});
+
 function jQueryInitNonHomePage() {
-	if ($(window).width <= 600) {
-		// detect small screens
-		colorThreshold = 200;
-	}
-
-	if ($(window).scrollTop() > colorThreshold) {
-		colorMyBody("#231f20");
-		scrollDirection = 2;
-	}
-
-	$(window).scroll(function() {
-		const height = $(window).scrollTop();
-
-		if (scrollDirection === 1) {
-			if (height > colorThreshold) {
-				colorMyBody("#231f20");
-				scrollDirection = 2;
-	    	}
-	    }
-	    else {
-			if (height < colorThreshold - 100) {
-				colorMyBody(nextColor());
-				scrollDirection = 1;
-	    	}
-	    }
-	});
+	nonHome = true;
 }
 
 let scrollDirectionA = 1;
+let headerHidden = false;
+let scrollUp = false;
 function jQueryInitAllPages() {
 	$.fn.scrollEnd = function(callback, timeout) {
 		$(this).scroll(function(){
@@ -109,6 +92,58 @@ function jQueryInitAllPages() {
 		  $this.data('scrollTimeout', setTimeout(callback,timeout));
 		});
 	};
+
+	// START colored header and footer
+	if ($(window).width <= 600) {
+		// detect small screens
+		colorThreshold = 200;
+		footerColorThreshold = $(document).height() - 700;
+	}
+	if($(".bg-beige").length){
+		$("footer").css('background', '#fd4000');
+	} else {
+		if(nonHome){
+			if ($(window).scrollTop() > colorThreshold && $(window).scrollTop() < footerColorThreshold) {
+				colorMyBody("#231f20");
+				scrollDirection = 2;
+			}
+		} else {
+			if ($(window).scrollTop() < footerColorThreshold) {
+				colorMyBody("#231f20");
+				scrollDirection = 2;
+			}
+		}
+
+		$(window).scroll(function() {
+			const height = $(window).scrollTop();
+
+			if (scrollDirection === 1) {
+				if (nonHome && height > colorThreshold) {
+					colorMyBody("#231f20");
+					scrollDirection = 2;
+				}
+			}
+			else {
+				if (scrollDirection === 2) {
+					if (nonHome && height < colorThreshold - 100) {
+						colorMyBody(nextColor());
+						scrollDirection = 1;
+					}
+					if (height > footerColorThreshold) {
+						colorMyBody(nextColor());
+						scrollDirection = 3;
+					}
+				}
+				else {
+					if (height < footerColorThreshold) {
+						colorMyBody("#231f20");
+						scrollDirection = 2;
+					}
+				}
+			}
+		});
+	}
+	// END colored header and footer
 
 	// decorations
 	$(document).on("scroll", function() {
@@ -133,20 +168,61 @@ function jQueryInitAllPages() {
 		});
 	}
 
-	// color effect
+	// moving tech letters in place
+	if($(".tech").length && !$(".inplace").length){
+		if ($(window).scrollTop() > colorThreshold - 100) {
+			$(".tech").addClass('inplace');
+		}
+	}
+	// moving community letters in place
+	if($(".community").length && !$(".inplace").length){
+		if ($(window).scrollTop() > colorThreshold) {
+			$(".community").addClass('inplace');
+		}
+	}
+
+	// header show/hide
+	let lastScrollPosition = $(window).scrollTop();
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
-		if (scrollDirectionA === 1) {
-			if (height > colorThreshold + 100) {
-				$("header").fadeOut("slow");
-				scrollDirectionA = 2;
-	    	}
-	    }
-	    else {
-			if (height < colorThreshold - 100) {
-				$("header").fadeIn("slow");
-				scrollDirectionA = 1;
-	    	}
-	    }
+
+		// moving tech letters in place
+		if($(".tech").length && !$(".inplace").length){
+			if ($(window).scrollTop() > colorThreshold - 100) {
+				$(".tech").addClass('inplace');
+			}
+		}
+		// moving community letters in place
+		if($(".community").length && !$(".inplace").length){
+			if ($(window).scrollTop() > colorThreshold) {
+				$(".community").addClass('inplace');
+			}
+		}
+
+		if(height < lastScrollPosition){
+			if(headerHidden){
+				$("header").fadeIn("slow");	
+			}
+			headerHidden = false;
+			scrollDirectionA = 1;
+		}
+		else {
+			if (scrollDirectionA === 1) {
+				if (height > colorThreshold + 100) {
+					$("header").fadeOut("slow");
+					headerHidden = true;
+					scrollDirectionA = 2;
+				}
+			}
+			else {
+				if (height < colorThreshold - 100) {
+					$("header").fadeIn("slow");
+					headerHidden = false;
+					scrollDirectionA = 1;
+				}
+			}
+		}
+
+		lastScrollPosition = height;
 	});
 }
