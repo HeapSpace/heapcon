@@ -3,7 +3,7 @@
 {{ $talkstart := print .Params.day (replace .Params.start ":" "") }}
 {{ if (eq $talkstart $start) }}
 <div class="s-slot">
-	<a href="{{ .RelPermalink }}/index.ics" class="ics">::</a><a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>
+	<a href="{{ .RelPermalink }}/index.ics" class="ics"><img src="/calendar.png"></a><a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>
 
 	<p>
 		{{ .Description }}
