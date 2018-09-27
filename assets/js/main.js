@@ -83,6 +83,11 @@ let scrollDirectionA = 1;
 let headerHidden = false;
 let scrollUp = false;
 function jQueryInitAllPages() {
+	$(".checkbox-toggle").each(function () {
+		if(this.checked) {
+			$(this).click();
+		}
+	});
 	$.fn.scrollEnd = function(callback, timeout) {
 		$(this).scroll(function(){
 		  var $this = $(this);
@@ -201,7 +206,7 @@ function jQueryInitAllPages() {
 
 		if(height < lastScrollPosition){
 			if(headerHidden){
-				$("header").fadeIn("slow");	
+				$("header").fadeIn("slow");
 			}
 			headerHidden = false;
 			scrollDirectionA = 1;

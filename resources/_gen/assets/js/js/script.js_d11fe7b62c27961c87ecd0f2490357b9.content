@@ -16,7 +16,7 @@ async function applyRandomBackgroundColor(){var stylesheet=document.styleSheets[
 stylesheet.cssRules[0].style.backgroundColor=color;while(stylesheet.cssRules[1].style===undefined){await sleep(1);}
 stylesheet.cssRules[1].style.backgroundColor=color;}
 let scrollDirection=1;let colorThreshold=500;let footerColorThreshold=10000;let nonHome=false;$(window).on("load",function(){footerColorThreshold=$(document).height()-1000;});function jQueryInitNonHomePage(){nonHome=true;}
-let scrollDirectionA=1;let headerHidden=false;let scrollUp=false;function jQueryInitAllPages(){$.fn.scrollEnd=function(callback,timeout){$(this).scroll(function(){var $this=$(this);if($this.data('scrollTimeout')){clearTimeout($this.data('scrollTimeout'));}
+let scrollDirectionA=1;let headerHidden=false;let scrollUp=false;function jQueryInitAllPages(){$(".checkbox-toggle").each(function(){if(this.checked){$(this).click();}});$.fn.scrollEnd=function(callback,timeout){$(this).scroll(function(){var $this=$(this);if($this.data('scrollTimeout')){clearTimeout($this.data('scrollTimeout'));}
 $this.data('scrollTimeout',setTimeout(callback,timeout));});};if($(window).width<=600){colorThreshold=200;footerColorThreshold=$(document).height()-700;}
 if($(".bg-beige").length){$("footer").css('background','#fd4000');}else{if(nonHome){if($(window).scrollTop()>colorThreshold&&$(window).scrollTop()<footerColorThreshold){colorMyBody("#231f20");scrollDirection=2;}}else{if($(window).scrollTop()<footerColorThreshold){colorMyBody("#231f20");scrollDirection=2;}}
 $(window).scroll(function(){const height=$(window).scrollTop();if(scrollDirection===1){if(nonHome&&height>colorThreshold){colorMyBody("#231f20");scrollDirection=2;}}
