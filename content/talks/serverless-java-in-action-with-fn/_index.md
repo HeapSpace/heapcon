@@ -1,6 +1,13 @@
 ---
 title: "Serverless Java in action with Fn!"
 description: "Serverless computing and FaaS radically change how software is organized, deployed, and charged for."
+day: "18"
+track: "B"
+start: "11:00"
+end: "11:45"
+outputs:
+- html
+- calendar
 ---
 
 Serverless computing and FaaS (Function as a Service) are the new blacks! They radically change how software is organized, deployed, and charged for.

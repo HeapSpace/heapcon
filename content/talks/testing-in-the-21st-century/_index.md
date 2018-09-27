@@ -1,6 +1,13 @@
 ---
 title: "Testing in the 21st Century"
 description: "Microservices architecture has changed how companies develop and deploy applications."
+day: "18"
+track: "A"
+start: "11:55"
+end: "12:30"
+outputs:
+- html
+- calendar
 ---
 
 Microservices architecture has changed how companies develop and deploy applications. This change has affected testing process as well. New techniques have emerged and others have been enhanced.

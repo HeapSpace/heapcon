@@ -1,6 +1,13 @@
 ---
 title: "Escaping Developer Nightmares"
 description: "Have you ever worked on a legacy project, like lots of source code, but no unit tests?"
+day: "18"
+track: "A"
+start: "11:00"
+end: "11:45"
+outputs:
+- html
+- calendar
 ---
 
 Have you ever worked on a legacy project, like lots of source code, but no unit tests? Or no continuous delivery? Static code analysis completely missing, or even a simple code standard totally absent?
