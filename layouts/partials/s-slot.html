@@ -3,14 +3,18 @@
 {{ $talkstart := print .Params.day (replace .Params.start ":" "") }}
 {{ if (eq $talkstart $start) }}
 <div class="s-slot">
-	<a href="{{ .RelPermalink }}/index.ics" class="ics" title="{{ .Description }}"><img src="/calendar.png"></a>
-	<a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>
-
-	{{ range .Data.Pages }}
-	<div class="speaker-name">
-		<a href="{{ .RelPermalink}}">{{ .Title }} / {{ .Params.Company }}</a>
+	<div>
+		<a href="{{ .RelPermalink }}/index.ics" class="ics" title="{{ .Description }}"><img src="/calendar.png"></a>
 	</div>
-    {{ end }}
+	<div>
+		<a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>
+
+		{{ range .Data.Pages }}
+		<div class="speaker-name">
+			<a href="{{ .RelPermalink}}">{{ .Title }} / {{ .Params.Company }}</a>
+		</div>
+	    {{ end }}
+	</div>
 </div>
 {{ end }}
 {{ end }}
