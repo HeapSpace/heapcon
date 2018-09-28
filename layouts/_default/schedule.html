@@ -137,24 +137,64 @@ input:checked + label {
 	  	</div>
 
 
-	  <div class="s-time">9:00 - 9:55</div>
+	  	<div class="s-time">9:00 - 9:55</div>
 
 		{{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "9:00") }}
 		{{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "9:00") }}
 
 		<div class="s-time">10:00 - 10:50</div>
-    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "10:00") }}
-    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "10:00") }}
+
+	    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "10:00") }}
+	    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "10:00") }}
 
 		<div class="s-time">11:00 - 11:45</div>
 
-    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "11:00") }}
-    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "11:00") }}
+	    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "11:00") }}
+	    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "11:00") }}
 
-    <div class="s-time">11:55 - 12:30</div>
+	    <div class="s-time">11:55 - 12:30</div>
 
-    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "11:55") }}
-    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "11:55") }}
+	    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "11:55") }}
+	    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "11:55") }}
+
+	    <div class="s-time">12:30 - 13:30</div>
+
+	    <div class="s-break">Lunch</div>
+
+		<div class="s-time">13:30 - 14:05</div>
+
+		{{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "13:30") }}
+	    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "13:30") }}
+
+	    <div class="s-time">14:15 - 14:50</div>
+
+	    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "14:15") }}
+	    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "14:15") }}
+
+	    <div class="s-time">15:00 - 15:25</div>
+
+	    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "15:00") }}
+	    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "15:00") }}
+
+	    <div class="s-time">15:35-16:00</div>
+
+	    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "15:35") }}
+	    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "15:35") }}
+
+      <div class="s-time">16:10-16:45</div>
+
+      {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "16:10") }}
+      {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "16:10") }}
+
+      <div class="s-time">16:50-17:25</div>
+
+      {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "16:50") }}
+      {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "16:50") }}
+
+      <div class="s-time">17:35-18:10</div>
+
+      {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "17:35") }}
+      {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "17:35") }}
 
 	  </div>
 
