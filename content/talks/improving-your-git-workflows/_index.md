@@ -1,6 +1,13 @@
 ---
 title: "Improving your Git workflows"
 description: "Tips and tricks for improving developer productivity."
+day: "19"
+track: "B"
+start: "16:30"
+end: "17:05"
+outputs:
+- html
+- calendar
 ---
 
 Almost everybody uses Git nowadays. But how many people actually know how Git works internally? It is powerful, but extremely confusing.

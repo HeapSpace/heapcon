@@ -1,6 +1,13 @@
 ---
 title: "Bridging Realities with WebXR and Web Bluetooth"
 description: "Learning how to start bridge realities using JavaScript and future of the Immersive Web."
+day: "19"
+track: "A"
+start: "17:15"
+end: "17:50"
+outputs:
+- html
+- calendar
 ---
 
 Mixed Reality is becoming possible on the Web, thanks to the up-and-coming WebXR standard. It's possible to prototype these types of experiences now, using Progressive Enhancement to adapt to whatever kind of device we have, whether it's a mobile phone or a Mixed Reality headset.

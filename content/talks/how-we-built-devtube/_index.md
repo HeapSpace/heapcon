@@ -1,6 +1,13 @@
 ---
 title: "How we built Dev.Tube"
 description: "Built by 2 developers in only 2 months."
+day: "19"
+track: "A"
+start: "14:15"
+end: "14:50"
+outputs:
+- html
+- calendar
 ---
 
 Built by 2 developers in only 2 months, Dev.Tube is gradually becoming the primary hub of developer videos.

@@ -1,6 +1,13 @@
 ---
 title: "Fear: The Driver Behind Our Behavior"
 description: "Did you know there are only five root causes of fear? Yep, only five."
+day: "19"
+track: "A"
+start: "10:45"
+end: "11:20"
+outputs:
+- html
+- calendar
 ---
 
 Did you know there are only five root causes of fear? Yep, only five. But those five root causes of fear are real. So real that it drives 80% of our bad behavior. And instead of giving the word the proper respect it deserves, we turn the word into a “cute” Instagram post encouraging the world to simply be fearless. But this isn’t a thing.

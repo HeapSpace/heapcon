@@ -1,6 +1,13 @@
 ---
 title: "What I learned about Serverless from building a Pokémon Radar"
 description: "Build Serverless system with lambdas running in seven different parts of the world."
+day: "19"
+track: "B"
+start: "15:00"
+end: "15:35"
+outputs:
+- html
+- calendar
 ---
 
 In 2017 I had been playing Pokémon on and off for about a year and had a few left to catch! Though pokemon tracking maps helped, I wondered, what if THE pokemon I wanted popped up when I wasn't looking? So I set out to build a service that would send me push notifications every time there was an important pokemon around. I had a few constraints. Whatever I built had to:
