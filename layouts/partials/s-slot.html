@@ -4,7 +4,9 @@
 {{ if (eq $talkstart $start) }}
 <div class="s-slot">
 	<div>
-		<a href="{{ .RelPermalink }}/index.ics" class="ics" title="{{ .Description }}"><img src="/calendar.png"></a>
+		<a href="{{ .RelPermalink }}/index.ics" class="ics" title="{{ .Description }}">
+			<svg class="ical"><use xlink:href="#ical"></use></svg>
+		</a>
 	</div>
 	<div>
 		<a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>

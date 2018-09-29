@@ -88,13 +88,12 @@ input:checked + label {
 	letter-spacing: -1px;
 }
 .s-slot .ics {
-  font-size: 0.8em;
-  background-color: #FFF4E2;
-  color: #030A16;
-  margin-top: 6px;
-  padding: 2px 0 0 3px;
   text-decoration: none;
-  display: block;
+}
+.ical {
+  width: 30px;
+  height: 40px;
+  fill: #FFF4E2;
 }
 .speaker-name {
   font-size: 0.8em;
@@ -120,6 +119,16 @@ input:checked + label {
 
 {{ define "main" }}
 {{ $talks := (where .Site.Pages "Section" "talks") }}
+
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden" enable-background="new 0 0 24 24" id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="ical" viewBox="0 0 24 24">
+    <rect clip-rule="evenodd" fill-rule="evenodd" height="4" width="2" x="6" y="2"/>
+    <rect clip-rule="evenodd" fill-rule="evenodd" height="4" width="2" x="16" y="2"/>
+    <path d="M19,4H5C3.9,4,3,4.9,3,6v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V6C21,4.9,20.1,4,19,4z M19,20H5V9h14V20z"/>
+    <rect clip-rule="evenodd" fill-rule="evenodd" height="5" width="5" x="12" y="13"/>
+  </defs>
+</svg>
 
 <nav>
   <input id="tab1" type="radio" name="tabs" checked>
