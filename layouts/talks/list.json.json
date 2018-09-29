@@ -3,19 +3,19 @@
 {
 	"talk": {{ .Title | jsonify }},
 	"url": "{{ .RelPermalink }}",
-	"description": {{ .Description  | plainify | jsonify }},
+	"description": {{ replace .Description | plainify | htmlUnescape | jsonify }},
 	"day": "{{ .Params.Day }}",
 	"start": "{{ .Params.Start }}",
 	"end": "{{ .Params.End }}",
 	"track": "{{ .Params.Track }}",
-	"content": {{ .Content | plainify | jsonify }},
+	"content": {{ .Content | plainify | htmlUnescape | jsonify }},
 	"speakers" : [
 		{{ range .Data.Pages }}
 		{
-			"name": {{ .Title | plainify | jsonify }},
-			"company" : {{ .Params.Company | plainify | jsonify }},
+			"name": {{ .Title | plainify | htmlUnescape | jsonify }},
+			"company" : {{ .Params.Company | plainify | htmlUnescape | jsonify }},
 			"pic": "{{ .RelPermalink }}profile.jpg",
-			"about": {{ .Content | plainify | jsonify }}
+			"about": {{ .Content | plainify | htmlUnescape | jsonify }}
 		},
     	{{ end }}
     	{}
