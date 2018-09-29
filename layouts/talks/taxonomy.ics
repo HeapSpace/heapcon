@@ -7,7 +7,7 @@ BEGIN:VEVENT
 ORGANIZER;CN="Heapspace":mailto:heapcon@heapspace.rs
 SUMMARY:{{.Title}}
 DESCRIPTION:{{ .Params.Description }}
-UID:{{.Params.track}}{{.Params.slot}}@2018.heapcon
+UID:{{.Params.day}}{{.Params.track}}{{.Params.start}}@2018.heapcon
 SEQUENCE:0
 PRIORITY:5
 STATUS:CONFIRMED
