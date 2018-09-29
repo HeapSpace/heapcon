@@ -3,7 +3,7 @@
 {
 	"talk": {{ .Title | jsonify }},
 	"url": "{{ .RelPermalink }}",
-	"description": {{ replace .Description | plainify | htmlUnescape | jsonify }},
+	"description": {{ .Description | plainify | htmlUnescape | jsonify }},
 	"day": "{{ .Params.Day }}",
 	"start": "{{ .Params.Start }}",
 	"end": "{{ .Params.End }}",
