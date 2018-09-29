@@ -1,0 +1,26 @@
+[
+{{ range .Data.Pages.ByTitle }}
+{
+	"talk": {{ .Title | jsonify }},
+	"url": "{{ .RelPermalink }}",
+	"description": {{ .Description  | plainify | jsonify }},
+	"day": "{{ .Params.Day }}",
+	"start": "{{ .Params.Start }}",
+	"end": "{{ .Params.End }}",
+	"track": "{{ .Params.Track }}",
+	"content": {{ .Content | plainify | jsonify }},
+	"speakers" : [
+		{{ range .Data.Pages }}
+		{
+			"name": {{ .Title | plainify | jsonify }},
+			"company" : {{ .Params.Company | plainify | jsonify }},
+			"pic": "{{ .RelPermalink }}profile.jpg",
+			"about": {{ .Content | plainify | jsonify }}
+		},
+    	{{ end }}
+    	{}
+	]
+},
+{{ end }}
+{}
+]
