@@ -14,7 +14,7 @@ STATUS:CONFIRMED
 DTSTAMP:201810{{ .Params.day }}T{{ replace .Params.start ":" "" }}00
 DTSTART;TZID=Europe/Belgrade:201810{{ .Params.day }}T{{ replace .Params.start ":" "" }}00
 DTEND;TZID=Europe/Belgrade:201810{{ .Params.day }}T{{ replace .Params.end ":" "" }}00
-LOCATION:Room {{.Params.track}} | Belexpocenter\nŠpanskih boraca 74\nBelgrade, Serbia
+LOCATION:{{ $t := .Params.Track }}{{ range $index, $value := .Site.Data.Room }}{{ if (eq $index $t) }}{{ . }}{{ end }}{{ end }} Room | Belexpocenter\nŠpanskih boraca 74\nBelgrade, Serbia
 URL:{{.Permalink}}
 END:VEVENT
 END:VCALENDAR

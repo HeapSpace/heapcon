@@ -1,11 +1,10 @@
-{{ $host := .url.Host }}
 {{ $start := print .day (replace .start ":" "") }}
 {{ range where .talks "Params.track" .track }}
 {{ $talkstart := print .Params.day (replace .Params.start ":" "") }}
 {{ if (eq $talkstart $start) }}
 <div class="s-slot">
 	<div>
-		<a href="webcal://{{ $host }}{{ .RelPermalink }}event.ics" class="ics" title="{{ .Description }}">
+		<a href="{{ .RelPermalink }}event.ics" class="ics" title="Add to calendar">
 			<svg class="ical"><use xlink:href="#ical"></use></svg>
 		</a>
 	</div>
