@@ -1,10 +1,11 @@
+{{ $host := .url.Host }}
 {{ $start := print .day (replace .start ":" "") }}
 {{ range where .talks "Params.track" .track }}
 {{ $talkstart := print .Params.day (replace .Params.start ":" "") }}
 {{ if (eq $talkstart $start) }}
 <div class="s-slot">
 	<div>
-		<a href="{{ .RelPermalink }}/index.ics" class="ics" title="{{ .Description }}">
+		<a href="webcal://{{ $host }}{{ .RelPermalink }}event.ics" class="ics" title="{{ .Description }}">
 			<svg class="ical"><use xlink:href="#ical"></use></svg>
 		</a>
 	</div>
@@ -13,7 +14,7 @@
 
 		{{ range .Data.Pages }}
 		<div class="speaker-name">
-			<a href="{{ .RelPermalink}}">{{ .Title }} / {{ .Params.Company }}</a>
+			<a href="{{ .RelPermalink }}">{{ .Title }} / {{ .Params.Company }}</a>
 		</div>
 	    {{ end }}
 	</div>

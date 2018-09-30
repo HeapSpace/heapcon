@@ -18,8 +18,9 @@ h1 {
 
 {{ define "main" }}
 
+{{ $url := urls.Parse .Site.BaseURL }} 
   <div class="date">
-    <a href="{{ .RelPermalink }}/index.ics" title="{{ .Description }}" style="text-decoration: none;">
+    <a href="webcal://{{ $url.Host }}{{ .Page.RelPermalink }}event.ics" title="Add to calendar" style="text-decoration: none;">
       <svg class="ical" style="position: relative; top: 8px;"><use xlink:href="#ical"></use></svg>
     </a>
     {{ .Params.Day }}. October, {{ .Params.Start }} - {{ .Params.End }}, Track {{ .Params.Track }}
