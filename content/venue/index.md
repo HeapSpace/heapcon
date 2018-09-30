@@ -1,3 +1,4 @@
 ---
+title: Venue
 layout: "venue"
 ---

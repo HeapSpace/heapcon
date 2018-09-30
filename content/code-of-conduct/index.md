@@ -1,3 +1,7 @@
+---
+title: Code of Conduct
+---
+
 # Code of Conduct
 
 Heapcon acknowledges that harassment has been a real, long-standing issue in the tech community. We also acknowledge that the technology sector is not wholly representative of the diverse makeup of our society.

@@ -1,4 +1,5 @@
 ---
+title: About
 layout: "about"
 pageColor: "bg-black"
 ---

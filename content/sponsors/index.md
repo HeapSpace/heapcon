@@ -1,4 +1,5 @@
 ---
+title: Sponsors
 layout: "sponsors"
 ---
 
