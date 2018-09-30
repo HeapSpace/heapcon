@@ -1,5 +1,6 @@
 [
-{{ range .Data.Pages.ByTitle }}
+{{ range $index, $value := .Data.Pages.ByTitle }}
+{{ if (ne $index 0) }},{{ end }}
 {
 	"talk": {{ .Title | jsonify }},
 	"url": "{{ .RelPermalink }}",
@@ -10,17 +11,16 @@
 	"track": "{{ .Params.Track }}",
 	"content": {{ .Content | plainify | htmlUnescape | jsonify }},
 	"speakers" : [
-		{{ range .Data.Pages }}
+		{{ range $index2, $value := .Data.Pages }}
+		{{ if (ne $index2 0) }},{{ end }}
 		{
 			"name": {{ .Title | plainify | htmlUnescape | jsonify }},
 			"company" : {{ .Params.Company | plainify | htmlUnescape | jsonify }},
 			"pic": "{{ .RelPermalink }}profile.jpg",
 			"about": {{ .Content | plainify | htmlUnescape | jsonify }}
-		},
+		}
     	{{ end }}
-    	{}
 	]
-},
+}
 {{ end }}
-{}
 ]
