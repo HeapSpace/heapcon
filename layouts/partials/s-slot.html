@@ -4,7 +4,7 @@
 {{ if (eq $talkstart $start) }}
 <div class="s-slot">
 	<div>
-		{{ partial "ical" . }}
+		{{ partial "ical" (dict "link" .RelPermalink "event" .Params) }}
 	</div>
 	<div>
 		<a href="{{ .RelPermalink }}" class="s-title">{{ .Title }}</a>
