@@ -26,7 +26,7 @@ h1 {
 
 {{ $url := urls.Parse .Site.BaseURL }}
   <div class="date">
-    {{ partial "ical" (dict "link" .RelPermalink "event" .Params) }}
+    {{ partial "ical" (dict "link" .RelPermalink "event" .Params "site" .Site) }}
     {{ .Params.Day }}. October, {{ .Params.Start }} - {{ .Params.End }},
     {{ $t := .Params.Track }}{{ range $index, $value := .Site.Data.Room }}{{ if (eq $index $t) }}{{ . }}{{ end }}{{ end }} Room
   </div>
