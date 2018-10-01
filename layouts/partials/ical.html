@@ -1,0 +1,26 @@
+{{ $id := printf "%s%s%s" .event.day .event.track (replace .event.start ":" "") }}
+{{ $t := .event.track }}
+<ul class="ical-menu" id="event-{{ $id }}-menu">
+	<li><a href="{{ .link }}event.ics">iCal file</a></li>
+
+    <li><a href="http://www.google.com/calendar/event?action=TEMPLATE&text={{ .event.title }}&dates=201810{{ .event.day }}T{{ replace (replace .event.start "9:" "09:") ":" "" }}00/201810{{ .event.day }}T{{ replace (replace .event.end "9:" "09:") ":" "" }}00&location={{ range $index, $value := .site.Data.Room }}{{ if (eq $index $t) }}{{ $value }}{{ end }}{{ end }} Room | Belexpocenter, Španskih boraca 74, Belgrade, Serbia&details={{ .event.description }}&sprop=website:{{ .RelPermalink }}/index.html&sprop=name:" target="_blank" rel="nofollow">Google Calendar</a></li>
+
+    <li><a href="{{ .link }}event.ics">Outlook</a></li>
+
+    <li><a href="https://calendar.yahoo.com/?v=60&TITLE={{ .event.title }}&DESC={{ .event.description }}&URL=&in_loc={{ range $index, $value := .site.Data.Room }}{{ if (eq $index $t) }}{{ . }}{{ end }}{{ end }} Room | Belexpocenter, Španskih boraca 74, Belgrade, Serbia&ST=201810{{ .event.day }}T{{ replace (replace .event.start "9:" "09:") ":" "" }}00&ET=201810{{ .event.day }}T{{ replace (replace .event.end "9:" "09:") ":" "" }}00" target="_blank" rel="nofollow">Yahoo Calendar</a></li>
+</ul>
+<a href="{{ .link }}event.ics" class="ics" title="Add to calendar" id="event-{{ $id }}">
+<svg class="ical"><use xlink:href="#ical"></use></svg>
+</a>
+<script>
+$(function() {
+	$(window).click(function() {
+		$("#event-{{ $id }}-menu").hide();
+	});
+	$("#event-{{ $id }}").click(function(event) {
+		$("#event-{{ $id }}-menu").show();
+//		alert("{{ $id }}");
+return false;
+	});
+});
+</script>

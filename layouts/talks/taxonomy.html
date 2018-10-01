@@ -13,6 +13,12 @@ h1 {
 .date {
   margin-top: 4em;
 }
+.date a {
+  text-decoration: none;
+}
+.date svg {
+  position: relative; top: 8px;
+}
 </style>
 {{ end }}
 
@@ -20,9 +26,7 @@ h1 {
 
 {{ $url := urls.Parse .Site.BaseURL }}
   <div class="date">
-    <a href="{{ .Page.RelPermalink }}event.ics" title="Add to calendar" style="text-decoration: none;">
-      <svg class="ical" style="position: relative; top: 8px;"><use xlink:href="#ical"></use></svg>
-    </a>
+    {{ partial "ical" (dict "link" .RelPermalink "event" .Params "site" .Site) }}
     {{ .Params.Day }}. October, {{ .Params.Start }} - {{ .Params.End }},
     {{ $t := .Params.Track }}{{ range $index, $value := .Site.Data.Room }}{{ if (eq $index $t) }}{{ . }}{{ end }}{{ end }} Room
   </div>
