@@ -8,7 +8,7 @@ let left=$e.data("left");if(left==undefined){left=$e.position().left;$e.data("le
 xy=funs[fn](st-$e.data("st"));$e.css({'left':left+xy.x});$e.css({'top':top+xy.y});$e.rotate(xy.a);});}
 function sleep(ms){return new Promise(resolve=>setTimeout(resolve,ms));}
 function inViewport($ele){var lBound=$(window).scrollTop(),uBound=lBound+$(window).height(),top=$ele.offset().top,bottom=top+$ele.outerHeight(true);return(top>lBound&&top<uBound)||(bottom>lBound&&bottom<uBound)||(lBound>=top&&lBound<=bottom)||(uBound>=top&&uBound<=bottom);}
-function canvasOrientation(canvas){if(window.matchMedia("(max-width: 600px)").matches){canvas.style.transform='rotate(90deg)';canvas.style.margin='100px auto';}else{canvas.style.transform='rotate(0deg)';canvas.style.width='100%';canvas.style.height='auto';}}
+function canvasOrientation(canvas){if(window.matchMedia("(max-width: 600px)").matches){canvas.style.transform='rotate(90deg)';canvas.style.margin='200px auto 100px auto';}else{canvas.style.transform='rotate(0deg)';canvas.style.width='100%';canvas.style.height='auto';}}
 function colorMyBody(color){$("body").css("backgroundColor",color);$("header").css("backgroundColor",color);}
 const colors=["#384af4","#fd4000"];var colorNdx=0;function nextColor(){colorNdx+=1;if(colorNdx>=colors.length){colorNdx=0;}
 return colors[colorNdx];}

@@ -81,4 +81,288 @@
 			font-size: 1em;
 		}
 	}
+
+
+	/* Added by Misa */
+	#date-left{
+		display: block;
+		margin: 0;
+		left: 0;
+		padding: 20px 20px 0 20px;
+		box-sizing: border-box;
+		font-size: 1.3em;
+	}
+	header{
+		padding-top: 40px;
+	}
+	header>a{
+		float: none;
+		font-size: 0.6em;
+	}
+	.outer-menu .checkbox-toggle{
+		right: auto;
+		left: 50%;
+		margin-left: -30px;
+		top: 75px;
+	}
+	.outer-menu .btn4{
+		top: 65px;
+		right: auto;
+		left: 50%;
+		margin-left: -20px;
+	}
+	.outer-menu .menu div div{
+		text-align: center;
+		width: 100%;
+	}
+	.outer-menu .menu div div ul{
+		width: 100%;
+		padding-top: 70px !important;
+	}
+	.content-wrap .zoom#hcis{
+		font-size: 2.4em;
+	}
+	
+	.decor-speakers{
+		margin-bottom: 200px;
+	}
+	.decor-sponsors{
+		margin-bottom: 300px;
+	}
+	.decor-footer{
+		margin-bottom: 350px;
+	}
+	#home-fun01{
+		width: 60%;
+		right: -15%;
+		top: -80px;
+	}
+	#home-fun23{
+		width: 35%;
+	}
+	#home-fun24{
+		width: 65%;
+		right: -30%;
+		top: -55px;
+	}
+	#home-fun25{
+		width: 90%;
+		top: -40px;
+	}
+	#home-fun27{
+		transform: rotate(90deg);
+		width: 100%;
+		left: -55%;
+		top: -230px;
+	}
+	#home-fun26{
+		width: 100%;
+		left: 50%;
+		top: 70px;
+	}
+	#home-fun08{
+		width: 60%;
+		left: -10%;
+		top: 0px;
+	}
+	#home-fun28{
+		width: 100%;
+		left: 10%;
+		top: 155px;
+	}
+	#home-fun03{
+		width: 65%;
+		left: 40%;
+		top: 40px;
+	}
+	#about-fun01{
+		width: 60%;
+		left: 15vw;
+		top: 210vw;
+	}
+	#about-fun27{
+		width: 60%;
+		left: -30vw;
+		top: 150vw;
+	}
+	#about-fun26{
+		width: 50%;
+		left: 35vw;
+		top: -30vw;
+	}
+	#about-fun28{
+		width: 50%;
+		left: 0vw;
+		top: -20vw;
+	}
+	#speakers-fun01{
+		width: 60%;
+		left: 50vw;
+		top: -20vw;
+	}
+	#speakers-fun27a{
+		transform: rotate(90deg);
+		width: 100%;
+		left: -25vw;
+		top: -20vw;
+	}
+	#speakers-fun26{
+		width: 90%;
+		left: -30vw;
+		top: 260vw;
+	}
+	#speakers-fun28{
+		width: 80%;
+		left: 50vw;
+		top: 220vw;
+	}
+
+
+	.tech{
+		position: relative;
+		height: 300vw;
+		margin: 150px 0 50px 0;
+	}
+	.tech .tech-t{
+		width: 53.5%;
+	}
+	.tech .tech-e{
+		width: 66.6666666%;
+	}
+	.tech .tech-c{
+		width: 59%;
+	}
+	.tech .tech-h{
+		width: 71%;
+	}
+	.tech .tech-bang1{
+		width: 25%;
+	}
+	.tech .tech-bang2-1{
+		width: 28%;
+	}
+	.tech .tech-bang2-2{
+		width: 30%;
+	}
+	.tech .tech-bang2-3{
+		width: 30.5%;
+	}
+	.tech.inplace .tech-t{
+		width: 53.5%;
+		top: 95vw;
+		left: -3vw;
+	}
+	.tech.inplace .tech-e{
+		width: 66.6666666%;
+		top: 60vw;
+		left: 35vw;
+	}
+	.tech.inplace .tech-c{
+		width: 59%;
+		top: 130vw;
+		left: 30vw;
+	}
+	.tech.inplace .tech-h{
+		width: 71%;
+		top: 165vw;
+		left: 5vw;
+	}
+	.tech.inplace .tech-bang1{
+		width: 25%;
+		top: 185vw;
+		left: 35vw;
+	}
+	.tech.inplace .tech-bang2-1{
+		width: 28%;
+		top: 0;
+		left: 35vw;
+	}
+	.tech.inplace .tech-bang2-2{
+		width: 30%;
+		top: 20vw;
+		left: 42vw;
+	}
+	.tech.inplace .tech-bang2-3{
+		width: 30.5%;
+		top: 15vw;
+		left: 60vw;
+	}
+
+	.community{
+		height: 230vw;
+	}
+
+	.community .community-c{
+		width: 49%;
+	}
+	.community .community-o{
+		width: 48%;
+	}
+	.community .community-m1{
+		width: 70%;
+	}
+	.community .community-m2{
+		width: 66.66666666%;
+	}
+	.community .community-u{
+		width: 41%;
+	}
+	.community .community-n{
+		width: 52%;
+	}
+	.community .community-i{
+		width: 30%;
+	}
+	.community .community-t{
+		width: 44%;
+	}
+	.community .community-y{
+		width: 37.5%;
+	}
+
+	.community.inplace .community-c{
+		width: 49%;
+		top: 0vw;
+		left: 51vw;
+	}
+	.community.inplace .community-o{
+		width: 48%;
+		top: 25vw;
+		left: 7vw;
+	}
+	.community.inplace .community-m1{
+		width: 70%;
+		top: 62vw;
+		left: 40vw;
+	}
+	.community.inplace .community-m2{
+		width: 66.66666666%;
+		top: 50vw;
+		left: -5vw;
+	}
+	.community.inplace .community-u{
+		width: 41%;
+		top: 110vw;
+		left: 9vw;
+	}
+	.community.inplace .community-n{
+		width: 52%;
+		top: 125vw;
+		left: 28vw;
+	}
+	.community.inplace .community-i{
+		width: 30%;
+		top: 143vw;
+		left: 60vw;
+	}
+	.community.inplace .community-t{
+		width: 44%;
+		top: 163vw;
+		left: 13vw;
+	}
+	.community.inplace .community-y{
+		width: 37.5%;
+		top: 185vw;
+		left: 50vw;
+	}
 }
