@@ -3,8 +3,8 @@ title: "Going Web Native"
 description: "Introduction to Progressive Web Apps, Web Components, Web Assembly."
 day: "18"
 track: "B"
-start: "11:55"
-end: "12:30"
+start: "11:00"
+end: "11:35"
 outputs:
 - html
 - calendar
