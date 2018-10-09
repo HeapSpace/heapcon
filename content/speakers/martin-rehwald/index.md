@@ -1,6 +1,6 @@
 ---
 title: "Martin Rehwald"
-company: "Lotus Flare"
+company: "LotusFlare"
 job: "LF Adviser"
 link: "https://twitter.com/Lotus_Flare"
 talks:
