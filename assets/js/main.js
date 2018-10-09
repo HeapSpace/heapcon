@@ -185,6 +185,12 @@ function jQueryInitAllPages() {
 			$(".community").addClass('inplace');
 		}
 	}
+	// moving diversity letters in place
+	if($(".diversity").length && !$(".inplace").length){
+		if ($(window).scrollTop() > colorThreshold) {
+			$(".diversity").addClass('inplace');
+		}
+	}
 
 	// header show/hide
 	let lastScrollPosition = $(window).scrollTop();
@@ -201,6 +207,12 @@ function jQueryInitAllPages() {
 		if($(".community").length && !$(".inplace").length){
 			if ($(window).scrollTop() > colorThreshold) {
 				$(".community").addClass('inplace');
+			}
+		}
+		// moving community letters in place
+		if($(".diversity").length && !$(".inplace").length){
+			if ($(window).scrollTop() > colorThreshold) {
+				$(".diversity").addClass('inplace');
 			}
 		}
 

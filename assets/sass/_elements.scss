@@ -166,7 +166,7 @@ img.profile {
 
 .community{
 	position: relative;
-	height: 50vw;
+	height: 55vw;
 	margin: 100px 0;
 }
 .community img{
@@ -266,10 +266,127 @@ img.profile {
 	left: 69.5vw;
 }
 
+.diversity{
+	position: relative;
+	height: 55vw;
+	margin: 150px 0;
+}
+.diversity img{
+	position: absolute;
+
+	-webkit-transition: left 2s, top 2s; /* Safari */
+    transition: left 2s, top 2s;
+}
+.diversity .diversity-d{
+	width: 18%;
+	top: -25vw;
+	left: -17vw;
+}
+.diversity .diversity-e{
+	width: 23.5%;
+	top: -18vw;
+	left: 23vw;
+}
+.diversity .diversity-r{
+	width: 16%;
+	top: -16.25vw;
+	left: 83vw;
+}
+.diversity .diversity-t{
+	width: 18%;
+	top: 11vw;
+	left: 108vw;
+}
+.diversity .diversity-i1{
+	width: 9.5%;
+	top: 0vw;
+	left: -8vw;
+}
+.diversity .diversity-v{
+	width: 18.5%;
+	top: 60vw;
+	left: -15vw;
+}
+.diversity .diversity-s{
+	width: 20.5%;
+	top: 62vw;
+	left: 25vw;
+}
+.diversity .diversity-i2{
+	width: 11%;
+	top: 63.5vw;
+	left: 76vw;
+}
+.diversity .diversity-y{
+	width: 15.5%;
+	top: 74.5vw;
+	left: 85vw;
+}
+.diversity.inplace .diversity-d{
+	width: 18%;
+	top: 6vw;
+	left: 9vw;
+}
+.diversity.inplace .diversity-e{
+	width: 23.5%;
+	top: 11vw;
+	left: 23vw;
+}
+.diversity.inplace .diversity-r{
+	width: 16%;
+	top: 6.25vw;
+	left: 43vw;
+}
+.diversity.inplace .diversity-t{
+	width: 18%;
+	top: 11vw;
+	left: 58vw;
+}
+.diversity.inplace .diversity-i1{
+	width: 9.5%;
+	top: 26vw;
+	left: 11vw;
+}
+.diversity.inplace .diversity-v{
+	width: 18.5%;
+	top: 34vw;
+	left: 22vw;
+}
+.diversity.inplace .diversity-s{
+	width: 20.5%;
+	top: 27vw;
+	left: 43vw;
+}
+.diversity.inplace .diversity-i2{
+	width: 11%;
+	top: 23.5vw;
+	left: 56vw;
+}
+.diversity.inplace .diversity-y{
+	width: 15.5%;
+	top: 34.5vw;
+	left: 65vw;
+}
+
 #home-fun01{
 	width: 30%;
-	right: 5%;
-	top: -100px;
+	right: 25%;
+	top: -110px;
+}
+#home-fun06{
+	width: 35%;
+	left: 0%;
+	top: -20px;
+}
+#home-fun12{
+	width: 16%;
+	right: -5%;
+	top: -130px;
+}
+#home-fun14{
+	width: 35%;
+	right: -20%;
+	top: -200px;
 }
 #home-fun23{
 	width: 15%;
@@ -286,6 +403,11 @@ img.profile {
 	right: -10%;
 	top: -100px;
 }
+#home-fun08{
+	width: 20%;
+	right: 10%;
+	top: -100px;
+}
 #home-fun27{
 	width: 40%;
 	left: -30%;
@@ -296,25 +418,50 @@ img.profile {
 	right: 10%;
 	top: -150px;
 }
-#home-fun08{
+#home-fun06-1{
+	width: 32%;
+	right: -8%;
+	top: 150px;
+}
+#home-fun07{
+	width: 50%;
+	right: -20%;
+	top: -150px;
+
+	transform: rotate(120deg);
+}
+#home-fun08-1{
+	display: none;
+}
+#home-fun09{
 	width: 20%;
-	right: 10%;
+	left: -15%;
+	top: -400px;
+}
+#home-fun28-1{
+	width: 20%;
+	left: 10%;
 	top: -300px;
+}
+#home-fun21{
+	width: 18%;
+	left: 72%;
+	top: -380px;
 }
 #home-fun28{
 	width: 25%;
-	left: 0;
-	top: -400px;
+	left: 42%;
+	top: -200px;
 }
 #home-fun03{
 	width: 25%;
-	left: 10%;
-	top: -80px;
+	left: 5%;
+	top: 50px;
 }
 #about-fun01{
 	width: 25%;
-	left: 40vw;
-	top: -15vw;
+	left: 17vw;
+	top: 42vw;
 }
 #about-fun27{
 	width: 30%;
@@ -330,6 +477,36 @@ img.profile {
 	width: 25%;
 	left: 68vw;
 	top: 43vw;
+}
+#about-fun06{
+	width: 30%;
+	left: -5vw;
+	top: -5vw;
+}
+#about-fun09{
+	width: 20%;
+	left: -15vw;
+	top: 15vw;
+}
+#about-fun10{
+	width: 25%;
+	left: 43vw;
+	top: -5vw;
+}
+#about-fun11{
+	width: 15%;
+	left: 77vw;
+	top: 15vw;
+}
+#about-fun13{
+	width: 15%;
+	left: 50vw;
+	top: 37vw;
+}
+#about-fun14{
+	width: 35%;
+	left: 70vw;
+	top: 35vw;
 }
 #speakers-fun01{
 	width: 25%;
@@ -350,6 +527,58 @@ img.profile {
 	width: 25%;
 	left: 68vw;
 	top: 25vw;
+}
+
+#committee-fun22{
+	width: 40%;
+	left: -30vw;
+	top: -20vw;
+}
+#committee-fun26{
+	width: 20%;
+	left: 12vw;
+	top: -7vw;
+}
+#committee-fun08{
+	width: 20%;
+	left: 65vw;
+	top: -5vw;
+
+	transform: rotate(20deg);
+}
+#committee-fun26-1{
+	width: 20%;
+	left: 75vw;
+	top: 17vw;
+
+	transform: rotate(180deg);
+}
+#committee-fun28{
+	width: 20%;
+	left: 37vw;
+	top: 40vw;
+}
+#committee-fun29{
+	width: 41%;
+	left: 34vw;
+	top: -13vw;
+}
+#committee-fun30{
+	width: 23.5%;
+	left: 8vw;
+	top: 38vw;
+}
+#committee-fun30-1{
+	width: 23.5%;
+	left: 78vw;
+	top: 47vw;
+
+	transform: rotate(-90deg);
+}
+#committee-fun31{
+	width: 16%;
+	left: 62vw;
+	top: 52vw;
 }
 
 
