@@ -203,16 +203,31 @@ function jQueryInitAllPages() {
 				$(".tech").addClass('inplace');
 			}
 		}
+		if($(".tech").length && $(".inplace").length){
+			if ($(window).scrollTop() < colorThreshold - 100) {
+				$(".tech").removeClass('inplace');
+			}
+		}
 		// moving community letters in place
 		if($(".community").length && !$(".inplace").length){
 			if ($(window).scrollTop() > colorThreshold) {
 				$(".community").addClass('inplace');
 			}
 		}
+		if($(".community").length && $(".inplace").length){
+			if ($(window).scrollTop() < colorThreshold) {
+				$(".community").removeClass('inplace');
+			}
+		}
 		// moving community letters in place
 		if($(".diversity").length && !$(".inplace").length){
 			if ($(window).scrollTop() > colorThreshold) {
 				$(".diversity").addClass('inplace');
+			}
+		}
+		if($(".diversity").length && $(".inplace").length){
+			if ($(window).scrollTop() < colorThreshold) {
+				$(".diversity").removeClass('inplace');
 			}
 		}
 

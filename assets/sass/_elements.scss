@@ -269,7 +269,7 @@ img.profile {
 .diversity{
 	position: relative;
 	height: 55vw;
-	margin: 150px 0;
+	margin: 250px 0;
 }
 .diversity img{
 	position: absolute;
@@ -380,8 +380,10 @@ img.profile {
 }
 #home-fun12{
 	width: 16%;
-	right: -5%;
+	right: -10%;
 	top: -130px;
+
+	transform: rotate(180deg);
 }
 #home-fun14{
 	width: 35%;
@@ -450,8 +452,8 @@ img.profile {
 }
 #home-fun28{
 	width: 25%;
-	left: 42%;
-	top: -200px;
+	left: 25%;
+	top: -150px;
 }
 #home-fun03{
 	width: 25%;
@@ -485,7 +487,7 @@ img.profile {
 }
 #about-fun09{
 	width: 20%;
-	left: -15vw;
+	left: -17vw;
 	top: 15vw;
 }
 #about-fun10{
@@ -554,9 +556,9 @@ img.profile {
 	transform: rotate(180deg);
 }
 #committee-fun28{
-	width: 20%;
-	left: 37vw;
-	top: 40vw;
+	width: 30%;
+	left: 32vw;
+	top: 37vw;
 }
 #committee-fun29{
 	width: 41%;

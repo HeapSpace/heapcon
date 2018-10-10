@@ -3,7 +3,7 @@
 
 nav {
   min-width: 320px;
-  max-width: 800px;
+  /*max-width: 800px;*/
   padding: 50px;
   margin: 0 auto;
 }
@@ -11,7 +11,7 @@ nav {
 section {
   display: none;
   padding: 20px 0 0;
-  border-top: 1px solid #ddd;
+  /*border-top: 1px solid #ddd;*/
 }
 
 nav input {
@@ -26,14 +26,17 @@ label {
   text-align: center;
   border: 1px solid transparent;
 }
+label h4{
+  font-weight: 700;
+}
 
 label:hover {
   cursor: pointer;
 }
 
 input:checked + label {
-  border: 1px solid #fff;
-  background-color: #FA421D;
+  border-bottom: 3px solid #fff;
+  /*background-color: #FA421D;*/
 }
 
 #tab1:checked ~ #content1,
@@ -59,12 +62,13 @@ input:checked + label {
 .s-time {
 	grid-column: 1 / span 2;
 	text-align: left;
-	background-color: #FA421D;
+	/*background-color: #FA421D;*/
 	padding: 0.2em;
 	font-size: 1em;
 	font-weight: bold;
 	margin-bottom: 1em;
 	margin-top: 2em;
+  border-bottom: 3px solid #fff;
 }
 .s-break {
 	grid-column: 1 / span 2;
@@ -82,6 +86,9 @@ input:checked + label {
 	margin: 1em 0 0 0;
 	font-size: 0.8em;
 }
+.s-slot a {
+  text-decoration: none;
+}
 .s-slot .ics {
   text-decoration: none;
 }
@@ -92,7 +99,7 @@ input:checked + label {
 .s-talks {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 20px 80px;
 }
 @media screen and (max-width: 750px) {
   .s-talks {
@@ -117,18 +124,18 @@ input:checked + label {
 
 <nav>
   <input id="tab1" type="radio" name="tabs" checked>
-  <label for="tab1"><h2>Day 1</h2></label>
+  <label for="tab1"><h4>Day 1</h4></label>
 
   <input id="tab2" type="radio" name="tabs">
-  <label for="tab2"><h2>Day 2</h2></label>
+  <label for="tab2"><h4>Day 2</h4></label>
 
   <section id="content1">
   	<div class="s-talks">
 	  	<div>
-	  		<h3>{{ .Site.Data.Room.A }} Room</h3>
+	  		<h2 class="red">{{ .Site.Data.Room.A }} Room</h2>
 	  	</div>
 	  	<div>
-	  		<h3>{{ .Site.Data.Room.B }} Room</h3>
+	  		<h2 class="blue">{{ .Site.Data.Room.B }} Room</h2>
 	  	</div>
 
     <div class="s-time">7:30 - 8:45</div>
