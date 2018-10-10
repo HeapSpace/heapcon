@@ -12,11 +12,12 @@
         {{ end }}
 
 		{{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-		<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
+        <link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
+
 
 		{{ partial "head" . }}
         <style>body {background-color: #231f20;} header {background-color: #231f20;} </style>
-
+        <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
         {{ block "style" . }}{{ end }}
 
         {{ partial "js" . }}
@@ -26,7 +27,49 @@
             applyRandomBackgroundColor();
             $(function () {jQueryInitNonHomePage();});
         {{ end }}
-            $(function () {jQueryInitAllPages();});
+            function shaker() {
+                const rnd = Math.floor((Math.random() * 4) + 1);
+                if (rnd === 1) {
+                    return "shake";
+                }
+                if (rnd === 2) {
+                    return "shake-chunk";
+                }
+                if (rnd === 3) {
+                    return "shake-rotate";
+                }
+                if (rnd === 4) {
+                    return "shake-slow";
+                }
+            }
+
+            $(function () {
+                jQueryInitAllPages();
+                let searchParams = new URLSearchParams(window.location.search);
+                if (searchParams.has('tektonski')) {
+                    $("p").each(function() {
+                        $(this).addClass("shake-constant").addClass(shaker());
+                    });
+                    $("img").each(function() {
+                        $(this).addClass("shake-constant").addClass(shaker());
+                    });
+                    $("a").each(function() {
+                        $(this).addClass("shake-constant").addClass(shaker());
+                    });
+                    $("div.s-time").each(function() {
+                        $(this).addClass("shake-constant").addClass(shaker());
+                    });
+                    $("div.s-break").each(function() {
+                        $(this).addClass("shake-constant").addClass(shaker());
+                    });
+                    $("h2").each(function() {
+                        $(this).addClass("shake-constant").addClass(shaker());
+                    });
+                    $("h1").each(function() {
+                        $(this).addClass("shake-constant").addClass(shaker());
+                    });
+                }
+            });
         </script>
     </head>
     <body>
