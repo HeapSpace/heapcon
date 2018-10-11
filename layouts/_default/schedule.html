@@ -283,7 +283,7 @@ input:checked + label {
     <div class="s-time">17:15 - 17:50</div>
 
       {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "19" "start" "17:15") }}
-      <div>-</div>
+      {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "19" "start" "17:15") }}
 
     <div class="s-time">17:50 - 19:00</div>
     <div class="s-break">Dinner</div>
