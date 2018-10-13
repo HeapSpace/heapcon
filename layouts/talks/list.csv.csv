@@ -1,0 +1,4 @@
+{{range .Data.Pages.GroupByParam "Day"}}{{range .Pages.GroupByParam "Track"}}
+{{ range $index, $value := .Pages.ByParam "Start" }}"{{ .Title | plainify | htmlUnescape }}",{{ .RelPermalink }}, {{ .Params.Day }}, {{ .Params.Start }}, {{ .Params.End }},{{ .Params.Track }}, {{ range $index2, $value := .Data.Pages }}{{ if (ne $index2 0) }},{{ end }}{{ .Title | plainify | htmlUnescape }}, {{ .Params.Company | plainify | htmlUnescape }}{{ end }}
+{{ end }}
+{{ end }}{{ end }}
