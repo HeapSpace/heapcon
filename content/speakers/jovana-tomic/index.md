@@ -1,7 +1,7 @@
 ---
 title: "Jovana Tomić"
 company: "Heapspace"
-job: "Memeber of the Heapspace"
+job: "Conference organizer"
 link: "https://www.linkedin.com/in/jovanatomic/"
 talks:
   - conference-opening
