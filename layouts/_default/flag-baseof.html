@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    <head>
+    	<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		{{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+		<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
+
+		{{ partial "head" . }}
+
+        {{ block "style" . }}{{ end }}
+
+        {{ partial "js" . }}
+<script type="text/javascript">
+$(function() {
+	var color = 0x231f20;
+	var backColor = '#231f20';
+	var urlParams = new URLSearchParams(window.location.search);
+	if (urlParams.has('blue')) {
+		color = 0x384af4;
+		backColor = '#384af4';
+	}
+	if (urlParams.has('red')) {
+		color = 0xeb5027;
+		backColor = '#eb5027';
+	}
+	renderer.setClearColor(color, 1);
+	$("body").css("cssText", "background-color:" + backColor + ' !important;');
+});
+</script>
+<body>
+	{{ partial "zastava" }}
+</body>
+</html>
