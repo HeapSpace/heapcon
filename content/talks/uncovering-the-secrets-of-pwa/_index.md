@@ -3,6 +3,7 @@ title: "Uncovering the secrets of Progressive Web Apps"
 description: "The current state of PWAs, available platforms, compatibility, business and technical challenges."
 day: "19"
 track: "B"
+weight: 1715
 start: "17:15"
 end: "17:50"
 outputs:

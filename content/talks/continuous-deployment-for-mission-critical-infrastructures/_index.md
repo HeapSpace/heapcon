@@ -3,6 +3,7 @@ title: "Continuous Deployment for Mission Critical Infrastructures"
 description: "Helping mobile operators in their transformation to fast moving engaging experience providers."
 day: "19"
 track: "B"
+weight: 1545
 start: "15:45"
 end: "16:20"
 outputs:

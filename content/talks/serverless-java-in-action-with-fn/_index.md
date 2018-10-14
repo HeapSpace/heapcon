@@ -3,6 +3,7 @@ title: "Serverless Java in action with Fn!"
 description: "Serverless computing and FaaS radically change how software is organized, deployed, and charged for."
 day: "18"
 track: "B"
+weight: 1145
 start: "11:45"
 end: "12:30"
 outputs:

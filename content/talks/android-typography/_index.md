@@ -3,6 +3,7 @@ title: "Android Typography"
 description: "Tips and tricks for using and formatting text on Android platform."
 day: "18"
 track: "A"
+weight: 1535
 start: "15:35"
 end: "16:00"
 outputs:

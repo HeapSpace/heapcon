@@ -3,6 +3,7 @@ title: "Build a 12-factor microservice with MicroProfile"
 description: "The best practice of building a first-class microservice is to follow 12-Factor app."
 day: "18"
 track: "B"
+weight: 1610
 start: "16:10"
 end: "16:45"
 outputs:

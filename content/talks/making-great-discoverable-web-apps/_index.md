@@ -3,6 +3,7 @@ title: "Making great, discoverable web apps"
 description: "How to build web apps that work great for your users and can be found better via search engines, too."
 day: "19"
 track: "A"
+weight: 1630
 start: "16:30"
 end: "17:05"
 outputs:

@@ -3,6 +3,7 @@ title: "What if Spring framework disappeared for a week?"
 description: "How to distinguish important framework features from syntatic glue."
 day: "19"
 track: "B"
+weight: 1045
 start: "10:45"
 end: "11:20"
 outputs:

@@ -3,6 +3,7 @@ title: "Springing into Kotlin: How to Make the Magic even more Magical"
 description: "How Kotlin can be used to reduce boilerplate, increase code quality, and elevate your wizardry."
 day: "18"
 track: "A"
+weight: 1000
 start: "10:00"
 end: "10:50"
 outputs:

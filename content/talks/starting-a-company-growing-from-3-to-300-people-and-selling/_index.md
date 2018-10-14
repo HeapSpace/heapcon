@@ -3,6 +3,7 @@ title: "Starting a company, growing from 3 to 300 people, and selling"
 description: "How the company changed as it went through the various stages of growth."
 day: "19"
 track: "A"
+weight: 1210
 start: "12:10"
 end: "12:35"
 outputs:

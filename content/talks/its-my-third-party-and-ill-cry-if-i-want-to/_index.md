@@ -3,6 +3,7 @@ title: "It’s My (Third) Party and I'll Cry If I Want To"
 description: "A look at the unruly or uninvited (third-)party guests."
 day: "19"
 track: "A"
+weight: 1130
 start: "11:30"
 end: "12:05"
 outputs:

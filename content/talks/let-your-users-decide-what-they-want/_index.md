@@ -3,6 +3,7 @@ title: "Let your users decide what they want"
 description: "Letting the users help you understand what they need and if a particular feature is really useful for the users by using the technique of A/B testing."
 day: "18"
 track: "B"
+weight: 1330
 start: "13:30"
 end: "14:05"
 outputs:

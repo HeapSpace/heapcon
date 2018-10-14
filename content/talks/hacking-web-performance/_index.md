@@ -3,6 +3,7 @@ title: "Hacking Web Performance"
 description: "Important steps that most web professionals are making to improve performance."
 day: "19"
 track: "A"
+weight: 1330
 start: "13:30"
 end: "14:05"
 outputs:

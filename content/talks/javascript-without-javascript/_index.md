@@ -3,6 +3,7 @@ title: "Javascript without Javascript"
 description: "Leverage pre existing libraries today in order to get amazing performance and features in your current web apps."
 day: "19"
 track: "A"
+weight: 1500
 start: "15:00"
 end: "15:35"
 outputs:

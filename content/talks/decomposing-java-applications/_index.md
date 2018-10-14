@@ -3,6 +3,7 @@ title: "Decomposing Java applications"
 description: "Ending up with application design that has good chance to evolve over the years without introducing additional accidental complexity."
 day: "18"
 track: "B"
+weight: 1000
 start: "10:00"
 end: "10:45"
 outputs:

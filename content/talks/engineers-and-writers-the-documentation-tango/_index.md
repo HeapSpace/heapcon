@@ -3,6 +3,7 @@ title: "Engineers and Writers - The Documentation Tango"
 description: "Developing and documenting a product is like a complicated dance where both sides think to lead."
 day: "18"
 track: "B"
+weight: 1650
 start: "16:50"
 end: "17:25"
 outputs:

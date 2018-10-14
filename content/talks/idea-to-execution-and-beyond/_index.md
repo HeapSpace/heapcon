@@ -3,6 +3,7 @@ title: "Idea to Execution and Beyond"
 description: "A high-level run-through of what it takes to execute and launch a project."
 day: "18"
 track: "A"
+weight: 1415
 start: "14:15"
 end: "14:50"
 outputs:

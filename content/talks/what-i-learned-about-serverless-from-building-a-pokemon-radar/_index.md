@@ -3,6 +3,7 @@ title: "What I learned about Serverless from building a Pokémon Radar"
 description: "Build Serverless system with lambdas running in seven different parts of the world."
 day: "19"
 track: "B"
+weight: 1500
 start: "15:00"
 end: "15:35"
 outputs:

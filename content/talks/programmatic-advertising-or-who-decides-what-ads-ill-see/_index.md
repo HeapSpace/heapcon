@@ -3,6 +3,7 @@ title: "Programmatic advertising - or who decides what ads I'll see?"
 description: "How are millions of ads evaluated in under 10ms, at 250k requests/second."
 day: "19"
 track: "B"
+weight: 1130
 start: "11:30"
 end: "12:05"
 outputs:

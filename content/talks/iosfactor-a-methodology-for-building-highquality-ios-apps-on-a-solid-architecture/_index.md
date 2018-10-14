@@ -3,6 +3,7 @@ title: "iOS-Factor: A methodology for building high-quality iOS apps on a solid 
 description: "Applying more up-to-date engineering practices into your daily development workflow."
 day: "18"
 track: "A"
+weight: 1500
 start: "15:00"
 end: "15:25"
 outputs:

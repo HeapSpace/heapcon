@@ -3,6 +3,7 @@ title: "Serverless: The Missing Manual"
 description: "Serving files without a web server and managing application state in a stateless environment."
 day: "19"
 track: "A"
+weight: 1000
 start: "10:00"
 end: "10:35"
 outputs:

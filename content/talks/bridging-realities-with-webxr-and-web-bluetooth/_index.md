@@ -3,6 +3,7 @@ title: "Bridging Realities with WebXR and Web Bluetooth"
 description: "Learning how to start bridge realities using JavaScript and future of the Immersive Web."
 day: "19"
 track: "A"
+weight: 1715
 start: "17:15"
 end: "17:50"
 outputs:

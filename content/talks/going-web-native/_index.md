@@ -3,6 +3,7 @@ title: "Going Web Native"
 description: "Introduction to Progressive Web Apps, Web Components, Web Assembly."
 day: "18"
 track: "B"
+weight: 1100
 start: "11:00"
 end: "11:35"
 outputs:

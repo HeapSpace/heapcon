@@ -3,6 +3,7 @@ title: "A WebXR whirlwind tour"
 description: "How VR and AR allow us to immerse our users in new experiences?"
 day: "18"
 track: "A"
+weight: 1330
 start: "13:30"
 end: "14:05"
 outputs:

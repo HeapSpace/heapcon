@@ -3,6 +3,7 @@ title: "Beyond Goats & Silos"
 description: "Are the principles of DevOps still applicable, and how to we go beyond the Goats & Silos of DevOps?"
 day: "18"
 track: "A"
+weight: 1610
 start: "16:10"
 end: "16:45"
 outputs:

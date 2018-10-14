@@ -3,6 +3,7 @@ title: "Scaling Data In The Cloud"
 description: "One of the great things about cloud deployments is the easy scaling."
 day: "19"
 track: "B"
+weight: 1000
 start: "10:00"
 end: "10:35"
 outputs:

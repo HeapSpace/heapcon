@@ -3,6 +3,7 @@ title: "Fear: The Driver Behind Our Behavior"
 description: "Did you know there are only five root causes of fear? Yep, only five."
 day: "19"
 track: "A"
+weight: 1045
 start: "10:45"
 end: "11:20"
 outputs:

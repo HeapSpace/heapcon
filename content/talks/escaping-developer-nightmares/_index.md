@@ -3,6 +3,7 @@ title: "Escaping Developer Nightmares"
 description: "Have you ever worked on a legacy project, like lots of source code, but no unit tests?"
 day: "18"
 track: "A"
+weight: 1145
 start: "11:45"
 end: "12:30"
 outputs:

@@ -3,6 +3,7 @@ title: "Business & Beer Sessions vol. 1 - Digital Transformation: all of the Bus
 description: "First ever Business & Beer Session where we bring people together and bounce of ideas of each other, share experiences and help wade through all the BS surrounding the topic of Digital Transformation."
 day: "18"
 track: "B"
+weight: 1535
 start: "15:35"
 end: "16:00"
 outputs:

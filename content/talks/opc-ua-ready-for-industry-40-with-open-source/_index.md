@@ -3,6 +3,7 @@ title: "OPC UA – ready for Industry 4.0 with open source"
 description: "How production ready open source projects can help build your OPC UA solution on the device and cloud level."
 day: "18"
 track: "A"
+weight: 1650
 start: "16:50"
 end: "17:25"
 outputs:

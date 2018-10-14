@@ -3,6 +3,7 @@ title: "Technology for a Moving World"
 description: "Building applications that assist people as they drive, or even drive a car all on its own – more safely and more efficiently than human drivers can."
 day: "19"
 track: "B"
+weight: 1210
 start: "12:10"
 end: "12:35"
 outputs:

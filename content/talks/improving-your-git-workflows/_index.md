@@ -3,6 +3,7 @@ title: "Improving your Git workflows"
 description: "Tips and tricks for improving developer productivity."
 day: "19"
 track: "B"
+weight: 1630
 start: "16:30"
 end: "17:05"
 outputs:

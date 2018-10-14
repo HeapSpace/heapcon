@@ -3,6 +3,7 @@ title: "How we built Dev.Tube"
 description: "Built by 2 developers in only 2 months."
 day: "19"
 track: "A"
+weight: 1415
 start: "14:15"
 end: "14:50"
 outputs:

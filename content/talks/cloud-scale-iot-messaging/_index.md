@@ -3,6 +3,7 @@ title: "Cloud scale IoT messaging"
 description: "Meet Eclipse Hono, a cloud-based IoT connectivity platform."
 day: "18"
 track: "B"
+weight: 1415
 start: "14:15"
 end: "14:50"
 outputs:

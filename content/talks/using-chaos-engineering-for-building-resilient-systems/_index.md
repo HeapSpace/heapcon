@@ -4,6 +4,7 @@ description: "Chaos Engineering takes the complexity of a distributed system and
 day: "18"
 track: "A"
 start: "9:00"
+weight: 900
 end: "9:55"
 outputs:
 - html

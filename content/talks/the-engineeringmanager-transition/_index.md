@@ -3,6 +3,7 @@ title: "The Engineering-Manager Transition"
 description: "Tactics for using an engineer's natural pattern-matching skills within a framework for dealing with the situationally complex problems that arise within growing modern technical teams."
 day: "19"
 track: "A"
+weight: 900
 start: "9:00"
 end: "9:55"
 outputs:

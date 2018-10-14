@@ -3,6 +3,7 @@ title: "A year of mob programming - tips and tricks"
 description: "We've learned to master this way of working the hard way, by continuously improving on our processes."
 day: "19"
 track: "B"
+weight: 1415
 start: "14:15"
 end: "14:50"
 outputs:
