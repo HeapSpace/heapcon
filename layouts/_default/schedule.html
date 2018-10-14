@@ -142,7 +142,8 @@ input:checked + label {
 	<div class="s-break">Registration &amp; Breakfast</div>
 
 	<div class="s-time">8:30 - 9:00</div>
-	<div class="s-break">Conference opening</div>
+      {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "8:30") }}
+      <div>&nbsp;</div>
 
     <div class="s-time">9:00 - 9:55</div>
 
