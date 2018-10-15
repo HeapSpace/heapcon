@@ -133,10 +133,10 @@ input:checked + label {
   <section id="content1">
   	<div class="s-talks">
 	  	<div>
-	  		<h2 class="red">{{ .Site.Data.Room.A }} Room</h2>
+	  		<h2 class="red">{{ .Site.Data.Room.A }}&nbsp;Room</h2>
 	  	</div>
 	  	<div>
-	  		<h2 class="blue">{{ .Site.Data.Room.B }} Room</h2>
+	  		<h2 class="blue">{{ .Site.Data.Room.B }}&nbsp;Room</h2>
 	  	</div>
 
   <div class="s-time">7:30 - 8:30</div>
@@ -166,7 +166,7 @@ input:checked + label {
 	    {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "18" "start" "11:45") }}
 	    {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "18" "start" "11:45") }}
 
-	  <div class="s-time">12:30 - 13:30</div>
+	  <div class="s-time">12:30 - 14:15</div>
 
 	    <div class="s-break">Lunch</div>
 
@@ -219,10 +219,10 @@ input:checked + label {
   <section id="content2">
   	<div class="s-talks">
       <div>
-        <h2 class="red">{{ .Site.Data.Room.A }} Room</h2>
+        <h2 class="red">{{ .Site.Data.Room.A }}&nbsp;Room</h2>
       </div>
       <div>
-        <h2 class="blue">{{ .Site.Data.Room.B }} Room</h2>
+        <h2 class="blue">{{ .Site.Data.Room.B }}&nbsp;Room</h2>
       </div>
 
         <div class="s-time">8:00 - 9:00</div>
@@ -253,7 +253,7 @@ input:checked + label {
       {{ partial "s-slot" (dict "talks" $talks "track" "A" "day" "19" "start" "12:10") }}
       {{ partial "s-slot" (dict "talks" $talks "track" "B" "day" "19" "start" "12:10") }}
 
-    <div class="s-time">12:35 - 13:30</div>
+    <div class="s-time">12:35 - 14:15</div>
 
       <div class="s-break">Lunch</div>
 
