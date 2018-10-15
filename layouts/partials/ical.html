@@ -10,7 +10,7 @@
     <li><a href="https://calendar.yahoo.com/?v=60&TITLE={{ .event.title }}&DESC={{ .event.description }}&URL=&in_loc={{ range $index, $value := .site.Data.Room }}{{ if (eq $index $t) }}{{ . }}{{ end }}{{ end }} Room | Belexpocenter, Španskih boraca 74, Belgrade, Serbia&ST=201810{{ .event.day }}T{{ replace (replace .event.start "9:" "09:") ":" "" }}00&ET=201810{{ .event.day }}T{{ replace (replace .event.end "9:" "09:") ":" "" }}00" target="_blank" rel="nofollow">Yahoo Calendar</a></li>
 </ul>
 <a href="{{ .link }}event.ics" class="ics" title="Add to calendar" id="event-{{ $id }}">
-<svg class="ical"><use xlink:href="#ical"></use></svg>
+<svg class="ical ical-{{.event.track}}"><use xlink:href="#ical"></use></svg>
 </a>
 <script>
 $(function() {

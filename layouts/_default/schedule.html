@@ -114,19 +114,17 @@ input:checked + label {
     padding: 20px;
   }
 }
-
 </style>
 {{ end }}
-
 
 {{ define "main" }}
 {{ $talks := (where .Site.Pages "Section" "talks") }}
 {{ $url := urls.Parse .Site.BaseURL }}
 
 <nav>
+
   <input id="tab1" type="radio" name="tabs" checked>
   <label for="tab1"><h4>Day 1</h4></label>
-
   <input id="tab2" type="radio" name="tabs">
   <label for="tab2"><h4>Day 2</h4></label>
 
@@ -211,10 +209,6 @@ input:checked + label {
 
 	  </div>
   </section>
-
-
-
-
 
   <section id="content2">
   	<div class="s-talks">
