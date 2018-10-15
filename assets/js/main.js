@@ -34,7 +34,7 @@ function canvasOrientation(canvas) {
 
 function colorMyBody(color) {
 	$("body").css("backgroundColor", color);
-	$("header").css("backgroundColor", color);
+//	$("header").css("backgroundColor", color);
 }
 
 ////---- COLORS
@@ -60,10 +60,10 @@ async function applyRandomBackgroundColor() {
     	await sleep(1);
     }
     stylesheet.cssRules[0].style.backgroundColor = color;
-	while (stylesheet.cssRules[1].style === undefined) {
-    	await sleep(1);
-    }
-	stylesheet.cssRules[1].style.backgroundColor = color;
+	//while (stylesheet.cssRules[1].style === undefined) {
+    	//await sleep(1);
+    //}
+	//stylesheet.cssRules[1].style.backgroundColor = color;
 }
 
 
@@ -80,7 +80,7 @@ function jQueryInitNonHomePage() {
 }
 
 let scrollDirectionA = 1;
-let headerHidden = false;
+let headerHidden = true;
 let scrollUp = false;
 function jQueryInitAllPages() {
 	$(".checkbox-toggle").each(function () {
@@ -232,24 +232,24 @@ function jQueryInitAllPages() {
 		}
 
 		if(height < lastScrollPosition){
-			if(headerHidden){
-				$("header").fadeIn("slow");
-			}
-			headerHidden = false;
+//			if(headerHidden){
+				//$("header").fadeIn("slow");
+//			}
+//			headerHidden = false;
 			scrollDirectionA = 1;
 		}
 		else {
 			if (scrollDirectionA === 1) {
 				if (height > colorThreshold + 100) {
-					$("header").fadeOut("slow");
-					headerHidden = true;
+//					$("header").fadeOut("slow");
+//					headerHidden = true;
 					scrollDirectionA = 2;
 				}
 			}
 			else {
 				if (height < colorThreshold - 100) {
-					$("header").fadeIn("slow");
-					headerHidden = false;
+//					$("header").fadeIn("slow");
+//					headerHidden = false;
 					scrollDirectionA = 1;
 				}
 			}
