@@ -7,4 +7,4 @@ talks:
   - conference-opening
 ---
 
-Jovana is a member of Heapspace community. Her professional experiences encompasses contemporary art gallery management, work in digital advertising agencies and creation of communication strategies in ICT sector. She is engaged in numerous project concerning decentralization of culture and support to entrepreneurship development.
+Jovana is a member of Heapspace community. Her professional experience encompasses contemporary art gallery management, work in digital advertising agencies and the creation of communication strategies in the ICT sector. She is engaged in numerous projects concerning decentralization of culture and support for entrepreneurship development.
