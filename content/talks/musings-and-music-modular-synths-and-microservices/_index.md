@@ -2,7 +2,7 @@
 title: "Musings and Music: Modular Synths and Microservices"
 description: "A musical and architectural exploration in design, creativity, and emerging standards in a chaotic world."
 day: "18"
-track: "B"
+track: "A"
 weight: 1735
 start: "17:35"
 end: "18:10"

@@ -2,7 +2,7 @@
 title: "Use of JHipster in building next-gen Devops intelligence"
 description: "Experience of using JHipster in building the newest DevOps product from XebiaLabs."
 day: "18"
-track: "A"
+track: "B"
 weight: 1735
 start: "17:35"
 end: "18:10"
