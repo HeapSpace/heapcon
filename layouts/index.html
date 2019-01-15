@@ -69,77 +69,7 @@ $(function() {
 	Heapcon is a regional tech <img src="/images/hc1.png" id="hc1"> conference
 	for software <img src="/images/hc2.png" id="hc2"> engineers and tech business,
 	<img src="/images/hc3.png" id="hc3"> taking place in <img src="/images/hc4.png" id="hc4">
-	Belgrade on October 18th and 19th. <img src="/images/hc5.png" id="hc5">
+	Belgrade on October 3th and 4th. <img src="/images/hc5.png" id="hc5">
 </p>
-
-{{/*  <div class="decor decor-programme">
-	<img id="home-fun01" src="/images/fun01.gif">
-	<img id="home-fun12" src="/images/fun09.gif">
-</div>  */}}
-
-{{/*  <section id="programme">
-	<h1><a href="/schedule">Programme</a></h1>
-</section>
-
-<p class="zoom">
-two days ● two tracks ● speakers from Google, IBM, Microsoft, Oracle, Product Hunt ● topics: microservices, devops, mobile, cloud, serverless ● meet and greet companies from the region ● network with heapcon speakers ● enjoy the ride
-</p>  */}}
-
-{{/*  <div class="decor decor-speakers">
-	<img id="home-fun06" src="/images/fun06.gif">
-	<img id="home-fun14" src="/images/fun14.gif">
-	<img id="home-fun25" src="/images/fun25.gif">
-</div>  */}}
-
-{{/*  <section id="speakers">
-
-	<h1><a href="/speakers">Speakers</a></h1>
-	<div class="grid42">
-
-		{{ $speakers := (where .Site.Pages "Section" "speakers") }}
-		{{ range ($speakers.ByWeight.Reverse) }}
-		{{ if (ne .Title "Speakers") }}
-		{{ if (ge (int .Params.Weight) 10) }}
-		{{ partial "speaker-box" . }}
-		{{ end }}
-		{{ end }}
-		{{ end }}
-	</div>
-	<a href="/speakers" class="all">See all speakers</a>
-</section>  */}}
-
-{{/*  <div class="decor decor-sponsors">
-	<img id="home-fun08" src="/images/fun08.png">
-	<img id="home-fun27" src="/images/fun27.gif">
-	<img id="home-fun26" src="/images/fun26.gif"> <!-- <img id="home-fun26" src="/images/fun26.gif" data-fn="3"> -->
-</div>  */}}
-
-
-{{/*  <section id="sponsors">
-	<h1><a href="/sponsors">Sponsors</a></h1>
-
-	<div class="grid42">
-		{{ partial "sponsor" (dict "n" "fis" "l" "https://www.fisglobal.com/") }}
-		{{ partial "sponsor" (dict "n" "interventure" "l" "http://www.interventure.info/") }}
-		{{ partial "sponsor" (dict "n" "endava" "l" "http://www.endava.com/en") }}
-		{{ partial "sponsor" (dict "n" "telegroup" "l" "https://www.telegroup-ltd.com/") }}
-		{{ partial "sponsor" (dict "n" "tomtom" "l" "https://www.tomtom.com/") }}
-		{{ partial "sponsor" (dict "n" "nutanix" "l" "https://www.nutanix.com/") }}
-		{{ partial "sponsor" (dict "n" "callidiuscloud" "l" "https://www.calliduscloud.com/") }}
-	</div>
-
-	<a href="/sponsors" class="all">See all sponsors</a>
-</section>  */}}
-
-<div class="decor decor-footer">
-	<img id="home-fun06-1" src="/images/fun06.gif">
-	<img id="home-fun07" src="/images/fun07.png">
-	<img id="home-fun08-1" src="/images/fun08.png">
-	<img id="home-fun09" src="/images/fun09.gif">
-	{{/*  <img id="home-fun21" src="/images/fun21.png">  */}}
-	<img id="home-fun03" src="/images/fun03.png" data-fn="2">
-	<img id="home-fun28" src="/images/fun28.gif">
-	{{/*  <img id="home-fun28-1" src="/images/fun28.png">  */}}
-</div>
 
 {{ end }}
