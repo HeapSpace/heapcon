@@ -1,1 +1,0 @@
-function fun1(w,x,y){x=x+(30*Math.sin(y/80));return{x:x,y:y};}
