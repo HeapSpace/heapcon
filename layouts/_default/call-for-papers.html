@@ -1,0 +1,63 @@
+{{ define "style" }}
+<style>
+    body {
+        background-color: #23201f;
+        margin-top: 130px;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    #description {
+        padding: 4em 0;
+    }
+
+    #more ul {
+        list-style: disc;
+    }
+
+    #more ul li {
+        margin-left: 2em;
+        line-height: 1.5em;
+    }
+
+    #note {
+        margin-top: 2em;
+        font-size: 0.6em;
+        line-height: 1.6em;
+    }
+
+    .red {
+        font-size: 2em;
+        color: #fd4000;
+    }
+</style>
+{{ end }}
+
+{{ define "main" }}
+
+<p class="zoom">Heapcon brings world renowned speakers to the Balkans, but it aims to showcase regional expertise too.
+</p>
+
+<div id="more">
+    <div>Why apply?
+        <ul>
+            <li>Share your knowledge, your story.</li>
+            <li>Be a part of a community conference frequented by approx. 800 software engineers and tech enthusiasts.</li>
+            <li>Feel the Balkan hospitality.</li>
+        </ul>
+
+        {{/*  <div id="note">
+            <span class="red">*</span> Note for companies who are interested in buying tickets:
+            Heapspace can provide an invoice outside of our ticketing system which complies with this <a
+                href="Invoice%20payments%20procedure.pdf">procedure</a>.
+            Please read it carefully. Feel free to contact <a href="mailto:vesna@heapspace.rs">vesna@heapspace.rs</a>
+            for more information.
+        </div>  */}}
+    </div>
+</div>
+
+{{ partial "typeform" }}
+
+{{ end }}
