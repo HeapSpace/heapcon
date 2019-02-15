@@ -13,7 +13,15 @@
 	}
 }
 
+.typeform-widget {
+	width: 100%;
+	height: 900px;
+}
 @media screen and (max-width: 768px) {
+	.typeform-widget {
+		height: 500px;
+	}
+
 	body {
 		font-size: 0.9em;
 	}
@@ -82,6 +90,7 @@
 			font-size: 1em;
 		}
 	}
+
 
 
 	/* Added by Misa */
