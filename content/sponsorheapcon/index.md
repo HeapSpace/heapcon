@@ -47,7 +47,7 @@ Heapspace activities and previous conferences were supported by:
 // Please view this content on desktop screens
 ## &nbsp;
 
-&nbsp;                     | DIAMOND (x1) | PLATINUM (x2) | GOLD (x6) | SILVER (x8) | BRONZE (x8) | VIRTUAL
+&nbsp;                     | DIAMOND<br> (x1) | PLATINUM<br> (x2) | GOLD<br> (x6) | SILVER<br> (x8) | BRONZE<br> (x8) | VIRTUAL
 ---------------------------|--------------|---------------|-----------|-------------|-------------|---------
 HS partners for a year     | ✅           |               |           |             |             |
 Conference session         | ✅           | ✅           | ✅        |             |             |
