@@ -44,6 +44,8 @@ Heapspace activities and previous conferences were supported by:
 {{% section black %}}
 # Sponsorship packages
 
+// Please view this content on desktop screens
+## &nbsp;
 
 &nbsp;                     | DIAMOND (x1) | PLATINUM (x2) | GOLD (x6) | SILVER (x8) | BRONZE (x8) | VIRTUAL
 ---------------------------|--------------|---------------|-----------|-------------|-------------|---------
@@ -90,6 +92,9 @@ All coffee cup during Heapcon will have your branding.
 
 ### Speakers’ dinner sponsor : €1,500
 This is a cool way to mingle with all conference speakers.
+
+## &nbsp;
+// Prices don’t include VAT
 
 {{% /section %}}
 {{% section black %}}
