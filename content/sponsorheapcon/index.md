@@ -51,13 +51,13 @@ HS partners for a year     | ✅           |               |           |        
 Conference session         | ✅           | ✅           | ✅        |             |             |
 Welcome bag insert         | ✅           | ✅           | ✅        | ✅          | ✅          |
 Logo on logo wall          | ✅           | ✅            | ✅       | ✅          | ✅          |
-Exhibition booth           | XL (24sqm)   | L (12sqm)      | M (6sqm) | M (4sqm)     | S (2sqm)    |
+Exhibition booth           | XL<br>(24sqm)   | L<br> (12sqm)      | M<br> (6sqm) | M<br> (4sqm)     | S<br> (2sqm)    |
 Logo on the website        | ✅           | ✅            | ✅        | ✅          | ✅         | ✅
 Free tickets               | 10           | 8              | 4         | 3           | 1           | 1
 Booth staff tickets        | 6            | 4              | 4         | 2           | 1           |
-Ticket discount in %       | 15           | 15             | 15        | 10          | 10          | 10
+Ticket discount<br> in %   | 15           | 15             | 15        | 10          | 10          | 10
 Booth                      | ✅           | ✅            | ✅        | ✅          | ✅         |
-Price (in EUR ex. VAT)     | 16k          | 12k            | 7k        | 5k          | 3k          | 1.5k
+Price<br> (in EUR ex. VAT) | 16k          | 12k            | 7k        | 5k          | 3k          | 1.5k
 
 {{% /section %}}
 {{% section beige %}}
