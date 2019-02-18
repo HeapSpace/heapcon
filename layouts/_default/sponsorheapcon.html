@@ -1,0 +1,26 @@
+{{ define "style" }}
+<style>
+body {background-color: #231f20;} header {background-color: #231f20;}
+.content-wrap .content-wrap {
+	font-size: 1em;
+	padding: 2em 0 4em 0;
+}
+.bg-beige {
+	color: #231f20;
+}
+.content-wrap li {
+	margin: 1em 0;
+	list-style: disc;
+}
+table {
+	font-size: 0.7em;
+}
+td {
+	padding: 20px 10px;
+}
+tr:nth-child(even) {background-color: #000;}
+</style>
+{{ end }}
+{{ define "main" }}
+{{ .Content }}
+{{ end }}

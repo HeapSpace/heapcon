@@ -1,0 +1,4 @@
+{{ $bgimg := (index .Params 0) }}
+<div class="grid bg-black" style="background-image: url({{ $bgimg }});background-position: center; background-repeat: no-repeat; background-size: cover;"><div class="content-wrap">
+{{ .Inner }}
+</div></div>
