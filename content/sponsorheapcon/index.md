@@ -5,7 +5,7 @@ layout: "sponsorheapcon"
 
 {{% section red %}}
 
-# Heapcon 2019.
+# Heapcon
 ## October 3rd—4th, 2019.
 ## Belgrade, Serbia
 
@@ -15,7 +15,7 @@ layout: "sponsorheapcon"
 
 ## &nbsp;
 
-Heapcon is a regional tech conference for software engineers and technology enthusiasts.
+Heapcon is a regional tech conference for software engineers and technology enthusiast, organized by [Heapspace](https://heapspace.rs).
 
 Heapcon is created by a group of professionals from multidisciplinary fields, including: software engineering, project management, marketing, communications and publishing. The conference puts 14 years of IT event management into practice.
 
