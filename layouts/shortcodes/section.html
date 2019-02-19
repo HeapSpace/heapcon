@@ -1,4 +1,4 @@
 {{ $bgcolor := (index .Params 0) }}
-<div class="bg-{{ $bgcolor }}" style="padding: 2em 1em;">
+<div class="grid bg-{{ $bgcolor }}"><div class="content-wrap">
 {{ .Inner }}
-</div>
+</div></div>

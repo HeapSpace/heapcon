@@ -1,26 +1,30 @@
 {{ define "style" }}
 <style>
-body {background-color: #231f20;} header {background-color: #231f20;}
-.content-wrap .content-wrap {
-	font-size: 1em;
+body {background-color: #fd4000;} header {background-color: #231f20;}
+.content-wrap {
 	padding: 2em 0 4em 0;
 }
 .bg-beige {
 	color: #231f20;
+}
+.content-wrap ul {
+	margin-left: 1em;
 }
 .content-wrap li {
 	margin: 1em 0;
 	list-style: disc;
 }
 table {
-	font-size: 0.65em;
+	font-size: 0.8em;
 }
 td {
 	padding: 20px 10px;
 	text-align: center;
 	vertical-align: middle;
+	border-bottom: 1px dotted #fef4e1;
 }
-tr:nth-child(even) {background-color: #000;}
+tr:nth-child(even) {}
+tr td:first-child{ text-align: left; }
 </style>
 {{ end }}
 {{ define "main" }}

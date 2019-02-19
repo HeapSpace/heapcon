@@ -3,16 +3,17 @@ title: "Sponsor Heapcon"
 layout: "sponsorheapcon"
 ---
 
-{{% section black %}}
+{{% section red %}}
 
-# heapcon
+# Heapcon 2019.
 ## October 3rd—4th, 2019.
 ## Belgrade, Serbia
 
 {{% /section %}}
 
-
 {{% section beige %}}
+
+## &nbsp;
 
 Heapcon is a regional tech conference for software engineers and technology enthusiasts.
 
@@ -21,19 +22,21 @@ Heapcon is created by a group of professionals from multidisciplinary fields, in
 {{% /section %}}
 
 
-{{% section black %}}
+{{% section red %}}
 
 # About Heapcon&nbsp;2019.
 
-+ Venue: Kombank dvorana
++ Venue: [Kombank dvorana](http://kombankdvorana.rs), Belgrade, Serbia
++ Timeline: October 3rd—4th, 2019.
 + Duration: 2 days
 + Formats of knowledge exchange: talks, unconference, workshops and roundtables
 + Audience: 800+ software engineers and tech experts
 
 {{% /section %}}
 
-
 {{% section beige %}}
+
+## &nbsp;
 
 Heapspace activities and previous conferences were supported by:
 
@@ -41,30 +44,30 @@ Heapspace activities and previous conferences were supported by:
 
 {{% /section %}}
 
-{{% section black %}}
+{{% section red %}}
 # Sponsorship packages
 
-// Please view this content on desktop screens
+// Please view on desktop screens
 ## &nbsp;
 
-&nbsp;                     | DIAMOND<br> (x1) | PLATINUM<br> (x2) | GOLD<br> (x6) | SILVER<br> (x8) | BRONZE<br> (x8) | VIRTUAL
+&nbsp;                     | DIAMOND<br> (x1) | PLATINUM<br> (x2) | GOLD<br>      | SILVER<br>     | BRONZE<br>  | VIRTUAL
 ---------------------------|--------------|---------------|-----------|-------------|-------------|---------
-HS partners for a year     | ✅           |               |           |             |             |
-Conference session         | ✅           | ✅           | ✅        |             |             |
-Welcome bag insert         | ✅           | ✅           | ✅        | ✅          | ✅          |
-Logo on logo wall          | ✅           | ✅            | ✅       | ✅          | ✅          |
+HS partners for a year     | ✓           |               |           |             |             |
+Conference session         | ✓           | ✓           | ✓          |             |             |
+Welcome bag insert         | ✓           | ✓           | ✓          | ✓          | ✓           |
+Logo on logo wall          | ✓           | ✓            | ✓         | ✓          | ✓           |
 Exhibition booth           | XL<br>(24sqm)   | L<br> (12sqm)      | M<br> (6sqm) | M<br> (4sqm)     | S<br> (2sqm)    |
-Logo on the website        | ✅           | ✅            | ✅        | ✅          | ✅         | ✅
+Logo on the website        | ✓           | ✓               | ✓        | ✓          | ✓           | ✓
 Free tickets               | 10           | 8              | 4         | 3           | 1           | 1
 Booth staff tickets        | 6            | 4              | 4         | 2           | 1           |
 Ticket discount<br> in %   | 15           | 15             | 15        | 10          | 10          | 10
-Booth                      | ✅           | ✅            | ✅        | ✅          | ✅         |
+Booth                      | ✓           | ✓              | ✓         | ✓          | ✓         |
 Price<br> (in EUR ex. VAT) | 16k          | 12k            | 7k        | 5k          | 3k          | 1.5k
 
 {{% /section %}}
 {{% section beige %}}
 
-# heapcon a la carte
+# Heapcon a la carte
 
 ### Track sponsor (x2) : €3,000
 You can brand one conference track in the venue. Branding of the live stream on YouTube is included.
@@ -94,10 +97,10 @@ All coffee cup during Heapcon will have your branding.
 This is a cool way to mingle with all conference speakers.
 
 ## &nbsp;
-// Prices don’t include VAT
+// \*Prices don’t include VAT
 
 {{% /section %}}
-{{% section black %}}
+{{% section red %}}
 
 # Sponsorship package details
 
