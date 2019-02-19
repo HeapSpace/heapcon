@@ -24,7 +24,7 @@ Heapcon is created by a group of professionals from multidisciplinary fields, in
 
 {{% section red %}}
 
-# About Heapcon&nbsp;2019.
+# About Heapcon 2019.
 
 + Venue: [Kombank dvorana](http://kombankdvorana.rs), Belgrade, Serbia
 + Timeline: October 3rd—4th, 2019.
