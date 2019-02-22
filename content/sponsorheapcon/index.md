@@ -53,6 +53,7 @@ Heapspace activities and previous conferences were supported by:
 &nbsp;                     | DIAMOND<br> (x1) | PLATINUM<br> (x2) | GOLD<br>      | SILVER<br>     | BRONZE<br>  | VIRTUAL
 ---------------------------|--------------|---------------|-----------|-------------|-------------|---------
 HS partners for a year     | ✓           |               |           |             |             |
+Roundtable moderator       | ✓           | ✓            |            |             |             |
 Conference session         | ✓           | ✓           | ✓          |             |             |
 Welcome bag insert         | ✓           | ✓           | ✓          | ✓          | ✓           |
 Logo on logo wall          | ✓           | ✓            | ✓         | ✓          | ✓           |
