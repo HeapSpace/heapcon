@@ -40,7 +40,7 @@ Heapcon is created by a group of professionals from multidisciplinary fields, in
 
 Heapspace activities and previous conferences were supported by:
 
-![](wall.png)
+{{% wall %}}
 
 {{% /section %}}
 
