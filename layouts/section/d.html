@@ -1,0 +1,23 @@
+{{ define "head" }}
+<script type="text/javascript">
+$(function() {
+	$("#btn").click(function() {
+		const code = $("#txt").val();
+		$.get(
+			"/.netlify/functions/build?code=" + code,
+			function(data) {alert(data);});
+	});
+});
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<div style="text-align: center">
+	{{ .Content }}
+
+	<input id="txt" type="text" placeholder="Enter the build code" style="margin: 40px 0; border: 1px solid #666; padding: 4px; width: 50%;"><br>
+	<button id="btn" style="width: 50%; height: 100px; color: #ff0000; background-color: #333; font-weight: bold;">DEPLOY!</button>
+</div>
+
+{{ end }}
