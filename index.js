@@ -1,4 +1,4 @@
-const util = require("./fns/util");
+const util = require("./scripts/util");
 
 const SPEAKERS_DIR_PATH = "content/speakers";
 const TALKS_DIR_PATH = "content/talks";
