@@ -1,5 +1,8 @@
 # Redirect domain aliases to primary domain
 https://heapcon.dev/* https://heapcon.io/:splat 301!
 
+# Redirect video to youtube
+/video https://www.youtube.com/watch?v=-NYgEcjQsQ0 301
+
 # Optional: Redirect default Netlify subdomain to primary domain
 https://heapcon.netlify.com/* https://heapcon.io/:splat 301!
