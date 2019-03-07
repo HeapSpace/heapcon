@@ -18,6 +18,7 @@ function fetchAll(callback) {
         .then(() => fd.fetch('2019'))
         .then(() => {
             console.log("\nFetching AirTables done.\n");
+            // TODO: generate README files for speakers and talks
             // callback();
         })
         .catch(err => {
