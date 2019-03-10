@@ -1,5 +1,5 @@
 ---
-title: "Sponsor Heapcon"
+title: "Partner with Heapcon"
 layout: "sponsorheapcon"
 ---
 
@@ -45,7 +45,7 @@ Heapspace activities and previous conferences were supported by:
 {{% /section %}}
 
 {{% section red %}}
-# Sponsorship packages
+# Partner packages
 
 // Please view on desktop screens
 ## &nbsp;

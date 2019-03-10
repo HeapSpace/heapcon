@@ -1,6 +1,6 @@
 ---
-title: Sponsors
+title: Partners
 layout: "sponsors"
 ---
 
-# Sponsors
+# Partners
