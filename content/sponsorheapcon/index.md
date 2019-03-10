@@ -1,5 +1,5 @@
 ---
-title: "Partner with Heapcon"
+title: "Sponsor Heapcon"
 layout: "sponsorheapcon"
 ---
 
