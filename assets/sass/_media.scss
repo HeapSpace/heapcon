@@ -30,6 +30,11 @@
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 20px;
 	}
+	.grid22 {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+	}
 	.outer-menu .menu div div {
 		width: 50%;
 	}
@@ -136,6 +141,13 @@
 	}
 	.content-wrap .zoom#hcis{
 		font-size: 2.4em;
+	}
+	.committee {
+		padding: 1em;
+	}
+	.committee h2 {
+		font-size: 1.5em;
+		line-height: 1em;
 	}
 
 	.committee .speaker img{
