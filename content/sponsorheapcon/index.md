@@ -6,7 +6,7 @@ layout: "sponsorheapcon"
 {{% section red %}}
 
 # Heapcon
-## October 3rd—4th, 2019.
+## September 26th—27th, 2019.
 ## Belgrade, Serbia
 
 {{% /section %}}
@@ -26,11 +26,11 @@ Heapcon is created by a group of professionals from multidisciplinary fields, in
 
 # About Heapcon 2019.
 
-+ Venue: [Kombank dvorana](http://kombankdvorana.rs), Belgrade, Serbia
-+ Timeline: October 3rd—4th, 2019.
++ Venue: [Dom Omladine Beograd](http://domomladine.org), Belgrade, Serbia
++ Timeline: September 26th—27th, 2019.
 + Duration: 2 days
 + Formats of knowledge exchange: talks, unconference, workshops and roundtables
-+ Audience: 800+ software engineers and tech experts
++ Audience: 600+ software engineers and tech experts
 
 {{% /section %}}
 
