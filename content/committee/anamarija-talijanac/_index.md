@@ -1,5 +1,5 @@
 ---
-title: "Anamarija Medić"
+title: "Anamarija Talijanac"
 layout: "committee-person"
 ---
 
