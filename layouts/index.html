@@ -78,5 +78,22 @@
   aspirations to create one event showing the regional expertise in IT, entrepreneurship and digital art.
 </p>
 
+<section id="speakers">
+
+  <h1><a href="/speakers">Speakers</a></h1>
+  <div class="grid42">
+
+    {{ $speakers := (where .Site.Pages "Section" "speakers") }}
+    {{ range ($speakers.ByWeight.Reverse) }}
+    {{ if (ne .Title "Speakers") }}
+    {{ if (ge (int .Params.Weight) 10) }}
+    {{ partial "speaker-box" . }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+  <a href="/speakers" class="all">See all speakers</a>
+</section>
+
 
 {{ end }}
