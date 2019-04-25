@@ -54,9 +54,6 @@
     #sponsors {
       margin: 4em 0 4em 0;
     }
-
-
-
   }
 </style>
 {{ end }}
@@ -64,8 +61,8 @@
 {{ define "main" }}
 
 <script>
-  $(function () {
-    $("#ji" + Math.floor((Math.random() * 3) + 1)).show();
+  $(function() {
+    $("#ji" + Math.floor(Math.random() * 3 + 1)).show();
   });
 </script>
 
@@ -74,26 +71,22 @@
 </p>
 
 <p id="hcis" class="zoom">
-  Heapcon is a regional tech conference for software engineers and tech businesses. It represents a continuation of
-  aspirations to create one event showing the regional expertise in IT, entrepreneurship and digital art.
+  Heapcon is a regional tech conference for software engineers and tech
+  businesses. It represents a continuation of aspirations to create one event
+  showing the regional expertise in IT, entrepreneurship and digital art.
 </p>
 
 <section id="speakers">
-
   <h1><a href="/speakers">Speakers</a></h1>
   <div class="grid42">
-
-    {{ $speakers := (where .Site.Pages "Section" "speakers") }}
-    {{ range ($speakers.ByWeight.Reverse) }}
+    {{ $speakers := (where .Pages "Section" "speakers") }}
+    {{ range($speakers.ByWeight.Reverse) }}
     {{ if (ne .Title "Speakers") }}
-    {{ if (ge (int .Params.Weight) 10) }}
     {{ partial "speaker-box" . }}
-    {{ end }}
     {{ end }}
     {{ end }}
   </div>
   <a href="/speakers" class="all">See all speakers</a>
 </section>
-
 
 {{ end }}
