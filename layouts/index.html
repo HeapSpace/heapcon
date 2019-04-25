@@ -1,78 +1,92 @@
 {{ define "style" }}
 <style>
-h1 {
-	text-align: center;
-}
-main {
-	margin-top: 0;
-}
-#ji1, #ji2, #ji3 {
-	display: none;
-}
-#ji {
-	margin-bottom: 1em;
-}
-#sponsors {
-  margin: 4em 0 10em 0;
   h1 {
+    text-align: center;
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+  #ji1,
+  #ji2,
+  #ji3 {
+    display: none;
+  }
+
+  #ji {
     margin-bottom: 1em;
   }
-  .all {
-    margin-top: 1em;
-  }
-}
-#speakers {
-  margin: 4em 0;
-  h1 {
-    margin-bottom: 1em;
-  }
-  .all {
-    margin-top: 1em;
-  }
-}
-#programme {
-  margin: 4em 0;
-  .all {
-    margin-top: 1em;
-  }
-}
-@media screen and (max-width: 600px) {
-#sponsors {
-  margin: 4em 0 4em 0;
-}
 
+  #sponsors {
+    margin: 4em 0 10em 0;
 
+    h1 {
+      margin-bottom: 1em;
+    }
 
-}
+    .all {
+      margin-top: 1em;
+    }
+  }
+
+  #speakers {
+    margin: 4em 0;
+
+    h1 {
+      margin-bottom: 1em;
+    }
+
+    .all {
+      margin-top: 1em;
+    }
+  }
+
+  #programme {
+    margin: 4em 0;
+
+    .all {
+      margin-top: 1em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #sponsors {
+      margin: 4em 0 4em 0;
+    }
+  }
 </style>
 {{ end }}
 
 {{ define "main" }}
 
 <script>
-$(function() {
-	$("#ji" + Math.floor((Math.random() * 3) + 1)).show();
-});
+  $(function() {
+    $("#ji" + Math.floor(Math.random() * 3 + 1)).show();
+  });
 </script>
 
-{{/*  <div class="zoom" id="ji">
-	<a href="/about">
-		<span id="ji1">Is your code<br>art or plain text?</span>
-		<span id="ji2">Are you<br>a maker or a code monkey?</span>
-		<span id="ji3">Do you believe<br>in science or unicorns?</span>
-	</a>
-</div>  */}}
-{{/*  <p id="hcis" class="zoom">
-  regional tech conference <img src="/images/hc1.png" id="hc1"><br />
-  october 3rd – 4th, 2019<br />
-  belgrade, serbia <img src="/images/hc4.png" id="hc4"><br />
-</p>  */}}
 <p style="text-align: center; margin-bottom: 2em;">
   tech conference • autumn 2019 • belgrade
 </p>
 
-<p style="color: #fd4000; text-align: center; font-size: 1.4em;">heapcon is calling for speakers!</p>
-<h3 style="text-align: center"><a href="/call-for-papers">share the knowledge</a></h3>
+<p id="hcis" class="zoom">
+  Heapcon is a regional tech conference for software engineers and tech
+  businesses. It represents a continuation of aspirations to create one event
+  showing the regional expertise in IT, entrepreneurship and digital art.
+</p>
 
+<section id="speakers">
+  <h1><a href="/speakers">Speakers</a></h1>
+  <div class="grid42">
+    {{ $speakers := (where .Pages "Section" "speakers") }}
+    {{ range($speakers.ByWeight.Reverse) }}
+    {{ if (ne .Title "Speakers") }}
+    {{ partial "speaker-box" . }}
+    {{ end }}
+    {{ end }}
+  </div>
+  <a href="/speakers" class="all">See all speakers</a>
+</section>
 
 {{ end }}
