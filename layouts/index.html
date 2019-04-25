@@ -61,7 +61,7 @@
 {{ define "main" }}
 
 <script>
-  $(function() {
+  $(function () {
     $("#ji" + Math.floor(Math.random() * 3 + 1)).show();
   });
 </script>
@@ -80,7 +80,7 @@
   <h1><a href="/speakers">Speakers</a></h1>
   <div class="grid42">
     {{ $speakers := (where .Pages "Section" "speakers") }}
-    {{ range($speakers.ByWeight.Reverse) }}
+    {{ range($speakers.ByWeight) }}
     {{ if (ne .Title "Speakers") }}
     {{ partial "speaker-box" . }}
     {{ end }}
