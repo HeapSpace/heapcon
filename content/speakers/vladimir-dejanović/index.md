@@ -1,6 +1,6 @@
 ---
 title: "Vladimir Dejanović"
-company: "PHV"
+company: "PVH"
 job: "Senior Director of B2C Technology"
 link: "https://twitter.com/vladimird_42?lang=en"
 talks:
