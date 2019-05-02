@@ -1,7 +1,7 @@
 ---
 title: "George Mandis"
 company: "SnapTortoise"
-job: "web developer & consultant "
+job: "Web Developer & Consultant "
 link: ""
 talks:
 ---
