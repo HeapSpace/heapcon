@@ -1,18 +1,17 @@
 {{ define "main" }}
 
-	<h1>Speakers</h1>
+<h1>Speakers</h1>
 
-	<p class="zoom">
-    	We aim at getting you a great speakers lineup and to provide a space to network with people from diverse tech companies.
-  	</p>
+<p class="zoom">
+	We aim at getting you a great speakers lineup and to provide a space to network with people from diverse tech
+	companies.
+</p>
 
-	<p class="zoom">Our speakers come from some of the largest tech companies and some less recognized dev shops that are pushing the boundaries in tech. We believe the speakers make the conference unique. Use the opportunity to meet them!
-	</p>
 
-	<div class="grid42" style="margin: 3em 0 4em 0;">
-    {{ range .Data.Pages.ByTitle }}
-       {{ partial "speaker-box" . }}
-    {{ end }}
-  	</div>
+<div class="grid42" style="margin: 3em 0 4em 0;">
+	{{ range .Data.Pages.ByTitle }}
+	{{ partial "speaker-box" . }}
+	{{ end }}
+</div>
 
 {{ end }}
