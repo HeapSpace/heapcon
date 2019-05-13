@@ -68,7 +68,7 @@ async function applyRandomBackgroundColor() {
 
 
 let scrollDirection = 1;
-let colorThreshold = 500;
+let colorThreshold = 200;
 let footerColorThreshold = 10000;
 let nonHome = false;
 $(window).on("load", function() {
@@ -83,11 +83,11 @@ let scrollDirectionA = 1;
 let headerHidden = false;
 let scrollUp = false;
 function jQueryInitAllPages() {
-	$(".checkbox-toggle").each(function () {
-		if(this.checked) {
-			$(this).click();
-		}
-	});
+	// $(".checkbox-toggle").each(function () {
+	// 	if(this.checked) {
+	// 		$(this).click();
+	// 	}
+	// });
 	$.fn.scrollEnd = function(callback, timeout) {
 		$(this).scroll(function(){
 		  var $this = $(this);
@@ -99,55 +99,55 @@ function jQueryInitAllPages() {
 	};
 
 	// START colored header and footer
-	if ($(window).width <= 600) {
-		// detect small screens
-		colorThreshold = 200;
-		footerColorThreshold = $(document).height() - 700;
-	}
-	if($(".bg-beige").length){
-		$("footer").css('background', '#fd4000');
-	} else {
-		if(nonHome){
-			if ($(window).scrollTop() > colorThreshold && $(window).scrollTop() < footerColorThreshold) {
-				colorMyBody("#231f20");
-				scrollDirection = 2;
-			}
-		} else {
-			if ($(window).scrollTop() < footerColorThreshold) {
-				colorMyBody("#231f20");
-				scrollDirection = 2;
-			}
-		}
+	// if ($(window).width <= 600) {
+	// 	// detect small screens
+	// 	colorThreshold = 200;
+	// 	footerColorThreshold = $(document).height() - 700;
+	// }
+	// if($(".bg-beige").length){
+	// 	$("footer").css('background', '#fd4000');
+	// } else {
+	// 	if(nonHome){
+	// 		if ($(window).scrollTop() > colorThreshold && $(window).scrollTop() < footerColorThreshold) {
+	// 			colorMyBody("#231f20");
+	// 			scrollDirection = 2;
+	// 		}
+	// 	} else {
+	// 		if ($(window).scrollTop() < footerColorThreshold) {
+	// 			colorMyBody("#231f20");
+	// 			scrollDirection = 2;
+	// 		}
+	// 	}
 
-		$(window).scroll(function() {
-			const height = $(window).scrollTop();
+	// 	$(window).scroll(function() {
+	// 		const height = $(window).scrollTop();
 
-			if (scrollDirection === 1) {
-				if (nonHome && height > colorThreshold) {
-					colorMyBody("#231f20");
-					scrollDirection = 2;
-				}
-			}
-			else {
-				if (scrollDirection === 2) {
-					if (nonHome && height < colorThreshold - 100) {
-						colorMyBody(nextColor());
-						scrollDirection = 1;
-					}
-					if (height > footerColorThreshold) {
-						colorMyBody(nextColor());
-						scrollDirection = 3;
-					}
-				}
-				else {
-					if (height < footerColorThreshold) {
-						colorMyBody("#231f20");
-						scrollDirection = 2;
-					}
-				}
-			}
-		});
-	}
+	// 		if (scrollDirection === 1) {
+	// 			if (nonHome && height > colorThreshold) {
+	// 				colorMyBody("#231f20");
+	// 				scrollDirection = 2;
+	// 			}
+	// 		}
+	// 		else {
+	// 			if (scrollDirection === 2) {
+	// 				if (nonHome && height < colorThreshold - 100) {
+	// 					colorMyBody(nextColor());
+	// 					scrollDirection = 1;
+	// 				}
+	// 				if (height > footerColorThreshold) {
+	// 					colorMyBody(nextColor());
+	// 					scrollDirection = 3;
+	// 				}
+	// 			}
+	// 			else {
+	// 				if (height < footerColorThreshold) {
+	// 					colorMyBody("#231f20");
+	// 					scrollDirection = 2;
+	// 				}
+	// 			}
+	// 		}
+	// 	});
+	// }
 	// END colored header and footer
 
 	// decorations
@@ -158,7 +158,8 @@ function jQueryInitAllPages() {
 
 	// menu
 	$('.checkbox-toggle').click(function(){
-		$('.btn4').toggleClass('open');
+		$('header').toggleClass('open');
+		// $('.btn4').toggleClass('open');
 	});
 
 	// resize and orientate the flag

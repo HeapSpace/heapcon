@@ -10,7 +10,7 @@
 		{{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
         <link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
 
-        <style>body {background-color: #231f20;} header {background-color: #231f20;} </style>
+        <style>body {background-color: #fff3df;} header {background-color: #fff3df;} </style>
         {{ block "style" . }}{{ end }}
 
         {{ partial "js" . }}
@@ -39,11 +39,11 @@
 </svg>
     	{{ partial "header" }}
 
-    	{{ if .IsHome }}
+    	<!-- {{ if .IsHome }}
     		{{ partial "zastava" }}
-    	{{ end }}
+    	{{ end }} -->
 
-		<main class="grid"><div class="content-wrap">
+		<main class="grid-2019"><div class="content-wrap">
 		{{ block "main" . }}{{ end }}
 		</div></main>
 
