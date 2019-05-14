@@ -92,7 +92,7 @@ You choose the password you want to set and the name of the network.
 3D fridge branding on several locations in the venue.
 
 ### Coffee corner sponsor : €3,000
-All coffee cup during Heapcon will have your branding.
+All coffee cups during Heapcon will have your branding.
 
 ### Speakers’ dinner sponsor : €1,500
 This is a cool way to mingle with all conference speakers.
