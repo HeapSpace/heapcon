@@ -214,8 +214,8 @@ header {
 /* ---------------- */
 
 header{
-	padding: 20px 70px;
-	width: calc(100% - 140px);
+	padding: 20px 5vw;
+	width: 90vw;
 	/*position: relative;*/
 
 	h1.logo{
@@ -314,6 +314,10 @@ header{
 				margin-top: 23px;
 
 				color: $color-hs-beige;
+
+				a{
+					text-decoration: none;
+				}
 			}
 
 			.visible-menu-speakers{
@@ -374,7 +378,7 @@ header{
 					column-gap: 40px;
 
 					li{
-						display: inline-block;
+						display: block;
 						margin-bottom: 20px;
 					}
 

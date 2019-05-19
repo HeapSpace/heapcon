@@ -24,32 +24,38 @@ footer {
 
 footer{
 	margin-top: 18vw;
-	padding: 0 70px 20px 70px;
+	padding: 0 5vw 20px 5vw;
 	color: $color-hs-red;
 	text-align: left;
 
 	a{
 		color: $color-hs-red;
+
+		&:hover{
+			color: $color-hs-blue;
+			text-decoration: underline;
+		}
 	}
 
 	.columns{
 		text-align: left;
+		margin-bottom: 0;
 
 		.col{
-			.col-part-1,
-			.col-part-2{
+			&.col-top,
+			&.col-bottom{
 				height: 18vw;
 			}
 
-			.email-us{
+			&.email-us{
 				font-size: 5.5vw;
 				line-height: 5.7vw;
 			}
-			.organized-with-love{
-				width: 50%;
+			&.organized-with-love{
+				width: 20vw;
 
 				font-size: 1.6vw;
-				line-height: 1.6vw;
+				line-height: 1.4;
 				font-family: $font-main;
 				color: $color-hs-blue;
 			}
@@ -90,6 +96,10 @@ footer{
 
 		a{
 			color: $color-hs-blue;
+
+			&:hover{
+				color: $color-hs-red;
+			}
 		}
 
 		.part-left{
