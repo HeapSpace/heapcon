@@ -15,14 +15,14 @@ canvas {
 	width: 100%;
 }
 
-img.profile {
+/*img.profile {
 	width: 30%;
 	border-radius: 50%;
 	filter: grayscale(1) sepia(.2);
 	margin: 0 auto;
 	display: block;
 	margin-bottom: 100px;
-}
+}*/
 
 /*.committee{
 	img {
@@ -34,7 +34,7 @@ img.profile {
 	}
 }*/
 
-.speaker {
+/*.speaker {
 	text-align: center;
 	line-height: 0.7em;
 	margin-bottom: 2em;
@@ -54,7 +54,7 @@ img.profile {
 		transform: scale(1.1);
 		transition: all .2s ease;
 	}
-}
+}*/
 
 .speaker-info {
 	margin-top: 1em;
@@ -731,7 +731,11 @@ main{
 }
 .list{
 	margin-bottom: 15vw;
-
+	
+	a{
+		color: $color-hs-red;
+		text-decoration: none;
+	}
 	li{
 		border-bottom: 1px solid $color-hs-blue;
 		padding: 2.5vw 0;
@@ -755,6 +759,9 @@ main{
 	}
 }
 .speakers .list{
+	column-count: 2;
+	column-gap: 10vw;
+
 	.col-part-2{
 		margin-left: 10vw;
 	}
@@ -949,4 +956,107 @@ main{
 			right: 16vw;
 		}
 	}
+}
+.about{
+	.columns{
+		margin-bottom: 10vw;
+	}
+	.video{
+		width: 100%;
+		padding-top: 56.25%; /* 16:9 */
+		margin-bottom: 10vw;
+		position: relative;
+
+		iframe{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.secondary-info .col.col-l{
+		width: 64vw;
+		height: auto;
+	}
+}
+.venue{
+	.columns{
+		margin-bottom: 10vw;
+	}
+}
+.speaker.single,
+.committee-person{
+	.main-info{
+		margin-bottom: 10vw;
+	}
+	.year{
+		height: auto;
+		margin-bottom: 10vw;
+	}
+	.where{
+		width: 35vw;
+	}
+	.when{
+		float: right;
+		width: 40vw;
+	}
+
+	.about-speaker,
+	.talks,
+	.about-person{
+		margin-bottom: 10vw;
+
+		.col{
+			width: 45vw;
+		}
+		.info{
+			font-family: $font-main;
+			font-size: 1.6vw;
+			line-height: 1.6;
+		}
+	}
+	.about-speaker,
+	.about-person{
+		.col-l{
+			margin-top: 10vw;
+			width: 40vw;
+			padding-right: 5vw;
+		}
+	}
+	.image{
+		width: 100%;
+		height: 48.384710234vw;
+
+		.ellipse{
+			transform: matrix(0.6, -0.8, 0.8, 0.6, 0, 0) translate(-28.359375vw, 8.359375vw);
+		}
+	}
+	.talks{
+		position: relative;
+
+		.talk-name{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 40vw;
+			height: auto;
+
+			transform: translate(0, -50%);
+
+			.info{
+				font-family: $font-title;
+				font-size: 6.7vw;
+				line-height: 1;
+			}
+		}
+		.talk-about{
+			float: right;
+		}
+	}
+}
+img.profile{
+	/*border-radius: 50%;*/
+	clip-path: url(#svgPath);
+
 }

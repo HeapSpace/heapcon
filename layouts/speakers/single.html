@@ -1,13 +1,33 @@
 {{ define "main" }}
 
-	<h1><a href="{{ .Params.Link }}" target="_blank">{{ .Title }}</a></h1>
-	<h3>{{ .Params.Job }}<br>
-	{{ .Params.Company }}</h3>
+	<div class="speaker single">
+		<div class="main-info columns">
+			<div class="col col-l col-top wide year">
+				<div class="title">Who</div>
+				<div class="info">{{ .Title }}</div>
+			</div>
+			<div class="col col-l col-bottom where">
+				<div class="title">What</div>
+				<div class="info">{{ .Params.Job }}</div>
+			</div>
+			<div class="col col-r col-bottom when">
+				<div class="title">Where</div>
+				<div class="info">{{ .Params.Company }}</div>
+			</div>
+		</div>
 
-	<p style="margin: 4em 0">
-		<img src="profile.jpg" class="profile" style="float: right; margin: 0.1em 0 1em 1em; width: 300px;">
-	{{ .Content }}</p>
+		<div class="about-speaker columns">
+			<div class="col col-l">
+				<div class="title">About</div>
+				<div class="info">{{ .Content }}</div>
+			</div>
+			<div class="col col-r image">
+				<img src="profile.jpg" class="profile">
+				{{ partial "clip-path.html" . }}
+			</div>
+		</div>
 
-    {{ partial "talks-list.html" . }}
+    	{{ partial "talks-list.html" . }}
+	</div>
 
 {{ end }}

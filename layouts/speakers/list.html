@@ -16,7 +16,14 @@
 		</div>
 	</div>
 
+
 	<ul class="list columns">
+	{{ range .Data.Pages.ByTitle }}
+		{{ partial "speaker-box" . }}
+	{{ end }}
+	</ul>
+
+	<!-- <ul class="list columns">
 		<div class="col col-part-1">
 			<li>
 				<span class="company">Oracle</span>
@@ -146,7 +153,7 @@
 				<span class="jobtitle">Chairperson of the Java Community Process (JCP)</span>
 			</li>
 		</div>
-	</ul>
+	</ul> -->
 
 	<div class="see-you">
 		<div class="text">See you there</div>

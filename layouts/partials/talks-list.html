@@ -1,12 +1,20 @@
 
   {{ with .Params.talks }}
-    <h2>Talk{{ if gt (len .) 1 }}s{{ end }}:</h2>
-    <ul>
-    {{ range $ind,$val := . }}
-      {{$talk := $val | urlize }}
-      {{- with $.Site.GetPage (printf "talks/%s" $talk)}}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end -}}
-    {{ end }}
-	</ul>
+    <div class="talks">
+      {{ range $ind,$val := . }}
+        {{$talk := $val | urlize }}
+        {{- with $.Site.GetPage (printf "talks/%s" $talk)}}
+        <div class="columns talk">
+          <div class="col col-l talk-name">
+            <div class="title">Session</div>
+            <div class="info">{{ .Title }}</div>
+          </div>
+          <div class="col col-r talk-about">
+            <div class="title">About Session</div>
+            <div class="info">{{ .Content }}</div>
+          </div>
+        </div>
+        {{ end -}}
+      {{ end }}
+  	</div>
   {{ end }}
