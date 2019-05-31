@@ -1,6 +1,5 @@
 ---
 title: "Dušan Zamurović"
-from: "Novi Sad, Serbia"
 layout: "committee-person"
 ---
 

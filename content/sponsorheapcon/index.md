@@ -6,7 +6,7 @@ layout: "sponsorheapcon"
 {{% section red %}}
 
 # Heapcon
-## October 3rd—4th, 2019.
+## September 26th—27th, 2019.
 ## Belgrade, Serbia
 
 {{% /section %}}
@@ -26,11 +26,11 @@ Heapcon is created by a group of professionals from multidisciplinary fields, in
 
 # About Heapcon 2019.
 
-+ Venue: [Kombank dvorana](http://kombankdvorana.rs), Belgrade, Serbia
-+ Timeline: October 3rd—4th, 2019.
++ Venue: [Dom Omladine Beograd](http://domomladine.org), Belgrade, Serbia
++ Timeline: September 26th—27th, 2019.
 + Duration: 2 days
 + Formats of knowledge exchange: talks, unconference, workshops and roundtables
-+ Audience: 800+ software engineers and tech experts
++ Audience: 600+ software engineers and tech experts
 
 {{% /section %}}
 
@@ -92,7 +92,7 @@ You choose the password you want to set and the name of the network.
 3D fridge branding on several locations in the venue.
 
 ### Coffee corner sponsor : €3,000
-All coffee cup during Heapcon will have your branding.
+All coffee cups during Heapcon will have your branding.
 
 ### Speakers’ dinner sponsor : €1,500
 This is a cool way to mingle with all conference speakers.
