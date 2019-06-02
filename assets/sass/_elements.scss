@@ -990,9 +990,13 @@ main{
 	.main-info{
 		margin-bottom: 10vw;
 	}
-	.year{
+	.year.col{
 		height: auto;
 		margin-bottom: 10vw;
+
+		.info{
+			line-height: 1;
+		}
 	}
 	.where{
 		width: 35vw;
@@ -1015,6 +1019,20 @@ main{
 			font-size: 1.6vw;
 			line-height: 1.6;
 		}
+
+		.image{
+			width: 32vw;
+			height: 34.406905055vw;
+			float: right;
+			
+			svg{
+				width: 100%;
+				height: 100%;
+			}
+			.ellipse{
+				transform: matrix(0.6, -0.8, 0.8, 0.6, 0, 0) translate(-20.166666667vw, 5.944444443vw);
+			}
+		}
 	}
 	.about-speaker,
 	.about-person{
@@ -1022,18 +1040,6 @@ main{
 			margin-top: 10vw;
 			width: 40vw;
 			padding-right: 5vw;
-		}
-	}
-	.image{
-		width: 100%;
-		height: 48.384710234vw;
-		
-		svg{
-			width: 100%;
-			height: 100%;
-		}
-		.ellipse{
-			transform: matrix(0.6, -0.8, 0.8, 0.6, 0, 0) translate(-28.359375vw, 8.359375vw);
 		}
 	}
 	.talks{
@@ -1062,5 +1068,31 @@ main{
 img.profile{
 	/*border-radius: 50%;*/
 	clip-path: url(#svgPath);
+}
+.tickets{
+	.main-info,
+	.xing{
+		margin-bottom: 10vw;	
+	}
+	.additional-info{
+		.col-l{
+			width: 60vw;
+			margin-bottom: 5vw;
+		}
+		.title{
+			line-height: 1.3;
+		}
+		.info{
+			font-size: 6vw;
+			line-height: 1;
+		}
 
+		.col-r{
+			font-family: $font-main;
+			font-size: 2vw;
+			line-height: 1.2;
+			float: right;
+			color: $color-hs-blue;
+		}
+	}
 }
