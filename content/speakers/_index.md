@@ -1,5 +1,5 @@
 ---
-title: "heapcon is calling for speakers • apply here"
+title: "meet and greet speakers • network on the spot"
 description: "heapcon is a regional tech conference for software engineers and tech businesses"
-layout: "call-for-papers"
+ogpng: "og-speakers.png"
 ---

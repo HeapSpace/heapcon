@@ -2,17 +2,12 @@
 
 <meta property="og:site_name" content="Heapcon" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{ .Site.BaseURL }}" />
-<meta property="og:description" content="{{ .Site.Params.Description }}" />
-<meta property="og:image" content="{{ .Site.BaseURL }}/hc-og.png" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:description" content="{{ .Params.Description | default .Site.Params.Description }}" />
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.ogpng | default "hc-og.png" }}" />
 
-{{ if .IsHome -}}
-    <title>{{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Site.Title }}" />
-{{ else }}
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}" />
-{{ end }}
+<title>{{ .Params.Title | default .Title }}</title>
+<meta property="og:title" content="{{ .Params.Title | default .Title }}" />
 
 <meta name="keywords" content="tech, conference, event, heapspace, belgrade">
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />

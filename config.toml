@@ -7,7 +7,7 @@ title = "heapcon ⬣ a new conference by heapspace"
   tag = "tags"
 
 [params]
-  description = "heapcon is a new conference by your friends from heapspace from belgrade, serbia."
+  description = "heapcon is a regional tech conference for software engineers and tech businesses"
 
 [outputFormats]
 [outputFormats.calendar]
