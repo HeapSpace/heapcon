@@ -1093,6 +1093,10 @@ img.profile{
 			line-height: 1.2;
 			float: right;
 			color: $color-hs-blue;
+
+			a{
+				color: $color-hs-blue;
+			}
 		}
 	}
 }
