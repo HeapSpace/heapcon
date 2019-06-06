@@ -1,5 +1,6 @@
 ---
 title: "Erika Pogorelc"
+from: "Ljubljana, Slovenia"
 layout: "committee-person"
 ---
 

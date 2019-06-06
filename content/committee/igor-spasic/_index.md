@@ -1,5 +1,6 @@
 ---
 title: "Igor Spasić"
+from: "Belgrade, Serbia"
 layout: "committee-person"
 ---
 

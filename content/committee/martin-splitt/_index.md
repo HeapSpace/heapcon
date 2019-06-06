@@ -1,5 +1,6 @@
 ---
 title: "Martin Splitt"
+from: "Zürich, Switzerland"
 layout: "committee-person"
 ---
 
