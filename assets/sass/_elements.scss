@@ -677,6 +677,9 @@ main{
 
 	color: $color-hs-red;
 }
+br.not-on-desktop{
+	display: none;
+}
 .columns{
 	overflow: hidden;
 	margin-bottom: 22vw;
@@ -781,7 +784,7 @@ main{
 		margin-left: -85px;
 		font-family: $font-block;
 		font-size: 23vw;
-		line-height: 23vw;
+		line-height: 1;
 		text-transform: uppercase;
 		white-space: nowrap;
 
@@ -998,6 +1001,11 @@ main{
 			line-height: 1;
 		}
 	}
+	&.rustam{
+		.year.col .info{
+			font-size: 12vw;
+		}
+	}
 	.where{
 		width: 35vw;
 	}
@@ -1097,6 +1105,15 @@ img.profile{
 			a{
 				color: $color-hs-blue;
 			}
+		}
+	}
+}
+.schedule{
+	a{
+		color: $color-hs-red;
+
+		&:hover{
+			color: $color-hs-blue;			
 		}
 	}
 }
