@@ -3,7 +3,7 @@ title: "Sponsor Heapcon"
 layout: "sponsorheapcon"
 ---
 
-{{% section red %}}
+{{% section pink %}}
 
 # Heapcon
 ## September 26th—27th, 2019.
@@ -22,7 +22,7 @@ Heapcon is created by a group of professionals from multidisciplinary fields, in
 {{% /section %}}
 
 
-{{% section red %}}
+{{% section pink %}}
 
 # About Heapcon 2019.
 
@@ -44,7 +44,7 @@ Heapspace activities and previous conferences were supported by:
 
 {{% /section %}}
 
-{{% section red %}}
+{{% section blue %}}
 # Partner packages
 
 // Please view on desktop screens
@@ -101,7 +101,7 @@ This is a cool way to mingle with all conference speakers.
 // \*Prices don’t include VAT
 
 {{% /section %}}
-{{% section red %}}
+{{% section pink %}}
 
 # Sponsorship package details
 

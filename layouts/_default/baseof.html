@@ -10,16 +10,11 @@
 		{{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
         <link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
 
-        <!-- <style>body {background-color: #fff3df;} header {background-color: #fff3df;} </style> -->
         {{ block "style" . }}{{ end }}
 
         {{ partial "js" . }}
 
         <script>
-        {{ if (ne .Params.customBgColor true) }}
-            applyRandomBackgroundColor();
-            $(function () {jQueryInitNonHomePage();});
-        {{ end }}
             $(function () {
                 jQueryInitAllPages();
             });

@@ -174,63 +174,10 @@ function jQueryInitAllPages() {
 		});
 	}
 
-	// moving tech letters in place
-	if($(".tech").length && !$(".inplace").length){
-		if ($(window).scrollTop() > colorThreshold - 100) {
-			$(".tech").addClass('inplace');
-		}
-	}
-	// moving community letters in place
-	if($(".community").length && !$(".inplace").length){
-		if ($(window).scrollTop() > colorThreshold) {
-			$(".community").addClass('inplace');
-		}
-	}
-	// moving diversity letters in place
-	if($(".diversity").length && !$(".inplace").length){
-		if ($(window).scrollTop() > colorThreshold) {
-			$(".diversity").addClass('inplace');
-		}
-	}
-
 	// header show/hide
 	let lastScrollPosition = $(window).scrollTop();
 	$(window).scroll(function() {
 		const height = $(window).scrollTop();
-
-		// moving tech letters in place
-		if($(".tech").length && !$(".inplace").length){
-			if ($(window).scrollTop() > colorThreshold - 100) {
-				$(".tech").addClass('inplace');
-			}
-		}
-		if($(".tech").length && $(".inplace").length){
-			if ($(window).scrollTop() < colorThreshold - 100) {
-				$(".tech").removeClass('inplace');
-			}
-		}
-		// moving community letters in place
-		if($(".community").length && !$(".inplace").length){
-			if ($(window).scrollTop() > colorThreshold) {
-				$(".community").addClass('inplace');
-			}
-		}
-		if($(".community").length && $(".inplace").length){
-			if ($(window).scrollTop() < colorThreshold) {
-				$(".community").removeClass('inplace');
-			}
-		}
-		// moving community letters in place
-		if($(".diversity").length && !$(".inplace").length){
-			if ($(window).scrollTop() > colorThreshold) {
-				$(".diversity").addClass('inplace');
-			}
-		}
-		if($(".diversity").length && $(".inplace").length){
-			if ($(window).scrollTop() < colorThreshold) {
-				$(".diversity").removeClass('inplace');
-			}
-		}
 
 		if(height < lastScrollPosition){
 			if(headerHidden){

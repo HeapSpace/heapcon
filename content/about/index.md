@@ -2,7 +2,6 @@
 title: "meet heapspace"
 description: "heapcon is a regional tech conference for software engineers and tech businesses"
 layout: "about"
-pageColor: "bg-black"
 ogpng: "og-about.png"
 ---
 

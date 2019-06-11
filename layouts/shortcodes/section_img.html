@@ -1,4 +1,4 @@
 {{ $bgimg := (index .Params 0) }}
-<div class="grid bg-black" style="background-image: url({{ $bgimg }});background-position: center; background-repeat: no-repeat; background-size: cover; padding:2em 1em;"><div class="content-wrap">
-{{ .Inner }}
+<div class="grid bg-black" style="background-image: url({{ $bgimg }});background-position: center; background-repeat: no-repeat; background-size: cover; padding:2em 1em;"><div class="content-wrap-inner">
+{{ .Inner | markdownify }}
 </div></div>

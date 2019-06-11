@@ -1,16 +1,20 @@
 {{ define "style" }}
 <style>
-body {background-color: #fd4000;} header {background-color: #231f20;}
-.content-wrap {
-	padding: 2em 0 4em 0;
-}
 .bg-beige {
 	color: #231f20;
 }
-.content-wrap ul {
+.bg-pink {
+	background-color: #ff7cac;
+	color: white;
+}
+.bg-blue {
+	background-color: #27e5d7;
+	color: white;
+}
+.content-wrap-inner ul {
 	margin-left: 1em;
 }
-.content-wrap li {
+.content-wrap-inner li {
 	margin: 1em 0;
 	list-style: disc;
 }
@@ -31,7 +35,7 @@ tr td:first-child{ text-align: left; }
 	}
 }
 @media screen and (max-width: 768px) {
-	.content-wrap {
+	.content-wrap-inner {
 		padding: 2em 1em 2em 1em;
 	}
 	table {

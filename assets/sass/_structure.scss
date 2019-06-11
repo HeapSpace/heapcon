@@ -19,6 +19,13 @@ html, body {
   font-size: 2em;
   z-index: 1;
 }
+.content-wrap-inner {
+  grid-column: 2;
+  line-height: 1.2;
+  font-size: 1em;
+  z-index: 1;
+  padding: 0 0 2em 0;
+}
 
 main {
   margin-top: 4em;
