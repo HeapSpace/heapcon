@@ -1,5 +1,6 @@
 ---
 title: "Rustam Mehmandarov"
+from: "Oslo, Norway"
 layout: "committee-person"
 ---
 

@@ -1,92 +1,89 @@
-{{ define "style" }}
-<style>
-  h1 {
-    text-align: center;
-  }
-
-  main {
-    margin-top: 0;
-  }
-
-  #ji1,
-  #ji2,
-  #ji3 {
-    display: none;
-  }
-
-  #ji {
-    margin-bottom: 1em;
-  }
-
-  #sponsors {
-    margin: 4em 0 10em 0;
-
-    h1 {
-      margin-bottom: 1em;
-    }
-
-    .all {
-      margin-top: 1em;
-    }
-  }
-
-  #speakers {
-    margin: 4em 0;
-
-    h1 {
-      margin-bottom: 1em;
-    }
-
-    .all {
-      margin-top: 1em;
-    }
-  }
-
-  #programme {
-    margin: 4em 0;
-
-    .all {
-      margin-top: 1em;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    #sponsors {
-      margin: 4em 0 4em 0;
-    }
-  }
-</style>
-{{ end }}
-
 {{ define "main" }}
 
-<script>
-  $(function () {
-    $("#ji" + Math.floor(Math.random() * 3 + 1)).show();
-  });
-</script>
+<div class="home">
+	<div class="main-info columns">
+		<div class="col col-l col-top year">
+			<div class="title">Year</div>
+			<div class="info">2019</div>
+		</div>
+		<div class="col col-r col-top when">
+			<div class="title">When</div>
+			<div class="info">26-27<br>September</div>
+		</div>
+		<div class="col col-l col-bottom where">
+			<div class="title">Where</div>
+			<div class="info">Belgrade,<br>Dom omladine</div>
+		</div>
+		<div class="col col-r col-bottom what">
+			<div class="title">What</div>
+			<div class="info">Technology<br>and digital creativity.</div>
+		</div>
+	</div>
 
-<p style="text-align: center; margin-bottom: 2em;">
-  tech conference • september 26-27, 2019 • belgrade
-</p>
+	<div class="block-text block-text-1">
+		<div class="line-1">Digital Creative</div>
+		<div class="line-2">Tech Creative</div>
 
-<p id="hcis" class="zoom">
-  Heapcon is a regional tech conference for software engineers and tech
-  businesses. It represents a continuation of aspirations to create one event
-  showing the regional expertise in IT, entrepreneurship and digital art.
-</p>
+		<div class="icons">
+			<img src="images/diamond.png" alt="diamond" class="diamond">
+			<img src="images/robot.png" alt="robot" class="robot">
+			<img src="images/sun.png" alt="sun" class="sun">
+			<img src="images/lips.png" alt="lips" class="lips">
+		</div>
+	</div>
 
-<section id="speakers">
-  <h1><a href="/speakers">Speakers</a></h1>
-  <div class="grid42">
-    {{ $speakers := (where .Pages "Section" "speakers") }}
-    {{ range($speakers.ByWeight) }}
-    {{ if (ne .Title "Speakers") }}
-    {{ partial "speaker-box" . }}
-    {{ end }}
-    {{ end }}
-  </div>
-  <a href="/speakers" class="all">See all speakers</a>
-</section>
+	<p class="action-text action-text-1">Check out<br>our <a href="/speakers">SPEAKERS</a> lineup!!</p>
+
+	<div class="small-scrolling-text">
+		<div class="line-1">Crystal Yan Dave Snowden Dmitry Vinnik George Mandis Heather VanCura Kaz Sato</div>
+		<div class="line-2">Lois Kim Sumit Gulwani Ted Neward Vladimir Dejanović Crystal Yan Dave Snowden</div>
+		<div class="line-3">Dmitry Vinnik George Mandis Heather VanCura Kaz Sato Lois Kim Sumit Gulwani</div>
+	</div>
+
+	<div class="block-text block-text-2">
+		<div class="line-1">Tech Region</div>
+		<div class="line-2">Active Tech</div>
+
+		<div class="icons">
+			<img src="images/peace.png" alt="peace" class="peace">
+			<img src="images/human.png" alt="human" class="human">
+			<img src="images/ear.png" alt="ear" class="ear">
+			<img src="images/poo.png" alt="poo" class="poo">
+		</div>
+	</div>
+
+	<p class="action-text action-text-2">Grab your<br><a href="/tickets">TICKETS</a> now!</p>
+
+	<div class="secondary-info columns">
+		<div class="col col-1">
+			<div class="title">Year</div>
+			<div class="info">2019</div>
+		</div>
+		<div class="col col-2">
+			<div class="title">When</div>
+			<div class="info">26-27<br>September</div>
+		</div>
+		<div class="col col-3">
+			<div class="title">Where</div>
+			<div class="info">Belgrade<br>Serbia</div>
+		</div>
+		<div class="col col-4">
+			<div class="title">Location</div>
+			<div class="info">Dom omladine</div>
+		</div>
+	</div>
+
+	<div class="block-text block-text-3">
+		<div class="line-1">Community</div>
+		<div class="line-2">Change Creative</div>
+
+		<div class="icons">
+			<img src="images/sun.png" alt="sun-2" class="sun-2">
+			<img src="images/human.png" alt="human-2" class="human-2">
+			<img src="images/diamond.png" alt="diamond-2" class="diamond-2">
+			<img src="images/rabbit.png" alt="rabbit" class="rabbit">
+		</div>
+	</div>
+</div>
 
 {{ end }}

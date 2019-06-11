@@ -1,38 +1,28 @@
 <header>
+	<h1 class="logo"><a href="/">{{ partial "logo" }}</a></h1>
+
+	<a class="powered-by" href="https://heapspace.rs">Powered by heapspace</a>
+
 	<div class="outer-menu fr">
 		<input class="checkbox-toggle" type="checkbox">
-		<div class="btn4">
+		<div class="btn-menu">
 			<div class="icon"></div>
 		</div>
-		<div class="menu">
-			<div>
-				<div>
-					<ul>
-						<li>
-							<p><a href="/" title="Home">Home</a></p>
-						</li>
-						<li>
-							<p><a href="/tickets" title="Buy Heapcon 2019 tickets">Tickets</a></p>
-						</li>
-						<li>
-							<p><a href="/call-for-papers" title="Call for papers">CFP</a></p>
-						</li>
-						<li>
-							<p><a href="/speakers" title="See all Heapcon 2019 speakers">Speakers</a></p>
-						</li>
+		
+		<ul class="visible-menu">
+			<li class="visible-menu-speakers"><a href="/speakers">Speakers</a></li>
+			<li class="visible-menu-tickets"><a href="/tickets">Tickets</a></li>
+		</ul>
 
-						<li>
-							<p><a href="/sponsors" title="See all Heapcon 2019 sponsors">Sponsors</a></p>
-						</li>
-						<li>
-							<p><a href="/committee" title="Meet Heapcon 2019 committee">Committee</a></p>
-						</li>
-						<li>
-							<p><a href="/about" title="Learn more about Heapcon">About</a></p>
-						</li>
-					</ul>
-				</div>
-			</div>
+		<div class="menu">
+			<ul>
+				<li><a href="/speakers" title="See all Heapcon 2019 speakers">Speakers</a></li>
+				<li><a href="/sponsors" title="See all Heapcon 2019 sponsors">Sponsors</a></li>
+				<li><a href="/schedule" title="See Heapcon 2019 schedule">Schedule</a></li>
+				<li><a href="/committee" title="Meet Heapcon 2019 committee">Committee</a></li>
+				<li><a href="/venue" title="See Heapcon 2019 venue">Venue</a></li>
+				<li><a href="/about" title="Learn more about Heapcon">About</a></li>
+			</ul>
 		</div>
 	</div>
 </header>

@@ -1,69 +1,52 @@
-{{ define "style" }}
-<style>
-	body {
-		background-color: #231f20;
-	}
-
-	header {
-		background-color: #231f20;
-	}
-
-	h2 {
-		margin: 150px 0 100px 0;
-	}
-
-	.grid42 img {
-		align-self: center;
-		justify-self: center;
-	}
-
-	h1 {
-		margin-top: 2em;
-	}
-</style>
-{{ end }}
-
 {{ define "main" }}
 
-{{ .Content }}
+<div class="sponsors">
+	<div class="main-info columns">
+		<div class="col col-l col-top wide year">
+			<div class="title">&nbsp;</div>
+			<div class="info">SPONSORS</div>
+		</div>
+		<div class="col col-l col-bottom where">
+			<div class="title">Heapcon</div>
+			<div class="info">Heapcon is an independent community conference. By sponsoring Heapcon, you are helping the development of the regional tech community.</div>
+		</div>
+	</div>
 
-<p class="zoom">Heapcon is an independent community conference. By sponsoring Heapcon, you are helping the development
-	of the regional tech community. </p>
+	<h2 class="sponsor-tier gold">Gold</h2>
 
-<h1>Gold</h1>
+	<div class="grid42 grid-center">
+		{{ partial "sponsor" (dict "n" "tomtom" "l" "https://www.tomtom.com/") }}
+		{{ partial "sponsor" (dict "n" "msgNETCONOMY" "l" "http://www.msgnetconomy.net/") }}
+		{{ partial "sponsor" (dict "n" "nutanix" "l" "https://www.nutanix.com/") }}
+		{{ partial "sponsor" (dict "n" "endava" "l" "http://www.endava.com/en") }}
+	</div>
 
-<div class="grid42 grid-center">
-	{{ partial "sponsor" (dict "n" "tomtom" "l" "https://www.tomtom.com/") }}
-	{{ partial "sponsor" (dict "n" "msgNETCONOMY" "l" "http://www.msgnetconomy.net/") }}
-	{{ partial "sponsor" (dict "n" "nutanix" "l" "https://www.nutanix.com/") }}
-	{{ partial "sponsor" (dict "n" "endava" "l" "http://www.endava.com/en") }}
-</div>
+	<h2 class="sponsor-tier silver">Silver</h2>
 
-<h1>Silver</h1>
-
-<div class="grid42 grid-center">
-	{{ partial "sponsor" (dict "n" "enjoying" "l" "https://www.enjoying.rs/") }}
-	{{ partial "sponsor" (dict "n" "lotusflare" "l" "https://www.lotusflare.com") }}
-</div>
+	<div class="grid42 grid-center">
+		{{ partial "sponsor" (dict "n" "enjoying" "l" "https://www.enjoying.rs/") }}
+		{{ partial "sponsor" (dict "n" "lotusflare" "l" "https://www.lotusflare.com") }}
+	</div>
 
 
-<h1>Bronze</h1>
+	<h2 class="sponsor-tier bronze">Bronze</h2>
 
-<div class="grid42 grid-center">
+	<div class="grid42 grid-center">
 
-	{{ partial "sponsor" (dict "n" "hooloovoo" "l" "http://hooloovoo.rs/") }}
-	{{ partial "sponsor" (dict "n" "namics" "l" "https://www.namics.com/en/") }}
-	{{ partial "sponsor" (dict "n" "spicefactory" "l" "https://spicefactory.co/") }}
-	{{ partial "sponsor" (dict "n" "prodyna" "l" "https://www.prodyna.com") }}
-	{{ partial "sponsor" (dict "n" "netcast" "l" "https://netcast.rs/") }}
-	{{ partial "sponsor" (dict "n" "telesign" "l" "https://www.telesign.com/") }}
-	{{ partial "sponsor" (dict "n" "smitmicro" "l" "https://www.smithmicro.com/") }}
+		{{ partial "sponsor" (dict "n" "hooloovoo" "l" "http://hooloovoo.rs/") }}
+		{{ partial "sponsor" (dict "n" "namics" "l" "https://www.namics.com/en/") }}
+		{{ partial "sponsor" (dict "n" "spicefactory" "l" "https://spicefactory.co/") }}
+		{{ partial "sponsor" (dict "n" "prodyna" "l" "https://www.prodyna.com") }}
+		{{ partial "sponsor" (dict "n" "netcast" "l" "https://netcast.rs/") }}
+		{{ partial "sponsor" (dict "n" "telesign" "l" "https://www.telesign.com/") }}
+		{{ partial "sponsor" (dict "n" "smitmicro" "l" "https://www.smithmicro.com/") }}
 
-</div>
+	</div>
 
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe
+	<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe
 	class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrctlZdfHFb7HWKH?backgroundColor=red"
 	frameborder="0" onmousewheel="" width="100%" height="834"
 	style="background: transparent; border: 1px solid #ccc; margin-top: 4em;"></iframe>
+</div>
 
 {{ end }}

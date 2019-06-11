@@ -1,5 +1,6 @@
 ---
 title: "Anamarija Talijanac"
+from: "Zagreb, Croatia"
 layout: "committee-person"
 ---
 

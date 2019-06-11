@@ -1,4 +1,4 @@
-# Heapcon 2018 website
+# Heapcon 2019 website
 
 ## Dev
 

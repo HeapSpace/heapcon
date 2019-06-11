@@ -1,18 +1,147 @@
-
 footer {
-  margin: 2em 0 0 0;
-  padding: 1em 0;
-  color: $color-hs-beige;
-  text-align: center;
+	margin: 2em 0 0 0;
+	padding: 1em 0;
+	color: $color-hs-red;
+	text-align: center;
 
-  #footer {
-	color: $color-hs-beige;
-	font-size: 0.6em;
-	margin: 2em 0;
-  }
+	#footer {
+		color: $color-hs-red;
+		font-size: 0.6em;
+		margin: 2em 0;
+	}
 
-  p {
-  	color: $color-hs-beige;
-  	margin: 3em 0 4em 0;
-  }
+	p {
+		color: $color-hs-red;
+		margin: 3em 0 4em 0;
+	}
+}
+
+
+
+/* ---------------- */
+/* ----- 2019 ----- */
+/* ---------------- */
+
+footer{
+	margin-top: 18vw;
+	padding: 0 5vw 20px 5vw;
+	color: $color-hs-red;
+	text-align: left;
+
+	a{
+		color: $color-hs-red;
+
+		&:hover{
+			color: $color-hs-blue;
+			text-decoration: underline;
+		}
+	}
+
+	.columns{
+		text-align: left;
+		margin-bottom: 0;
+
+		.col{
+			&.col-top,
+			&.col-bottom{
+				height: 18vw;
+			}
+
+			&.email-us{
+				font-size: 5.5vw;
+				line-height: 5.7vw;
+			}
+			&.organized-with-love{
+				width: 20vw;
+
+				font-size: 1.6vw;
+				line-height: 1.4;
+				font-family: $font-main;
+				color: $color-hs-blue;
+			}
+		}
+	}
+
+	.social-media,
+	.logo-large{
+		width: 44vw;
+		margin-left: calc(28vw - 70px);
+	}
+	.social-media{
+		overflow: hidden;
+		font-size: 3.5vw;
+		line-height: 5vw;
+		margin-bottom: 3.5vw;
+
+		.col{
+			width: 50%;
+			float: left;
+		}
+	}
+	.logo-large{
+		text-align: center;
+	}
+	.logo-large svg{
+		width: 100%;
+		height: auto;
+	}
+
+	.footer-bottom{
+		font-family: $font-main;
+		font-size: 1.6vw;
+		margin-top: 7.3vw;
+		color: $color-hs-blue;
+		overflow: hidden;
+		position: relative;
+
+		a{
+			color: $color-hs-blue;
+
+			&:hover{
+				color: $color-hs-red;
+			}
+		}
+
+		.part-left{
+			float: left;
+		}
+		.part-center{
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translate(-50%, 0);
+			width: 20.5vw;
+
+			.old-site{
+				display: block;
+				font-size: 2.6vw;
+				margin-bottom: 3.7vw;
+			}
+		}
+		.part-right{
+			float: right;
+			text-align: right;
+		}
+
+		.copyright,
+		.footer-year{
+			font-size: 13.4vw;
+			line-height: 8vw;
+
+			margin-bottom: 2vw;
+
+			color: $color-hs-red;
+		}
+		.footer-year{
+			font-size: 11vw;
+			line-height: 10vw;
+
+			margin-right: -0.8vw;
+			margin-bottom: 0;
+		}
+
+		.code-mobile{
+			display: none;
+		}
+	}
 }

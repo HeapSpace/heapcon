@@ -12,8 +12,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Anton';
+  src: url('/fonts/Anton-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
-  font-family: $font-main;
+  font-family: $font-title;
   -ms-text-size-adjust: 100%;
   font-size: 100%;
   -webkit-text-size-adjust: 100%;

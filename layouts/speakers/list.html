@@ -1,17 +1,34 @@
 {{ define "main" }}
 
-<h1>Speakers</h1>
+<div class="speakers">
+	<div class="main-info columns">
+		<div class="col col-l col-top wide year">
+			<div class="title">&nbsp;</div>
+			<div class="info">SPEAKERS</div>
+		</div>
+		<div class="col col-l col-bottom where">
+			<div class="title">Where</div>
+			<div class="info">Belgrade</div>
+		</div>
+		<div class="col col-r col-bottom when">
+			<div class="title">Heapcon</div>
+			<div class="info">The conference offers a great speakers lineup and a networking space with people from the tech industry.</div>
+		</div>
+	</div>
 
-<p class="zoom">
-	We aim at getting you a great speakers lineup and to provide a space to network with people from diverse tech
-	companies.
-</p>
-
-
-<div class="grid42" style="margin: 3em 0 4em 0;">
+	<ul class="list columns">
 	{{ range .Data.Pages.ByTitle }}
-	{{ partial "speaker-box" . }}
+		{{ partial "speaker-box" . }}
 	{{ end }}
+	</ul>
+
+	<div class="see-you">
+		<div class="text">See you there</div>
+		<img src="../images/robot.png" alt="robot" class="robot">
+		<img src="../images/rabbit.png" alt="rabbit" class="rabbit">
+		<div class="logo">{{ partial "logo" }}</div>
+		<span class="year">2019</span>
+	</div>
 </div>
 
 {{ end }}

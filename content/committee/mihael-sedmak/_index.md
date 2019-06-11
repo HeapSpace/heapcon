@@ -1,5 +1,6 @@
 ---
 title: "Mihael Sedmak"
+from: "Zagreb, Croatia"
 layout: "committee-person"
 ---
 

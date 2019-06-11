@@ -76,7 +76,7 @@
 		width: 150px;
 	}
 	img.profile {
-		width: 150px !important;
+		// width: 150px !important;
 	}
 	.content-wrap {
 		font-size: 1em;
@@ -579,5 +579,493 @@
 		width: 26%;
 		top: 255vw;
 		left: 45vw;
+	}
+
+
+
+	/**********************/
+	/******** 2019 ********/
+	/**********************/
+	br.not-on-desktop{
+		display: block;
+	}
+
+	header{
+		padding: 20px 5vw;
+
+		position: fixed;
+		box-sizing: border-box;
+		width: 100%;
+
+		h1.logo{
+			svg{
+				width: 50vw;
+				height: auto;
+				margin-bottom: 10px;
+			}
+		}
+		a.powered-by{
+			text-align: left;
+
+			position: static;
+			transform: none;
+			display: block;
+			clear: left;
+			width: 65vw;
+			top: auto;
+			left: auto;
+		}
+
+		.outer-menu{
+			float: none;
+			
+			.btn-menu{
+				position: absolute;
+				top: 10px;
+				right: 5vw;
+			}
+			.visible-menu{
+				display: none;
+			}
+			.checkbox-toggle{
+				margin: 0;
+				top: 30px;
+				right: 5vw;
+				left: auto;
+			}
+		}
+
+		&.open{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+
+			h1.logo{
+				width: 90vw;
+				float: none;
+				text-align: center;
+				margin-top: 10vh;
+				
+				svg{
+					display: inline-block;
+					margin-bottom: 0;
+				}
+			}
+			a.powered-by{
+				width: 90vw;
+				text-align: center;
+			}
+
+			.outer-menu{
+				margin-top: 60px;
+
+				.menu{
+					position: static;
+					top: auto;
+					left: auto;
+
+					ul{
+						width: 90vw;
+						text-align: center;
+
+						column-gap: normal;
+						columns: auto auto;
+
+						li{
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	} 
+
+	.columns{
+		margin-bottom: 40vw;
+
+		.col{
+			font-size: 6.4vw;
+			line-height: normal;
+			margin-bottom: 30px;
+			float: none;
+
+			.title{
+				font-size: 16px;
+			}
+
+			&.col-l,
+			&.col-r{
+				width: auto;
+				height: auto;
+			}
+		}
+	}
+
+	footer{
+		margin-top: 30vw;
+
+		.columns{
+			.col{
+				font-size: 8.5vw;
+				line-height: normal;
+
+				&.col-top,
+				&.col-bottom{
+					height: auto;
+					margin-bottom: 60px;
+				}
+
+				&.email-us{
+					font-size: 15.5vw;
+					line-height: 15vw;
+					text-align: center;
+				}
+				&.organized-with-love{
+					font-size: 5.5vw;
+					line-height: normal;
+
+					width: auto;
+					padding: 0 8vw;
+				}
+			}
+		}
+
+		.social-media{
+			font-size: 9.5vw;
+			line-height: 2;
+			width: auto;
+			margin-left: 19vw;
+			margin-bottom: 60px;
+
+			.col{
+				width: auto;
+				float: none;
+			}
+		}
+
+		.logo-large{
+			display: none;
+		}
+		
+
+		.footer-bottom{
+			font-size: 5.5vw;
+
+			.part-left,
+			.part-right{
+				float: none;
+				width: auto;
+			}
+			.part-left{
+				padding: 0 8vw 60px 8vw;
+			}
+			.part-center{
+				position: static;
+				transform: none;
+				width: auto;
+				padding: 0 8vw;
+				margin-bottom: 60px;
+
+				.old-site{
+					font-size: 9vw;
+
+				}
+			}
+
+			.footer-year{
+				float: right;
+				font-size: 31vw;
+				line-height: 34vw;
+			}
+			.copyright{
+				font-size: 37vw;
+				line-height: 31vw;
+				margin-bottom: 30px;
+				margin-left: -8vw;
+			}
+
+			.code-desktop{
+				display: none;
+			}
+			.code-mobile{
+				display: block;
+			}
+		}
+	}
+	
+	.content-wrap{
+		padding: 0;
+	}
+	main{
+		margin-top: 160px;
+	}
+
+	.home{
+		.columns{
+			.col{
+				&.year .info{
+					font-size: 36vw;
+					line-height: 36vw;
+					margin-bottom: 30px;
+				}
+				&.when{
+					float: left;
+					margin-bottom: 60px;
+				}
+				&.where{
+					float: right;
+					margin-bottom: 60px;
+				}
+				&.what .info{
+					font-size: 15vw;
+					line-height: normal;
+				}
+				
+				&.col-1,
+				&.col-2,
+				&.col-3,
+				&.col-4{
+					float: left;
+					margin-left: 20vw;
+					margin-top: 0;
+				}
+				&.col-1{
+					width: 31vw;
+					height: 115vw;
+					float: left;
+					margin: 0;
+
+					.info{
+						font-size: 44vw;
+						transform: rotate(90deg) translate(-11vw, 1vw);
+					}
+				}
+				&.col-2,
+				&.col-3{
+					margin-bottom: 25vw;
+				}
+			}
+		}
+
+		.action-text{
+			font-size: 10vw;
+			margin-bottom: 30vw;
+		}
+
+		.block-text{
+			font-size: 40vw;
+			margin-left: -33px;
+			margin-bottom: 40vw;
+
+			.diamond{
+				width: 31vw;
+				top: 16vw;
+				left: 47vw;
+			}
+			.robot{
+				width: 37vw;
+				top: -30vw;
+				left: 9vw;
+			}
+			.sun{
+				width: 40vw;
+				top: 65vw;
+				left: 7vw;
+			}
+			.lips{
+				width: 33vw;
+				top: 57vw;
+				left: 60vw;
+			}
+
+			.peace{
+				width: 28vw;
+				top: -17vw;
+				left: 69vw;
+			}
+			.human{
+				width: 32vw;
+				top: -23vw;
+				left: 7vw;
+			}
+			.ear{
+				width: 32vw;
+				top: 64vw;
+				left: 68vw;
+			}
+			.poo{
+				width: 35vw;
+				top: 23vw;
+				left: 26vw;
+			}
+
+			.sun-2{
+				display: none;
+			}
+			.human-2{
+				width: 30vw;
+				top: 21vw;
+				left: 62vw;
+
+				transform: rotate(-20deg);
+			}
+			.diamond-2{
+				width: 31vw;
+				top: 65vw;
+				left: 7vw;
+
+				transform: rotate(35deg);
+			}
+			.rabbit{
+				width: 39vw;
+				top: -20vw;
+				left: 20vw;
+			}
+		}
+
+		.small-scrolling-text{
+			font-size: 10vw;
+			margin-bottom: 40vw;
+		}
+	}
+
+	.speakers{
+		.columns .col.year .info{
+			font-size: 16.5vw;
+			line-height: 1;
+		}
+	}
+	.committee, 
+	.speakers{
+		.list{
+			columns: auto auto;
+			column-gap: normal;
+			
+			margin: 0 0 40vw -5vw;
+			width: 100vw;
+
+			li{
+				padding: 13vw;
+
+				span{
+					display: block;
+				}
+
+				.company{
+					font-size: 6.5vw;
+				}
+				.name{
+					font-size: 10vw;
+					line-height: 0.9;
+
+					padding: 10px 0;
+				}
+				.jobtitle,
+				.place{
+					font-size: 5vw;
+				}
+			}
+		}
+
+		.see-you{
+			.text{
+				font-size: 28vw;
+				margin-left: 3vw;	
+			}
+			.robot{
+				top: -28vw;
+				left: 1vw;
+				width: 30vw;
+			}
+			.rabbit{
+				top: 21vw;
+				right: -5vw;
+				width: 35vw;
+			}
+			.logo{
+				width: 38vw;
+				margin-left: 4vw;
+			}
+			.year{
+				font-size: 22vw;
+				top: 63vw;
+				right: -2vw;
+			}
+		}
+	}
+	.committee{
+		padding: 0;
+
+		.col.year .info{
+			font-size: 14.7vw;
+		}
+	}
+	.speaker.single,
+	.committee-person{
+		.year.col .info{
+			font-size: 16vw;
+		}
+		.when{
+			float: left;
+		}
+
+		.about-speaker,
+		.talks,
+		.about-person{
+			.col{
+				width: auto;
+				margin-bottom: 20vw;
+			}
+			.info{
+				font-size: 16px;
+			}
+			.image{
+				width: 90vw;
+				height: 96.769420467vw;
+
+				.ellipse{
+					transform: matrix(0.6, -0.8, 0.8, 0.6, 0, 0) translate(-57.166666667vw, 16.94444443vw);
+				}
+			}
+		}
+	}
+
+	.venue,
+	.tickets{
+		.columns{
+			.col{
+				.part-1{
+					float: left;
+					margin-bottom: 60px;
+				}
+				.part-2{
+					width: 49vw;
+					float: right;
+					margin-bottom: 60px;
+				}
+			}
+		}
+		.additional-info{
+			.info{
+				margin-top: 20px;
+				font-size: 10vw;
+			}
+			.col-r{
+				font-size: 6vw;
+				margin-top: 30vw;
+			}
+		}
+	}
+	.about{
+		.secondary-info{
+			.col.col-l{
+				width: auto;
+			}
+		}
+	}
+	.not-on-mobile{
+		display: none;
 	}
 }

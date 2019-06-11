@@ -1,5 +1,6 @@
 ---
 title: "Mateja Verlič Brunčič"
+from: "Maribor, Slovenia"
 layout: "committee-person"
 ---
 
