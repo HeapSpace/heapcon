@@ -586,10 +586,6 @@
 	/**********************/
 	/******** 2019 ********/
 	/**********************/
-	br.not-on-desktop{
-		display: block;
-	}
-
 	header{
 		padding: 20px 5vw;
 
@@ -675,6 +671,10 @@
 
 						li{
 							width: 100%;
+
+							&.not-on-desktop{
+								display: block;
+							}
 						}
 					}
 				}
@@ -1058,6 +1058,9 @@
 				width: auto;
 			}
 		}
+	}
+	.not-on-desktop{
+		display: block;
 	}
 	.not-on-mobile{
 		display: none;
