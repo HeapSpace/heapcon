@@ -44,7 +44,7 @@ Heapspace activities and previous conferences were supported by:
 
 {{% /section %}}
 
-{{% section blue %}}
+{{% section pink %}}
 # Partner packages
 
 // Please view on desktop screens
