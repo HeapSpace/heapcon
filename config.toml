@@ -8,7 +8,3 @@ title = "heapcon ⬣ a new conference by heapspace"
 
 [params]
   description = "heapcon is a regional tech conference for software engineers and tech businesses"
-
-[outputFormats]
-[outputFormats.calendar]
-  BaseName = "event"

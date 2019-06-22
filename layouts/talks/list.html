@@ -20,7 +20,7 @@ ul {
   <ul>
     {{ range .Data.Pages.ByTitle }}
       <li>
-      		<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <a href="{{ .RelPermalink }}" style="color: green">{{ .Title }}</a>
       		<div class="desc">{{ .Description }}</div>
           <div class="date">{{ .Params.Day }}. October, {{ .Params.Start }} - {{ .Params.End }}, Track {{ .Params.Track }}</div>
       	</li>

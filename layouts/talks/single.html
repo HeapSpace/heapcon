@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+	<div class="speaker single">
+		<div class="main-info columns">
+			<div class="col col-l col-top wide year">
+				<div class="title">Who</div>
+				<div class="info">{{ .Params.Speaker }}</div>
+			</div>
+			<div class="col col-l col-bottom where">
+				<div class="title">What</div>
+				<div class="info">{{ .Params.Job }}</div>
+			</div>
+			<div class="col col-r col-bottom when">
+				<div class="title">From</div>
+				<div class="info">{{ .Params.Company }}</div>
+			</div>
+		</div>
+
+		<div class="about-speaker columns">
+			<div class="col col-l">
+				<div class="title">Session</div>
+				<div class="info">{{ .Content }}</div>
+			</div>
+			<div class="col col-r image">
+				<img src="profile.jpg" class="profile">
+				{{ partial "clip-path.html" . }}
+			</div>
+			<div class="col col-r image">
+				<div class="title">Biography</div>
+				<div class="info">{{ .Params.Bio }}</div>
+			</div>
+		</div>
+	</div>
+
+{{ end }}
