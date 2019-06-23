@@ -1,9 +1,11 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-
 	<div class="speaker single">
 		<div class="main-info columns">
+			<div class="col col-l col-top wide talk">
+				<div class="title">Talk</div>
+				<div class="info">{{ .Title }}</div>
+			</div>
 			<div class="col col-l col-top wide year">
 				<div class="title">Who</div>
 				<div class="info">{{ .Params.Speaker }}</div>
@@ -27,7 +29,7 @@
 				<img src="profile.jpg" class="profile">
 				{{ partial "clip-path.html" . }}
 			</div>
-			<div class="col col-r image">
+			<div class="col col-r bio">
 				<div class="title">Biography</div>
 				<div class="info">{{ .Params.Bio }}</div>
 			</div>

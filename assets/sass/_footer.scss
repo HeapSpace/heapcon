@@ -24,7 +24,7 @@ footer {
 
 footer{
 	margin-top: 18vw;
-	padding: 0 5vw 20px 5vw;
+	padding: 0 5vw 50px 5vw;
 	color: $color-hs-red;
 	text-align: left;
 
@@ -124,9 +124,11 @@ footer{
 		}
 
 		.copyright {
-			font-size: 0.7em;
-			font-weight: bold;
 			margin-bottom: 2vw;
+
+			img{
+				width: 8vw;
+			}
 		}
 		.footer-year{
 			font-size: 13.4vw;

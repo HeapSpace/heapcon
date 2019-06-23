@@ -707,6 +707,15 @@ main{
 
 			/*margin-bottom: 15px;*/
 		}
+		&.talk{
+			height: auto;
+			margin-bottom: 3vw;
+
+			.info{
+				font-size: 7vw;
+				line-height: 7.5vw;
+			}
+		} 
 		&.year .info{
 			font-size: 15vw;
 			line-height: 12vw;
@@ -987,11 +996,42 @@ main{
 	.columns{
 		margin-bottom: 10vw;
 	}
+
+	.accommodation{
+		margin-top: 10vw;
+
+		.wide{
+			width: 60vw;
+			margin-bottom: 10vw;
+		}
+		.col-l{
+			margin-right: 10vw;
+		}
+		.col-l,
+		.col-r{
+			width: 40vw;
+
+			.venue-name{
+				font-size: 6vw;
+				line-height: 1;
+				margin-bottom: 5vw;
+			}
+		}
+		.additional{
+			width: 25vw;
+			margin-top: 3vw;
+
+			font-size: 1.6vw;
+			line-height: 1.4;
+			font-family: $font-main;
+			color: $color-hs-blue;
+		}
+	}
 }
 .speaker.single,
 .committee-person{
 	.main-info{
-		margin-bottom: 10vw;
+		margin-bottom: 5vw;
 	}
 	.year.col{
 		height: auto;
@@ -1040,6 +1080,9 @@ main{
 			.ellipse{
 				transform: matrix(0.6, -0.8, 0.8, 0.6, 0, 0) translate(-20.166666667vw, 5.944444443vw);
 			}
+		}
+		.bio{
+			margin-top: 10vw;
 		}
 	}
 	.about-speaker,

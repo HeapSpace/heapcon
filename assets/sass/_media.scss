@@ -774,6 +774,19 @@
 				}
 			}
 
+			.copyright {
+				margin: 5vw 0 20vw -8vw;
+				float: left;
+
+				img{
+					width: 23vw;
+				}
+			}
+			.cc-title{
+				display: block;
+				clear: both;
+			}
+
 			.footer-year{
 				float: right;
 				font-size: 31vw;
@@ -998,6 +1011,9 @@
 	}
 	.speaker.single,
 	.committee-person{
+		.talk{
+			margin-bottom: 10vw;
+		}
 		.year.col .info{
 			font-size: 16vw;
 		}
@@ -1050,6 +1066,28 @@
 				font-size: 6vw;
 				margin-top: 30vw;
 			}
+		}
+		
+		.accommodation{
+			.wide{
+				margin: 10vw 0 20vw 0;
+			}
+			.col-l{
+				margin-bottom: 20vw;
+			}
+			.col-l,
+			.col-r{
+				.venue-name{
+					font-size: 10vw;
+				}	
+			}
+			.additional{
+				font-size: 5.5vw;
+				line-height: normal;
+
+				width: auto;
+				// padding: 0 8vw;
+			}	
 		}
 	}
 	.about{
