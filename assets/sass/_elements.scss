@@ -1025,6 +1025,15 @@ main{
 			line-height: 1.4;
 			font-family: $font-main;
 			color: $color-hs-blue;
+
+			a{
+				color: $color-hs-blue;
+				text-decoration: underline;
+
+				&:hover{
+					color: $color-hs-red;
+				}
+			}
 		}
 	}
 }
