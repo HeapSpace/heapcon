@@ -2,8 +2,7 @@
 title: "Going the Distance with SVG, Headless & Serverless"
 description: "Running apps without servers and browsers without screens sounds a little absurd, but it can be a surprisingly efficient way to solve certain problems."
 speaker: "George Mandis"
-bio: "George Mandis is a freelance web developer & consultant at SnapTortoise, frequent traveler and occasional educator based primarily out of Portland, Oregon. He’s worked with startups, professional sports teams, small businesses and individuals but excels at helping people find elegant solutions for their projects. He spent a year living as a digital nomad, inadvertently cheated at a marathon in North Korea and has spoken and led workshops at a number of JavaScript & technology conferences including JSFoo, Teardown, HolyJS and FullStack London.
-"
+bio: "George Mandis is a freelance web developer & consultant at SnapTortoise, frequent traveler and occasional educator based primarily out of Portland, Oregon. He’s worked with startups, professional sports teams, small businesses and individuals but excels at helping people find elegant solutions for their projects. He spent a year living as a digital nomad, inadvertently cheated at a marathon in North Korea and has spoken and led workshops at a number of JavaScript & technology conferences including JSFoo, Teardown, HolyJS and FullStack London."
 company: "SnapTortoise"
 job: "Web Developer & Consultant"
 link: ""

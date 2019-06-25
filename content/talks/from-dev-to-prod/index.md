@@ -1,6 +1,6 @@
 ---
 title: "From dev to prod. One year of using Kubernetes in production."
-description: "How to define product right, from all perspectives: business, development and testing."
+description: "Imagine you have 5 Kubernetes environments used by developers from multiple companies and users alike."
 speaker: "Miloš Milunović"
 bio: "Expert software engineer and project team lead at Zuehlke Engineering located in Belgrade. As a developer spent last 3 years developing IoT and cloud solutions hosted on Azure."
 company: "Zuehlke"
