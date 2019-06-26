@@ -15,15 +15,11 @@
 			<div class="info">The conference offers a great speakers lineup and a networking space with people from the tech industry.</div>
 		</div>
 	</div>
-	{{ $section := "talks" }}
+	{{ $section := "speakers" }}
 	<ul class="list columns">
 		{{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
 		{{ partial "speaker-box2" . }}
 		{{ end }}
-
-	{{ range .Data.Pages.ByTitle }}
-
-	{{ end }}
 	</ul>
 
 	<div class="see-you">

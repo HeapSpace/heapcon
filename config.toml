@@ -2,9 +2,8 @@ baseURL = "https://heapcon.io"
 languageCode = "en-us"
 title = "heapcon ⬣ a new conference by heapspace"
 
-[taxonomies]
-  talk = "talks"
-  tag = "tags"
-
 [params]
   description = "heapcon is a regional tech conference for software engineers and tech businesses"
+
+[permalinks]
+  speakers = "/:section/:slug/:title"
