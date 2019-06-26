@@ -1,5 +1,5 @@
 ---
-title: "Keynote #1"
+title: "Keynote Day 1"
 description: "Keynote #1"
 speaker: "Dave Snowden"
 bio: "Dave Snowden divides his time between two roles: founder Chief Scientific Officer of Cognitive Edge and the founder and Director of the Centre for Applied Complexity at the University of Wales. His work is international in nature and covers government and industry looking at complex issues relating to strategy, organisational decision making and decision making. He has pioneered a science based approach to organisations drawing on anthropology, neuroscience and complex adaptive systems theory.  He is a popular and passionate keynote speaker on a range of subjects, and is well known for his pragmatic cynicism and iconoclastic style.
