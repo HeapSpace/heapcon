@@ -890,12 +890,12 @@
 
 			.peace{
 				width: 28vw;
-				top: -17vw;
+				top: -13vw;
 				left: 69vw;
 			}
 			.human{
 				width: 32vw;
-				top: -23vw;
+				top: -25vw;
 				left: 7vw;
 			}
 			.ear{
@@ -935,7 +935,20 @@
 
 		.small-scrolling-text{
 			font-size: 10vw;
-			margin-bottom: 40vw;
+			margin-bottom: 15vw;
+		}
+
+		.home-anim{
+			height: 90vw;
+
+			video{
+				width: 47vw;
+				left: 0;
+
+				&.home-anim-2{
+					top: 15vw;
+				}
+			}
 		}
 	}
 
