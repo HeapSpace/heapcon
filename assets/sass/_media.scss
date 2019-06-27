@@ -810,6 +810,28 @@
 		margin-top: 160px;
 	}
 
+	.video-anim{
+		height: auto;
+		padding-bottom: 50vw;
+
+		&.speakers-anim{
+			padding-bottom: 0;
+		}
+
+		video{
+			position: static;
+			width: 100%;
+
+			&.home-anim-2{
+				display: none;
+			}
+
+			&.speakers-anim-1{
+				margin-bottom: 20vw;
+			}
+		}
+	}
+
 	.home{
 		.columns{
 			.col{
@@ -938,19 +960,6 @@
 			margin-bottom: 30vw;
 		}
 
-		.home-anim{
-			height: auto;
-			padding-bottom: 50vw;
-
-			video{
-				position: static;
-				width: 100%;
-
-				&.home-anim-2{
-					display: none;
-				}
-			}
-		}
 		.home-anim-mobile{
 			display: block;
 			padding-bottom: 30vw;
