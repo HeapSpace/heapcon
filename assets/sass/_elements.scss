@@ -796,6 +796,10 @@ main{
 	position: relative;
 	height: 60vw;
 
+	&.speakers-anim{
+		height: 40vw;
+	}
+
 	video{
 		position: absolute;
 		width: 33vw;
