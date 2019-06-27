@@ -10,25 +10,10 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/talks
-  label: Talks
-  create: all
-  match: "**/*"
-- type: directory
   path: content
   label: Pages
   create: all
   match: "*"
-- type: directory
-  path: content/code-of-conduct
-  label: Code of conduct
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/about
-  label: About
-  create: all
-  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
