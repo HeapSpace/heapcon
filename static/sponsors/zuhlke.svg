@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 240 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g>
+<svg width="100%" height="100%" viewBox="0 0 180 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.20999,0,0,1.20999,-55.0385,-22.9994)">
         <g>
             <path d="M87.636,52.333L87.636,55.146L70.178,55.146L82.374,40.021L72.197,40.021L72.197,37.241L88.134,37.241L76.004,52.333L87.636,52.333Z" style="fill:rgb(48,66,242);fill-rule:nonzero;"/>
             <g>
@@ -10,7 +10,7 @@
                 <path d="M102.944,27.659C102.944,28.801 102.034,29.711 100.892,29.711C99.75,29.711 98.84,28.801 98.84,27.659C98.84,26.517 99.75,25.607 100.892,25.607C102.034,25.607 102.944,26.518 102.944,27.659Z" style="fill:rgb(48,66,242);fill-rule:nonzero;"/>
             </g>
             <path d="M112.228,25.723L112.228,39.376L112.311,39.459C113.569,37.755 115.207,36.795 117.408,36.795C122.356,36.795 123.497,40.37 123.497,44.589L123.497,55.23L120.453,55.23L120.453,45.085C120.453,42.189 120.221,39.607 116.696,39.607C112.509,39.607 112.244,43.48 112.244,46.723L112.244,55.229L109.199,55.229L109.199,25.723L112.228,25.723Z" style="fill:rgb(48,66,242);fill-rule:nonzero;"/>
-            <rect x="127.998" y="25.723" width="3.045" height="29.423" style="fill:rgb(48,66,242);fill-rule:nonzero;"/>
+            <rect x="127.998" y="25.723" width="3.045" height="29.423" style="fill:rgb(48,66,242);"/>
             <path d="M139.102,43.894L145.639,37.242L149.71,37.242L142.032,44.888L151.15,55.198L147.129,55.198L139.103,46.113L139.103,55.198L136.059,55.198L136.059,25.723L139.103,25.723L139.103,43.894L139.102,43.894Z" style="fill:rgb(48,66,242);fill-rule:nonzero;"/>
             <path d="M165.381,49.454C164.239,51.424 162.651,52.83 160.218,52.83C156.842,52.83 154.509,50.165 154.476,46.856L168.278,46.856C168.576,41.527 165.58,36.745 159.954,36.745C154.476,36.745 151.432,41.114 151.432,46.442C151.432,51.572 154.775,55.676 160.021,55.676C163.479,55.676 166.177,53.922 167.898,50.926L165.381,49.454ZM159.937,39.558C162.568,39.558 164.687,41.643 165.1,44.241L154.609,44.241C154.956,41.66 157.355,39.558 159.937,39.558Z" style="fill:rgb(48,66,242);fill-rule:nonzero;"/>
         </g>
