@@ -1,3 +1,4 @@
+var BACKGROUND_COLOR = 0x231f20;
 var SHOW_GUI = false;
 var IMAGE_ASPECT_RATIO = 4.36;
 var CAMERA_WIDTH = 8;
@@ -9,13 +10,14 @@ var params = {
     frequencyY: 0.39,
     envelopeFrequencyX: 0.38,
     envelopeFrequencyY: 1.47,
-    mouseDistortion: 0.0,
+    mouseDistortion: 0.87,
     mouseDistortionWidth: 2.2,
     timeScale: 0.004,
     wireframe: false,
     subdivision: 40,
     animate: true,
-    rotation: 0
+    rotation: 0,
+    scale: 1.2
 };
 
 if (SHOW_GUI) {
@@ -60,9 +62,8 @@ var uniforms = {
     mouseDistortion: { type: "f", value: params.mouseDistortion },
     mouseDistortionWidth: { type: "f", value: params.mouseDistortionWidth },
     timeScale: { type: "f", value: params.timeScale },
-    texture: { type: "t", value: THREE.ImageUtils.loadTexture("images/logo_4k_stretched.png") },
-    mousePosition: new THREE.Uniform(new THREE.Vector2(10000, 10000)),
-    blendColor: { type: "c", value: new THREE.Color(0xFD4000) }
+    texture: { type: "t", value: THREE.ImageUtils.loadTexture("/images/logo_4k_stretched_2.png") },
+    mousePosition: new THREE.Uniform(new THREE.Vector2(10000, 10000))
 };
 
 var planeMaterial, width, height;
@@ -133,10 +134,10 @@ width = CAMERA_WIDTH;
 var camera = new THREE.OrthographicCamera(width / -2, width / 2, height / 2, height / -2, 1, 100);
 
 var renderer = new THREE.WebGLRenderer({
-    canvas: canvas,
-    alpha: true
+    canvas: canvas
 });
 var pixelRatio = window.devicePixelRatio || 1;
+renderer.setClearColor(BACKGROUND_COLOR, 1);
 renderer.setPixelRatio(pixelRatio);
 renderer.setSize(canvas.offsetWidth, canvas.offsetHeight);
 
@@ -158,6 +159,7 @@ planeMaterial = new THREE.ShaderMaterial( {
     transparent: true
 });
 var planeMesh = new THREE.Mesh(planeGeometry, planeMaterial);
+planeMesh.scale.set(params.scale, params.scale, params.scale);
 
 createPlane();
 scene.add(planeMesh);
