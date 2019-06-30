@@ -14,7 +14,7 @@ end: "14:05"
 outputs:
 - html
 - calendar
-slug: "jeremias-rosler"
+slug: "jeremias-rößler"
 ---
 
 GUI test automation is broken — because regression testing is not testing, but version control of the behaviour of the software.
