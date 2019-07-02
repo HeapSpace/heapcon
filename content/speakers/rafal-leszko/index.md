@@ -1,5 +1,5 @@
 ---
-title: "Where is my cache? Architectural patterns for caching microservices by example"
+title: "Where Is My Cache? Architectural Patterns for Caching Microservices by Example"
 description: "Different architectural patterns for distributed caching"
 speaker: "Rafal Leszko"
 bio: "Author of the book 'Continuous Delivery with Docker and Jenkins', trainer, and a conference speaker. He specializes in Java development, Cloud environments, and Continuous Delivery. Former employee in a number of companies and scientific organizations: Google, CERN, AGH University, and more."
