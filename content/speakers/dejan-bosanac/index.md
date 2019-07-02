@@ -1,5 +1,5 @@
 ---
-title: "Edge Computing … What's that all about?"
+title: "Edge Computing … What's That All About?"
 description: "All the aspects of Edge computing, it's current state and the future trends."
 speaker: "Dejan Bosanac"
 bio: "I’m an engineer at Red Hat working on cloud messaging and IoT Edge platforms. I have more than a decade of experience in developing open source solutions, making commercial products based on them and working with customers on running production systems based on these products. I’ve been an active member of open source communities for many years and a contributor to various projects."
