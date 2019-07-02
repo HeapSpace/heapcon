@@ -1,5 +1,5 @@
 ---
-title: "User Story Mapping: hookup the business idea with the right product (backlog)"
+title: "User Story Mapping: Hookup the Business Idea with the Right Product (backlog)"
 description: "How to define product right, from all perspectives: business, development and testing."
 speaker: "Maja, Mirjana, Danijela, Tamara"
 bio: "For Maja Tričković it all started on her 3rd birthday, when she made seating arrangements for the guests. Throughout the years, innate organizational skills combined with love towards IT naturally moved her focus to IT project management she has been enjoying ever since. After few years of freelancing, she is now working as a Delivery Manager in Levi9 for more than 4 years. Although passionate about her work in general, she is especially enjoying coaching and supporting people to become the best version of themselves. 
