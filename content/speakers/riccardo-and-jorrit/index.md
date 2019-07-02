@@ -1,5 +1,5 @@
 ---
-title: "Kotlin is for Hipsters"
+title: "Kotlin Is for Hipsters"
 description: ""
 speaker: "Riccardo Lippolis & Jorrit van der Ven"
 bio: "Riccardo is an inquiring and experienced Java Developer with a passion for solving complex problems. His core competence lies in Java, but he also has experience with other languages like Kotlin. Riccardo strives for quality with a pragmatic approach. He works for JDriven, where he shares his passion and drive with other enthusiasts. He has spoken at several conferences, including (but not limited to): JFall (2016, rated #1), DevoxxUK (2017), JavaLand (2017), Code and Comedy (2017, keynote speaker), NextBuild (2017) and Spring I/O (2018)
