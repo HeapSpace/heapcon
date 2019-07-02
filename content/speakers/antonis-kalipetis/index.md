@@ -1,5 +1,5 @@
 ---
-title: "Do I really need containers?"
+title: "Do I Really Need Containers?"
 description: "Containers are the next best thing after sliced bread, but do you really need containers?"
 speaker: "Antonis Kalipetis"
 bio: "Antonis is leading the technology at SourceLair – a company specialized in creating developer tools, while at the same time helps teams improve their development workflow. He's a Python lover and developer, and a Docker Captain. When not talking about himself in the third person, he loves automating stuff and sharing knowledge around all things containers, DevOps and developer workflows."
