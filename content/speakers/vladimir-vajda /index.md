@@ -17,11 +17,11 @@ outputs:
 slug: "vladimir-vajda"
 ---
 
-Using HTTP as communication between services introduces tightly coupling as each service needs to know about the existence of other. Event sourcing solves the coupling problem as each service is unaware of any other. It just listens on events of interest, processes them and produces new events. At least, theory says that.
+Using HTTP as a means of communication between services, introduces tight coupling as each service needs to know about the existence of the other. Event sourcing solves the coupling problem as each service is unaware of any other. It just listens on events of interest, processes them and produces new events. At least, in theory.
 Even though you have event sourcing, in some cases you cannot avoid asking other service for a piece of information.
 
-This talk is about how to design your services to support query communication pattern.
-There are several approaches how this can be solved, none of them is all-powerful, each has its pros and cons. Decision should be carefully made.
+This talk is about how to design your services to support the query communication pattern.
+There are several approaches how this can be solved, none of them is almighty, each has its pros and cons. The decision should be made carefully.
 
 <!-- Using HTTP as communication between services introduces tightly coupling as each service needs to know about the existence of other. This results in overall brittle and much more complex system than it actually needs to be.
 Event sourcing solves the coupling problem as each service is unaware of any other. It just listens on events of interest, processes them and produces new events. At least, theory says that.
