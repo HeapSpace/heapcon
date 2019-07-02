@@ -1,5 +1,5 @@
 ---
-title: "Getting started with Deep Learning for Software Developers"
+title: "Getting Started with Deep Learning for Software Developers"
 description: ""
 speaker: "Zoran Ševarac"
 bio: "Zoran Sevarac is a Java developer, entrepreneur and Associate professor at the University of Belgrade. He is a NetBeans contributor, AI researcher, Dukes Choice Award winner and Java Champion. Also a cofounder of a deep learning startup."
