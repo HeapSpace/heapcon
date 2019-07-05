@@ -62,16 +62,17 @@ footer{
 		}
 	}
 
-	.social-media,
-	.logo-large{
+	.social-media{
 		width: 44vw;
 		margin-left: calc(28vw - 70px);
-	}
-	.social-media{
+		margin-bottom: -8vw;
+
+		position: relative;
+		z-index: 1;
+
 		overflow: hidden;
 		font-size: 3.5vw;
 		line-height: 5vw;
-		margin-bottom: 3.5vw;
 
 		.col{
 			width: 50%;
@@ -79,6 +80,8 @@ footer{
 		}
 	}
 	.logo-large{
+		width: 84vw;
+		margin-left: 3vw;
 		text-align: center;
 	}
 	.logo-large svg{
@@ -89,7 +92,7 @@ footer{
 	.footer-bottom{
 		font-family: $font-main;
 		font-size: 1.6vw;
-		margin-top: 7.3vw;
+		margin-top: -1vw;
 		color: $color-hs-blue;
 		overflow: hidden;
 		position: relative;
