@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "alex-casalboni"
+ogpng: "og-speakers/alex-casalboni.png"
 ---
 
 As serverless architectures become more popular, developers need a framework of patterns to deploy their workloads without managing servers or operating systems, without friction or operational heavy lifting. This session will describe reusable advanced patterns while considering costs as well. At the same time, we’ll consider operational and security best practices and discuss potential pitfalls and nuances.
