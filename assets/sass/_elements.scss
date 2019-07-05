@@ -833,6 +833,11 @@ main{
 		position: relative;
 
 		color: $color-hs-blue;
+
+		.line-1,
+		.line-2{
+			transition: transform 0.2s;
+		}
 		
 		.line-1{
 			margin-left: -85vw;
