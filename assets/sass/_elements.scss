@@ -822,7 +822,8 @@ main{
 .home{
 	.block-text{
 		width: 100vw;
-		margin-left: -85px;
+		margin-left: -5vw;
+		padding-bottom: 22vw;
 		font-family: $font-block;
 		font-size: 23vw;
 		line-height: 1;
@@ -832,9 +833,13 @@ main{
 		position: relative;
 
 		color: $color-hs-blue;
-
+		
+		.line-1{
+			margin-left: -85vw;
+		}
 		.line-2{
-			text-align: right;
+			position: absolute;
+			right: -50vw;
 		}
 
 		.icons img{
@@ -913,6 +918,18 @@ main{
 	.block-text-2{
 		color: $color-hs-red;
 		margin-bottom: 18vw;
+
+		.line-1{
+			margin-left: -66vw;
+		}
+		.line-2{
+			right: -63vw;
+		}
+	}
+	.block-text-3{
+		.line-2{
+			right: -73vw;
+		}
 	}
 
 	.action-text{

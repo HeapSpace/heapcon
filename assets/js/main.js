@@ -150,9 +150,16 @@ function jQueryInitAllPages() {
 	// }
 	// END colored header and footer
 
+
+	var isHome = ($('.home').length) ? true : false;
+
 	// decorations
 	$(document).on("scroll", function() {
 		makefun();
+
+		if(isHome){
+			blockTextScroll();
+		}
 	});
 	makefun();
 

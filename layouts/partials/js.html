@@ -1,6 +1,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
 
 {{ $funfunjs := resources.Get "js/funfunctions.js" }}
+{{ $anim2019js := resources.Get "js/anim2019.js" }}
 {{ $mainjs := resources.Get "js/main.js" }}
-{{ $js := slice $funfunjs $mainjs | resources.Concat "js/script.js" | minify | fingerprint }}
+{{ $js := slice $funfunjs $anim2019js $mainjs | resources.Concat "js/script.js" | minify | fingerprint }}
 <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
