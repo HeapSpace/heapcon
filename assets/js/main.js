@@ -159,6 +159,7 @@ function jQueryInitAllPages() {
 
 		if(isHome){
 			blockTextScroll();
+			// scrollTextStart();
 		}
 	});
 	makefun();

@@ -970,6 +970,41 @@ main{
 		margin-bottom: 10vw;
 
 		color: $color-hs-blue;
+		
+		.line-1,
+		.line-3{
+			position: relative;
+			left: 0;
+
+			animation-name: movetext;
+			animation-duration: 60s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		.line-2{
+			position: absolute;
+			right: 0;
+
+			animation-name: movetext2;
+			animation-duration: 60s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		.line-3{
+			margin-top: 4.2vw;
+		}
+
+	}
+
+	@keyframes movetext {
+		from { left: 0; }
+		to { left: -175vw; }
+	}
+	@keyframes movetext2 {
+		from { right: 0; }
+		to { right: -190vw; }
 	}
 
 	.home-anim-mobile{
