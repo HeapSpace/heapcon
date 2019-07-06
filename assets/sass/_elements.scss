@@ -687,6 +687,7 @@ main{
 	.col{
 		float: left;
 		width: 40vw;
+		overflow: hidden;
 
 		font-size: 3.3vw;
 		line-height: 4vw;
@@ -714,12 +715,62 @@ main{
 			.info{
 				font-size: 7vw;
 				line-height: 7.5vw;
+
+				transform: translate(100%, 0);
+
+				animation-name: talkAnim;
+				animation-delay: 0.5s;
+				animation-duration: 0.3s;
+				animation-fill-mode: forwards;
+			}
+			@keyframes talkAnim {
+				from { transform: translate(100%, 0); }
+				to { transform: translate(0, 0); }
 			}
 		} 
 		&.year .info{
 			font-size: 15vw;
 			line-height: 12vw;
+			
+			transform: translate(100%, 0);
+
+			animation-name: mainTitleAnim;
+			animation-delay: 0.5s;
+			animation-duration: 0.3s;
+			animation-fill-mode: forwards;
 		}
+
+		@keyframes mainTitleAnim {
+			from { transform: translate(100%, 0); }
+			to { transform: translate(0, 0); }
+		}
+
+		&.when .info > div,
+		&.where .info,
+		&.what .info{
+			transform: translate(0, 100%);
+
+			animation-name: otherInfoAnim;
+			animation-delay: 0.7s;
+			animation-duration: 0.3s;
+			animation-fill-mode: forwards;
+		}
+		&.when .info{
+			overflow: hidden;
+		}
+		&.where .info{
+			animation-delay: 0.8s;
+		}
+		&.what .info{
+			animation-delay: 0.9s;
+		}
+
+		@keyframes otherInfoAnim {
+			from { transform: translate(0, 100%); }
+			to { transform: translate(0, 0); }
+		}
+
+
 		&.what .info{
 			font-size: 5vw;
 			line-height: 5vw;
@@ -966,8 +1017,10 @@ main{
 		white-space: nowrap;
 
 		width: 100vw;
-		margin-left: -85px;
+		margin-left: -5vw;
 		margin-bottom: 10vw;
+		position: relative;
+		overflow: hidden;
 
 		color: $color-hs-blue;
 		
@@ -1088,6 +1141,14 @@ main{
 .venue{
 	.columns{
 		margin-bottom: 10vw;
+
+		.part-1{
+			overflow: hidden;
+
+			.info{
+				animation-delay: 0.7s;
+			}
+		}
 	}
 
 	.accommodation{
@@ -1229,6 +1290,16 @@ img.profile{
 	-webkit-clip-path: url(#svgPath);
 }
 .tickets{
+	.columns{
+		.part-1{
+			overflow: hidden;
+
+			.info{
+				animation-delay: 0.7s;
+			}
+		}
+	}
+
 	.main-info,
 	.xing{
 		margin-bottom: 10vw;

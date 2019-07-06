@@ -598,6 +598,9 @@
 				width: 50vw;
 				height: auto;
 				margin-bottom: 10px;
+				
+				animation: none;
+				transform: none;
 			}
 		}
 		a.powered-by{
@@ -610,10 +613,14 @@
 			width: 65vw;
 			top: auto;
 			left: auto;
+
+			animation: none;
 		}
 
 		.outer-menu{
 			float: none;
+			animation: none;
+			transform: none;
 
 			.btn-menu{
 				position: absolute;
@@ -852,6 +859,9 @@
 					float: right;
 					margin-bottom: 60px;
 				}
+				&.what{
+					float: right;
+				}
 				&.what .info{
 					font-size: 15vw;
 					line-height: normal;
@@ -968,6 +978,25 @@
 		.small-scrolling-text{
 			font-size: 10vw;
 			margin-bottom: 30vw;
+
+			.line-1,
+			.line-2,
+			.line-3{
+				animation-duration: 100s;
+			}
+
+			.line-3{
+				margin-top: 12vw;
+			}
+		}
+
+		@keyframes movetext {
+			from { left: 0; }
+			to { left: -730vw; }
+		}
+		@keyframes movetext2 {
+			from { right: 0; }
+			to { right: -730vw; }
 		}
 
 		.home-anim-mobile{

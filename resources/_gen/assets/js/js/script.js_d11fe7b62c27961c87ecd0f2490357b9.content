@@ -27,4 +27,4 @@ let lastScrollPosition=$(window).scrollTop();$(window).scroll(function(){const h
 headerHidden=false;scrollDirectionA=1;}
 else{if(scrollDirectionA===1){if(height>colorThreshold+100){$("header").fadeOut("slow");headerHidden=true;scrollDirectionA=2;}}
 else{if(height<colorThreshold-100){$("header").fadeIn("slow");headerHidden=false;scrollDirectionA=1;}}}
-lastScrollPosition=height;});}
+lastScrollPosition=height;});if($(window).innerWidth()>600){setTimeout(function(){$('header h1.logo svg, header a.powered-by, header .outer-menu').css({animation:'none',transform:'none'});$('header a.powered-by').css({transform:'translate(-50%, 0)'});},2000);}}

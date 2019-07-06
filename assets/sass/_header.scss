@@ -231,7 +231,20 @@ header{
 		height: 75px;
 		width: auto;
 		display: block;
+		
+		transform: translate(0, -130%);
+
+		animation-name: logoAppear;
+		animation-delay: 0.2s;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
+
 	}
+	@keyframes logoAppear {
+		from { transform: translate(0, -130%); }
+		to { transform: none; }
+	}
+
 	h1.logo svg g{
 		fill: $color-hs-blue;
 	}
@@ -244,17 +257,39 @@ header{
 		position: absolute;
 		top: 47px;
 		left: 50%;
-		transform: translate(-50%, 0);
+		transform: translate(-50%, -350%);
+
+		animation-name: poweredAppear;
+		animation-delay: 0.8s;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
+
+	}
+	@keyframes poweredAppear {
+		from { transform: translate(-50%, -350%); }
+		to { transform: translate(-50%, 0); }
 	}
 
 	.outer-menu{
+		transform: translate(0, -120%);
+
+		animation-name: menuAppear;
+		animation-delay: 1.2s;
+		animation-duration: 1.5s;
+		animation-fill-mode: forwards;
+
+		@keyframes menuAppear {
+			from { transform: translate(0, -120%); }
+			to { transform: none; }
+		}
+
 		.btn-menu{
 			float: right;
 
 			background: $color-hs-blue;
 			padding: 12px 18px;
 			margin-top: 20px;
-			margin-bottom: 40px;
+			margin-bottom: 23px;
 			height: 14px;
 			width: 36px;
 
