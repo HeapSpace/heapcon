@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "dmitry-vinnik"
+ogpng: "og-speakers/dmitry-vinnik.png"
 ---
 
 The talk is loading...

@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "katie-koschland"
+ogpng: "og-speakers/katie-koschland.png"
 ---
 
 The key to finding the optimal solution to a problem is to threefold: maximise the number of tools in your ‘personal tool box’; know all their capabilities and uses; and to know which tool is best suited to fix the particular problem in front of you.

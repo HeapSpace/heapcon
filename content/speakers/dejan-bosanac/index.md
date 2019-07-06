@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "dejan-bosanac"
+ogpng: "og-speakers/dejan-bosanac.png"
 ---
 
 The session will summarize all the aspects of Edge computing, its current state and future trends. We'll start by introducing use cases that require this new type of architecture. Next, we'll go into the challenges when you go beyond your typical cloud infrastructure. Finally, we'll dig into the current state of the development with special focus on Kubernetes community and projects around it.
