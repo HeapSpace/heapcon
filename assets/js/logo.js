@@ -60,7 +60,7 @@ var uniforms = {
     mouseDistortion: { type: "f", value: params.mouseDistortion },
     mouseDistortionWidth: { type: "f", value: params.mouseDistortionWidth },
     timeScale: { type: "f", value: params.timeScale },
-    texture: { type: "t", value: THREE.ImageUtils.loadTexture("images/logo_4k_stretched.png") },
+    texture: { type: "t", value: THREE.ImageUtils.loadTexture("/images/logo_4k_stretched.png") },
     mousePosition: new THREE.Uniform(new THREE.Vector2(10000, 10000)),
     blendColor: { type: "c", value: new THREE.Color(0xFD4000) }
 };
