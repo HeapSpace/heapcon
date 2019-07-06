@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "lois-kim"
+ogpng: "og-speakers/lois-kim.png"
 ---
 
 As a Visual Strategist at NASA's Jet Propulsion Laboratory, Lois is passionate about helping scientists and engineers imagine their future, and giving people a sense of awe about the universe. Through visual language, she creates and art directs visually intriguing stories, designs, branding, print, and art installations. She hopes that her work will spark inspiration and show the beauty of science through art and design.

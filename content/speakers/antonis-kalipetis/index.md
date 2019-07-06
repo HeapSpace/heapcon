@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "antonis-kalipetis"
+ogpng: "og-speakers/atonis-kalipetis.png"
 ---
 
 Containers are the next best thing after sliced bread, but do you really need containers? Join this talk to discuss the different scenarios where containers can really help — or get in your way — when deploying your applications. We'll examine the different patterns and a few examples of go and no-go scenarios for containers.

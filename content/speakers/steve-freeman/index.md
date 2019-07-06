@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "steve-freeman"
+ogpng: "og-speakers/steve-freeman.png"
 ---
 
 Some of the tension between trying to get product out and developing something you can live with is an essential feature of trying to do anything new, but some is the result of a mismatch of understanding between Product and Development. The metaphor of debt does not really convey the risks that arise from poor technical quality. Instead, Steve will introduce some other metaphors for looking at technical risk that we think match the problem more effectively, and propose some strategies to help product and development teams approach a solution.

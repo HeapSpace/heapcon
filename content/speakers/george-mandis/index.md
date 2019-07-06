@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "george-mandis"
+ogpng: "og-speakers/george-mandis.png"
 ---
 
 Running apps without servers and browsers without screens sounds a little absurd, but it can be a surprisingly efficient way to solve certain problems. In this talk George will discuss a real-world solution built on top of serverless technologies and Puppeteer — the Headless Chrome Node API — to work with the SVG DOM on-the-fly and create print-ready documents from GPS routes. The audience will get a firsthand look at how cutting-edge JavaScript technologies and language features were integrated with a preexisting legacy PHP backend and minimal casualties.

@@ -19,6 +19,7 @@ outputs:
 - html
 - calendar
 slug: "dave-snowden"
+ogpng: "og-speakers/dave-snowden.png"
 ---
 
 The talk is loading...

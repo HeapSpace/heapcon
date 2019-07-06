@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "kaz-sato"
+ogpng: "og-speakers/kaz-sato.png"
 ---
 
 With TensorFlow and Cloud AI from Google, anyone can leverage deep learning technology at low cost and without much ML expertise. In this session, we will explore examples of business that have adopted TensorFlow and Cloud AI to solve their real-world problems from cucumber farmers to food manufacturers.
