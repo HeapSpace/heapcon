@@ -598,7 +598,7 @@
 				width: 50vw;
 				height: auto;
 				margin-bottom: 10px;
-				
+
 				animation: none;
 				transform: none;
 			}
@@ -1022,6 +1022,10 @@
 
 			li{
 				padding: 13vw;
+
+				a{
+					transform: none;
+				}
 
 				span{
 					display: block;

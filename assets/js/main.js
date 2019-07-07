@@ -152,6 +152,11 @@ function jQueryInitAllPages() {
 
 
 	var isHome = ($('.home').length) ? true : false;
+	var isPeople = ($('.speakers').length || $('.committee').length) ? true : false;
+
+	if(isPeople && $(window).innerWidth() > 600){
+		initPeople();
+	}
 
 	// decorations
 	$(document).on("scroll", function() {
@@ -160,6 +165,10 @@ function jQueryInitAllPages() {
 		if(isHome){
 			blockTextScroll();
 			// scrollTextStart();
+		}
+
+		if(isPeople && $(window).innerWidth() > 600){
+			showPeople();
 		}
 	});
 	makefun();

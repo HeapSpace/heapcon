@@ -11,21 +11,21 @@ var initiatedBlockTest = false,
 function initBlockTex() {
 	windowHeight = $(window).innerHeight();
 	windowWidth = $(window).innerWidth();
-	blockHeight = $('.block-text-1').outerHeight();
+	blockHeight = $('.block-text').outerHeight();
 	blockOffset = (blockHeight + windowHeight) / 2;
 
-	blockMidPoint[1] = $('.block-text-1').offset().top + (blockHeight - windowHeight) / 2;
-	blockMidPoint[2] = $('.block-text-2').offset().top + (blockHeight - windowHeight) / 2;
-	blockMidPoint[3] = $('.block-text-3').offset().top + (blockHeight - windowHeight) / 2;
+	$('.block-text').each(function(index, el) {
+		blockMidPoint[index] = $(el).offset().top + (blockHeight - windowHeight) / 2;
+	});
 
 	var scrollPos = $(window).scrollTop();
 
 	initiatedBlockTest = true;
 }
 
-function setBlockPosition(blockNumber, blockMove) {
-	$('.block-text-' + blockNumber).find('.line-1').css('transform', 'translate(' + blockMove + 'px, 0)');
-	$('.block-text-' + blockNumber).find('.line-2').css('transform', 'translate(' + -blockMove + 'px, 0)');
+function setBlockPosition(block, blockMove) {
+	$(block).find('.line-1').css('transform', 'translate(' + blockMove + 'px, 0)');
+	$(block).find('.line-2').css('transform', 'translate(' + -blockMove + 'px, 0)');
 }
 
 function blockTextScroll() {
@@ -33,51 +33,37 @@ function blockTextScroll() {
 
 	var scrollPos = $(window).scrollTop();
 
-	for (var i = 1; i <= 3; i++) {
-		if((scrollPos > blockMidPoint[i] - blockOffset) && (scrollPos < blockMidPoint[i] + blockOffset)){
+	$('.block-text').each(function(index, el) {
+		if((scrollPos > blockMidPoint[index] - blockOffset) && (scrollPos < blockMidPoint[index] + blockOffset)){
 
-			var currentBlockMove = (blockMidPoint[i] - scrollPos) * 0.3;
+			var currentBlockMove = (blockMidPoint[index] - scrollPos) * 0.3;
 
-			setBlockPosition(i, currentBlockMove);
+			setBlockPosition(el, currentBlockMove);
 
 			return;
 		}
-	}
+	});
 }
 
 
 
 // ****************************** //
-// ** Scrolling Text Animation ** //
+// ****** Show People Anim ****** //
 // ****************************** //
-var text = 0,
-	textLine = [0, 0, 0],
-	linePart = [0, 0, 0],
-	timer = 0;
+function initPeople() {
+	windowHeight = $(window).innerHeight();
 
-function checkPositions() {
-	// clearTimeout(timer);
-
-	// $('.block-text-1').offset().top + (blockHeight - windowHeight) / 2;
-
-	// console.log(linePart[1].offset().left);
-	// for (var i = 1; i <= 3; i++) {
-		
-	// }
-
-	// timer = setTimeout(checkPositions, 200);
+	// $('.list li:not(.open)').each(function(index, el) {
+	// 	if($(el).offset().top > ) 
+	// });
 }
 
-function scrollTextStart() {
-	timer = setTimeout(checkPositions, 200);
+function showPeople() {
+	var scrollPos = $(window).scrollTop();
 
-	text = $('.small-scrolling-text');
-
-	textLine[1] = text.find('.line-1');
-	textLine[2] = text.find('.line-2');
-	textLine[3] = text.find('.line-3');
-
-	linePart[1] = textLine[1].find('.part-2');
-	linePart[2] = textLine[2].find('.part-2');
-	linePart[3] = textLine[3].find('.part-2');
+	$('.list li:not(.show)').each(function(index, el) {
+		if($(el).offset().top > scrollPos + windowHeight * 0.2 && $(el).offset().top < scrollPos + windowHeight * 0.7){
+			$(el).addClass('show');
+		}
+	});
 }

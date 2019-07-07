@@ -15,6 +15,7 @@
 			<div class="info"><div>The conference offers a great speakers lineup and a networking space with people from the tech industry.</div></div>
 		</div>
 	</div>
+	
 	{{ $section := "speakers" }}
 	<ul class="list columns">
 		{{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
