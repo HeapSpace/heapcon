@@ -2,8 +2,8 @@
 title: "A Bluffer’s Guide to Technical Debt for Other People"
 description: "Metaphors for looking at technical risk that we think match the problem more effectively"
 speaker: "Steve Freeman"
-bio: "Steve Freeman, author of ‘Growing Object Oriented Software, Guided by Tests’ (Addison-Wesley), was a pioneer of agile software development in the UK. He is currently a distinguished consultant with Zuhlke Engineering Limited."
-company: "Zuhlke Engineering Limited"
+bio: "Steve Freeman, author of ‘Growing Object Oriented Software, Guided by Tests’ (Addison-Wesley), was a pioneer of agile software development in the UK. He is currently a distinguished consultant with Zuehlke Engineering Limited."
+company: "Zuehlke Engineering Limited"
 job: "Consultant"
 link:
 day: "26"
