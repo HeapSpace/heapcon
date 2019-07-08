@@ -153,14 +153,14 @@ function jQueryInitAllPages() {
 
 	var isHome = ($('.home').length) ? true : false;
 	var isPeople = ($('.speakers').length || $('.committee').length) ? true : false;
-
-	if(isPeople && $(window).innerWidth() > 600){
-		initPeople();
-	}
+	
+	init2019();
 
 	// decorations
 	$(document).on("scroll", function() {
 		makefun();
+
+		checkIfEndOfPage();
 
 		if(isHome){
 			blockTextScroll();

@@ -4,13 +4,14 @@
 var initiatedBlockTest = false,
 	windowHeight = 0,
 	windowWidth = 0,
+	footerPos = 0,
+	footerOpen = false,
 	blockHeight = 0,
 	blockOffset = 0,
 	blockMidPoint = [0, 0, 0];
 
+
 function initBlockTex() {
-	windowHeight = $(window).innerHeight();
-	windowWidth = $(window).innerWidth();
 	blockHeight = $('.block-text').outerHeight();
 	blockOffset = (blockHeight + windowHeight) / 2;
 
@@ -50,14 +51,6 @@ function blockTextScroll() {
 // ****************************** //
 // ****** Show People Anim ****** //
 // ****************************** //
-function initPeople() {
-	windowHeight = $(window).innerHeight();
-
-	// $('.list li:not(.open)').each(function(index, el) {
-	// 	if($(el).offset().top > ) 
-	// });
-}
-
 function showPeople() {
 	var scrollPos = $(window).scrollTop();
 
@@ -66,4 +59,30 @@ function showPeople() {
 			$(el).addClass('show');
 		}
 	});
+}
+
+
+
+// ****************************** //
+// ********* Show Footer ******** //
+// ****************************** //
+function init2019() {
+	windowHeight = $(window).innerHeight();
+	windowWidth = $(window).innerWidth();
+
+	footerPos = $('.footer-bottom').offset().top;
+	
+	checkIfEndOfPage();
+}
+
+
+function checkIfEndOfPage() {
+	if(!footerOpen){
+		var scrollPos = $(window).scrollTop();
+
+		if(scrollPos + windowHeight * 0.85 > footerPos){
+			$('.footer-bottom').addClass('show');
+			footerOpen = true;
+		}
+	}
 }

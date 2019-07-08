@@ -97,12 +97,34 @@ footer{
 		overflow: hidden;
 		position: relative;
 
+		&.show{
+			.part-left,
+			.part-center,
+			.part-right{
+				opacity: 1;
+			}
+		}
+
 		a{
 			color: $color-hs-blue;
 
 			&:hover{
 				color: $color-hs-red;
 			}
+		}
+		
+		.part-left,
+		.part-center,
+		.part-right{
+			opacity: 0;
+
+			transition: opacity 1.2s;
+		}
+		.part-center{
+			transition-delay: 0.2s;
+		}
+		.part-right{
+			transition-delay: 0.4s;
 		}
 
 		.part-left{
