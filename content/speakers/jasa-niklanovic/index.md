@@ -1,9 +1,9 @@
 ---
-title: Incorporating engineers into the entire product lifecycle"
+title: Incorporating Engineers into the Entire Product Lifecycle"
 speaker: "Jaša Niklanovič"
-bio: "I’m a design driven senior frontend engineer with a passion for user experience. Starting off with a social sciences background, running a boutique web/mobile dev shop and working with startups from all over the globe pushed me to explore that personal sweet spot somewhere between engineering, UI/UX design, product and business from the very beginning of my career. A strong believer that best products are built when we connect passionate people with diverse skills in an environment, open to experimentation and failure. Currently building the future of content marketing Turtl.Fun fact about me: I'm raising 4 of the sweetest cats in the world - Fiona, Bella, Lexi & Indy."
+bio: "I’m a design driven senior frontend engineer with a passion for user experience. Starting off with a social sciences background, running a boutique web/mobile dev shop and working with startups from all over the globe pushed me to explore that personal sweet spot somewhere between engineering, UI/UX design, product and business from the very beginning of my career. A strong believer that best products are built when we connect passionate people with diverse skills in an environment, open to experimentation and failure. Currently building the future of content marketing Turtl. Fun fact about me: I'm raising 4 of the sweetest cats in the world - Fiona, Bella, Lexi & Indy."
 company: "Turtl"
-job: "Senior frontend engineer"
+job: "Senior Frontend Engineer"
 day: "26"
 track: "A"
 weight: 1330
