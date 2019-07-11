@@ -1,7 +1,6 @@
 ---
 title: "meet heapspace"
 description: "heapcon is a regional tech conference for software engineers and tech businesses"
-layout: "about"
 ogpng: "og-about.png"
 ---
 

@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+	<div class="committee-person {{ lower .Title }}">
+		<div class="main-info columns">
+			<div class="col col-l col-top wide year">
+				<div class="title">Who</div>
+				<div class="info">{{ .Title }}</div>
+			</div>
+			<div class="col col-l col-bottom where">
+				<div class="title">From</div>
+				<div class="info">{{ .Params.From }}</div>
+			</div>
+		</div>
+
+		<div class="about-person columns">
+			<div class="col col-l">
+				<div class="title">About</div>
+				<div class="info">{{ .Content }}</div>
+			</div>
+			<div class="col col-r image">
+				<img src="profile.jpg" class="profile">
+				{{ partial "clip-path.html" . }}
+			</div>
+		</div>
+	</div>
+	
+{{ end }}

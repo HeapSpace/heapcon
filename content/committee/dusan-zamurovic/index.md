@@ -1,7 +1,6 @@
 ---
 title: "Dušan Zamurović"
 from: "Novi Sad, Serbia"
-layout: "committee-person"
 ---
 
 Dušan Zamurović is a software consultant based in Novi Sad, who managed a near-shoring office, but is now back to the roots as a polyglot data engineer while working on in-house product development in a distributed and remote team.
