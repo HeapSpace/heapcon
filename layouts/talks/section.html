@@ -1,26 +1,68 @@
 {{ define "main" }}
 <h1>/admin/talks</h1>
 
+{{ $github := "https://github.com/HeapSpace/heapcon/edit/master/content"}}
+{{ $talks := (where .Site.Pages.ByTitle "Type" "talk" ) }}
+
+<h2>Talks: {{ len $talks }}</h2>
+
 <table>
-{{ range (where .Site.Pages.ByTitle "Type" "talk" ) }}
+{{ range $talks }}
 	<tr>
-		<td>Talk</td>
-		<td>{{ .Title }}</td>
+		<td><b>TALK</b>
+			<br><a href="{{ $github }}/{{.File}}" target="_blank">[edit]</a>
+		</td>
+		<td>{{ .Title }} <a href="{{.Permalink}}" target="_blank">[view]</a></td>
 	</tr>
 	<tr>
 		<td>Description</td>
 		<td>{{ .Description }}</td>
 	</tr>
 	<tr>
-		<td>Speaker</td>
-		<td>{{ .Parent.Title }}</td>
+		<td>Content</td>
+		<td>{{ .Content }}</td>
 	</tr>
 	<tr>
-		<td>img</td>
+		<td>Schedule</td>
+		<td>{{ .Params.day }} / {{ .Params.track }} / {{ .Params.start }} - {{ .Params.end }} / <a href="{{.Permalink}}/index.ics">ical</a></td>
+	</tr>
+	<tr>
+		<td>OG</td>
+		<td><img src="{{.Permalink}}/{{ .Params.og_img}}" width="200"></td>
+	</tr>
+
+	<tr>
+		<td><b>SPEAKER</b>
+			<br><a href="{{ $github }}/{{.Parent.File}}" target="_blank">[edit]</a>
+		</td>
 		<td><img src="{{.Permalink }}../profile.jpg" width="100"></td>
 	</tr>
 	<tr>
-		<td colspan="1000" style="border-bottom: 6px solid #ccc;">&nbsp;</td>
+		<td>Name</td>
+		<td>{{ .Parent.Title }}</td>
+	</tr>
+	<tr>
+		<td>Company</td>
+		<td>{{ .Parent.Params.Company }}</td>
+	</tr>
+	<tr>
+		<td>Job</td>
+		<td>{{ .Parent.Params.Job }}</td>
+	</tr>
+	<tr>
+		<td>Link</td>
+		<td>{{ .Parent.Params.Link }}</td>
+	</tr>
+	<tr>
+		<td>Bio</td>
+		<td>{{ .Parent.Content }}</td>
+	</tr>
+	<tr>
+		<td>slug</td>
+		<td>{{ .Parent.Params.slug }}</td>
+	</tr>
+	<tr>
+		<td colspan="1000" style="border-bottom: 6px solid #555; padding-top: 20px">&nbsp;</td>
 	</tr>
 {{ end }}
 </table>

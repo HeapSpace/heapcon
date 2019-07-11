@@ -2,6 +2,7 @@
 type: "talk"
 title: "Where Is My Cache? Architectural Patterns for Caching Microservices by Example"
 description: "Different architectural patterns for distributed caching"
+og_img: "rafal-leszko.png"
 day: "26"
 track: "A"
 weight: 1330

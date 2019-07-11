@@ -2,6 +2,7 @@
 type: "talk"
 title: "Live Hacking: Breaking into Your Web App"
 description: "How common vulnerabilities in the NodeJS and Java eco-system are exploited on a daily base"
+og_img: "brian-vermeer.png"
 day: "26"
 track: "A"
 weight: 1330

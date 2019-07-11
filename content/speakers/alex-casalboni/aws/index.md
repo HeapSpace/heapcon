@@ -2,6 +2,7 @@
 type: "talk"
 title: "Advanced Serverless Architectural Patterns on AWS"
 description: "Reusable advanced patterns of serverless architectures while considering costs as well."
+og_img: "alex-casalboni.png"
 day: "26"
 track: "A"
 weight: 1330

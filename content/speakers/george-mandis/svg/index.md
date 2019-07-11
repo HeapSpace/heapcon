@@ -2,6 +2,7 @@
 type: "talk"
 title: "Going the Distance with SVG, Headless & Serverless"
 description: "Running apps without servers and browsers without screens sounds a little absurd, but it can be a surprisingly efficient way to solve certain problems."
+og_img: "george-mandis.png"
 day: "26"
 track: "A"
 weight: 1330

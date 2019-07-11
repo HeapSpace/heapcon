@@ -2,6 +2,7 @@
 type: "talk"
 title: "A Bluffer’s Guide to Technical Debt for Other People"
 description: "Metaphors for looking at technical risk that we think match the problem more effectively"
+og_img: "steve-freeman.png"
 day: "26"
 track: "A"
 weight: 1330

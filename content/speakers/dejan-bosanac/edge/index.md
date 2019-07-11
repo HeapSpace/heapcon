@@ -2,6 +2,7 @@
 type: "talk"
 title: "Edge Computing … What's That All About?"
 description: "All the aspects of Edge computing, it's current state and the future trends."
+og_img: "dejan-bosanac.png"
 day: "26"
 track: "A"
 weight: 1330

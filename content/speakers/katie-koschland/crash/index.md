@@ -1,6 +1,7 @@
 ---
 title: "Ready, Steady, Crash!"
 description: "Grow the three aspects around load testing."
+og_img: "katie-koschland.png"
 day: "26"
 track: "A"
 weight: 1330

@@ -2,6 +2,7 @@
 type: "talk"
 title: "Keynote Day 1"
 description: "Keynote #1"
+og_img: "dave-snowden.png"
 day: "26"
 track: "A"
 weight: 1330
