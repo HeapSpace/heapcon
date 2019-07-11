@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    <head>
+    	<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	</head>
+  	<style type="text/css">
+body {
+	font-size: 14px;
+}
+table {
+	font-size: 12px;
+	font-family: Tahoma,sans-serif;
+	margin: auto;
+	width: 600px;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	margin-bottom: 20px;
+}
+table td {
+	padding: 3px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc #666 #eee;
+	text-align: left;
+}
+</style>
+<body>
+	{{ block "main" . }}{{ end }}
+</body>
+</html>

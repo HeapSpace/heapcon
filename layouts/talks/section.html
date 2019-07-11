@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>/admin/talks</h1>
+
+<table>
+{{ range (where .Site.Pages.ByTitle "Type" "talk" ) }}
+	<tr>
+		<td>Talk</td>
+		<td>{{ .Title }}</td>
+	</tr>
+	<tr>
+		<td>Description</td>
+		<td>{{ .Description }}</td>
+	</tr>
+	<tr>
+		<td>Speaker</td>
+		<td>{{ .Parent.Title }}</td>
+	</tr>
+	<tr>
+		<td>img</td>
+		<td><img src="{{.Permalink }}../profile.jpg" width="100"></td>
+	</tr>
+	<tr>
+		<td colspan="1000" style="border-bottom: 6px solid #ccc;">&nbsp;</td>
+	</tr>
+{{ end }}
+</table>
+
+{{ end }}
