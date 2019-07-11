@@ -1,7 +1,7 @@
 ---
 type: "talk"
 title: "Talk title loading..."
-description: "TBA"
+description: "TBA.."
 day: "26"
 track: "A"
 weight: 1330

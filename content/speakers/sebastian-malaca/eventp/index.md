@@ -1,4 +1,5 @@
 ---
+type: "talk"
 title: "Event Processing in Action"
 description: "Major concepts of event-driven architecture and tell you how to design event processing applications."
 day: "26"

@@ -1,4 +1,5 @@
 ---
+type: "talk"
 title: "Ready, Steady, Crash!"
 description: "Grow the three aspects around load testing."
 og_img: "katie-koschland.png"

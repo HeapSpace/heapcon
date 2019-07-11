@@ -3,8 +3,10 @@
 
 {{ $github := "https://github.com/HeapSpace/heapcon/edit/master/content"}}
 {{ $talks := (where .Site.Pages.ByTitle "Type" "talk" ) }}
+{{ $speakers := (where .Site.Pages.ByTitle "Type" "speaker" ) }}
 
 <h2>Talks: {{ len $talks }}</h2>
+<h2>Speakers: {{ len $speakers }}</h2>
 
 <table>
 {{ range $talks }}
