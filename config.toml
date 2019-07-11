@@ -6,4 +6,4 @@ title = "heapcon ⬣ a new conference by heapspace"
   description = "heapcon is a regional tech conference for software engineers and tech businesses"
 
 [permalinks]
-  speakers = "/:section/:slug/:title"
+  speakers = "/:sections/:title"

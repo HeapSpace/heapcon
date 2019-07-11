@@ -1,4 +1,4 @@
-	{{ define "main" }}
+{{ define "main" }}
 
 <div class="speakers">
 	<div class="main-info columns">
@@ -15,10 +15,9 @@
 			<div class="info"><div>The conference offers a great speakers lineup and a networking space with people from the tech industry.</div></div>
 		</div>
 	</div>
-	
-	{{ $section := "speakers" }}
+
 	<ul class="list columns">
-		{{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
+		{{ range (where .Site.Pages.ByTitle "Type" "talk" ) }}
 		{{ partial "speaker-box2" . }}
 		{{ end }}
 	</ul>
@@ -28,13 +27,6 @@
 		<video class="speakers-anim-2 video-anim-2" playsinline autoplay loop muted src="/videos/speakers-anim-2.mp4"></video>
 	</div>
 
-	<!-- <div class="see-you">
-		<div class="text">See you there</div>
-		<img src="../images/robot.png" alt="robot" class="robot">
-		<img src="../images/rabbit.png" alt="rabbit" class="rabbit">
-		<div class="logo">{{ partial "logo" }}</div>
-		<span class="year">2019</span>
-	</div> -->
 </div>
 
 {{ end }}
