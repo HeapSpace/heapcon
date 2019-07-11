@@ -10,6 +10,10 @@ include ".env"
 
 #node index.js
 
+echo "Calling HUGO"
+
 hugo --gc --minify "$@"
+
+ls ./public/_headers
 
 sed -i "s/ADMIN_PASSWORD/${ADMIN_PASSWORD}/g" ./public/_headers
