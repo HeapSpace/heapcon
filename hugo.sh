@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -ex
+set -x
 
 include() {
     [[ -f "$1" ]] && source "$1"
