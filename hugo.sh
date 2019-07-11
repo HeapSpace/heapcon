@@ -12,4 +12,4 @@ include ".env"
 
 hugo --gc --minify "$@"
 
-sed -i "s/ADMIN_PASSWORD/${ADMIN_PASSWORD}/g" public/_headers
+sed -i "s/ADMIN_PASSWORD/${ADMIN_PASSWORD}/g" ./public/_headers
