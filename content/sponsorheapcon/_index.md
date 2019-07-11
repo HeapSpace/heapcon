@@ -1,6 +1,5 @@
 ---
 title: "Sponsor Heapcon"
-layout: "sponsorheapcon"
 ---
 
 {{% section pink %}}

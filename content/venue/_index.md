@@ -1,4 +1,3 @@
 ---
 title: Venue
-layout: "venue"
 ---

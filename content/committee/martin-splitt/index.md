@@ -1,7 +1,6 @@
 ---
 title: "Martin Splitt"
 from: "Zürich, Switzerland"
-layout: "committee-person"
 ---
 
 Martin is open source contributor and web evangelist by heart from Zurich with a decade experience from the trenches of software engineering in multiple fields.
