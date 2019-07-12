@@ -887,6 +887,10 @@ main{
 		}
 	}
 }
+.big-video-anim{
+	width: 100%;
+	height: auto;
+}
 .home{
 	.block-text{
 		width: 100vw;
@@ -1215,11 +1219,6 @@ main{
 				}
 			}
 		}
-	}
-
-	.venue-anim-1{
-		width: 100%;
-		height: auto;
 	}
 }
 .speaker.single,
