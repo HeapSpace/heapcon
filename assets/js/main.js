@@ -156,6 +156,10 @@ function jQueryInitAllPages() {
 	
 	init2019();
 
+	if(isPeople && $(window).innerWidth() > 600){
+		showPeople();
+	}
+
 	// decorations
 	$(document).on("scroll", function() {
 		makefun();

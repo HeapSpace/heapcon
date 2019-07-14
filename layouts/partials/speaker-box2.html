@@ -1,7 +1,7 @@
     <li>
         <a href="{{ .RelPermalink }}">
-            <span class="company">{{ .Params.Company }}</span>
-            <span class="name">{{ .Params.Speaker }}</span>
+            <span class="company">{{ .Parent.Params.Company }}</span>
+            <span class="name">{{ .Parent.Title }}</span>
             <span class="jobtitle">{{ .Title }}</span>
         </a>
     </li>

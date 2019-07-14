@@ -1,0 +1,107 @@
+{{ define "main" }}
+{{ $github := "https://github.com/HeapSpace/heapcon/edit/master/content"}}
+
+<h1>admin :: pages </h1>
+{{ $pages := .Site.Pages.ByTitle }}
+<table>
+{{ range $pages }}
+{{ if and (ne .Type "talk") (ne .Type "speaker")}}
+	<tr>
+		<td><b>PAGE</b><br><a href="{{ $github }}/{{.File}}" target="_blank">[edit]</a></td>
+		<td><a href="{{.Permalink}}">{{.Permalink}}</a></td>
+	</tr>
+	<tr>
+		<td>Title</td>
+		<td>{{.Title}}</td>
+	</tr>
+	<tr>
+		<td>Description</td>
+		<td>{{.Description}}</td>
+	</tr>
+
+	<tr>
+		<td>type / section</td>
+		<td>{{.Type}} / {{.Section}}</td>
+	</tr>
+	<tr>
+		<td>OG</td>
+		<td><img src="{{.Permalink}}/{{ .Params.og_img}}" width="200"></td>
+	</tr>
+
+	<tr>
+		<td colspan="1000" style="border-bottom: 6px solid #555; padding-top: 20px">&nbsp;</td>
+	</tr>
+{{ end }}
+{{ end }}
+</table>
+
+<h1>admin :: talks</h1>
+
+{{ $talks := (where .Site.Pages.ByTitle "Type" "talk" ) }}
+{{ $speakers := (where .Site.Pages.ByTitle "Type" "speaker" ) }}
+
+<h2>Talks: {{ len $talks }}</h2>
+<h2>Speakers: {{ len $speakers }}</h2>
+
+<table>
+{{ range $talks }}
+	<tr>
+		<td><b>TALK</b>
+			<br><a href="{{ $github }}/{{.File}}" target="_blank">[edit]</a>
+		</td>
+		<td>{{ .Title }} <a href="{{.Permalink}}" target="_blank">[view]</a></td>
+	</tr>
+	<tr>
+		<td>Description</td>
+		<td>{{ .Description }}</td>
+	</tr>
+	<tr>
+		<td>Content</td>
+		<td>{{ .Content }}</td>
+	</tr>
+	<tr>
+		<td>Schedule</td>
+		<td>{{ .Params.day }} / {{ .Params.track }} / {{ .Params.start }} - {{ .Params.end }} / <a href="{{.Permalink}}/index.ics">ical</a></td>
+	</tr>
+	<tr>
+		<td>OG</td>
+		<td><img src="{{.Permalink}}/{{ .Params.og_img}}" width="200"></td>
+	</tr>
+
+	<tr>
+		<td><b>SPEAKER</b>
+			<br><a href="{{ $github }}/{{.Parent.File}}" target="_blank">[edit]</a>
+		</td>
+		<td><img src="{{.Permalink }}../profile.jpg" width="100"></td>
+	</tr>
+	<tr>
+		<td>Name</td>
+		<td>{{ .Parent.Title }}</td>
+	</tr>
+	<tr>
+		<td>Company</td>
+		<td>{{ .Parent.Params.Company }}</td>
+	</tr>
+	<tr>
+		<td>Job</td>
+		<td>{{ .Parent.Params.Job }}</td>
+	</tr>
+	<tr>
+		<td>Link</td>
+		<td>{{ .Parent.Params.Link }}</td>
+	</tr>
+	<tr>
+		<td>Bio</td>
+		<td>{{ .Parent.Content }}</td>
+	</tr>
+	<tr>
+		<td>slug</td>
+		<td>{{ .Parent.Params.slug }}</td>
+	</tr>
+	<tr>
+		<td colspan="1000" style="border-bottom: 6px solid #555; padding-top: 20px">&nbsp;</td>
+	</tr>
+{{ end }}
+</table>
+
+{{ end }}

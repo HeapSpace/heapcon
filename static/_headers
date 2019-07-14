@@ -1,0 +1,2 @@
+/_admin/*
+	Basic-Auth: heapcon:ADMIN_PASSWORD

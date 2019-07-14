@@ -49,21 +49,6 @@ function blockTextScroll() {
 
 
 // ****************************** //
-// ****** Show People Anim ****** //
-// ****************************** //
-function showPeople() {
-	var scrollPos = $(window).scrollTop();
-
-	$('.list li:not(.show)').each(function(index, el) {
-		if($(el).offset().top > scrollPos + windowHeight * 0.2 && $(el).offset().top < scrollPos + windowHeight * 0.7){
-			$(el).addClass('show');
-		}
-	});
-}
-
-
-
-// ****************************** //
 // ********* Show Footer ******** //
 // ****************************** //
 function init2019() {
@@ -73,6 +58,23 @@ function init2019() {
 	footerPos = $('.footer-bottom').offset().top;
 	
 	checkIfEndOfPage();
+}
+
+
+
+// ****************************** //
+// ****** Show People Anim ****** //
+// ****************************** //
+function showPeople() {
+	var scrollPos = $(window).scrollTop();
+
+	$('.list li:not(.show)').each(function(index, el) {
+
+		if($(el).offset().top > scrollPos + windowHeight * 0.2 && $(el).offset().top < scrollPos + windowHeight * 0.7){
+			$(el).addClass('show');
+
+		}
+	});
 }
 
 
