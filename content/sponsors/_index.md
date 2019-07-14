@@ -13,6 +13,7 @@ silver:
  - ["lotusflare", "https://www.lotusflare.com"]
  - ["proctorio", "https://proctorio.com"]
  - ["zuhlke2", "https://zuehlke.com/rs/en"]
+ - ["fis", "https://www.fisglobal.com"]
 bronze:
  - ["hooloovoo", "http://hooloovoo.rs/"]
  - ["namics", "https://www.namics.com/en/"]
