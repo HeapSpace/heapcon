@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "sepastian-malaca"
+ogpng: "og-speakers/sebastian-malaca.png"
 ---
 
 Event-driven architecture allows you to observe, collect, analyze, and react dynamically to real-time events. 

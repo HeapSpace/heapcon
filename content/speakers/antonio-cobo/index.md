@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "antonio-cobo"
+ogpng: "og-speakers/antonio-cobo.png"
 ---
 
 Have you ever thought about speaking at a conference? Have you ever wondered how the speakers managed to get into the conference?

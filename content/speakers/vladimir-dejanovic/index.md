@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "vladimir-dejanovic"
+ogpng: "og-speakers/vladimir-dejanovic.png"
 ---
 
 For a few years now we are listening to how Microservices are great and how all of us should move to them. There is a lot of talks and articles about all the benefits of Microservices & Distributed Systems

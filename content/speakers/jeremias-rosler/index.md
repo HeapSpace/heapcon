@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "jeremias-roessler"
+ogpng: "og-speakers/jeremias-roessler.png"
 ---
 
 GUI test automation is broken — because regression testing is not testing, but version control of the behaviour of the software.

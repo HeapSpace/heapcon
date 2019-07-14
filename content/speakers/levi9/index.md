@@ -18,6 +18,7 @@ outputs:
 - html
 - calendar
 slug: "levi9"
+ogpng: "og-speakers/levi9.png"
 ---
 
 This workshop is fully dedicated to gaining hands on experience, which the participants will get within our simulation of USM session for a new product. To define the product right, all perspectives are equally important: business, development and testing.

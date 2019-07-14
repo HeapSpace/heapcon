@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "ted-neward"
+ogpng: "og-speakers/ted-neward.png"
 ---
 
 The talk is loading...

@@ -15,6 +15,7 @@ outputs:
 - html
 - calendar
 slug: "sumit-gulwani"
+ogpng: "og-speakers/sumit-gulwani.png"
 ---
 
 The talk is loading...

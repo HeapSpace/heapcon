@@ -13,6 +13,7 @@ outputs:
 - html
 - calendar
 slug: "jasa-niklanovic"
+ogpng: "og-speakers/jasa-niklanovic.png"
 ---
 
 This talk focuses primarily on implications of forced compartmentalization of specializations on various aspects of a company, and how we can improve the existing processes. The classic linear product management cycle is built around the notion of a “handoff” to development - where business, design and product do all the research and engineers do development timelines, feasibility assessments and actual implementation.
