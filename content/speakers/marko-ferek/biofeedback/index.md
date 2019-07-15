@@ -1,4 +1,5 @@
 ---
+type: "talk"
 title: "Biofeedback technology and its use in the educational system"
 description: "The conversation about biofeedback software, its implementation, and education about its use."
 day: "26"

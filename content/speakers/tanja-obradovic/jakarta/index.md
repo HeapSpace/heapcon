@@ -1,4 +1,5 @@
 ---
+type: "talk"
 title: "Jakarta EE and Cloud Native Projects at Eclipse Foundation"
 description: "Highlights how the Java ecosystem is thriving, how stakeholders can participate, and share details on the cloud native open source stack at Eclipse Foundation"
 day: "26"
