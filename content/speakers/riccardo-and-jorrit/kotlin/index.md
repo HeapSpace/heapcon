@@ -10,8 +10,6 @@ end: "14:05"
 outputs:
 - html
 - calendar
-slug: "riccardo-and-jorrit"
-ogpng: "og-speakers/riccardo-lippolis.png"
 ---
 
 Most developers like using cool, shiny, new technologies. But at the same time, we embrace the 'known' older technology stacks when creating software which will run in production, and for good reason!

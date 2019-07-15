@@ -10,8 +10,6 @@ end: "14:05"
 outputs:
 - html
 - calendar
-slug: "sendil-kumar"
-ogpng: "og-speakers/sendil-kumar.png"
 ---
 
 In the World Wide Frontend, Consistent and reliable performance is not a distant reality. WebAssembly makes it easy to run native languages along with JavaScript inside the JavaScript engine. JavaScript and WebAssembly together will solve many problems and make web even more awesome.

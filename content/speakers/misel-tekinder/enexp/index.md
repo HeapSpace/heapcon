@@ -10,8 +10,6 @@ end: "14:05"
 outputs:
 - html
 - calendar
-slug: "misel-tekinder"
-ogpng: "og-speakers/misel-tekinder.png"
 ---
 
 In the era of UX Design, where products are built to fulfill users needs, development processes are still lacking that UX part in decision making and planning.

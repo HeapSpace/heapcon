@@ -10,8 +10,6 @@ end: "14:05"
 outputs:
 - html
 - calendar
-slug: "vladimir-vajda"
-ogpng: "og-speakers/vladimir-vajda.png"
 ---
 
 Using HTTP as a means of communication between services, introduces tight coupling as each service needs to know about the existence of the other. Event sourcing solves the coupling problem as each service is unaware of any other. It just listens on events of interest, processes them and produces new events. At least, in theory.

@@ -1,8 +1,7 @@
 ---
 type: "talk"
 title: "How to Overcome Your Fears to Become a Conference Speaker"
-description: ""
-speaker: "Antonio Cobo"
+description: "How I managed to speak at events across Europe and US and how I manage to overcome my fears and limitations."
 day: "26"
 track: "A"
 weight: 1330
@@ -11,8 +10,6 @@ end: "14:05"
 outputs:
 - html
 - calendar
-slug: "antonio-cobo"
-ogpng: "og-speakers/antonio-cobo.png"
 ---
 
 Have you ever thought about speaking at a conference? Have you ever wondered how the speakers managed to get into the conference?

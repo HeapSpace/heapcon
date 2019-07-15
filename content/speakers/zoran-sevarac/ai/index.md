@@ -10,8 +10,6 @@ end: "14:05"
 outputs:
 - html
 - calendar
-slug: "zoran-sevarac"
-ogpng: "og-speakers/zoran-sevarac.png"
 ---
 
 Deep learning is one of the key technologies that drives AI innovation. Typical software developer usually lack mathematical background required to fully understand workings and opportunities that deep learning brings. This session gives overview of main deep learning concepts that are relevant for understanding how can deep learning enhance enterprise applications, and how to implement those enhancements using popular frameworks and tools.
