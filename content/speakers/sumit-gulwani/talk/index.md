@@ -2,6 +2,7 @@
 type: "talk"
 title: "Talk title loading..."
 description: "TBA.."
+og_img: "sumit-gulwani.png"
 day: "26"
 track: "A"
 weight: 1330

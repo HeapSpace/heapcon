@@ -2,6 +2,7 @@
 type: "talk"
 title: "Make the Cassette Deck Great Again! Revival of the Coolest Retro Tech"
 description: "Get the second life to the coolest devices of the 80's and early 90's of XX century: cassette decks"
+og_img: "dragisa-rakic.png"
 day: "26"
 track: "A"
 weight: 1330

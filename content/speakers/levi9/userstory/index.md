@@ -2,6 +2,7 @@
 type: "talk"
 title: "User Story Mapping: Hookup the Business Idea with the Right Product (backlog)"
 description: "How to define product right, from all perspectives: business, development and testing."
+og_img: "levi9.png"
 day: "26"
 track: "A"
 weight: 1330

@@ -2,6 +2,7 @@
 type: "talk"
 title: "WebAssembly for the Masses"
 description: "What is WebAssembly and why you need it?"
+og_img: "sendil-kumar.png"
 day: "26"
 track: "A"
 weight: 1330

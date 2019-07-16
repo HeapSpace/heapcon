@@ -2,6 +2,7 @@
 type: "talk"
 title: "Test Automation Without Assertions"
 description: "Automation without assertions - meaning, availability of the tools and the advantages and disadvantages."
+og_img: "jeremias-roessler.png"
 day: "26"
 track: "A"
 weight: 1330

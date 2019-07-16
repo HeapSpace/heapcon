@@ -2,6 +2,7 @@
 type: "talk"
 title: "Event Processing in Action"
 description: "Major concepts of event-driven architecture and tell you how to design event processing applications."
+og_img: "sebastian-malaca.png"
 day: "26"
 track: "A"
 weight: 1330
