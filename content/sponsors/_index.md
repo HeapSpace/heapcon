@@ -8,7 +8,7 @@ gold:
  - ["nutanix", "https://www.nutanix.com/"]
  - ["endava", "http://www.endava.com/en"]
  - ["sbg", "https://www.sevenbridges.com"]
- - ["grddyn", "https://www.griddynamics.com"]
+ - ["griddyn", "https://www.griddynamics.com"]
 silver:
  - ["enjoying", "https://www.enjoying.rs/"]
  - ["lotusflare", "https://www.lotusflare.com"]
