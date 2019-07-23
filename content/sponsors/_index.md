@@ -24,6 +24,7 @@ bronze:
  - ["telesign", "https://www.telesign.com/"]
  - ["smitmicro", "https://www.smithmicro.com/"]
  - ["change", "http://www.changecon.com"]
+ - ["bosch", "https://www.bosch.rs"]
 
 ---
 
