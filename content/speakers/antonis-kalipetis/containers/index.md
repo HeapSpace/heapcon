@@ -4,10 +4,8 @@ title: "Do I Really Need Containers?"
 description: "Containers are the next best thing after sliced bread, but do you really need containers?"
 og_img: "atonis-kalipetis.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

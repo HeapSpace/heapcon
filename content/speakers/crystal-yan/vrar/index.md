@@ -4,10 +4,8 @@ title: "Behind the AI Curtain - Designing for Machine Learning Products"
 og_img: "crystal-yan.png"
 description: "How VR and AR allow us to immerse our users in new experiences?"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

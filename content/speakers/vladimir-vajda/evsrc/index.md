@@ -4,10 +4,8 @@ title: "Microservice Architecture Based on Event Sourcing"
 description: "How to design your services to support the query communication pattern."
 og_img: "vladimir-vajda.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

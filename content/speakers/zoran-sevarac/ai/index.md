@@ -3,11 +3,10 @@ type: "talk"
 title: "Getting Started with Deep Learning for Software Developers"
 description: "Overview of main deep learning concepts that are relevant for understanding how can deep learning enhance enterprise applications"
 og_img: "zoran-sevarac.png"
-day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+day: 1
+track: 1
+start: 1050
+duration: 45
 outputs:
 - html
 - calendar

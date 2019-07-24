@@ -4,10 +4,8 @@ title: "Real-world Machine Learning with TensorFlow and Cloud AI"
 description: "Examples of business that have adopted TensorFlow and Cloud AI to solve their real-world problems."
 og_img: "kaz-sato.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

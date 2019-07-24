@@ -4,10 +4,8 @@ title: "Hitchhiker's Guide to the Microservcies"
 description: "The guide of how to move to the galaxy of Microservices and how far you should go, what to do, and what not to do."
 og_img: "vladimir-dejanovic.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

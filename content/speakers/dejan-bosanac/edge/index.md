@@ -4,10 +4,8 @@ title: "Edge Computing … What's That All About?"
 description: "All the aspects of Edge computing, it's current state and the future trends."
 og_img: "dejan-bosanac.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

@@ -1,16 +1,74 @@
 {{ define "main" }}
-
 <div class="schedule">
   <div class="main-info columns">
     <div class="col col-l col-top wide year">
       <div class="title">&nbsp;</div>
       <div class="info">SCHEDULE</div>
     </div>
-    <div class="col col-l col-bottom where">
-      <div class="title">Heapcon</div>
-      <div class="info">Work in progress! Check <a href="/speakers">this page</a> instead.</div>
-    </div>
-  </div>
 </div>
+
+{{ $site := .Site }}
+{{ $talks := where .Site.Pages "Type" "talk" }}
+
+{{ range $day_index, $day := .Site.Data.Konfa.days }}
+
+<!-- DAY -->
+<h2>{{ $day }}th September</h2>
+<ul>
+<!--------->
+
+{{ $lastTime := 0 }}
+{{ range $index0, $page := (sort $talks "Params.start") }}
+  {{ $day_s := print $page.Params.day }}
+  {{ $day_index_s := print (add $day_index 1) }}
+  {{ $hour := div $page.Params.start 100 }}
+  {{ $minute := mod $page.Params.start 100 }}
+  {{ $timeStart := time (printf "%d-%02d-%02dT%02d:%02d:00" $site.Data.Konfa.year $site.Data.Konfa.month $day $hour $minute) }}
+  {{ $timeStart = time $timeStart.Unix }}
+  {{ $timeEnd := "" }}
+  {{ $timeEnd = $timeStart.Unix }}
+  {{ $duration := mul (default 45 $page.Params.duration) 60 }}
+  {{ $timeEnd = time (add $timeEnd $duration ) }}
+
+  {{ range $track_index, $track := $site.Data.Konfa.tracks }}
+    {{ $track_s := print $page.Params.track }}
+    {{ $track_index_s := print (add $track_index 1) }}
+
+    {{ if and (eq $day_s $day_index_s) (eq $track_s $track_index_s) }}
+
+    <!-- TALK START -->
+    <li>
+    <!---------------->
+
+      {{ if eq $lastTime $page.Params.start }}
+      {{ else }}
+
+        <!-- TIME -->
+        <h3 style="margin-top: 20px; margin-bottom: 0;">{{ $timeStart.UTC | dateFormat "15:04" }}</h3>
+        <!---------->
+
+        {{ $lastTime = $page.Params.start }}
+      {{ end }}
+
+      <!-- TALK -->
+      Track: {{ $track_s }} | {{ $timeEnd.UTC | dateFormat "15:04" }}<br>
+      {{ $page.Title }}<br>
+      {{ $page.Parent.Title }}<br>
+      <!---------->
+
+    <!-- TALK END -->
+    </li>
+    <!-------------->
+
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<!-- DAY END -->
+</ul>
+<!------------->
+
+{{ end }}
+
 
 {{ end }}

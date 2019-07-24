@@ -4,10 +4,8 @@ title: "Ready, Steady, Crash!"
 description: "Grow the three aspects around load testing."
 og_img: "katie-koschland.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

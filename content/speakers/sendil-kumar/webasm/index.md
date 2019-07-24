@@ -4,10 +4,8 @@ title: "WebAssembly for the Masses"
 description: "What is WebAssembly and why you need it?"
 og_img: "sendil-kumar.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

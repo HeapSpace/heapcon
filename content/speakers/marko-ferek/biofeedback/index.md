@@ -4,10 +4,8 @@ title: "Biofeedback Technology and Its Use in the Educational System"
 description: "The conversation about biofeedback software, its implementation, and its use in education."
 og_img: "marko-ferek.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

@@ -5,9 +5,8 @@ description: "An introduction to the Web Audio API on a practical example"
 og_img: "nemanja-miljkovic.png"
 day: "26"
 track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

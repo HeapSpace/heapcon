@@ -4,10 +4,8 @@ title: "Make the Cassette Deck Great Again! Revival of the Coolest Retro Tech"
 description: "Get the second life to the coolest devices of the 80's and early 90's of XX century: cassette decks"
 og_img: "dragisa-rakic.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

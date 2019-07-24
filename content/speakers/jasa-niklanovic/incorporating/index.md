@@ -4,10 +4,8 @@ title: "Incorporating Engineers into the Entire Product Lifecycle"
 description: "Implications of forced compartmentalization of specializations on various aspects of a company, and how we can improve the existing processes"
 og_img: "jasa-niklanovic.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

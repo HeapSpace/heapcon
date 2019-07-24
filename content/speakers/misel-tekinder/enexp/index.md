@@ -5,9 +5,8 @@ description: "Introduce design thinking and UX processes to decision makers on t
 og_img: "misel-tekinder.png"
 day: "26"
 track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

@@ -3,11 +3,9 @@ type: "talk"
 title: "A Bluffer’s Guide to Technical Debt for Other People"
 description: "Metaphors for looking at technical risk that we think match the problem more effectively"
 og_img: "steve-freeman.png"
-day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+day: 1
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

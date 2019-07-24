@@ -4,10 +4,8 @@ title: "Where Is My Cache? Architectural Patterns for Caching Microservices by E
 description: "Different architectural patterns for distributed caching"
 og_img: "rafal-leszko.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

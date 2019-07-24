@@ -4,10 +4,8 @@ title: "Navigating Through Space"
 description: "Visually intriguing stories, designs, branding, print, and art installations in JPL"
 og_img: "lois-kim.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

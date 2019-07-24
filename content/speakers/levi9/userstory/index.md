@@ -4,10 +4,8 @@ title: "User Story Mapping: Hookup the Business Idea with the Right Product (bac
 description: "How to define product right, from all perspectives: business, development and testing."
 og_img: "levi9.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar

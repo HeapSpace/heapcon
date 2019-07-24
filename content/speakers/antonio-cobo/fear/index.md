@@ -4,10 +4,8 @@ title: "How to Overcome Your Fears to Become a Conference Speaker"
 description: "How I managed to speak at events across Europe and US and how I manage to overcome my fears and limitations."
 og_img: "antonio-cobo.png"
 day: "26"
-track: "A"
-weight: 1330
-start: "13:30"
-end: "14:05"
+track: 1
+start: 1330
 outputs:
 - html
 - calendar
