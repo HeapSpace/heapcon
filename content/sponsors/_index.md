@@ -18,13 +18,13 @@ silver:
 bronze:
  - ["hooloovoo", "http://hooloovoo.rs/"]
  - ["namics", "https://www.namics.com/en/"]
+ - ["bosch", "https://www.bosch.rs"]
  - ["spicefactory", "https://spicefactory.co/"]
  - ["prodyna", "https://www.prodyna.com"]
  - ["netcast", "https://netcast.rs/"]
  - ["telesign", "https://www.telesign.com/"]
  - ["smitmicro", "https://www.smithmicro.com/"]
  - ["change", "http://www.changecon.com"]
- - ["bosch", "https://www.bosch.rs"]
 
 ---
 
