@@ -6,4 +6,4 @@ job: "Independent Speaker"
 link: ""
 ---
 
-Web Audio API is extremely powerful for generating and processing sound. It allows you to add sound effects to live or pre-recorded audio and playback the result in real-time. I'll present an introduction to the Web Audio API on a practical example of building a guitar amplifier.
+Nemanja is an engineer with extensive experience in web related technologies. He's really passionate about music, but he will most certainly perform on a stage only as a conference speaker. He's a magician specializing in card magic and his best trick is making code compile.
