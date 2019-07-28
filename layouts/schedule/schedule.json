@@ -25,7 +25,8 @@
       "speaker": {
         "name": {{ $speaker.Title | jsonify }},
         "company": {{ $speaker.Params.company | jsonify }},
-        "title": {{ $speaker.Params.job | jsonify }}
+        "title": {{ $speaker.Params.job | jsonify }},
+        "about": {{ $speaker.Content | plainify | htmlUnescape | jsonify }}
       },
       "timeStart": {{ $timeStart| jsonify }},
       "timeEnd": {{ $timeEnd| jsonify }}
