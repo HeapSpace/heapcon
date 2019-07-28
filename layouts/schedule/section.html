@@ -15,5 +15,9 @@
 {{ template "schedule/agenda_day.html" (dict "ctx" . "day" $day "site" $site) }}
 
 {{- end }}
+{{ .RelPermalink }}
+{{ with  .OutputFormats.Get "json" -}}
+{{ .RelPermalink }}
+{{- end }}
 
 {{ end }}

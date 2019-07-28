@@ -1,0 +1,46 @@
+[
+{{ $site := .Site }}
+{{ range $index, $day := .Site.Data.Konfa.days -}}
+{{ if (ne $index 0) }},{{ end }}
+{
+  "day-{{ add $index 1 }}":
+  [
+    {{ $talks := index $site.Data.Agenda (printf "day%d" $day) }}
+    {{ range $index, $talkorbreak := $talks }}
+
+    {{ $timeStart := time (printf "%d-%02d-%02dT%02s:00" $site.Data.Konfa.year $site.Data.Konfa.month $day .start) }}
+    {{ $timeStart = time $timeStart.Unix }}
+    {{ $timeEnd := "" }}
+    {{ $timeEnd = $timeStart.Unix }}
+    {{ $duration := mul (default 45 .duration) 60 }}
+    {{ $timeEnd = time (add $timeEnd $duration ) }}
+
+    {{ if (ne $index 0) }},{{ end }}
+    {{ if isset $talkorbreak "talk" }}
+    {{ $t := where $site.Pages "Params.id" $talkorbreak.talk }}
+    {{ $talk := index $t 0 }}
+    {{ $speaker := $talk.Parent }}
+    {
+      "name": {{ $talk.Title | jsonify }},
+      "speaker": {
+        "name": {{ $speaker.Title | jsonify }},
+        "company": {{ $speaker.Params.company | jsonify }},
+        "title": {{ $speaker.Params.job | jsonify }},
+        "about": {{ $speaker.Content | plainify | htmlUnescape | jsonify }}
+      },
+      "timeStart": {{ $timeStart| jsonify }},
+      "timeEnd": {{ $timeEnd| jsonify }}
+    }
+    {{ end }}
+    {{ if isset $talkorbreak "break" }}
+    {
+      "name": {{ $talkorbreak.break | jsonify }},
+      "timeStart": {{ $timeStart| jsonify }},
+      "timeEnd": {{ $timeEnd| jsonify }}
+    }
+    {{ end }}
+    {{ end }}
+  ]
+}
+{{- end }}
+]
