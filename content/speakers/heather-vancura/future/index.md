@@ -3,10 +3,7 @@ type: "talk"
 title: "The Future of Java and You"
 description: "How Java development has been brought into the open."
 og_img: "heather-vancura.png"
-day: 1
-track: 2
-start: 955
-duration: 45
+id: "cura-jcp"
 outputs:
 - html
 - calendar

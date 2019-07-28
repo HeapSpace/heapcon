@@ -1,0 +1,27 @@
+day26:
+  - start: "09:00"
+    duration: 45
+    talk: "snowden-keynote1"
+    track: "A"
+  - start: "09:45"
+    break: "Coffee break 1"
+    duration: 10
+  - start: "9:55"
+    duration: 45
+    talk: "milos-kube"
+    track: "A"
+  - start: "9:55"
+    duration: 45
+    talk: "cura-jcp"
+    track: "B"
+  - start: "10:40"
+    break: "Coffee break"
+    duration: 10
+  - start: "10:50"
+    duration: 45
+    talk: "zoran-ai"
+    track: "A"
+day27:
+  - start: "09:00"
+    duration: 50
+    break: "Coffee break2"

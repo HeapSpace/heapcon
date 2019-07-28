@@ -3,10 +3,7 @@ type: "talk"
 title: "From dev to prod. One Year of Using Kubernetes in Production"
 description: "Imagine you have 5 Kubernetes environments used by developers from multiple companies and users alike."
 og_img: "milos-milunovic.png"
-day: 1
-track: 1
-start: 955
-duration: 45
+id: "milos-kube"
 outputs:
 - html
 - calendar

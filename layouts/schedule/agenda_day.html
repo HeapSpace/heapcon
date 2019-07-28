@@ -1,0 +1,29 @@
+{{ $ctx := .ctx }}
+{{ $site := .site }}
+{{ $day := .day }}
+
+{{ $talks := index $site.Data.Agenda (printf "day%d" $day) }}
+{{ $lastTime := 0 }}
+{{ range $talks -}}
+{{ $timeStart := time (printf "%d-%02d-%02dT%02s:00" $site.Data.Konfa.year $site.Data.Konfa.month $day .start) }}
+{{ $timeStart = time $timeStart.Unix }}
+{{ $timeEnd := "" }}
+{{ $timeEnd = $timeStart.Unix }}
+{{ $duration := mul (default 45 .duration) 60 }}
+{{ $timeEnd = time (add $timeEnd $duration ) }}
+
+  {{ if ne $lastTime .start }}
+
+	{{ template "schedule/agenda_time.html" (dict "ctx" . "timeStart" $timeStart) }}
+
+    {{ $lastTime = .start }}
+  {{ end }}
+
+  {{ if isset . "talk" }}
+  	{{ template "schedule/agenda_talk.html" (dict "ctx" . "timeStart" $timeStart "timeEnd" $timeEnd "site" $site) }}
+  {{ end }}
+  {{ if isset . "break" }}
+  	{{ template "schedule/agenda_break.html" (dict "ctx" . "timeStart" $timeStart "timeEnd" $timeEnd "site" $site) }}
+  {{ end }}
+
+{{- end }}

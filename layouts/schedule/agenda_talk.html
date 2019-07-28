@@ -1,0 +1,15 @@
+{{ $ctx := .ctx }}
+{{ $site := .site }}
+{{ $timeStart := .timeStart }}
+{{ $timeEnd := .timeEnd }}
+
+{{ $t := where $site.Pages "Params.id" $ctx.talk }}
+{{ $talk := index $t 0 }}
+
+<!-- TALK -->
+
+<br>
+{{ $ctx.track }}<br>
+{{ $talk.Title }}<br>
+{{ $talk.Parent.Title }}<br>
+{{ $timeEnd.UTC | dateFormat "15:04" }}
