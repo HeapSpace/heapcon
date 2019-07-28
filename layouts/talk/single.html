@@ -32,7 +32,33 @@
 			<div class="col col-r col-bottom when">
 				<div class="info">{{ .Parent.Params.Company }}</div>
 			</div>
-		</div>
+      <div class="col col-l col-top wide talk">
+        <div class="title">When</div>
+        {{ $site := .Site }}
+        {{ $params := .Params }}
+        {{ range $index, $day := .Site.Data.Konfa.days -}}
+        {{ $talks := index $site.Data.Agenda (printf "day%d" $day) }}
+
+        {{ $t := where $talks "talk" $params.id }}
+        {{ $talk := index $t 0 }}
+
+        {{ if $talk.talk }}
+
+        {{ $timeStart := time (printf "%d-%02d-%02dT%02s:00" $site.Data.Konfa.year $site.Data.Konfa.month $day $talk.start) }}
+        {{ $timeStart = time $timeStart.Unix }}
+        {{ $timeEnd := "" }}
+        {{ $timeEnd = $timeStart.Unix }}
+        {{ $duration := mul (default 45 $talk.duration) 60 }}
+        {{ $timeEnd = time (add $timeEnd $duration ) }}
+
+        <div class="info">Day {{ add $index 1 }}</div>
+        <div class="info">{{ $timeStart.UTC | dateFormat "15:04" }} - {{ $timeEnd.UTC | dateFormat "15:04" }}</div>
+        <div class="info">Track {{ $talk.track }}</div>
+        {{ end }}
+
+        {{ end }}
+      </div>
+    </div>
 
 		<div class="about-speaker columns">
 			<div class="col col-l">
