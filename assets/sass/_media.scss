@@ -872,7 +872,8 @@
 				&.col-3,
 				&.col-4{
 					float: left;
-					margin-left: 20vw;
+					margin-left: 15vw;
+					width: 40vw;
 					margin-top: 0;
 				}
 				&.col-1{
@@ -1106,10 +1107,16 @@
 			.image{
 				width: 90vw;
 				height: 96.769420467vw;
+				padding: 0;
+
+				animation: none;
 
 				.ellipse{
-					transform: matrix(0.6, -0.8, 0.8, 0.6, 0, 0) translate(-57.166666667vw, 16.94444443vw);
+					transform: matrix(0.6, -0.8, 0.8, 0.6, 0, 0) translate(-56.666666667vw, 16.64444443vw);
 				}
+			}
+			.bio{
+				width: 100%;
 			}
 		}
 	}
