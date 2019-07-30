@@ -43,16 +43,8 @@
         {{ $talk := index $t 0 }}
 
         {{ if $talk.talk }}
-
-        {{ $timeStart := time (printf "%d-%02d-%02dT%02s:00" $site.Data.Konfa.year $site.Data.Konfa.month $day $talk.start) }}
-        {{ $timeStart = time $timeStart.Unix }}
-        {{ $timeEnd := "" }}
-        {{ $timeEnd = $timeStart.Unix }}
-        {{ $duration := mul (default 45 $talk.duration) 60 }}
-        {{ $timeEnd = time (add $timeEnd $duration ) }}
-
         <div class="info">Day {{ add $index 1 }}</div>
-        <div class="info">{{ $timeStart.UTC | dateFormat "15:04" }} - {{ $timeEnd.UTC | dateFormat "15:04" }}</div>
+        <div class="info">{{ $talk.start }}</div>
         <div class="info">Track {{ $talk.track }}</div>
         {{ end }}
 
