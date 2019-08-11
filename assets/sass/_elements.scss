@@ -1380,6 +1380,23 @@ img.profile{
 	}
 }
 .schedule{
+	.tabs{
+		li{
+			font-size: 54px;
+			display: inline-block;
+			padding-bottom: 10px;
+			margin-right: 50px;
+			cursor: pointer;
+
+			&.current{
+				border-bottom: 1px solid $color-hs-blue;
+			}
+		}
+	}
+	h3{
+		font-size: 22px;
+		color: #384af4;
+	}
 	a{
 		color: $color-hs-red;
 
