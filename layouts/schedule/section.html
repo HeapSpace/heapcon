@@ -1,8 +1,9 @@
 {{ define "main" }}
+
 <div class="schedule">
 	<ul class="tabs">
-		<li class="day-26 current">26th September</li>
-		<li class="day-27">27th September</li>
+		<li class="day-26 current">Sep 26th</li>
+		<li class="day-27">Sep 27th</li>
 	</ul>
 	{{ $site := .Site }}
 	{{ range $day := .Site.Data.Konfa.days -}}
@@ -11,9 +12,14 @@
 	</div>
 	{{- end }}
 </div>
+
+<pre>
+--------------
+TODO (igor):
 {{ .RelPermalink }}
 {{ with  .OutputFormats.Get "json" -}}
 {{ .RelPermalink }}
 {{- end }}
+</pre>
 
 {{ end }}
