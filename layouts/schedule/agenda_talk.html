@@ -12,4 +12,5 @@
 <div class="track">{{ $ctx.track }}</div>
 <div class="talk-name">{{ $talk.Title }}</div>
 <div class="speaker-name">{{ $talk.Parent.Title }}</div>
-{{ $timeEnd.UTC | dateFormat "15:04" }}
+ENDTIME: {{ $timeEnd.UTC | dateFormat "15:04" }}
+<hr>
