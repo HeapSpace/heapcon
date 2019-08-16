@@ -1,0 +1,24 @@
+<link href="{{ "css/cookieconsent.min.css" | absURL }}" rel="stylesheet" type="text/css"{{ if not .Site.Params.disable_sri }} integrity="{{ .Site.Data.sri.cookieconsentcss }}" crossorigin="anonymous"{{ end }}>
+<script src="{{ "js/cookieconsent.min.js" | absURL }}"{{ if not .Site.Params.disable_sri }} integrity="{{ .Site.Data.sri.cookieconsentjs }}" crossorigin="anonymous"{{ end }} async></script>
+
+<script>
+window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#374AF4",
+        "text": "#ffffff"
+      },
+      "button": {
+        "background": "#FD4000"
+      }
+    },
+    "content": {
+      "message": 'We have given you a dedicated cookie from our cookie jar in order to store your favorite program schedule. We also use cookies to improve your experience on our site. By using this site you agree to this. For more information please visit our',
+      "dismiss": 'Close',
+      "link": 'cookie information page.',
+      "href": "{{ .Site.Params.cookie_consent_info_url | absURL }}"
+    },
+    "position": "bottom"
+  })});
+</script>

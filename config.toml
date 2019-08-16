@@ -4,6 +4,7 @@ title = "heapcon ⬣ a new conference by heapspace"
 
 [params]
   description = "heapcon is a regional tech conference for software engineers and tech businesses"
+  cookie_consent_info_url = "/cookie-information/"
 
 [permalinks]
   speakers = "/:sections/:title"

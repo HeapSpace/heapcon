@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-    <head>
-    	<meta charset="UTF-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        {{ partial "head" . }}
+    {{ partial "head" . }}
 
-		{{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-        <link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
+    {{ $style := resources.Get "sass/style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
 
-        {{ block "style" . }}{{ end }}
+    {{ block "style" . }}{{ end }}
 
-        {{ partial "js" . }}
+    {{ partial "js" . }}
 
-        <script>
-            $(function () {
-                jQueryInitAllPages();
-            });
-        </script>
-    </head>
-    <body>
+    {{ if .Site.Params.cookie_consent_info_url }}
+    {{ partial "cookie-consent.html" . }}
+    {{ end }}
 
-<svg style="position: absolute; width: 0; height: 0; overflow: hidden" enable-background="new 0 0 24 24" id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <symbol id="ical" viewBox="0 0 24 24">
-        <rect clip-rule="evenodd" fill-rule="evenodd" height="4" width="2" x="6" y="2"/>
-        <rect clip-rule="evenodd" fill-rule="evenodd" height="4" width="2" x="16" y="2"/>
-        <path d="M19,4H5C3.9,4,3,4.9,3,6v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V6C21,4.9,20.1,4,19,4z M19,20H5V9h14V20z"/>
-        <rect clip-rule="evenodd" fill-rule="evenodd" height="5" width="5" x="12" y="13"/>
-    </symbol>
-  </defs>
-</svg>
-    	{{ partial "header" }}
+    <script>
+      $(function () {
+        jQueryInitAllPages();
+      });
+    </script>
+  </head>
+  <body>
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden" enable-background="new 0 0 24 24" id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+      <symbol id="ical" viewBox="0 0 24 24">
+      <rect clip-rule="evenodd" fill-rule="evenodd" height="4" width="2" x="6" y="2"/>
+      <rect clip-rule="evenodd" fill-rule="evenodd" height="4" width="2" x="16" y="2"/>
+      <path d="M19,4H5C3.9,4,3,4.9,3,6v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V6C21,4.9,20.1,4,19,4z M19,20H5V9h14V20z"/>
+      <rect clip-rule="evenodd" fill-rule="evenodd" height="5" width="5" x="12" y="13"/>
+      </symbol>
+      </defs>
+    </svg>
 
-    	<!-- {{ if .IsHome }}
-    		{{ partial "zastava" }}
-    	{{ end }} -->
+    {{ partial "header" }}
 
-		<main class="grid-2019"><div class="content-wrap">
-		{{ block "main" . }}{{ end }}
-		</div></main>
+    <!-- {{ if .IsHome }}
+      {{ partial "zastava" }}
+      {{ end }} -->
 
-        {{ block "after" . }}{{ end }}
+    <main class="grid-2019">
+      <div class="content-wrap">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
 
-		{{ partial "footer" . }}
-        {{ partial "ga" }}
+    {{ block "after" . }}{{ end }}
 
-    </body>
+    {{ partial "footer" . }}
+    {{ partial "ga" }}
+  </body>
 </html>
