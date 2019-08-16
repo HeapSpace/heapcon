@@ -120,7 +120,7 @@ p {
 
 /** LINKS */
 a {
-  color: $color-hs-beige;
+  color: $color-hs-red;
 }
 
 a:visited {
@@ -130,7 +130,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: $color-hs-beige;
+  color: $color-hs-blue;
   text-decoration: none;
 }
 
@@ -210,16 +210,4 @@ textarea {
 /** LISTS */
 ul {
   margin: 1em 0;
-}
-
-/** COOKIE PAGE **/
-.cookie-link {
-  color: $color-hs-red;
-}
-
-.cookie-link:hover,
-.cookie-link:focus,
-.cookie-link:active {
-  color: $color-hs-blue;
-  text-decoration: none;
 }

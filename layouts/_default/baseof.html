@@ -42,7 +42,7 @@
       {{ partial "zastava" }}
       {{ end }} -->
 
-    <main class="grid-2019">
+    <main class="grid-2019 {{ .Params.mainClass }}">
       <div class="content-wrap">
         {{ block "main" . }}{{ end }}
       </div>
