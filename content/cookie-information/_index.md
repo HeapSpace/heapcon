@@ -24,7 +24,7 @@ The cookies we use has two main purposes:</br>
 - To let you store your favorite program schedule in your browser – we don't see or collect that information from you;</br>
 - To see some basic information about people visiting our site – it is described in detail in the next section.</br>
 
-The cookies we use allow us to see:
+The cookies we use allow us to see:</br>
 - The Internet domain and Internet Protocol (IP) address from which you access our Website;</br>
 - The type of Internet browser and the operating system of the computer you use to access our Website;</br>
 - The date and time you visit our Website;</br>
@@ -34,9 +34,18 @@ The cookies we use allow us to see:
 - If you were referred to our Website from a search engine, the address of that website and the search term you used to find us.</br>
 - Any data processing that occur while using cookies used for the sole purpose of carrying out the transmission of a communication and/or strictly necessary to perform the services you required is based on Article 6 (1) lit. b GDPR.</br>
 
-In case personal data is processed in the course of using cookies and/or similar technologies that are used for other purposes, e.g. improving our website or marketing purposes, the processing is based on Article 6 (1) lit. f GDPR and represents our legitimate interest in maintaining our user base, bringing new users to the Website and informing (potential) users about services organized and provided by JavaZone.
+In case personal data is processed in the course of using cookies and/or
+similar technologies that are used for other purposes, e.g. improving our
+website or marketing purposes, the processing is based on Article 6 (1) lit. f
+GDPR and represents our legitimate interest in maintaining our user base,
+bringing new users to the Website and informing (potential) users about
+services organized and provided by JavaZone.
 
-You can control and/or delete cookies as you wish – for details, see https://www.allaboutcookies.org. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit the Website and some services and functionalities may not work.
+You can control and/or delete cookies as you wish – for details, see
+https://www.allaboutcookies.org. You can delete all cookies that are already on
+your computer and you can set most browsers to prevent them from being placed.
+If you do this, however, you may have to manually adjust some preferences every
+time you visit the Website and some services and functionalities may not work.
 
 # Google Analytics
 
