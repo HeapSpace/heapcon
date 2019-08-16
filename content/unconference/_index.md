@@ -14,7 +14,7 @@ What: Three (3) rounds of three (3) parallel sessions lasting around 45min each.
 
 The main purpose of our events is to make great things happen by joining great people, so that’s why we need YOU. See you there!
 
-Remember this before you come:
+## Remember this before you come
 
 \#1: Whoever shows up are the right people - if you have signed up and shown up, that means you belong here! We want participants who come willingly and who will make the most of it.
 
