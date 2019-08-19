@@ -1,6 +1,6 @@
 ---
 type: "talk"
-title: "Converting technical expertise and soft skills into great products."
+title: "Converting technical expertise and soft skills into great products"
 description: "Successful product delivery through a combination of great communication, team engagement and mutual growth, with each team member being in charge of their own technical field of expertise at the same time"
 og_img: "boban-pajic.png"
 day: "26"
