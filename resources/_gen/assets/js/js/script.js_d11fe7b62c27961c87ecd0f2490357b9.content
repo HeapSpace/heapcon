@@ -12,11 +12,8 @@ function blockTextScroll(){if(!initiatedBlockTest)initBlockTex();var scrollPos=$
 function init2019(){windowHeight=$(window).innerHeight();windowWidth=$(window).innerWidth();footerPos=$('.footer-bottom').offset().top;checkIfEndOfPage();}
 function showPeople(){var scrollPos=$(window).scrollTop();$('.list li:not(.show)').each(function(index,el){if($(el).offset().top>scrollPos+windowHeight*0.2&&$(el).offset().top<scrollPos+windowHeight*0.7){$(el).addClass('show');}});}
 function checkIfEndOfPage(){if(!footerOpen){var scrollPos=$(window).scrollTop();if(scrollPos+windowHeight*0.85>footerPos){$('.footer-bottom').addClass('show');footerOpen=true;}}}
-<<<<<<< HEAD
 function handleSchedule(){$('.schedule .day.day-27').addClass('off');footerPos=$('.footer-bottom').offset().top;$('.schedule .tabs li').click(function(event){if(!$(this).hasClass('current')){$('.schedule .tabs li').removeClass('current')
 $(this).addClass('current');$('.schedule .day').addClass('off');$('.schedule .day.'+$(this).attr('id')).removeClass('off');footerPos=$('.footer-bottom').offset().top;}});}
-=======
->>>>>>> 9f3e4012be18e0274884cdafe57d333c88f1fa9e
 function sleep(ms){return new Promise(resolve=>setTimeout(resolve,ms));}
 function inViewport($ele){var lBound=$(window).scrollTop(),uBound=lBound+$(window).height(),top=$ele.offset().top,bottom=top+$ele.outerHeight(true);return(top>lBound&&top<uBound)||(bottom>lBound&&bottom<uBound)||(lBound>=top&&lBound<=bottom)||(uBound>=top&&uBound<=bottom);}
 function canvasOrientation(canvas){if(window.matchMedia("(max-width: 600px)").matches){canvas.style.transform='rotate(90deg)';canvas.style.margin='200px auto 100px auto';}else{canvas.style.transform='rotate(0deg)';canvas.style.width='100%';canvas.style.height='auto';}}
