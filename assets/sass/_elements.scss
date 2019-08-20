@@ -1380,9 +1380,11 @@ img.profile{
 	}
 }
 .schedule{
+	position: relative;
+
 	.tabs{
 		li{
-			font-size: 54px;
+			font-size: 3.75vw;
 			display: inline-block;
 			padding-bottom: 10px;
 			margin-right: 50px;
@@ -1393,6 +1395,11 @@ img.profile{
 			}
 		}
 	}
+	.day.off{
+		display: none;
+	}
+
+
 	h3{
 		font-size: 22px;
 		color: #384af4;
@@ -1402,6 +1409,52 @@ img.profile{
 
 		&:hover{
 			color: $color-hs-blue;
+		}
+	}
+	.time-slot{
+		font-family: $font-main;
+		font-size: 3.8vw;
+		margin-top: 8vw;
+
+		display: inline-block;
+		border-bottom: 4px solid $color-hs-red;
+
+		&:first-child{
+			margin-top: 5vw;
+		}
+	}
+	.talk,
+	.break{
+		padding: 2.5vw 0;
+		
+		.talk-meta{
+			font-family: $font-main;
+			font-size: 1.9vw;
+			line-height: 2;
+			overflow: hidden;
+
+			margin-bottom: 1vw;
+			border-bottom: 1px solid $color-hs-blue;
+		}
+		.track{
+			float: left;
+		}
+		.talk-length{
+			float: right;
+		}
+		.talk-title,
+		.break-title{
+			font-size: 4.2vw;
+			text-transform: uppercase;
+			color: $color-hs-blue;
+			clear: both;
+		}
+		.break-title{
+			border-bottom: 1px solid $color-hs-blue;
+			padding-bottom: 2.5vw;
+		}
+		.speaker-name{
+			font-size: 2.5vw;
 		}
 	}
 }

@@ -152,12 +152,16 @@ function jQueryInitAllPages() {
 
 
 	var isHome = ($('.home').length) ? true : false;
+	var isSchedule = ($('.schedule').length) ? true : false;
 	var isPeople = ($('.speakers').length || $('.committee').length) ? true : false;
 	
 	init2019();
 
 	if(isPeople && $(window).innerWidth() > 600){
 		showPeople();
+	}
+	if(isSchedule){
+		handleSchedule();
 	}
 
 	// decorations

@@ -1187,4 +1187,44 @@
 	.not-on-mobile{
 		display: none;
 	}
+
+	.schedule{
+		.tabs{
+			overflow: hidden;
+			padding-top: 5vw;
+
+			li{
+				font-size: 8vw;
+				margin-right: 0;
+				float: right;
+
+				&:first-child{
+					float: left;
+				}
+			}
+		}
+
+		.time-slot{
+			font-size: 10vw;
+			margin-top: 20vw;
+		}
+		.talk,
+		.break{
+			padding: 10vw 0 2vw 0;
+
+			.talk-meta{
+				font-size: 5.5vw;
+				line-height: 2.5;
+				margin-bottom: 3vw;
+			}
+			.talk-title,
+			.break-title{
+				font-size: 10vw;
+			}
+			.speaker-name{
+				font-size: 7vw;
+				line-height: 1.5;
+			}
+		}
+	}
 }

@@ -49,7 +49,7 @@ function blockTextScroll() {
 
 
 // ****************************** //
-// ********* Show Footer ******** //
+// ******** init function ******* //
 // ****************************** //
 function init2019() {
 	windowHeight = $(window).innerHeight();
@@ -78,6 +78,10 @@ function showPeople() {
 }
 
 
+
+// ****************************** //
+// ********* Show Footer ******** //
+// ****************************** //
 function checkIfEndOfPage() {
 	if(!footerOpen){
 		var scrollPos = $(window).scrollTop();
@@ -87,4 +91,26 @@ function checkIfEndOfPage() {
 			footerOpen = true;
 		}
 	}
+}
+
+
+
+// ****************************** //
+// **** Schedule: switch tabs *** //
+// ****************************** //
+function handleSchedule() {
+	$('.schedule .day.day-27').addClass('off');
+	footerPos = $('.footer-bottom').offset().top;
+	
+	$('.schedule .tabs li').click(function(event) {
+		if(!$(this).hasClass('current')){
+			$('.schedule .tabs li').removeClass('current')
+			$(this).addClass('current');
+
+			$('.schedule .day').addClass('off');
+			$('.schedule .day.' + $(this).attr('id')).removeClass('off');
+
+			footerPos = $('.footer-bottom').offset().top;
+		}
+	});
 }

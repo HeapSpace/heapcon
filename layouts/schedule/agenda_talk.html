@@ -8,9 +8,11 @@
 
 <!-- TALK -->
 
-<br>
-<div class="track">{{ $ctx.track }}</div>
-<div class="talk-name">{{ $talk.Title }}</div>
-<div class="speaker-name">{{ $talk.Parent.Title }}</div>
-ENDTIME: {{ $timeEnd.UTC | dateFormat "15:04" }}
-<hr>
+<div class="talk">
+	<div class="talk-meta">
+		<div class="track">Track: {{ $ctx.track }}</div>
+		<div class="talk-length">{{ $timeStart.UTC | dateFormat "15:04" }} – {{ $timeEnd.UTC | dateFormat "15:04" }}</div>
+	</div>
+	<div class="talk-title">{{ $talk.Title }}</div>
+	<div class="speaker-name">{{ $talk.Parent.Title }}</div>
+</div>
