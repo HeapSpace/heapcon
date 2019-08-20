@@ -10,11 +10,11 @@ This is why we’re organizing the Unconference meeting right before Heapcon. Yo
 
 The Unconference meeting is a participant-driven prelude to the main event. We want to facilitate connections between like-minded people and help them warm up for Heapcon so that they can use its full potential.
 
-When: **25th of September at 5PM**
+WHEN: **September 25th at 5PM**
 
-Where: **Kombank dvorana, Press center**
+WHERE: **Kombank dvorana, Press center**
 
-What: Three (3) rounds of three (3) parallel sessions lasting around 45min each. Three (3) subjects proposed by the moderator for every session. The power of participation and democratic vote will decide which 3 subjects will be discussed and they won’t be shared beforehand!
+WHAT: Three (3) rounds of three (3) parallel sessions lasting around 45min each. Three (3) subjects proposed by the moderator for every session. The power of participation and democratic vote will decide which 3 subjects will be discussed and they won’t be shared beforehand!
 
 The main purpose of our events is to make great things happen by joining great people, so that’s why we need YOU.
 
