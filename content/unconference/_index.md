@@ -1,6 +1,5 @@
 ---
 title: "Join us at the Unconference!"
-layout: "unconference"
 ---
 
 # Share the knowledge, join us at the Unconference!
@@ -18,6 +17,17 @@ Where: **Kombank dvorana**
 What: Three (3) rounds of three (3) parallel sessions lasting around 45min each. Three (3) subjects proposed by the moderator for every session. The power of participation and democratic vote will decide which 3 subjects will be discussed and they won’t be shared beforehand!
 
 The main purpose of our events is to make great things happen by joining great people, so that’s why we need YOU. See you there!
+
+<div class="home">
+<div class="block-text block-text-4">
+<div class="line-1">Unconference Unconference</div>
+<div class="line-2">ference Unconference Uncon</div>
+<div class="icons">
+<img src="/images/ear.png" alt="ear" class="ear-2">
+<img src="/images/cup.png" alt="cup" class="rabbit">
+</div>
+</div>
+</div>
 
 ## Remember this before you come
 
