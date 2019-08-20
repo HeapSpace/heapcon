@@ -24,6 +24,9 @@ The Unconference meeting is a participant-driven prelude to the main event. We w
 
 The main purpose of our events is to make great things happen by joining great people, so that’s why we need YOU.
 
+<div style="text-align: center;">
+<h2><a href="https://forms.gle/hUY3tFecE3L1YKLPA" target="_blank">COUNT ME IN</a></h2>
+</div>
 
 <div class="home">
 <div class="block-text block-text-4">
@@ -45,3 +48,7 @@ The main purpose of our events is to make great things happen by joining great p
 \#3: Whenever it starts is the right time - unlike the conference, sessions on the unconference event won’t be timed to a microsecond, so if the discussion heats up and takes a group to the next level, we’ll let them stay there for a little while.
 
 \#4: It is over when it’s over - tell the people at home not to wait up. You’ll be unconferencing!
+
+<div style="text-align: center; margin: 100px 0 0 0">
+<h2><a href="https://forms.gle/hUY3tFecE3L1YKLPA" target="_blank">COUNT ME IN</a></h2>
+</div>
