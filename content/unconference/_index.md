@@ -1,3 +1,8 @@
+---
+title: "Join us at the Unconference!"
+layout: "unconference"
+---
+
 # Share the knowledge, join us at the Unconference!
 
 Peer learning is in our focus and openness and discussion are our tools. We want you to be open in sharing what you do and how you do it, the challenges that you have and the solutions you use to overcome them.
