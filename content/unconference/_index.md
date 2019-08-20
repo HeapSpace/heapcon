@@ -12,11 +12,14 @@ The Unconference meeting is a participant-driven prelude to the main event. We w
 
 When: **25th of September at 5PM**
 
-Where: **Kombank dvorana**
+Where: **Kombank dvorana, Press center**
 
 What: Three (3) rounds of three (3) parallel sessions lasting around 45min each. Three (3) subjects proposed by the moderator for every session. The power of participation and democratic vote will decide which 3 subjects will be discussed and they won’t be shared beforehand!
 
-The main purpose of our events is to make great things happen by joining great people, so that’s why we need YOU. See you there!
+The main purpose of our events is to make great things happen by joining great people, so that’s why we need YOU.
+
+Oh, and we know that all that thinking and discussing will make you hungry, so join us later for a dinner, which will be served in the Marshall’s saloon at Kombank dvorana.
+
 
 <div class="home">
 <div class="block-text block-text-4">
