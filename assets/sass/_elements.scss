@@ -15,47 +15,6 @@ canvas {
 	width: 100%;
 }
 
-/*img.profile {
-	width: 30%;
-	border-radius: 50%;
-	filter: grayscale(1) sepia(.2);
-	margin: 0 auto;
-	display: block;
-	margin-bottom: 100px;
-}*/
-
-/*.committee{
-	img {
-		margin-top: 4em;
-		width: 200px;
-		border-radius: 50%;
-		transition: all .2s ease;
-		filter: grayscale(1) sepia(.2);
-	}
-}*/
-
-/*.speaker {
-	text-align: center;
-	line-height: 0.7em;
-	margin-bottom: 2em;
-
-	a {
-		font-size: 0.6em;
-	}
-
-	img {
-		width: 200px;
-		border-radius: 50%;
-		transition: all .2s ease;
-		filter: grayscale(1) sepia(.2);
-	}
-
-	img:hover {
-		transform: scale(1.1);
-		transition: all .2s ease;
-	}
-}*/
-
 .speaker-info {
 	margin-top: 1em;
 	font-size: 1.1em;
@@ -672,7 +631,7 @@ header{
 	background-color: #fff3df;
 }
 main{
-	margin-top: 250px;
+	margin-top: 300px;
 	padding: 0 5vw;
 
 	color: $color-hs-red;
@@ -728,11 +687,11 @@ main{
 				from { transform: translate(100%, 0); opacity: 0; }
 				to { transform: translate(0, 0); opacity: 1; }
 			}
-		} 
+		}
 		&.year .info{
 			font-size: 15vw;
 			line-height: 12vw;
-			
+
 			transform: translate(100%, 0);
 				opacity: 0;
 
@@ -847,7 +806,7 @@ main{
 	}
 
 	li{
-	
+
 		-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
 				  page-break-inside: avoid; /* Firefox */
 					   break-inside: avoid; /* IE 10+ */
@@ -910,7 +869,7 @@ main{
 		.line-2{
 			transition: transform 0.2s;
 		}
-		
+
 		.line-1{
 			margin-left: -85vw;
 		}
@@ -1047,7 +1006,7 @@ main{
 		overflow: hidden;
 
 		color: $color-hs-blue;
-		
+
 		.line-1,
 		.line-3{
 			position: relative;
@@ -1429,7 +1388,7 @@ img.profile{
 	.talk,
 	.break{
 		padding: 2.5vw 0;
-		
+
 		.talk-meta{
 			font-family: $font-main;
 			font-size: 1.9vw;
