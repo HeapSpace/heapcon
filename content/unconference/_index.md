@@ -7,11 +7,11 @@ title: "Join us at the Unconference!"
 WHO CAN ATTEND?
 Everyone. This event is not only for Heapcon visitors.
 
-WHEN: **September 25th at 5PM**
+WHEN? **September 25th at 5PM**
 
-WHERE: **Kombank dvorana, Press center**
+WHERE? **Kombank dvorana, Press center**
 
-WHAT: Three (3) rounds of three (3) parallel sessions lasting around 45min each. Three (3) subjects proposed by the moderator for every session. The power of participation and democratic vote will decide which 3 subjects will be discussed and they won’t be shared beforehand!
+WHAT? Three (3) rounds of three (3) parallel sessions lasting around 45min each. Three (3) subjects proposed by the moderator for every session. The power of participation and democratic vote will decide which 3 subjects will be discussed and they won’t be shared beforehand!
 
 DINING WITH HEAPCON SPEAKERS!
 All Unconference attendees are invited to join the Speakers dinner happening in Kombank dvorana at 9PM.
