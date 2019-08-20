@@ -4,8 +4,7 @@ title: "Join us at the Unconference!"
 
 # Share the knowledge, join us at the Unconference!
 
-Who can attend?
-
+WHO CAN ATTEND?
 Everyone. This event is not only for Heapcon visitors.
 
 WHEN: **September 25th at 5PM**
@@ -14,8 +13,7 @@ WHERE: **Kombank dvorana, Press center**
 
 WHAT: Three (3) rounds of three (3) parallel sessions lasting around 45min each. Three (3) subjects proposed by the moderator for every session. The power of participation and democratic vote will decide which 3 subjects will be discussed and they won’t be shared beforehand!
 
-Dining with Heapcon speakers!
-
+DINING WITH HEAPCON SPEAKERS!
 All Unconference attendees are invited to join the Speakers dinner happening in Kombank dvorana at 9PM.
 
 Peer learning is in our focus and openness and discussion are our tools. We want you to be open in sharing what you do and how you do it, the challenges that you have and the solutions you use to overcome them.
