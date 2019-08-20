@@ -70,7 +70,7 @@ function showPeople() {
 
 	$('.list li:not(.show)').each(function(index, el) {
 
-		if($(el).offset().top > scrollPos + windowHeight * 0.2 && $(el).offset().top < scrollPos + windowHeight * 0.7){
+		if($(el).offset().top > scrollPos + windowHeight * 0.05 && $(el).offset().top < scrollPos + windowHeight * 0.7){
 			$(el).addClass('show');
 
 		}
