@@ -2,7 +2,7 @@
 type: "speaker"
 title: "Boban Pajić"
 company: "Seven Bridges"
-job: "Product Development Manager"
+job: "UX Designer"
 link: ""
 ---
 
