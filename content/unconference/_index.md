@@ -4,11 +4,8 @@ title: "Join us at the Unconference!"
 
 # Share the knowledge, join us at the Unconference!
 
-Peer learning is in our focus and openness and discussion are our tools. We want you to be open in sharing what you do and how you do it, the challenges that you have and the solutions you use to overcome them.
-
-This is why we’re organizing the Unconference meeting right before Heapcon. You’ll have a chance to meet the Heapcon speakers in person and join some useful discussions with them.
-
-The Unconference meeting is a participant-driven prelude to the main event. We want to facilitate connections between like-minded people and help them warm up for Heapcon so that they can use its full potential.
+Who can attend?
+Everyone. This event is not only for Heapcon visitors.
 
 WHEN: **September 25th at 5PM**
 
@@ -16,9 +13,16 @@ WHERE: **Kombank dvorana, Press center**
 
 WHAT: Three (3) rounds of three (3) parallel sessions lasting around 45min each. Three (3) subjects proposed by the moderator for every session. The power of participation and democratic vote will decide which 3 subjects will be discussed and they won’t be shared beforehand!
 
-The main purpose of our events is to make great things happen by joining great people, so that’s why we need YOU.
+Dining with Heapcon speakers!
+All Unconference attendees are invited to join the Speakers dinner happening in Kombank dvorana at 9PM.
 
-Oh, and we know that all that thinking and discussing will make you hungry, so join us later for a dinner, which will be served in the Marshall’s saloon at Kombank dvorana.
+Peer learning is in our focus and openness and discussion are our tools. We want you to be open in sharing what you do and how you do it, the challenges that you have and the solutions you use to overcome them.
+
+This is why we’re organizing the Unconference meeting right before Heapcon. You’ll have a chance to meet the Heapcon speakers in person and join some useful discussions with them.
+
+The Unconference meeting is a participant-driven prelude to the main event. We want to facilitate connections between like-minded people and help them warm up for Heapcon so that they can use its full potential.
+
+The main purpose of our events is to make great things happen by joining great people, so that’s why we need YOU.
 
 
 <div class="home">
