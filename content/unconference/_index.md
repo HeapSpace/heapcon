@@ -24,7 +24,7 @@ The Unconference meeting is a participant-driven prelude to the main event. We w
 
 The main purpose of our events is to make great things happen by joining great people, so that’s why we need YOU.
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 50px">
 <h2><a href="https://forms.gle/hUY3tFecE3L1YKLPA" target="_blank">COUNT ME IN</a></h2>
 </div>
 
