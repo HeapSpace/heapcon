@@ -21,6 +21,9 @@
 	.typeform-widget {
 		height: 500px;
 	}
+	.form {
+		width: 80%;
+	}
 
 	body {
 		font-size: 0.9em;
@@ -52,6 +55,9 @@
 		transform: none;
 		letter-spacing: -1px;
 		display: none
+	}
+	.form {
+		width: 90%;
 	}
 
 	header {
@@ -1146,7 +1152,7 @@
 				margin-top: 30vw;
 			}
 		}
-		
+
 		.accommodation{
 			.wide{
 				margin: 10vw 0 20vw 0;
@@ -1158,7 +1164,7 @@
 			.col-r{
 				.venue-name{
 					font-size: 10vw;
-				}	
+				}
 			}
 			.additional{
 				font-size: 5.5vw;
@@ -1166,7 +1172,7 @@
 
 				width: auto;
 				// padding: 0 8vw;
-			}	
+			}
 		}
 
 		.xing{
