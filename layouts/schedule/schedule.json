@@ -1,4 +1,11 @@
-[
+{
+"konfa": {
+  "days": {{ .Site.Data.Konfa.days | jsonify }},
+  "month": {{ .Site.Data.Konfa.month | jsonify }},
+  "year": {{ .Site.Data.Konfa.year | jsonify }},
+  "tracks": {{ .Site.Data.Konfa.tracks | jsonify }},
+},
+"agenda": [
 {{ $site := .Site }}
 {{ range $index, $day := .Site.Data.Konfa.days -}}
 {{ if (ne $index 0) }},{{ end }}
@@ -21,6 +28,8 @@
     {{ $talk := index $t 0 }}
     {{ $speaker := $talk.Parent }}
     {
+      "id": {{ $talkorbreak.talk | jsonify }},
+      "type": "talk",
       "name": {{ $talk.Title | jsonify }},
       "speaker": {
         "name": {{ $speaker.Title | jsonify }},
@@ -29,11 +38,14 @@
         "about": {{ $speaker.Content | plainify | htmlUnescape | jsonify }}
       },
       "timeStart": {{ $timeStart| jsonify }},
-      "timeEnd": {{ $timeEnd| jsonify }}
+      "timeEnd": {{ $timeEnd| jsonify }},
+      "timeDuration": {{ $talkorbreak.duration | jsonify }},
+      "track": {{ $talkorbreak.track | jsonify }}
     }
     {{ end }}
     {{ if isset $talkorbreak "break" }}
     {
+      "type": "break",
       "name": {{ $talkorbreak.break | jsonify }},
       "timeStart": {{ $timeStart| jsonify }},
       "timeEnd": {{ $timeEnd| jsonify }}
@@ -43,4 +55,4 @@
   ]
 }
 {{- end }}
-]
+]}
