@@ -1,14 +1,17 @@
 ---
-type: "talk"
-title: "User Story Mapping: Hookup the Business Idea with the Right Product (backlog)"
-description: "How to define product right, from all perspectives: business, development and testing."
-og_img: "levi9.png"
-day: "26"
+type: talk
+title: 'User Story Mapping: Hookup the Business Idea with the Right Product (backlog)'
+description: >-
+  How to define product right, from all perspectives: business, development and
+  testing.
+og_img: levi9.png
+day: '26'
 track: 1
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: levi9-userstory
 ---
 
 This workshop is fully dedicated to gaining hands on experience, which the participants will get within our simulation of USM session for a new product. To define the product right, all perspectives are equally important: business, development and testing.

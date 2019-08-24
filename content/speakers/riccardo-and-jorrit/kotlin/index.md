@@ -1,14 +1,15 @@
 ---
-type: "talk"
-title: "Kotlin Is for Hipsters"
-description: "Our experiences with developing in Kotlin for a few months."
-og_img: "riccardo-lippolis.png"
-day: "26"
+type: talk
+title: Kotlin Is for Hipsters
+description: Our experiences with developing in Kotlin for a few months.
+og_img: riccardo-lippolis.png
+day: '26'
 track: 1
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: riccardo-and-jorrit-kotlin
 ---
 
 Most developers like using cool, shiny, new technologies. But at the same time, we embrace the 'known' older technology stacks when creating software which will run in production, and for good reason!

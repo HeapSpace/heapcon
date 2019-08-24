@@ -1,14 +1,17 @@
 ---
-type: "talk"
-title: "Incorporating Engineers into the Entire Product Lifecycle"
-description: "Implications of forced compartmentalization of specializations on various aspects of a company, and how we can improve the existing processes"
-og_img: "jasa-niklanovic.png"
-day: "26"
+type: talk
+title: Incorporating Engineers into the Entire Product Lifecycle
+description: >-
+  Implications of forced compartmentalization of specializations on various
+  aspects of a company, and how we can improve the existing processes
+og_img: jasa-niklanovic.png
+day: '26'
 track: 1
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: jasa-niklanovic-incorporating
 ---
 
 This talk focuses primarily on implications of forced compartmentalization of specializations on various aspects of a company, and how we can improve the existing processes. The classic linear product management cycle is built around the notion of a “handoff” to development - where business, design and product do all the research and engineers do development timelines, feasibility assessments and actual implementation.

@@ -1,14 +1,15 @@
 ---
-type: "talk"
-title: "Microservice Architecture Based on Event Sourcing"
-description: "How to design your services to support the query communication pattern."
-og_img: "vladimir-vajda.png"
-day: "26"
+type: talk
+title: Microservice Architecture Based on Event Sourcing
+description: How to design your services to support the query communication pattern.
+og_img: vladimir-vajda.png
+day: '26'
 track: 1
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: vladimir-vajda-evsrc
 ---
 
 Using HTTP as a means of communication between services, introduces tight coupling as each service needs to know about the existence of the other. Event sourcing solves the coupling problem as each service is unaware of any other. It just listens on events of interest, processes them and produces new events. At least, in theory.

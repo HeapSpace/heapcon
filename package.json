@@ -3,17 +3,12 @@
   "version": "1.0.0",
   "description": "heapcon website",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:fns": "netlify-lambda serve src/fns",
-    "build:fns": "netlify-lambda build src/fns"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HeapSpace/heapcon.git"
+    "url": "https://github.com/HeapSpace/heapcon.git"
   },
   "author": "Heapspace",
-  "license": "ISC",
+  "license": "BSD2",
   "bugs": {
     "url": "https://github.com/HeapSpace/heapcon/issues"
   },
@@ -21,9 +16,9 @@
   "dependencies": {
     "airtable": "^0.5.9",
     "chalk": "^2.4.2",
-    "encoding": "^0.1.12",
+    "fs": "0.0.1-security",
     "fs-extra": "^7.0.1",
-    "netlify-lambda": "^1.4.2",
+    "gray-matter": "^4.0.2",
     "node-fetch": "^2.3.0"
   }
 }

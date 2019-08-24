@@ -1,14 +1,17 @@
 ---
-type: "talk"
-title: "How to Overcome Your Fears to Become a Conference Speaker"
-description: "How I managed to speak at events across Europe and US and how I manage to overcome my fears and limitations."
-og_img: "antonio-cobo.png"
-day: "26"
+type: talk
+title: How to Overcome Your Fears to Become a Conference Speaker
+description: >-
+  How I managed to speak at events across Europe and US and how I manage to
+  overcome my fears and limitations.
+og_img: antonio-cobo.png
+day: '26'
 track: 1
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: antonio-cobo-fear
 ---
 
 Have you ever thought about speaking at a conference? Have you ever wondered how the speakers managed to get into the conference?

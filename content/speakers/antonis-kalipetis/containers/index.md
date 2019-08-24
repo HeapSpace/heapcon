@@ -1,14 +1,17 @@
 ---
-type: "talk"
-title: "Do I Really Need Containers?"
-description: "Containers are the next best thing after sliced bread, but do you really need containers?"
-og_img: "atonis-kalipetis.png"
-day: "26"
+type: talk
+title: Do I Really Need Containers?
+description: >-
+  Containers are the next best thing after sliced bread, but do you really need
+  containers?
+og_img: atonis-kalipetis.png
+day: '26'
 track: 1
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: antonis-kalipetis-containers
 ---
 
 Containers are the next best thing after sliced bread, but do you really need containers? Join this talk to discuss the different scenarios where containers can really help — or get in your way — when deploying your applications. We'll examine the different patterns and a few examples of go and no-go scenarios for containers.

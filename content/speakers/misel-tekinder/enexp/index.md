@@ -1,15 +1,16 @@
 ---
-type: "talk"
-title: "Engineering Experience"
-description: "Introduce design thinking and UX processes to decision makers on the development side."
-og_img: "misel-tekinder.png"
-day: "26"
-track: "A"
-track: 1
+type: talk
+title: Engineering Experience
+description: >-
+  Introduce design thinking and UX processes to decision makers on the
+  development side.
+og_img: misel-tekinder.png
+day: '26'
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: misel-tekinder-enexp
 ---
 
 In the era of UX Design, where products are built to fulfill users needs, development processes are still lacking that UX part in decision making and planning.

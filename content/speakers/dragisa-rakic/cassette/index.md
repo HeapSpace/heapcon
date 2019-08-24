@@ -1,14 +1,17 @@
 ---
-type: "talk"
-title: "Make the Cassette Deck Great Again! Revival of the Coolest Retro Tech"
-description: "Get the second life to the coolest devices of the 80's and early 90's of XX century: cassette decks"
-og_img: "dragisa-rakic.png"
-day: "26"
+type: talk
+title: Make the Cassette Deck Great Again! Revival of the Coolest Retro Tech
+description: >-
+  Get the second life to the coolest devices of the 80's and early 90's of XX
+  century: cassette decks
+og_img: dragisa-rakic.png
+day: '26'
 track: 1
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: dragisa-rakic-cassette
 ---
 
 As a teenager I was stunned by HiFi audio components. Both visual and sound impressions were so appealing, and those devices were also the result of the marvelous electronic engineering and applied art craftsmanship. Amongst them, the cassette decks were the most diverse ones, and one of the greatest showcases how a "problem" could have literally countless solutions. Nowadays, those devices, if not dumped, are somewhere in the basement or attic. Let's bring their beautiful LED VU-meters back to life by the magic of Raspberry Pi, Android and iOS. Want to see how QT, Kotlin and Swift work together?

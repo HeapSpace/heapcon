@@ -1,14 +1,17 @@
 ---
-type: "talk"
-title: "Real-world Machine Learning with TensorFlow and Cloud AI"
-description: "Examples of business that have adopted TensorFlow and Cloud AI to solve their real-world problems."
-og_img: "kaz-sato.png"
-day: "26"
+type: talk
+title: Real-world Machine Learning with TensorFlow and Cloud AI
+description: >-
+  Examples of business that have adopted TensorFlow and Cloud AI to solve their
+  real-world problems.
+og_img: kaz-sato.png
+day: '26'
 track: 1
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: kaz-sato-tensor
 ---
 
 With TensorFlow and Cloud AI from Google, anyone can leverage deep learning technology at low cost and without much ML expertise. In this session, we will explore examples of business that have adopted TensorFlow and Cloud AI to solve their real-world problems from cucumber farmers to food manufacturers.

@@ -1,14 +1,17 @@
 ---
-type: "talk"
-title: "Test Automation Without Assertions"
-description: "Automation without assertions - meaning, availability of the tools and the advantages and disadvantages."
-og_img: "jeremias-roessler.png"
-day: "26"
+type: talk
+title: Test Automation Without Assertions
+description: >-
+  Automation without assertions - meaning, availability of the tools and the
+  advantages and disadvantages.
+og_img: jeremias-roessler.png
+day: '26'
 track: 1
 start: 1330
 outputs:
-- html
-- calendar
+  - html
+  - calendar
+id: jeremias-rosler-automation
 ---
 
 GUI test automation is broken — because regression testing is not testing, but version control of the behaviour of the software.

@@ -1,12 +1,14 @@
 ---
-type: "talk"
-title: "From dev to prod. One Year of Using Kubernetes in Production"
-description: "Imagine you have 5 Kubernetes environments used by developers from multiple companies and users alike."
-og_img: "milos-milunovic.png"
-id: "milos-kube"
+type: talk
+title: From dev to prod. One Year of Using Kubernetes in Production
+description: >-
+  Imagine you have 5 Kubernetes environments used by developers from multiple
+  companies and users alike.
+og_img: milos-milunovic.png
+id: milos-milunovic-kube
 outputs:
-- html
-- calendar
+  - html
+  - calendar
 ---
 
 It's tough enough trying to set up a release process for a single application, right?  What if someone gave you a task to automate the integration of dozens of microservices written by multiple companies from development environment all the way to production?  ... oh, and they told you that you are responsible for keeping the production up and running whatever happens ofc!
