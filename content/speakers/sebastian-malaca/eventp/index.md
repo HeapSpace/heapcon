@@ -5,9 +5,6 @@ description: >-
   Major concepts of event-driven architecture and tell you how to design event
   processing applications.
 og_img: sebastian-malaca.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

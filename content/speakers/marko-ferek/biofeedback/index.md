@@ -5,9 +5,6 @@ description: >-
   The conversation about biofeedback software, its implementation, and its use
   in education.
 og_img: marko-ferek.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

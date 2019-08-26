@@ -6,9 +6,6 @@ description: >-
   participate, and share details on the cloud native open source stack at
   Eclipse Foundation
 og_img: tanja-obradovic.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

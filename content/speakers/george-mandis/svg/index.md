@@ -5,9 +5,6 @@ description: >-
   Running apps without servers and browsers without screens sounds a little
   absurd, but it can be a surprisingly efficient way to solve certain problems.
 og_img: george-mandis.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

@@ -5,9 +5,6 @@ description: >-
   Automation without assertions - meaning, availability of the tools and the
   advantages and disadvantages.
 og_img: jeremias-roessler.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

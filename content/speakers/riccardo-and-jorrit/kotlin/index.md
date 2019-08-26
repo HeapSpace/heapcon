@@ -3,9 +3,6 @@ type: talk
 title: Kotlin Is for Hipsters
 description: Our experiences with developing in Kotlin for a few months.
 og_img: riccardo-lippolis.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

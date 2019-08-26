@@ -5,9 +5,6 @@ description: >-
   Reusable advanced patterns of serverless architectures while considering costs
   as well.
 og_img: alex-casalboni.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

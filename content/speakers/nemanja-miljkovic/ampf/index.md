@@ -3,9 +3,6 @@ type: talk
 title: Building a Guitar Amplifier Using the Web Audio API
 description: An introduction to the Web Audio API on a practical example
 og_img: nemanja-miljkovic.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

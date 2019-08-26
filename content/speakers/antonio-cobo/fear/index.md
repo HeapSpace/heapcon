@@ -5,9 +5,6 @@ description: >-
   How I managed to speak at events across Europe and US and how I manage to
   overcome my fears and limitations.
 og_img: antonio-cobo.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

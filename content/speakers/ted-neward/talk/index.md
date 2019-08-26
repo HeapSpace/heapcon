@@ -5,9 +5,6 @@ description: >-
   If you’re a software developer, and you’re currently fluent in one language,
   are you doomed to irrelevancy?
 og_img: ted-neward.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

@@ -5,9 +5,6 @@ description: >-
   Containers are the next best thing after sliced bread, but do you really need
   containers?
 og_img: atonis-kalipetis.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

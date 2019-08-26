@@ -5,9 +5,6 @@ description: >-
   Programming by examples is a new frontier in AI that enables users to create
   code fragments from input-output examples.
 og_img: sumit-gulwani.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

@@ -5,9 +5,6 @@ description: >-
   Examples of business that have adopted TensorFlow and Cloud AI to solve their
   real-world problems.
 og_img: kaz-sato.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

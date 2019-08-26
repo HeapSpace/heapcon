@@ -5,8 +5,6 @@ description: >-
   Introduce design thinking and UX processes to decision makers on the
   development side.
 og_img: misel-tekinder.png
-day: '26'
-start: 1330
 outputs:
   - html
   - calendar

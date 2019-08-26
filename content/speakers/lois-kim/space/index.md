@@ -5,9 +5,6 @@ description: >-
   Visually intriguing stories, designs, branding, print, and art installations
   in JPL
 og_img: lois-kim.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

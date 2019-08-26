@@ -5,9 +5,6 @@ description: >-
   How common vulnerabilities in the NodeJS and Java eco-system are exploited on
   a daily base
 og_img: brian-vermeer.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

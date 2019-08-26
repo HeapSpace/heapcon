@@ -5,9 +5,6 @@ description: >-
   Metaphors for looking at technical risk that we think match the problem more
   effectively
 og_img: steve-freeman.png
-day: 1
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

@@ -5,9 +5,6 @@ description: >-
   How to define product right, from all perspectives: business, development and
   testing.
 og_img: levi9.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

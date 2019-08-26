@@ -3,9 +3,6 @@ type: talk
 title: Where Is My Cache? Architectural Patterns for Caching Microservices by Example
 description: Different architectural patterns for distributed caching
 og_img: rafal-leszko.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

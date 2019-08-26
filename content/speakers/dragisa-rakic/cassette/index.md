@@ -5,9 +5,6 @@ description: >-
   Get the second life to the coolest devices of the 80's and early 90's of XX
   century: cassette decks
 og_img: dragisa-rakic.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

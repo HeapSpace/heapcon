@@ -3,9 +3,6 @@ type: talk
 title: Edge Computing … What's That All About?
 description: 'All the aspects of Edge computing, it''s current state and the future trends.'
 og_img: dejan-bosanac.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar

@@ -6,9 +6,6 @@ description: >-
   engagement and mutual growth, with each team member being in charge of their
   own technical field of expertise at the same time
 og_img: boban-pajic.png
-day: '26'
-track: 1
-start: 1330
 outputs:
   - html
   - calendar
