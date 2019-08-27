@@ -5,12 +5,11 @@
 
 {{ $t := where $site.Pages "Params.id" $ctx.talk }}
 {{ $talk := index $t 0 }}
-
 <!-- TALK -->
 
 <div class="talk">
 	<div class="talk-meta">
-		<div class="track">Track: {{ $ctx.track }}</div>
+		<div class="track">Track: {{ index $site.Data.Konfa.trackNames $ctx.track }}</div>
 		<div class="talk-length">{{ $timeStart.UTC | dateFormat "15:04" }} – {{ $timeEnd.UTC | dateFormat "15:04" }}</div>
 	</div>
 	<div class="talk-title">{{ $talk.Title }}</div>

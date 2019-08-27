@@ -2,3 +2,7 @@ days = [26, 27]
 month = 9
 year = 2019
 tracks = ["A", "B", "C"]
+[trackNames]
+  A = "H-Prime"
+  B = "Ninja the Cat"
+  C = "Outer Space"

@@ -3,7 +3,7 @@
   "days": {{ .Site.Data.Konfa.days | jsonify }},
   "month": {{ .Site.Data.Konfa.month | jsonify }},
   "year": {{ .Site.Data.Konfa.year | jsonify }},
-  "tracks": {{ .Site.Data.Konfa.tracks | jsonify }},
+  "tracks": {{ .Site.Data.Konfa.trackNames | jsonify }},
 },
 "agenda": [
 {{ $site := .Site }}
