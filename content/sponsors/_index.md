@@ -25,7 +25,7 @@ bronze:
  - ["telesign", "https://www.telesign.com/"]
  - ["smitmicro", "https://www.smithmicro.com/"]
  - ["change", "http://www.changecon.com"]
-
+ - ["helloworld", "https://www.helloworld.rs"]
 ---
 
 # Sponsors
