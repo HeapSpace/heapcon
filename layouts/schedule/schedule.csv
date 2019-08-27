@@ -28,6 +28,6 @@
 {{ $content = $talk.Content | plainify | htmlUnescape | chomp -}}
 {{ $speaker = $talk.Parent.Title -}}
 {{ end -}}
-{{ $date }}, {{ $timeStart -}}, {{ $timeEnd }}, {{ $track }}, {{ $title }}, {{ $content -}}, {{ $speaker }}
+{{ $date }}, {{ $timeStart -}}, {{ $timeEnd }}, {{ $track }}, {{ $title }}, {{ replace $content "\n" "" -}}, {{ $speaker }}
 {{ end -}}
 {{ end -}}
