@@ -3,7 +3,7 @@
   "days": {{ .Site.Data.Konfa.days | jsonify }},
   "month": {{ .Site.Data.Konfa.month | jsonify }},
   "year": {{ .Site.Data.Konfa.year | jsonify }},
-  "tracks": {{ .Site.Data.Konfa.trackNames | jsonify }},
+  "tracks": {{ .Site.Data.Konfa.trackNames | jsonify }}
 },
 "agenda": [
 {{ $site := .Site }}
@@ -37,8 +37,8 @@
         "title": {{ $speaker.Params.job | jsonify }},
         "about": {{ $speaker.Content | plainify | htmlUnescape | jsonify }}
       },
-      "timeStart": {{ $timeStart| jsonify }},
-      "timeEnd": {{ $timeEnd| jsonify }},
+      "timeStart": {{ $timeStart | jsonify }},
+      "timeEnd": {{ $timeEnd | jsonify }},
       "timeDuration": {{ $talkorbreak.duration | jsonify }},
       "track": {{ $talkorbreak.track | jsonify }}
     }
@@ -47,8 +47,8 @@
     {
       "type": "break",
       "name": {{ $talkorbreak.break | jsonify }},
-      "timeStart": {{ $timeStart| jsonify }},
-      "timeEnd": {{ $timeEnd| jsonify }}
+      "timeStart": {{ $timeStart | jsonify }},
+      "timeEnd": {{ $timeEnd | jsonify }}
     }
     {{ end }}
     {{ end }}
