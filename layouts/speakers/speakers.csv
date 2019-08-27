@@ -1,5 +1,5 @@
-"Name", "Affiliation", "Position", "Bio"
+"Name", "Affiliation", "Bio"
 {{ range (where .Site.Pages.ByTitle "Type" "talk" ) -}}
 {{ $content := .Content | plainify | htmlUnescape | chomp -}}
-{{ .Parent.Title }}, {{ .Parent.Params.Company }}, {{ .Title -}}, {{ replace $content "\n" "" -}}
+{{ .Parent.Title }}, {{ .Parent.Params.Company }}, {{ .Title -}}, {{ replace $content "\n" "" }}
 {{ end -}}
