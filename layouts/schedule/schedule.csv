@@ -1,21 +1,20 @@
-"Date", "Start Time", "End Time", "Tracks", "Session Title", "Description", "Speakers"
+Date%Start Time%End Time%Tracks%Session Title%Description%Speakers
 {{ $site := .Site -}}
-{{ range $index, $day := .Site.Data.Konfa.days -}}
+{{ $days := .Site.Data.Konfa.days -}}
+{{ $month := .Site.Data.Konfa.month -}}
+{{ $year := .Site.Data.Konfa.year -}}
+{{ range $index, $day := $days -}}
 {{ $talks := index $site.Data.Agenda (printf "day%d" $day) -}}
 {{ range $index, $talkorbreak := $talks -}}
-{{ $timeStart := time (printf "%d-%02d-%02dT%02s:00" $site.Data.Konfa.year $site.Data.Konfa.month $day .start) -}}
+{{ $timeStart := time (printf "%d-%02d-%02dT%02s:00" $year $month $day .start) -}}
 {{ $timeStart = time $timeStart.Unix -}}
 {{ $timeEnd := "" -}}
 {{ $timeEnd = $timeStart.Unix -}}
 {{ $duration := mul (default 45 .duration) 60 -}}
 {{ $timeEnd = time (add $timeEnd $duration ) -}}
 {{ $date := "" -}}
-{{ if eq $index 0 -}}
-{{ $date = "September 26th" -}}
-{{ else -}}
-{{ $date = "September 27th" -}}
-{{ end -}}
-{{ $track := "" -}}
+{{ $date = printf "%d/%d/%d" $month $day $year -}}
+{{ $track := "Break" -}}
 {{ $talk := "" -}}
 {{ $title := $talkorbreak.break -}}
 {{ $content := "" -}}
@@ -28,6 +27,6 @@
 {{ $content = $talk.Content | plainify | htmlUnescape | chomp -}}
 {{ $speaker = $talk.Parent.Title -}}
 {{ end -}}
-{{ $date }}, {{ $timeStart -}}, {{ $timeEnd }}, {{ $track }}, {{ $title }}, {{ replace $content "\n" "" -}}, {{ $speaker }}
+{{ $date }}%{{ dateFormat "03:04 PM" $timeStart -}}%{{ dateFormat "03:04 PM" $timeEnd }}%{{ $track }}%{{ $title }}%{{ replace $content "\n" "" -}}%{{ $speaker }}
 {{ end -}}
 {{ end -}}
