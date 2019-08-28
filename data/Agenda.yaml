@@ -51,6 +51,10 @@ day26:
   - start: "12:45"
     break: "Lunch"
     duration: 90
+  - start: "14:15"
+    duration: 200
+    talk: "levi9-userstory"
+    track: "C"
   - start: "14:45"
     break: "Coffee break"
     duration: 5
@@ -129,6 +133,14 @@ day27:
   - start: "12:45"
     break: "Lunch"
     duration: 90
+  - start: "14:15"
+    talk: "boban-pajic-skills"
+    track: "A"
+    duration: 30
+  - start: "14:15"
+    talk: "aleksandar-radisavljevic-rest"
+    track: "B"
+    duration: 30
   - start: "14:15"
     talk: "nikolay-matvienko-intensive"
     track: "C"
