@@ -1,4 +1,4 @@
-Date%Start Time%End Time%Tracks%Session Title%Description%Speakers
+Date;Start Time;End Time;Tracks;Session Title;Room/Location;Description;Speakers
 {{ $site := .Site -}}
 {{ $days := .Site.Data.Konfa.days -}}
 {{ $month := .Site.Data.Konfa.month -}}
@@ -27,6 +27,6 @@ Date%Start Time%End Time%Tracks%Session Title%Description%Speakers
 {{ $content = $talk.Content | plainify | htmlUnescape | chomp -}}
 {{ $speaker = $talk.Parent.Title -}}
 {{ end -}}
-{{ $date }}%{{ dateFormat "03:04 PM" $timeStart -}}%{{ dateFormat "03:04 PM" $timeEnd }}%{{ $track }}%{{ $title }}%{{ replace $content "\n" "" -}}%{{ $speaker }}
+{{ $date }};{{ dateFormat "03:04 PM" $timeStart -}};{{ dateFormat "03:04 PM" $timeEnd }};{{ $track }};{{ $title }};;"{{ $content -}}";{{ $speaker }}
 {{ end -}}
 {{ end -}}
