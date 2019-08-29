@@ -1,5 +1,5 @@
 Name;Email;Affiliation;Position;Bio
 {{ range (where .Site.Pages.ByTitle "Type" "talk" ) -}}
-{{ $content := .Content | plainify | htmlUnescape | chomp -}}
+{{ $content := .Parent.Content | plainify | htmlUnescape | chomp -}}
 {{ .Parent.Title }};;{{ .Parent.Params.Company }};{{ .Parent.Params.Job }};"{{ $content }}"
 {{ end -}}
