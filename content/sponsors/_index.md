@@ -26,7 +26,7 @@ bronze:
  - ["smitmicro", "https://www.smithmicro.com/"]
  - ["change", "http://www.changecon.com"]
  - ["helloworld", "https://www.helloworld.rs"]
- - ["epson", "https://www.epson.rs/"]
+ - ["epson", "https://www.epson.rs/", "25px"]
 ---
 
 # Sponsors

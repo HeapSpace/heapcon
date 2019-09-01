@@ -16,7 +16,11 @@
 
 	<div class="grid42 grid-center">
 		{{ range .Params.gold }}
+			{{ if eq (len .) 3 }}
+			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}
+			{{else}}
 			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}
+			{{end}}
 		{{ end }}
 	</div>
 
@@ -24,7 +28,11 @@
 
 	<div class="grid42 grid-center">
 		{{ range .Params.silver }}
+			{{ if eq (len .) 3 }}
+			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}
+			{{else}}
 			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}
+			{{end}}
 		{{ end }}
 	</div>
 
@@ -32,7 +40,11 @@
 
 	<div class="grid42 grid-center">
 		{{ range .Params.bronze }}
+			{{ if eq (len .) 3 }}
+			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}
+			{{else}}
 			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}
+			{{end}}
 		{{ end }}
 	</div>
 
