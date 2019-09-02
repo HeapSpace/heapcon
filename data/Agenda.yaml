@@ -66,6 +66,10 @@ day26:
     duration: 45
     talk: "lois-kim-space"
     track: "A"
+  - start: "14:50"
+    duration: 45
+    talk: "denis-radin-nasa"
+    track: "B"
   - start: "15:35"
     break: "Coffee break"
     duration: 10
