@@ -52,6 +52,10 @@ day26:
     break: "Lunch"
     duration: 90
   - start: "14:15"
+    duration: 30
+    talk: "milos-stojanovic-pattern"
+    track: "A"
+  - start: "14:15"
     duration: 200
     talk: "levi9-userstory"
     track: "C"
