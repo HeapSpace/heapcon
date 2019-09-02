@@ -1,7 +1,7 @@
 ---
 type: talk
 title: Designing for complexity
-description: 'Keynote #1'
+description: 'Avoiding industrialization of novelty is the key to scalability and we need a few radical resets with the wider Agile movement.'
 og_img: dave-snowden.png
 id: dave-snowden-keynote1
 outputs:
