@@ -131,6 +131,10 @@ day27:
     talk: "steve-freeman-bluff"
     track: "A"
   - start: "12:00"
+    duration: 30
+    talk: "filip-danic-reinvent"
+    track: "B"
+  - start: "12:00"
     duration: 45
     talk: "dragisa-rakic-cassette"
     track: "C"
