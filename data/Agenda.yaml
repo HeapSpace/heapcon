@@ -5,96 +5,96 @@ day26:
   - start: "09:00"
     duration: 60
     talk: "dave-snowden-keynote1"
-    track: "A"
+    track: ["A", "B", "C"]
   - start: "10:00"
     break: "Coffee break"
     duration: 10
   - start: "10:10"
     duration: 45
     talk: "milos-milunovic-kube"
-    track: "A"
+    track: ["A"]
   - start: "10:10"
     duration: 45
     talk: "heather-vancura-future"
-    track: "B"
+    track: ["B"]
   - start: "10:10"
     duration: 45
     talk: "tanja-obradovic-jakarta"
-    track: "C"
+    track: ["C"]
   - start: "10:55"
     break: "Coffee break"
     duration: 10
   - start: "11:05"
     duration: 45
     talk: "zoran-sevarac-ai"
-    track: "A"
+    track: ["A"]
   - start: "11:05"
     duration: 45
     talk: "crystal-yan-vrar"
-    track: "B"
+    track: ["B"]
   - start: "11:05"
     duration: 45
     talk: "brian-vermeer-hacking"
-    track: "C"
+    track: ["C"]
   - start: "11:50"
     break: "Coffee break"
     duration: 10
   - start: "12:00"
     duration: 45
     talk: "alex-casalboni-aws"
-    track: "A"
+    track: ["A"]
   - start: "12:00"
     duration: 45
     talk: "rafal-leszko-cache"
-    track: "B"
+    track: ["B"]
   - start: "12:00"
     duration: 45
     talk: "george-mandis-svg"
-    track: "C"
+    track: ["C"]
   - start: "12:45"
     break: "Lunch"
     duration: 90
   - start: "14:15"
     duration: 30
     talk: "milos-stojanovic-pattern"
-    track: "A"
+    track: ["A"]
   - start: "14:15"
     duration: 200
     talk: "levi9-userstory"
-    track: "C"
+    track: ["C"]
   - start: "14:45"
     break: "Coffee break"
     duration: 5
   - start: "14:50"
     duration: 45
     talk: "lois-kim-space"
-    track: "A"
+    track: ["A"]
   - start: "14:50"
     duration: 45
     talk: "denis-radin-nasa"
-    track: "B"
+    track: ["B"]
   - start: "15:35"
     break: "Coffee break"
     duration: 10
   - start: "15:45"
     duration: 45
     talk: "katie-koschland-crash"
-    track: "A"
+    track: ["A"]
   - start: "15:45"
     duration: 45
     talk: "jeremias-rosler-automation"
-    track: "B"
+    track: ["B"]
   - start: "16:30"
     break: "Coffee break"
     duration: 10
   - start: "16:40"
     duration: 45
     talk: "vladimir-vajda-evsrc"
-    track: "A"
+    track: ["A"]
   - start: "16:40"
     duration: 45
     talk: "marko-ferek-biofeedback"
-    track: "B"
+    track: ["B"]
 day27:
   - start: "8:00"
     duration: 60
@@ -102,66 +102,66 @@ day27:
   - start: "09:00"
     duration: 60
     talk: "ted-neward-talk"
-    track: "A"
+    track: ["A"]
   - start: "10:00"
     break: "Coffee break"
     duration: 10
   - start: "10:10"
     duration: 45
     talk: "kaz-sato-tensor"
-    track: "A"
+    track: ["A"]
   - start: "10:10"
     duration: 45
     talk: "riccardo-and-jorrit-kotlin"
-    track: "B"
+    track: ["B"]
   - start: "10:10"
     duration: 45
     talk: "nemanja-miljkovic-ampf"
-    track: "C"
+    track: ["C"]
   - start: "10:55"
     break: "Coffee break"
     duration: 10
   - start: "11:05"
     duration: 45
     talk: "sebastian-malaca-eventp"
-    track: "A"
+    track: ["A"]
   - start: "11:05"
     duration: 45
     talk: "vladimir-dejanovic-microservices"
-    track: "B"
+    track: ["B"]
   - start: "11:05"
     duration: 45
     talk: "antonio-cobo-fear"
-    track: "C"
+    track: ["C"]
   - start: "11:50"
     break: "Coffee break"
     duration: 10
   - start: "12:00"
     duration: 45
     talk: "steve-freeman-bluff"
-    track: "A"
+    track: ["A"]
   - start: "12:00"
     duration: 30
     talk: "filip-danic-reinvent"
-    track: "B"
+    track: ["B"]
   - start: "12:00"
     duration: 45
     talk: "dragisa-rakic-cassette"
-    track: "C"
+    track: ["C"]
   - start: "12:45"
     break: "Lunch"
     duration: 90
   - start: "14:15"
     talk: "boban-pajic-skills"
-    track: "A"
+    track: ["A"]
     duration: 30
   - start: "14:15"
     talk: "aleksandar-radisavljevic-rest"
-    track: "B"
+    track: ["B"]
     duration: 30
   - start: "14:15"
     talk: "nikolay-matvienko-intensive"
-    track: "C"
+    track: ["C"]
     duration: 30
   - start: "14:45"
     break: "Coffee break"
@@ -169,30 +169,30 @@ day27:
   - start: "14:50"
     duration: 45
     talk: "dejan-bosanac-edge"
-    track: "A"
+    track: ["A"]
   - start: "14:50"
     duration: 45
     talk: "misel-tekinder-enexp"
-    track: "B"
+    track: ["B"]
   - start: "14:50"
     duration: 30
     talk: "veljko-djordjevic-sms"
-    track: "C"
+    track: ["C"]
   - start: "15:35"
     break: "Coffee break"
     duration: 10
   - start: "15:45"
     duration: 45
     talk: "antonis-kalipetis-containers"
-    track: "A"
+    track: ["A"]
   - start: "15:45"
     duration: 45
     talk: "jasa-niklanovic-incorporating"
-    track: "B"
+    track: ["B"]
   - start: "16:30"
     break: "Coffee break"
     duration: 10
   - start: "16:40"
     duration: 45
     talk: "sumit-gulwani-talk"
-    track: "A"
+    track: ["A"]

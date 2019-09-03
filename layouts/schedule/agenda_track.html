@@ -1,0 +1,7 @@
+{{ $ctx := .ctx }}
+{{ $site := .site }}
+
+<!-- TRACK -->
+{{ range $index, $track := $ctx -}}
+	{{ if (ne $index 0) }}|{{end}}{{ index $site.Data.Konfa.trackNames $track }}
+{{- end }}

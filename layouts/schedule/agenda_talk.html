@@ -9,7 +9,7 @@
 
 <div class="talk">
 	<div class="talk-meta">
-		<div class="track">Track: {{ index $site.Data.Konfa.trackNames $ctx.track }}</div>
+		<div class="track">Track: {{ template "schedule/agenda_track.html" (dict "ctx" $ctx.track "site" $site) }} </div>
 		<div class="talk-length">{{ $timeStart.UTC | dateFormat "15:04" }} – {{ $timeEnd.UTC | dateFormat "15:04" }}</div>
 	</div>
 	<div class="talk-title">{{ $talk.Title }}</div>
