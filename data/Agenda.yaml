@@ -102,7 +102,7 @@ day27:
   - start: "09:00"
     duration: 60
     talk: "ted-neward-talk"
-    track: ["A"]
+    track: ["A", "B", "C"]
   - start: "10:00"
     break: "Coffee break"
     duration: 10
