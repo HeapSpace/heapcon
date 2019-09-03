@@ -1,4 +1,7 @@
 day26:
+  - start: "7:30"
+    duration: 60
+    break: "Breakfast & Registration"
   - start: "09:00"
     duration: 60
     talk: "dave-snowden-keynote1"
@@ -93,6 +96,9 @@ day26:
     talk: "marko-ferek-biofeedback"
     track: "B"
 day27:
+  - start: "8:00"
+    duration: 60
+    break: "Breakfast"
   - start: "09:00"
     duration: 60
     talk: "ted-neward-talk"
