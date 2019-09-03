@@ -14,7 +14,7 @@ Date;Start Time;End Time;Tracks;Session Title;Room/Location;Description;Speakers
 {{ $timeEnd = time (add $timeEnd $duration ) -}}
 {{ $date := "" -}}
 {{ $date = printf "%d/%d/%d" $month $day $year -}}
-{{ $track := "Break" -}}
+{{ $track := (slice "Break") -}}
 {{ $talk := "" -}}
 {{ $title := $talkorbreak.break -}}
 {{ $content := "" -}}
@@ -27,6 +27,6 @@ Date;Start Time;End Time;Tracks;Session Title;Room/Location;Description;Speakers
 {{ $content = $talk.Content | plainify | htmlUnescape | chomp -}}
 {{ $speaker = $talk.Parent.Title -}}
 {{ end -}}
-{{ $date }};{{ dateFormat "03:04 PM" $timeStart -}};{{ dateFormat "03:04 PM" $timeEnd }};{{ $track }};{{ $title }};;"{{ $content -}}";{{ $speaker }}
+{{ $date }};{{ dateFormat "03:04 PM" $timeStart -}};{{ dateFormat "03:04 PM" $timeEnd }};"{{range $index, $t := $track}}{{ if (ne $index 0) }},{{end}}{{ $t }}{{end}}";{{ $title }};;"{{ $content -}}";{{ $speaker }}
 {{ end -}}
 {{ end -}}
