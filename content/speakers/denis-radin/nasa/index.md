@@ -2,6 +2,7 @@
 type: talk
 title: Applying NASA Coding Guidelines to JavaScript
 description: 'As a result of JPL amazing experience, a set of code guidelines was developed and published recently.'
+og_img: densi-radin.png
 outputs:
   - html
   - calendar
