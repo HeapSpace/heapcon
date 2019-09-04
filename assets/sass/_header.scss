@@ -260,6 +260,11 @@ header{
 			clear: both;
 			/*float: right;*/
 
+			&-pt1{
+				float: right;
+				clear: none;
+			}
+
 			li{
 				font-family: $font-title;
 				font-size: 17px;
@@ -277,13 +282,21 @@ header{
 				}
 			}
 
+			&-pt2 li{
+				float: right;
+				padding: 0 20px;
+				margin-top: 0;
+			}
+
 			.visible-menu-speakers{
 				background: $color-hs-pink;
 			}
 			.visible-menu-tickets{
 				background: #28e5d7;
+				margin-right: 20px;
 			}
 			.visible-menu-unconference{
+				margin: 20px 21px 0 0;
 				background: $color-hs-pink;
 			}
 		}

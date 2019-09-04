@@ -12,6 +12,39 @@
 		padding: 0;
 	}
 }
+@media screen and (max-width: 900px) {
+	
+	/**********************/
+	/******** 2019 ********/
+	/**********************/
+	header{
+		h1.logo{
+			svg{
+				animation: none;
+				transform: none;
+			}
+		}
+
+		.outer-menu{
+			animation: none;
+			transform: none;
+		}
+
+		a.powered-by{
+			text-align: left;
+
+			position: absolute;
+			left: 5vw;
+			top: 110px;
+			transform: none;
+			display: block;
+			clear: left;
+			width: 65vw;
+
+			animation: none;
+		}
+	}
+}
 
 .typeform-widget {
 	width: 100%;
@@ -604,29 +637,17 @@
 				width: 50vw;
 				height: auto;
 				margin-bottom: 10px;
-
-				animation: none;
-				transform: none;
 			}
 		}
+
 		a.powered-by{
-			text-align: left;
-
 			position: static;
-			transform: none;
-			display: block;
-			clear: left;
-			width: 65vw;
-			top: auto;
 			left: auto;
-
-			animation: none;
+			top: auto;
 		}
 
 		.outer-menu{
 			float: none;
-			animation: none;
-			transform: none;
 
 			.btn-menu{
 				position: absolute;

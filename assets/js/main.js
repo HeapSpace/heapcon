@@ -233,7 +233,7 @@ function jQueryInitAllPages() {
 
 
 	// 2019
-	if($(window).innerWidth() > 600){
+	if($(window).innerWidth() > 900){
 		setTimeout(function(){
 			$('header h1.logo svg, header a.powered-by, header .outer-menu').css({
 				animation: 'none',
