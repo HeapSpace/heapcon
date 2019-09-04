@@ -1410,6 +1410,13 @@ img.profile{
 			text-transform: uppercase;
 			color: $color-hs-blue;
 			clear: both;
+			a {
+				color: $color-hs-blue;
+				text-decoration: none;
+				&:hover {
+					color: $color-hs-red;
+				}
+			}
 		}
 		.break-title{
 			font-size: 2.5vw;
