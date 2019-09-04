@@ -51,6 +51,17 @@
       "timeEnd": {{ $timeEnd | jsonify }}
     }
     {{ end }}
+    {{ if isset $talkorbreak "session" }}
+    {
+      "type": "session",
+      "name": "{{$talkorbreak.session}}",
+      "description": "{{$talkorbreak.description}}",
+      "timeStart": {{ $timeStart | jsonify }},
+      "timeEnd": {{ $timeEnd | jsonify }},
+      "timeDuration": {{ $talkorbreak.duration | jsonify }},
+      "track": {{ $talkorbreak.track | jsonify }}
+    }
+    {{ end }}
     {{ end }}
   ]
 }
