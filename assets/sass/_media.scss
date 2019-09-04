@@ -1211,24 +1211,31 @@
 		}
 
 		.time-slot{
-			font-size: 10vw;
-			margin-top: 20vw;
+			font-size: 7vw;
+			margin-top: 10vw;
 		}
 		.talk,
 		.break{
-			padding: 10vw 0 2vw 0;
+			padding: 5vw 0 2vw 0;
 
 			.talk-meta{
-				font-size: 5.5vw;
+				font-size: 4vw;
 				line-height: 2.5;
 				margin-bottom: 3vw;
+
+				.track span{
+					display: none;
+				}
 			}
 			.talk-title,
 			.break-title{
-				font-size: 10vw;
+				font-size: 6vw;
+			}
+			.break-title{
+				font-size: 5vw;
 			}
 			.speaker-name{
-				font-size: 7vw;
+				font-size: 5vw;
 				line-height: 1.5;
 			}
 		}
