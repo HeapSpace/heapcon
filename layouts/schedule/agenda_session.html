@@ -3,15 +3,13 @@
 {{ $timeStart := .timeStart }}
 {{ $timeEnd := .timeEnd }}
 
-{{ $t := where $site.Pages "Params.id" $ctx.talk }}
-{{ $talk := index $t 0 }}
-<!-- TALK -->
+<!-- SESSION -->
 
 <div class="talk">
 	<div class="talk-meta">
 		<div class="track"><span>Track:</span> {{ template "schedule/agenda_track.html" (dict "ctx" $ctx.track "site" $site) }} </div>
 		<div class="talk-length">{{ $timeStart.UTC | dateFormat "15:04" }} – {{ $timeEnd.UTC | dateFormat "15:04" }}</div>
 	</div>
-	<div class="talk-title"><a href="{{$talk.RelPermalink}}">{{ $talk.Title }}</a></div>
-	<div class="speaker-name">{{ $talk.Parent.Title }}</div>
+	<div class="talk-title">{{ $ctx.session }}</div>
+	<div class="speaker-name">{{ $ctx.description }}</div>
 </div>

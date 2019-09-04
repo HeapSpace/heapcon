@@ -2,6 +2,11 @@ day26:
   - start: "7:30"
     duration: 60
     break: "Breakfast & Registration"
+  - start: "8:30"
+    duration: 30
+    session: "Opening Ceremony"
+    description: "Meet the Heapcon team"
+    track: ["A", "B", "C"]
   - start: "09:00"
     duration: 60
     talk: "dave-snowden-keynote1"
@@ -196,3 +201,8 @@ day27:
     duration: 45
     talk: "sumit-gulwani-talk"
     track: ["A"]
+  - start: "18:30"
+    duration: 240
+    session: "Heapcon MATINÉE"
+    description: "See you at Jazz kantina Lisabon"
+    track: ["D"]

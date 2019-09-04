@@ -25,5 +25,8 @@
   {{ if isset . "break" }}
   	{{ template "schedule/agenda_break.html" (dict "ctx" . "timeStart" $timeStart "timeEnd" $timeEnd "site" $site) }}
   {{ end }}
+  {{ if isset . "session" }}
+    {{ template "schedule/agenda_session.html" (dict "ctx" . "timeStart" $timeStart "timeEnd" $timeEnd "site" $site) }}
+  {{ end }}
 
 {{- end }}
