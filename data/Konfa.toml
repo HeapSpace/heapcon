@@ -1,5 +1,6 @@
 days = [26, 27]
 month = 9
+monthName = "September"
 year = 2019
 tracks = ["A", "B", "C", "D"]
 [trackNames]

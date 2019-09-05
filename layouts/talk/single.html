@@ -1,9 +1,15 @@
 {{ define "main" }}
+{{ $id := .Params.id }}
+{{ $talk := 0 }}
+{{ $day := "Day00" }}
+{{ $site := .Site }}
+{{ range $index, $value:= .Site.Data.Agenda }}{{$day = $index}}{{ range $value }}{{ if eq .talk $id }}{{ $talk = . }}{{ end }}{{ end }}{{ end }}
+{{ $day = (substr $day 3) }}
 
 	<div class="speaker single">
 		<div class="main-info columns">
 			<div class="col col-l col-top wide talk">
-				<div class="title">Talk</div>
+				<div class="title">{{if (eq $talk.workshop true)}}Workshop{{else}}Talk{{end}}</div>
 				<div class="info">{{ .Title }}</div>
 			</div>
 			<div class="col col-l col-top wide year">
@@ -21,6 +27,8 @@
 		<div class="about-speaker columns">
 			<div class="col col-l">
 				<div class="title">Session</div>
+				<div class="info" style="margin-bottom: 1em; font-weight: bold;">{{$day}}.{{.Site.Data.Konfa.monthName}} / {{ $talk.start }} / {{ range $index, $track := $talk.track -}}{{ if (ne $index 0) }}|{{end}}{{ index $site.Data.Konfa.trackNames $track }}{{- end }}
+				</div>
 				<div class="info">{{ .Content }}</div>
 			</div>
 			<div class="col col-r image">

@@ -67,6 +67,7 @@ day26:
     duration: 200
     talk: "levi9-userstory"
     track: ["C"]
+    workshop: true
   - start: "14:45"
     break: "Coffee break"
     duration: 5
