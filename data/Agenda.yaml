@@ -58,7 +58,7 @@ day26:
     track: ["C"]
   - start: "12:45"
     break: "Lunch"
-    duration: 90
+    duration: 120
   - start: "14:15"
     duration: 30
     talk: "milos-stojanovic-pattern"
@@ -100,6 +100,9 @@ day26:
     duration: 45
     talk: "marko-ferek-biofeedback"
     track: ["B"]
+  - start: "17:30"
+    break: "Dinner"
+    duration: 60
 day27:
   - start: "8:00"
     duration: 60
@@ -155,7 +158,7 @@ day27:
     track: ["C"]
   - start: "12:45"
     break: "Lunch"
-    duration: 90
+    duration: 120
   - start: "14:15"
     talk: "boban-pajic-skills"
     track: ["A"]
@@ -201,8 +204,11 @@ day27:
     duration: 45
     talk: "sumit-gulwani-talk"
     track: ["A"]
+  - start: "17:30"
+    break: "Dinner"
+    duration: 60
   - start: "18:30"
     duration: 240
     session: "Heapcon MATINÉE"
-    description: "See you at Jazz kantina Lisabon"
+    description: "See you at Jazz kantina Lisabon (Kombank Dvorana)"
     track: ["D"]
