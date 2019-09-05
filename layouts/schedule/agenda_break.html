@@ -5,5 +5,5 @@
 
 <!-- BREAK -->
 <div class="break">
-	<div class="break-title">{{ $ctx.break }}</div>
+	<div class="break-title">{{ $ctx.break }} ({{ $timeStart.UTC | dateFormat "15:04" }} – {{ $timeEnd.UTC | dateFormat "15:04" }})</div>
 </div>
