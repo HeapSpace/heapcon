@@ -15,7 +15,6 @@
 {{ $duration := mul (default 45 .duration) 60 }}
 {{ $timeEnd = time (add $timeEnd $duration ) }}
 {{ end }}{{ end }}{{ end }}
-{{ $day = (substr $day 3) }}
 
 	<div class="speaker single">
 		<div class="main-info columns">
