@@ -6,9 +6,9 @@
 {{ $timeStart := "" }}
 {{ $timeEnd := "" }}
 
-{{ range $index, $value:= .Site.Data.Agenda }}{{$day = $index}}{{ range $value }}{{ if eq .talk $id }}
+{{ range $index, $value:= .Site.Data.Agenda }}{{$currentDay := $index}}{{ range $value }}{{ if eq .talk $id }}
 {{ $talk = . }}
-{{ $day = (substr $day 3) }}
+{{ $day = (substr $currentDay 3) }}
 {{ $timeStart = time (printf "%d-%02d-%02sT%02s:00" $site.Data.Konfa.year $site.Data.Konfa.month $day .start) }}
 {{ $timeStart = time $timeStart.Unix }}
 {{ $timeEnd = $timeStart.Unix }}
