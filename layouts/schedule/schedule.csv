@@ -32,6 +32,6 @@ Date;Start Time;End Time;Tracks;Session Title;Room/Location;Description;Speakers
 {{ $title = $talkorbreak.session -}}
 {{ $content = $talkorbreak.description | plainify | htmlUnescape | chomp -}}
 {{ end -}}
-{{ $date }};{{ dateFormat "03:04 PM" $timeStart -}};{{ dateFormat "03:04 PM" $timeEnd }};"{{range $index, $t := $track}}{{ if (ne $index 0) }},{{end}}{{ $t }}{{end}}";{{ $title }};;"{{ $content -}}";{{ $speaker }}
+{{ $date }};{{ dateFormat "03:04 PM" $timeStart.UTC -}};{{ dateFormat "03:04 PM" $timeEnd.UTC }};"{{range $index, $t := $track}}{{ if (ne $index 0) }};{{end}}{{ $t }}{{end}}";{{ $title }};;"{{ $content -}}";{{ $speaker }}
 {{ end -}}
 {{ end -}}
