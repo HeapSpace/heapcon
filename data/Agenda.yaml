@@ -64,7 +64,7 @@ day26:
     talk: "milos-stojanovic-pattern"
     track: ["A"]
   - start: "14:15"
-    duration: 200
+    duration: 255
     talk: "levi9-userstory"
     track: ["C"]
     workshop: true
