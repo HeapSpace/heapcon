@@ -1,6 +1,5 @@
 ---
 type: talk
-workshop: true
 title: How to Setup a Production-ready Microservices Cluster in 30 mins
 description: In this workshop we will introduce the Kyma project.
 og_img: msgNETCONOMY.png

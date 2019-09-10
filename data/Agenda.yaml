@@ -190,6 +190,7 @@ day27:
   - start: "15:25"
     duration: 120
     talk: "msg-kyma"
+    workshop: true
     track: ["C"]
   - start: "15:35"
     break: "Coffee break"
