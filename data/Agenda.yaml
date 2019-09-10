@@ -187,6 +187,10 @@ day27:
     duration: 30
     talk: "veljko-djordjevic-sms"
     track: ["C"]
+  - start: "15:25"
+    duration: 120
+    talk: "msg-kyma"
+    track: ["C"]
   - start: "15:35"
     break: "Coffee break"
     duration: 10
