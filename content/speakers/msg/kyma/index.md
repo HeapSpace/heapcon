@@ -10,3 +10,5 @@ id: msg-kyma
 ---
 
 In this workshop we will introduce the Kyma project. Kyma is an open-source project designed natively on Kubernetes. It allows you to extend and customize cloud-based and on-premise enterprise applications in a quick and modern way, using the serverless computing or microservice architecture. We will present the basic concepts of Kyma, setup a cluster and deploy some microservices to it. Furthermore we will cover how to operate microservices within the platform and share our experiences.
+
+[APPLY HERE](https://forms.gle/d46gW9MvZ3PYwr288)

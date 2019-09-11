@@ -16,3 +16,5 @@ This workshop is fully dedicated to gaining hands on experience, which the parti
 Firstly, we will present the main aspect of the USM technique and give the participants the mechanism to support Product Owner/ business stakeholders in defining the solution and priorities. Afterwards the participants are expected to actively contribute to the session in one or two roles: asking right questions or facilitating the session following given instructions, tips and tricks and avoiding pitfalls.
 
 The aim of the workshop is to enable all participants to organize the USM session for their own purposes.
+
+[APPLY HERE](https://forms.gle/x2UZqDxCAQtJSnYd7)
