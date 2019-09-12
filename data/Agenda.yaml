@@ -150,13 +150,17 @@ day27:
     talk: "steve-freeman-bluff"
     track: ["A"]
   - start: "12:00"
-    duration: 30
+    duration: 25
     talk: "filip-danic-reinvent"
     track: ["B"]
   - start: "12:00"
     duration: 45
     talk: "dragisa-rakic-cassette"
     track: ["C"]
+  - start: "12:30"
+    duration: 15
+    talk: "zoja-kukic-startup-report"
+    track: ["B"]
   - start: "12:45"
     break: "Lunch"
     duration: 120
