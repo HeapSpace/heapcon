@@ -77,7 +77,7 @@ day26:
     track: ["A"]
   - start: "14:50"
     duration: 45
-    talk: "denis-radin-nasa"
+    talk: "marko-ferek-biofeedback"
     track: ["B"]
   - start: "15:35"
     break: "Coffee break"
@@ -99,7 +99,7 @@ day26:
     track: ["A"]
   - start: "16:40"
     duration: 45
-    talk: "marko-ferek-biofeedback"
+    talk: "denis-radin-nasa"
     track: ["B"]
   - start: "17:30"
     break: "Dinner"
