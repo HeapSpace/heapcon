@@ -1,9 +1,9 @@
 ---
 type: talk
-title: From dev to prod. One Year of Using Kubernetes in Production
+title: Building effective engineering teams — the importance of Engineering Systems
 description: >-
   Teams that excel at building software services have a systematic approach to
-  how they develop software - an established Engineering System (ES)
+  how they develop software - an established Engineering System (ES).
 og_img: milos-milovanovic.png
 id: milos-milovanovic-engineering-system
 outputs:
