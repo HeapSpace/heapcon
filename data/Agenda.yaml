@@ -64,6 +64,10 @@ day26:
     talk: "milos-stojanovic-pattern"
     track: ["A"]
   - start: "14:15"
+    talk: "aleksandar-radisavljevic-rest"
+    track: ["B"]
+    duration: 30
+  - start: "14:15"
     duration: 255
     talk: "levi9-userstory"
     track: ["C"]
@@ -169,7 +173,7 @@ day27:
     track: ["A"]
     duration: 30
   - start: "14:15"
-    talk: "aleksandar-radisavljevic-rest"
+    talk: "milos-milovanovic-engineering-system"
     track: ["B"]
     duration: 30
   - start: "14:15"
