@@ -1,6 +1,6 @@
 ---
 type: talk
-title: Building effective engineering teams — the importance of Engineering Systems
+title: "The importance of Engineering Systems: How to Build Efficient Engineering Teams"
 description: >-
   Teams that excel at building software services have a systematic approach to
   how they develop software - an established Engineering System (ES).
