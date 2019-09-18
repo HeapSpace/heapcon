@@ -1,6 +1,6 @@
 ---
 type: talk
-title: Hitchhiker's Guide to the Microservcies
+title: Hitchhiker's Guide to the Microservices
 description: >-
   The guide of how to move to the galaxy of Microservices and how far you should
   go, what to do, and what not to do.
