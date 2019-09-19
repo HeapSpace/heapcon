@@ -217,7 +217,7 @@ day27:
   - start: "16:40"
     duration: 45
     talk: "sumit-gulwani-talk"
-    track: ["A"]
+    track: ["A", "B", "C"]
   - start: "17:30"
     break: "Dinner"
     duration: 60

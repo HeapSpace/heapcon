@@ -2,7 +2,7 @@
 type: "speaker"
 title: "Miloš Milovanović"
 company: "Nutanix"
-job: "Senior Software Development Engineer"
+job: "Sr. Staff Engineer"
 link: ""
 ---
 
