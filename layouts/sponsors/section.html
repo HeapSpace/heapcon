@@ -48,6 +48,19 @@
 		{{ end }}
 	</div>
 
+	<h2 class="sponsor-tier bronze">Partners</h2>
+
+	<div class="grid42 grid-center">
+		{{ range .Params.partner }}
+			{{ if eq (len .) 3 }}
+			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}
+			{{else}}
+			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}
+			{{end}}
+		{{ end }}
+	</div>
+
+
 	<div class="form">
 	<h2>If you consider supporting Heapcon, fill in the form below</h2>
 
