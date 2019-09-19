@@ -26,7 +26,10 @@ bronze:
  - ["smitmicro", "https://www.smithmicro.com/"]
  - ["change", "http://www.changecon.com"]
  - ["helloworld", "https://www.helloworld.rs"]
+partner:
  - ["epson", "https://www.epson.rs/", "25px"]
+ - ["redbull", "https://www.redbull.com/rs-sr/"]
+ - ["zivimo", "http://zivimozajedno.rs"]
 ---
 
 # Sponsors
