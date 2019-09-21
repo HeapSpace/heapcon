@@ -39,7 +39,7 @@ day26:
     track: ["B"]
   - start: "11:05"
     duration: 45
-    talk: "brian-vermeer-hacking"
+    talk: "antonio-cobo-fear"
     track: ["C"]
   - start: "11:50"
     break: "Coffee break"
@@ -144,7 +144,7 @@ day27:
     track: ["B"]
   - start: "11:05"
     duration: 45
-    talk: "antonio-cobo-fear"
+    talk: "brian-vermeer-hacking"
     track: ["C"]
   - start: "11:50"
     break: "Coffee break"
