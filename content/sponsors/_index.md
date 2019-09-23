@@ -30,7 +30,7 @@ partner:
  - ["epson", "https://www.epson.rs/", "25px"]
  - ["redbull", "https://www.redbull.com/rs-sr/", "20px"]
  - ["zivimo", "http://zivimozajedno.rs", "50px"]
- - ["poslasticarnica", "http://www.poslasticarnica.biz/"]
+ - ["poslasticarnica", "http://www.poslasticarnica.biz/", "50px"]
 ---
 
 # Sponsors
