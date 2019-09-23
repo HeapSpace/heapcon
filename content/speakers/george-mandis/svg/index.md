@@ -1,9 +1,8 @@
 ---
 type: talk
-title: 'Going the Distance with SVG, Headless & Serverless'
+title: 'JavaScript for Artists'
 description: >-
-  Running apps without servers and browsers without screens sounds a little
-  absurd, but it can be a surprisingly efficient way to solve certain problems.
+  The cutting-edge web technologies that can power these creative applications are easier to use than ever!
 og_img: george-mandis.png
 outputs:
   - html
@@ -11,4 +10,6 @@ outputs:
 id: george-mandis-svg
 ---
 
-Running apps without servers and browsers without screens sounds a little absurd, but it can be a surprisingly efficient way to solve certain problems. In this talk George will discuss a real-world solution built on top of serverless technologies and Puppeteer — the Headless Chrome Node API — to work with the SVG DOM on-the-fly and create print-ready documents from GPS routes. The audience will get a firsthand look at how cutting-edge JavaScript technologies and language features were integrated with a preexisting legacy PHP backend and minimal casualties.
+A bot that sings to you when you're sad? Generative poetry derived from classic literature? Paintings that draw a composite of every person that's ever looked at them? The cutting-edge web technologies that can power these creative applications are easier to use than ever!
+
+Modern JavaScript conventions, browser APIs, AI services and IoT hardware provide a unique platform for artistic expression, exploration and creation. In this talk we'll examine this type of interactive application development and look at the open-source projects, APIs, services, hardware and approaches to creating expressive works through JavaScript — audio, visual and otherwise.
