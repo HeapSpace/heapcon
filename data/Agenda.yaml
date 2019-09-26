@@ -168,6 +168,10 @@ day27:
   - start: "12:45"
     break: "Lunch"
     duration: 120
+  - start: "13:30"
+    talk: "nikolay-matvienko-intensive"
+    track: ["A"]
+    duration: 30
   - start: "14:15"
     talk: "boban-pajic-skills"
     track: ["A"]
@@ -175,10 +179,6 @@ day27:
   - start: "14:15"
     talk: "milos-milovanovic-engineering-system"
     track: ["B"]
-    duration: 30
-  - start: "14:15"
-    talk: "nikolay-matvienko-intensive"
-    track: ["C"]
     duration: 30
   - start: "14:45"
     break: "Coffee break"
