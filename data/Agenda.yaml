@@ -58,7 +58,7 @@ day26:
     track: ["C"]
   - start: "12:45"
     break: "Lunch"
-    duration: 90
+    duration: 120
   - start: "14:15"
     duration: 30
     talk: "milos-stojanovic-pattern"
@@ -167,7 +167,7 @@ day27:
     track: ["B"]
   - start: "12:45"
     break: "Lunch"
-    duration: 90
+    duration: 120
   - start: "14:15"
     talk: "boban-pajic-skills"
     track: ["A"]
