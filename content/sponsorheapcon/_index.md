@@ -2,48 +2,58 @@
 title: "Sponsor Heapcon"
 ---
 
-{{% section pink %}}
+{{< section "secondary text-center" >}}
 
 # Heapcon
-## September 26th—27th, 2019.
+## September 26th—27th, 2020.
 ## Belgrade, Serbia
 
-{{% /section %}}
+{{< /section >}}
 
-{{% section beige %}}
+{{< section "primary text-center" >}}
 
 ## &nbsp;
 
-Heapcon is a regional tech conference for software engineers and technology enthusiast, organized by [Heapspace](https://heapspace.rs).
+Heapcon is a regional tech conference for 
+software engineers and technology enthusiast, 
+organized by Heapspace.
 
-Heapcon is created by a group of professionals from multidisciplinary fields, including: software engineering, project management, marketing, communications and publishing. The conference puts 14 years of IT event management into practice.
+Heapcon is created by a group of professionals
+from multidisciplinary fields, including: software 
+engineering, project management, marketing, 
+communications and publishing. The conference
+puts 14 years of IT event management into practice.
 
-{{% /section %}}
+{{< /section >}}
 
 
-{{% section pink %}}
+{{< section dark >}}
 
-# About Heapcon 2019.
+# About Heapcon 2020.
 
-+ Venue: [Dom Omladine Beograd](http://domomladine.org), Belgrade, Serbia
-+ Timeline: September 26th—27th, 2019.
-+ Duration: 2 days
-+ Formats of knowledge exchange: talks, unconference, workshops and roundtables
-+ Audience: 600+ software engineers and tech experts
+Venue: [Dom Omladine Beograd](http://domomladine.org), Belgrade, Serbia
 
-{{% /section %}}
+Timeline: September 26th—27th, 2020.
 
-{{% section beige %}}
+Duration: 2 days
+
+Formats of knowledge exchange: talks, unconference, workshops and roundtables
+
+Audience: 600+ software engineers and tech experts
+
+{{< /section >}}
+
+{{< section beige >}}
 
 ## &nbsp;
 
 Heapspace activities and previous conferences were supported by:
 
-{{% wall %}}
+{{< wall >}}
 
-{{% /section %}}
+{{< /section >}}
 
-{{% section pink %}}
+{{< section primary >}}
 # Partner packages
 
 // Please view on desktop screens
@@ -64,88 +74,10 @@ Ticket discount<br> in %   | 15           | 15             | 15        | 10     
 Booth                      | ✓           | ✓              | ✓         | ✓          | ✓         |
 Price<br> (in EUR ex. VAT) | 16k          | 12k            | 7k        | 5k          | 3k          | 1.5k
 
-{{% /section %}}
-{{% section beige %}}
+{{< /section >}}
 
-# Heapcon a la carte
+{{< sponsor_menu >}}
 
-### Track sponsor (x2) : €3,000
-You can brand one conference track in the venue. Branding of the live stream on YouTube is included.
+{{< sponsor_package_details >}}
 
-### Keynote sponsor : €4,000
-Stage branding during the keynote talk which is streamed to all tracks of the conference and on YouTube. This provides a great visibility of your brand/company.
-
-### Q&A session sponsors (x2) : €2,000
-Your branding will be visible on microphone-cubes attendees are using to ask questions.
-
-### Roundtable sponsor : €3,000
-Roundtable room/s will be branded with your rollups, and participants will use your stationery material for notes.
-
-### Photo booth sponsor : €3,000
-Brand the frame of the booth and have photos with your branding shared on social media.
-
-### WiFi sponsor : €3,000
-You choose the password you want to set and the name of the network.
-
-### Beverage spot sponsor : €2,000
-3D fridge branding on several locations in the venue.
-
-### Coffee corner sponsor : €3,000
-All coffee cups during Heapcon will have your branding.
-
-### Speakers’ dinner sponsor : €1,500
-This is a cool way to mingle with all conference speakers.
-
-## &nbsp;
-// \*Prices don’t include VAT
-
-{{% /section %}}
-{{% section pink %}}
-
-# Sponsorship package details
-
-### Logo on logo walls
-Your logo is placed on official logo walls. The size and placement depend on the sponsorship category.
-
-### Welcome bag insert
-Contribute one company-branded insert of your choice to the welcome bag. They should be useful to attendees!
-
-### Logo on conference T-shirt and welcome bag
-Your logo is featured on the welcome bag and on the official conference T-shirt.
-
-### Conference session
-Your get a slot in the conference program, 25 mins duration. Your designated speaker must be an expert, his talk should be technical, not marketing or sales oriented. Sponsorship agreement has to be signed and session confirmed before July the 1st.
-
-###  Logo on Heapcon website
-Your logo appears on Heapcon website and it is displayed alternating with the logos of other partners and sponsors in the same category.
-
-### Press release mentioning
-As a diamond sponsor your company will be mentioned as the main sponsor in every press release. All other sponsorship categories are mentioned thought out the text.
-
-###  Free tickets
-The number of free tickets is distributed based on the sponsorship category.
-
-###  Ticket discount
-As a sponsor, you have a discount on tickets (10 or 15%)
-
-{{% /section %}}
-
-{{% section_img "back.png" %}}
-
-# Support Heapcon!
-
-### Dimitrije Stamenković 
-
-[dimitrije@heapspace.rs](mailto:dimitrije@heapspace.rs)
-
-+381 63 448 241
-
-### Ninoslav Rupić
-
-[nino@heapspace.rs](mailto:nino@heapspace.rs)
-
-+381 65 2580 415
-
-# &nbsp;
-
-{{% /section %}}
+{{< sponsor_support >}}

@@ -1,8 +1,8 @@
 footer {
-	margin: 2em 0 0 0;
 	padding: 1em 0;
-	color: $color-hs-red;
+	color: $brand-primary;
 	text-align: center;
+	background-color: $color-hs-black;
 
 	#footer {
 		color: $color-hs-red;
@@ -23,7 +23,6 @@ footer {
 /* ---------------- */
 
 footer{
-	margin-top: 18vw;
 	padding: 0 5vw 50px 5vw;
 	color: $color-hs-red;
 	text-align: left;

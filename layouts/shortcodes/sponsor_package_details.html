@@ -1,0 +1,13 @@
+<section class="grid bg-gradient">
+  <div class="content-wrap-inner">
+    <h1 class="text-center">Sponsorship package details</h1>
+    <div class="sponsor-menu">
+      {{ range $.Site.Data.SponsorPackageDetails.menu }}
+        <div>
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
