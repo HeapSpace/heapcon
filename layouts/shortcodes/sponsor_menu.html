@@ -5,7 +5,7 @@
       {{ range $.Site.Data.SponsorMenu.menu }}
         <div>
           <h3>{{ .name }}</h3>
-          <div class="ticket">
+          <div class="ticket variant-{{ .variant }}">
             {{ .price }}
           </div>
           <p>{{ .description }}</p>

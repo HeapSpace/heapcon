@@ -1,6 +1,10 @@
 .bg-primary {
 	background-color: $brand-primary;
   color: $brand-secondary;
+
+  a {
+    color: inherit;
+  }
 }
 
 .bg-secondary {
@@ -11,10 +15,14 @@
 .bg-dark {
   background-color: $color-hs-black;
   color: $brand-secondary;
+
+  a {
+    color: inherit;
+  }
 }
 
 .bg-gradient {
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(94,38,246,1) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, $brand-primary 100%);
   color: $color-hs-black;
 }
 
@@ -23,12 +31,20 @@
   > * {
     flex: 1;
   }
+
+  @media (max-width: $md) {
+    flex-flow: column;
+  }
 }
 
 .sponsor-menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3em;
+  grid-gap: 5vw;
+
+  @media (max-width: $md) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .ticket {
@@ -58,6 +74,21 @@
 
   &:after {
     right: -.875em;
+  }
+
+  &.variant-1 {
+    background-color: $brand-secondary;
+    color: $brand-primary;
+  }
+
+  &.variant-2 {
+    background-color: $brand-primary;
+    color: $brand-secondary;
+  }
+
+  &.variant-3 {
+    background-color: $color-hs-red;
+    color: $color-hs-black;
   }
 }
 
