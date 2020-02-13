@@ -726,12 +726,17 @@ body {
 
 body,
 header{
-	background-color: $brand-secondary;
+	background-color: $color-hs-black;
 }
 main{
 	margin-top: 300px;
-	color: $color-hs-red;
+	color: $brand-primary;
 }
+
+.home {
+	padding: 0 5vw;
+}
+
 .not-on-desktop{
 	display: none;
 }
@@ -758,7 +763,7 @@ main{
 		}
 
 		.title{
-			color: $color-hs-blue;
+			color: $brand-secondary;
 			font-size: 22px;
 
 			/*margin-bottom: 15px;*/
