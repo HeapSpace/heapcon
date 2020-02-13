@@ -726,7 +726,7 @@ body {
 
 body,
 header{
-	background-color: $color-hs-black;
+	background-color: $brand-secondary;
 }
 main{
 	margin-top: 300px;
@@ -816,6 +816,10 @@ main{
 			animation-delay: 0.9s;
 			animation-duration: 0.9s;
 			animation-fill-mode: forwards;
+
+			a {
+				color: $brand-primary;
+			}
 		}
 		&.when .info{
 			overflow: hidden;
