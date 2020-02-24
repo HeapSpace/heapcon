@@ -14,13 +14,13 @@ title: "Sponsor Heapcon"
 
 ## &nbsp;
 
-Heapcon is a regional tech conference for 
-software engineers and technology enthusiast, 
+Heapcon is a regional tech conference for
+software engineers and technology enthusiast,
 organized by Heapspace.
 
 Heapcon is created by a group of professionals
-from multidisciplinary fields, including: software 
-engineering, project management, marketing, 
+from multidisciplinary fields, including: software
+engineering, project management, marketing,
 communications and publishing. The conference
 puts 14 years of IT event management into practice.
 
@@ -66,7 +66,7 @@ Roundtable session moderator | ✓           | ✓            |            |    
 Conference session         | ✓           | ✓           | ✓          |             |             |
 Welcome bag insert         | ✓           | ✓           | ✓          | ✓          | ✓           |
 Logo on logo wall          | ✓           | ✓            | ✓         | ✓          | ✓           |
-Exhibition booth           | XL<br>(24sqm)   | L<br> (12sqm)      | M<br> (6sqm) | M<br> (4sqm)     | S<br> (2sqm)    |
+Exhibition booth           | XL<br>(18sqm)   | L<br> (12sqm)      | M<br> (6sqm) | M<br> (4sqm)     | S<br> (2sqm)    |
 Logo on the website        | ✓           | ✓               | ✓        | ✓          | ✓           | ✓
 Free tickets               | 10           | 8              | 4         | 3           | 1           | 1
 Booth staff tickets        | 6            | 4              | 4         | 2           | 1           |
