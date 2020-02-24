@@ -5,7 +5,7 @@ title: "Sponsor Heapcon"
 {{< section "secondary text-center" >}}
 
 # Heapcon
-## September 26th—27th, 2020.
+## October 22nd—23rd, 2020.
 ## Belgrade, Serbia
 
 {{< /section >}}
@@ -33,7 +33,7 @@ puts 14 years of IT event management into practice.
 
 Venue: [Dom Omladine Beograd](http://domomladine.org), Belgrade, Serbia
 
-Timeline: September 26th—27th, 2020.
+Timeline: October 22nd—23rd, 2020.
 
 Duration: 2 days
 
