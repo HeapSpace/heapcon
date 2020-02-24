@@ -1,8 +1,8 @@
 footer {
-	margin: 2em 0 0 0;
 	padding: 1em 0;
-	color: $color-hs-red;
+	color: $color-hs-white;
 	text-align: center;
+	background-color: $color-hs-black;
 
 	#footer {
 		color: $color-hs-red;
@@ -11,9 +11,14 @@ footer {
 	}
 
 	p {
-		color: $color-hs-red;
-		margin: 3em 0 4em 0;
+		margin: 1em 0;
 	}
+}
+
+.footer-body {
+	max-width: 1024px;
+	margin: 0 auto 4em;
+	text-align: center;
 }
 
 
@@ -23,13 +28,18 @@ footer {
 /* ---------------- */
 
 footer{
-	margin-top: 18vw;
-	padding: 0 5vw 50px 5vw;
-	color: $color-hs-red;
+	padding: 50px 5vw;
+	color: $color-hs-white;
 	text-align: left;
 
+	.logo {
+		max-width: 4em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	a{
-		color: $color-hs-red;
+		color: $color-hs-white;
 
 		&:hover{
 			color: $color-hs-blue;
@@ -88,91 +98,26 @@ footer{
 		width: 100%;
 		height: auto;
 	}
+}
 
-	.footer-bottom{
-		font-family: $font-main;
-		font-size: 1.6vw;
-		margin-top: -1vw;
-		color: $color-hs-blue;
-		overflow: hidden;
-		position: relative;
+.footer-bottom {
+	display: flex;
+	color: $brand-primary;
 
-		&.show{
-			.part-left,
-			.part-center,
-			.part-right{
-				opacity: 1;
-			}
-		}
+	a {
+		color: $brand-primary;
+	}
 
-		a{
-			color: $color-hs-blue;
+	.part-left,
+	.part-right {
+		flex: 1;
+	}
 
-			&:hover{
-				color: $color-hs-red;
-			}
-		}
-		
-		.part-left,
-		.part-center,
-		.part-right{
-			opacity: 0;
+	.part-right {
+		text-align: right;
+	}
 
-			transition: opacity 1.5s;
-		}
-		.part-center{
-			transition-delay: 0.3s;
-		}
-		.part-right{
-			transition-delay: 0.6s;
-		}
-
-		.part-left{
-			float: left;
-		}
-		.part-center{
-			position: absolute;
-			top: 0;
-			left: 50%;
-			transform: translate(-50%, 0);
-			width: 20.5vw;
-
-			.old-site{
-				display: block;
-				font-size: 2.6vw;
-				margin-bottom: 3.7vw;
-			}
-		}
-		.part-right{
-			float: right;
-			text-align: right;
-		}
-
-		.copyright {
-			margin-bottom: 2vw;
-
-			img{
-				width: 8vw;
-			}
-		}
-		.footer-year{
-			font-size: 13.4vw;
-			line-height: 8vw;
-
-			margin-bottom: 2vw;
-
-			color: $color-hs-red;
-		}
-		.footer-year{
-			font-size: 11vw;
-			line-height: 10vw;
-
-			margin-right: -0.8vw;
-			margin-bottom: 0;
-		}
-
-		.code-mobile{
-			display: none;
-		}
+	.part-center {
+		flex: 2;
 	}
 }

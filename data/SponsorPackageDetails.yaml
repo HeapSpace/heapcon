@@ -1,0 +1,24 @@
+menu:
+  - title: Logo on logo walls
+    description: Your logo is placed on official logo walls. The size and placement depend on the sponsorship category.
+
+  - title: Welcome bag insert
+    description: Contribute one company-branded insert of your choice to the welcome bag. They should be useful to attendees!
+
+  - title: Logo on conference T-shirt and welcome bag
+    description: Your logo is featured on the welcome bag and on the official conference T-shirt.
+
+  - title: Conference session
+    description: Your get a slot in the conference program, 25 mins duration. Your designated speaker must be an expert, his talk should be technical, not marketing or sales oriented. Sponsorship agreement has to be signed and session confirmed before July the 1st.
+
+  - title:  Logo on Heapcon website
+    description: Your logo appears on Heapcon website and it is displayed alternating with the logos of other partners and sponsors in the same category.
+
+  - title: Press release mentioning
+    description: As a diamond sponsor your company will be mentioned as the main sponsor in every press release. All other sponsorship categories are mentioned thought out the text.
+
+  - title:  Free tickets
+    description: The number of free tickets is distributed based on the sponsorship category.
+
+  - title:  Ticket discount
+    description: As a sponsor, you have a discount on tickets (10 or 15%)

@@ -1,0 +1,45 @@
+menu:
+  - name: "Track sponsor (x2)"
+    price: "€3,000"
+    variant: 1
+    description: "You can brand one conference track in the venue. Branding of the live stream on YouTube is included."
+
+  - name: "Keynote sponsor"
+    price: "€4,000"
+    variant: 2
+    description: "Stage branding during the keynote talk which is streamed to all tracks of the conference and on YouTube. This provides a great visibility of your brand/company."
+
+  - name: "Q&A session sponsors (x2)"
+    price: "€2,000"
+    variant: 3
+    description: "Your branding will be visible on microphone-cubes attendees are using to ask questions."
+
+  - name: "Roundtable sponsor"
+    price: "€3,000"
+    variant: 3
+    description: "Roundtable room/s will be branded with your rollups, and participants will use your stationery material for notes."
+
+  - name: "Photo booth sponsor"
+    price: "€3,000"
+    variant: 1
+    description: "Brand the frame of the booth and have photos with your branding shared on social media."
+
+  - name: "WiFi sponsor"
+    price: "€3,000"
+    variant: 2
+    description: "You choose the password you want to set and the name of the network."
+
+  - name: "Beverage spot sponsor"
+    price: "€2,000"
+    variant: 1
+    description: "3D fridge branding on several locations in the venue."
+
+  - name: "Coffee corner sponsor"
+    price: "€3,000"
+    variant: 2
+    description: "All coffee cups during Heapcon will have your branding."
+
+  - name: "Speakers’ dinner sponsor"
+    price: "€1,500"
+    variant: 3
+    description: "This is a cool way to mingle with all conference speakers."

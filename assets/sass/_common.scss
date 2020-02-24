@@ -1,4 +1,18 @@
 @font-face {
+  font-family: 'Neue Machina';
+  src: url('/fonts/NeueMachina-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina B';
+  src: url('/fonts/NeueMachina-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'HS Grotesk';
   src: url('/fonts/HS Grotesk.otf') format('opentype');
   font-weight: normal;

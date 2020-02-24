@@ -174,11 +174,11 @@ header{
 		font-size: 19px;
 		font-family: $font-title;
 		text-decoration: none;
-		color: $color-hs-blue;
+		color: $brand-primary;
 
 		position: absolute;
 		top: 47px;
-		left: 50%;
+		right: 0;
 		transform: translate(-50%, -350%);
 
 		animation-name: poweredAppear;

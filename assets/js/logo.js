@@ -62,7 +62,7 @@ var uniforms = {
     timeScale: { type: "f", value: params.timeScale },
     texture: { type: "t", value: THREE.ImageUtils.loadTexture("/images/logo_4k_stretched.png") },
     mousePosition: new THREE.Uniform(new THREE.Vector2(10000, 10000)),
-    blendColor: { type: "c", value: new THREE.Color(0xFD4000) }
+    blendColor: { type: "c", value: new THREE.Color(0x5E06FA) }
 };
 
 var planeMaterial, width, height;
