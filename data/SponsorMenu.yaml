@@ -14,10 +14,10 @@ menu:
     variant: 3
     description: "Your branding will be visible on microphone-cubes attendees are using to ask questions."
 
-  - name: "Roundtable sponsor"
-    price: "€3,000"
+  - name: Logo on conference T-shirt and welcome bag
+    price: "€1,500"
     variant: 3
-    description: "Roundtable room/s will be branded with your rollups, and participants will use your stationery material for notes."
+    description: "Your logo is featured on the welcome bag and on the official conference T-shirt."
 
   - name: "Photo booth sponsor"
     price: "€3,000"

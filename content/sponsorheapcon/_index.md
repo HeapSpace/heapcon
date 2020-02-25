@@ -59,10 +59,9 @@ Heapspace activities and previous conferences were supported by:
 // Please view on desktop screens
 ## &nbsp;
 
-&nbsp;                     | DIAMOND<br> (x1) | PLATINUM<br> (x2) | GOLD<br>      | SILVER<br>     | BRONZE<br>  | VIRTUAL
+&nbsp;                     | DIAMOND&nbsp;<br> (x1) | PLATINUM<br> (x2) | GOLD<br>      | SILVER<br>     | BRONZE<br>  | VIRTUAL
 ---------------------------|--------------|---------------|-----------|-------------|-------------|---------
 HS partners for a year     | ✓           |               |           |             |             |
-Roundtable session moderator | ✓           | ✓            |            |             |             |
 Conference session         | ✓           | ✓           | ✓          |             |             |
 Welcome bag insert         | ✓           | ✓           | ✓          | ✓          | ✓           |
 Logo on logo wall          | ✓           | ✓            | ✓         | ✓          | ✓           |
@@ -70,7 +69,7 @@ Exhibition booth           | XL<br>(18sqm)   | L<br> (12sqm)      | M<br> (6sqm)
 Logo on the website        | ✓           | ✓               | ✓        | ✓          | ✓           | ✓
 Free tickets               | 10           | 8              | 4         | 3           | 1           | 1
 Booth staff tickets        | 6            | 4              | 4         | 2           | 1           |
-Ticket discount<br> in %   | 15           | 15             | 15        | 10          | 10          | 10
+Ticket discount<br> in %   | 20           | 15             | 15        | 10          | 10          | 10
 Booth                      | ✓           | ✓              | ✓         | ✓          | ✓         |
 Price<br> (in EUR ex. VAT) | 16k          | 12k            | 7k        | 5k          | 3k          | 1.5k
 
