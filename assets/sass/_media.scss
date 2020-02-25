@@ -19,6 +19,7 @@
 	/**********************/
 	header{
 		h1.logo{
+			height: 100px;
 			svg{
 				animation: none;
 				transform: none;
@@ -873,8 +874,8 @@
 	.home {
 		.columns{
 			.col{
-				&.year .info{
-					font-size: 14vw;
+				&.year .info {
+					font-size: 12vw;
 					line-height: 16vw;
 					margin-bottom: 30px;
 				}
