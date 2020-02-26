@@ -37,7 +37,7 @@ Timeline: October 22nd—23rd, 2020.
 
 Duration: 2 days
 
-Formats of knowledge exchange: talks, unconference, workshops and roundtables
+Formats of knowledge exchange: talks, unconference and networking.
 
 Audience: 600+ software engineers and tech experts
 
