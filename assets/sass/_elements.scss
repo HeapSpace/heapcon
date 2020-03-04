@@ -740,9 +740,35 @@ main{
 .not-on-desktop{
 	display: none;
 }
+
+.columns-flex {
+	display: flex;
+
+	@media (max-width: $md) {
+		flex-flow: column;
+	}
+
+	.column-flex {
+		display: flex;
+		flex-flow: column;
+		flex: 1;
+
+		> * {
+			margin-bottom: 1em;
+		}
+
+		@media (min-width: $md) {
+			& + .column-flex {
+				margin-left: 5vw;
+			}
+		}
+	}
+}
+
 .columns{
 	overflow: hidden;
 	margin-bottom: 22vw;
+	display: flex;
 
 	.col{
 		float: left;
@@ -858,6 +884,7 @@ main{
 		}
 	}
 }
+
 .list{
 	margin-bottom: 15vw;
 

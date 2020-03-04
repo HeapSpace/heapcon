@@ -1,56 +1,56 @@
 {{ define "style" }}
 <style>
-    body {
-        background-color: #23201f;
-        margin-top: 130px;
+  body {
+    background-color: #23201f;
+    margin-top: 130px;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+
+  #description {
+    padding: 4em 0;
+  }
+
+  #more {
+    padding: 1em 2em;
+  }
+  #more ul {
+    list-style: disc;
+  }
+
+  #more ul li {
+    margin-left: 2em;
+    line-height: 1.5em;
+  }
+
+  #note {
+    margin-top: 2em;
+    font-size: 0.6em;
+    line-height: 1.6em;
+  }
+
+  .red {
+    font-size: 2em;
+    color: #fd4000;
+  }
+
+  .zoom {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    padding: 0 2em;
+  }
+
+  @media screen and (max-width: 768px){
+    #more p {
+      font-size: 1.5em;
     }
 
-    footer {
-        margin-top: 0;
-    }
-
-    #description {
-        padding: 4em 0;
-    }
-
-    #more {
-        padding: 1em 2em;
-    }
     #more ul {
-        list-style: disc;
+      font-size: 1.3em;
     }
-
-    #more ul li {
-        margin-left: 2em;
-        line-height: 1.5em;
-    }
-
-    #note {
-        margin-top: 2em;
-        font-size: 0.6em;
-        line-height: 1.6em;
-    }
-
-    .red {
-        font-size: 2em;
-        color: #fd4000;
-    }
-
-    .zoom {
-        font-size: 1.3em;
-        line-height: 1.4em;
-        padding: 0 2em;
-    }
-
-    @media screen and (max-width: 768px){
-        #more p {
-            font-size: 1.5em;
-        }
-
-        #more ul {
-            font-size: 1.3em;
-        }
-    }
+  }
 </style>
 {{ end }}
 
@@ -58,13 +58,65 @@
 <p class="zoom">Heapcon brings world renowned speakers to Serbia, and it showcases regional expertise as well.</p>
 
 <div id="more">
-    <div><p>Why apply?</p>
-        <ul>
-            <li>Share your knowledge, your story.</li>
-            <li>Network with 600+ software engineers and tech enthusiasts that will attend the conference.</li>
-            <li>Enjoy the hospitality Serbia is famous for!</li>
-        </ul>
+  <div><p>Why apply?</p>
+    <ul>
+      <li>Share your knowledge, your story.</li>
+      <li>Network with 600+ software engineers and tech enthusiasts that will attend the conference.</li>
+      <li>Enjoy the hospitality Serbia is famous for!</li>
+    </ul>
+  </div>
+</div>
+
+<div class="home">
+  <div class="main-info columns-flex">
+    <div class="column-flex">
+      <h2>Heapcon 2020 timeline:</h2>
+      <div>
+        <div class="title">CfP opening</div>
+        <h3 class="info">1st of March 2020</h3>
+      </div>
+      <div class="col col-l col-bottom wide">
+        <div class="title">Submission Deadline</div>
+        <h3 class="info">31st of May, 2020</h3>
+      </div>
+      <div class="col col-l col-bottom wide">
+        <div class="title">First speaker line-up announcement</div>
+        <h3 class="info">mid April, 2020</h3>
+      </div>
+      <div class="col col-l col-bottom wide">
+        <div class="title">CfP closing and start of the selection process</div>
+        <h3 class="info">31st of May 2020</h3>
+      </div>
+      <div class="col col-l col-bottom wide">
+        <div class="title">Full speaker line-up announcement</div>
+        <h3 class="info">mid June, 2020</h3>
+      </div>
+      <div class="col col-l col-bottom wide">
+        <div class="title">Event dates</div>
+        <h3 class="info">October 22nd and 23rd 2020</h3>
+      </div>
     </div>
+
+    <div class="column-flex">
+      <h2>Important details:</h2>
+      <div class="col col-l col-bottom wide">
+        <h3 class="info">Your talk should be 45 minutes long</h3>
+      </div>
+      <div class="col col-l col-bottom wide">
+        <h3 class="info">Both international and local speakers are very welcome</h3>
+      </div>
+      <div class="col col-l col-bottom wide">
+        <h3 class="info">Heapcon covers conference admission, accommodation and catering for selected speakers</h3>
+      </div>
+      <div class="col col-l col-bottom wide">
+        <h3 class="info">Early submissions are encouraged! Try to stand out by avoiding last-minute application :)</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-info columns-flex">
+    <p>Join great names such are Arun Gupta, Courtney Hemphill, Maximiliano Firtman, Martin Splitt, Michael Ducy, Marianne Worthington, Patrick Kettner, James Thomas, Rafal Leszko, Antonio Cobo, Heather VanCura, Kaz Sato, Katie Koschland, Ted Neward, Dave Snowden, Nikolay Matvienko, Lois Kim, Alex Casalboni and Sumit Gulwani.</p>
+  </div>
 </div>
 
 {{ partial "typeform" }}
