@@ -1,9 +1,8 @@
 {{ define "main" }}
 
-<div class="sponsors">
+<div class="sponsors home">
 	<div class="main-info columns">
 		<div class="col col-l col-top wide year">
-			<div class="title">&nbsp;</div>
 			<div class="info">SPONSORS</div>
 		</div>
 		<div class="col col-l col-bottom where">
@@ -12,78 +11,81 @@
 		</div>
 	</div>
 
-	<h2 class="sponsor-tier gold">Gold</h2>
+<!--	<h2 class="sponsor-tier gold">Gold</h2>-->
 
-	<div class="grid42 grid-center">
-		{{ range .Params.gold }}
-			{{ if eq (len .) 3 }}
-			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}
-			{{else}}
-			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}
-			{{end}}
-		{{ end }}
-	</div>
+<!--	<div class="grid42 grid-center">-->
+<!--		{{ range .Params.gold }}-->
+<!--			{{ if eq (len .) 3 }}-->
+<!--			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}-->
+<!--			{{else}}-->
+<!--			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}-->
+<!--			{{end}}-->
+<!--		{{ end }}-->
+<!--	</div>-->
 
-	<h2 class="sponsor-tier silver">Silver</h2>
+<!--	<h2 class="sponsor-tier silver">Silver</h2>-->
 
-	<div class="grid42 grid-center">
-		{{ range .Params.silver }}
-			{{ if eq (len .) 3 }}
-			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}
-			{{else}}
-			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}
-			{{end}}
-		{{ end }}
-	</div>
+<!--	<div class="grid42 grid-center">-->
+<!--		{{ range .Params.silver }}-->
+<!--			{{ if eq (len .) 3 }}-->
+<!--			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}-->
+<!--			{{else}}-->
+<!--			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}-->
+<!--			{{end}}-->
+<!--		{{ end }}-->
+<!--	</div>-->
 
-	<h2 class="sponsor-tier bronze">Bronze</h2>
+<!--	<h2 class="sponsor-tier bronze">Bronze</h2>-->
 
-	<div class="grid42 grid-center">
-		{{ range .Params.bronze }}
-			{{ if eq (len .) 3 }}
-			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}
-			{{else}}
-			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}
-			{{end}}
-		{{ end }}
-	</div>
+<!--	<div class="grid42 grid-center">-->
+<!--		{{ range .Params.bronze }}-->
+<!--			{{ if eq (len .) 3 }}-->
+<!--			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}-->
+<!--			{{else}}-->
+<!--			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}-->
+<!--			{{end}}-->
+<!--		{{ end }}-->
+<!--	</div>-->
 
-	<h2 class="sponsor-tier bronze">Partners</h2>
+<!--	<h2 class="sponsor-tier bronze">Partners</h2>-->
 
-	<div class="grid42 grid-center">
-		{{ range .Params.partner }}
-			{{ if eq (len .) 3 }}
-			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}
-			{{else}}
-			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}
-			{{end}}
-		{{ end }}
-	</div>
-
+<!--	<div class="grid42 grid-center">-->
+<!--		{{ range .Params.partner }}-->
+<!--			{{ if eq (len .) 3 }}-->
+<!--			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1) "p" (index . 2)) }}-->
+<!--			{{else}}-->
+<!--			{{ partial "sponsor" (dict "n" (index . 0) "l" (index . 1)) }}-->
+<!--			{{end}}-->
+<!--		{{ end }}-->
+<!--	</div>-->
 
 	<div class="form">
-	<h2>If you consider supporting Heapcon, fill in the form below</h2>
+		<h2>If you consider supporting Heapcon, fill in the form below</h2>
 
-	<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-		<p style="display: none;">
-			<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-		</p>
-		<p>
-	    	<label for="c_company">Company:</label><input id="c_company" type="text" name="company" />
-	  	</p>
-	  	<p>
-	    	<label for="c_name">Name:</label><input id="c_name" type="text" name="name" />
-	  	</p>
-	  	<p>
-	    	<label for="c_email">Email:</label><input id="c_email" type="email" name="email" />
-	  	</p>
-	  	<p>
-	    	<label for="c_phone">Phone:</label><input id="c_phone" type="text" name="phone" /></label>
-	  	</p>
-	  	<p>
-	    	<button type="submit">Send</button>
-	  	</p>
-	</form>
+		<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+			<p style="display: none;">
+				<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+			</p>
+			<div class="column-flex">
+				<label for="c_company">Company:</label>
+				<input id="c_company" type="text" name="company" required />
+			</div>
+			<div class="column-flex">
+				<label for="c_name">Name:</label>
+				<input id="c_name" type="text" name="name" required />
+			</div>
+			<div class="column-flex">
+				<label for="c_email">Email:</label>
+				<input id="c_email" type="email" name="email" required />
+			</div>
+			<div class="column-flex">
+				<label for="c_phone">Phone:</label>
+				<input id="c_phone" type="text" name="phone" />
+			</div>
+			<p>
+				<button type="submit">Send</button>
+			</p>
+		</form>
 	</div>
 
 
