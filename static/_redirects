@@ -2,7 +2,7 @@
 https://heapcon.dev/* https://heapcon.io/:splat 301!
 
 # Redirect video to youtube
-/video https://www.youtube.com/watch?v=yZy_sWjU7Os 301
+/video https://www.youtube.com/watch?v=yZy_sWjU7Os 301!
 
 /partners /sponsors 301!
 /partner-with-heapcon /sponsorheapcon 301!
