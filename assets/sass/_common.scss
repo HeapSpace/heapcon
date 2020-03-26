@@ -47,9 +47,6 @@ html {
 }
 
 /** COLORS */
-.red {
-  color: $color-hs-red;
-}
 
 .beige {
   color: $color-hs-beige;
@@ -67,37 +64,9 @@ html {
   color: $color-hs-white;
 }
 
-.bg-red {
-  background-color: $color-hs-red;
-  color: $color-hs-white;
-}
-
-.bg-beige {
-  background-color: $color-hs-beige;
-  color: $color-hs-red;
-  a {
-    color: $color-hs-red;
-  }
-}
-
-.bg-blue {
-  background-color: $color-hs-blue;
-  color: $color-hs-white;
-}
-
 .bg-black {
   background-color: $color-hs-black;
   color: $color-hs-beige;
-}
-
-.bg-white {
-  background-color: $color-hs-white;
-  color: $color-hs-black;
-
-  a {
-    color: $color-hs-black;
-    pointer-events: all;
-  }
 }
 
 .vertical-spacing {
@@ -180,38 +149,6 @@ img {
   height: auto;
   max-width: 100%;
   border: 0;
-}
-
-/** Alignments */
-.align-left {
-  display: inline;
-  float: left;
-  margin-right: 1.5em;
-}
-
-.align-right {
-  display: inline;
-  float: right;
-  margin-left: 1.5em;
-}
-
-.align-center {
-  clear: both;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/** CLEAR */
-.clear:before,
-.clear:after {
-  content: "";
-  display: table;
-  table-layout: fixed;
-}
-
-.clear:after {
-  clear: both;
 }
 
 /** INPUT */

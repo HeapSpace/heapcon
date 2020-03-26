@@ -150,38 +150,13 @@ canvas {
 	top: -25vw;
 	left: -20vw;
 }
-.tech .tech-c{
-	width: 23%;
-	top: -13vw;
-	left: 85vw;
-}
+
 .tech .tech-h{
 	width: 28%;
 	top: 55vw;
 	left: 65vw;
 }
-.tech .tech-bang1{
-	width: 8%;
-	top: 66vw;
-	left: 21vw;
-}
-.tech .tech-bang2-1{
-	width: 11%;
-	top: 0;
-	left: 93vw;
-}
-.tech .tech-bang2-2{
-	width: 13%;
-	top: 8vw;
-	left: 95vw;
-	transition-duration: 2.2s;
-}
-.tech .tech-bang2-3{
-	width: 13.5%;
-	top: 4vw;
-	left: 105vw;
-	transition-duration: 2.5s;
-}
+
 .tech.inplace .tech-t{
 	width: 21%;
 	top: 25vw;
@@ -192,35 +167,11 @@ canvas {
 	top: 13vw;
 	left: 19vw;
 }
-.tech.inplace .tech-c{
-	width: 23%;
-	top: 23vw;
-	left: 35vw;
-}
+
 .tech.inplace .tech-h{
 	width: 28%;
 	top: 31.5vw;
 	left: 45vw;
-}
-.tech.inplace .tech-bang1{
-	width: 8%;
-	top: 36vw;
-	left: 21vw;
-}
-.tech.inplace .tech-bang2-1{
-	width: 11%;
-	top: 0;
-	left: 58vw;
-}
-.tech.inplace .tech-bang2-2{
-	width: 13%;
-	top: 8vw;
-	left: 60vw;
-}
-.tech.inplace .tech-bang2-3{
-	width: 13.5%;
-	top: 4vw;
-	left: 70vw;
 }
 
 
@@ -235,31 +186,7 @@ canvas {
 	-webkit-transition: left 2s, top 2s; /* Safari */
     transition: left 2s, top 2s;
 }
-.community .community-c{
-	width: 22%;
-	top: 50vw;
-	left: -15vw;
-}
-.community .community-o{
-	width: 20.5%;
-	top: -15vw;
-	left: -20vw;
-}
-.community .community-m1{
-	width: 28.5%;
-	top: 35vw;
-	left: -25vw;
-}
-.community .community-m2{
-	width: 30.5%;
-	top: -5vw;
-	left: -35vw;
-}
-.community .community-u{
-	width: 18%;
-	top: 50vw;
-	left: 81vw;
-}
+
 .community .community-n{
 	width: 23%;
 	top: 60vw;
@@ -280,31 +207,7 @@ canvas {
 	top: 40vw;
 	left: 99.5vw;
 }
-.community.inplace .community-c{
-	width: 22%;
-	top: 26vw;
-	left: 5vw;
-}
-.community.inplace .community-o{
-	width: 20.5%;
-	top: 5vw;
-	left: 12vw;
-}
-.community.inplace .community-m1{
-	width: 28.5%;
-	top: 22vw;
-	left: 25vw;
-}
-.community.inplace .community-m2{
-	width: 30.5%;
-	top: 2vw;
-	left: 25vw;
-}
-.community.inplace .community-u{
-	width: 18%;
-	top: 16vw;
-	left: 41vw;
-}
+
 .community.inplace .community-n{
 	width: 23%;
 	top: 19.5vw;
@@ -337,95 +240,42 @@ canvas {
 	-webkit-transition: left 2s, top 2s; /* Safari */
     transition: left 2s, top 2s;
 }
-.diversity .diversity-d{
-	width: 18%;
-	top: -25vw;
-	left: -17vw;
-}
+
+//noinspection CssUnusedSymbol
 .diversity .diversity-e{
 	width: 23.5%;
 	top: -18vw;
 	left: 23vw;
 }
-.diversity .diversity-r{
-	width: 16%;
-	top: -16.25vw;
-	left: 83vw;
-}
+
 .diversity .diversity-t{
 	width: 18%;
 	top: 11vw;
 	left: 108vw;
 }
-.diversity .diversity-i1{
-	width: 9.5%;
-	top: 0vw;
-	left: -8vw;
-}
-.diversity .diversity-v{
-	width: 18.5%;
-	top: 60vw;
-	left: -15vw;
-}
+
 .diversity .diversity-s{
 	width: 20.5%;
 	top: 62vw;
 	left: 25vw;
 }
-.diversity .diversity-i2{
-	width: 11%;
-	top: 63.5vw;
-	left: 76vw;
-}
-.diversity .diversity-y{
-	width: 15.5%;
-	top: 74.5vw;
-	left: 85vw;
-}
-.diversity.inplace .diversity-d{
-	width: 18%;
-	top: 6vw;
-	left: 9vw;
-}
+
 .diversity.inplace .diversity-e{
 	width: 23.5%;
 	top: 11vw;
 	left: 23vw;
 }
-.diversity.inplace .diversity-r{
-	width: 16%;
-	top: 6.25vw;
-	left: 43vw;
-}
+
 .diversity.inplace .diversity-t{
 	width: 18%;
 	top: 11vw;
 	left: 58vw;
 }
-.diversity.inplace .diversity-i1{
-	width: 9.5%;
-	top: 26vw;
-	left: 11vw;
-}
-.diversity.inplace .diversity-v{
-	width: 18.5%;
-	top: 34vw;
-	left: 22vw;
-}
+
 .diversity.inplace .diversity-s{
 	width: 20.5%;
 	top: 27vw;
 	left: 43vw;
-}
-.diversity.inplace .diversity-i2{
-	width: 11%;
-	top: 23.5vw;
-	left: 56vw;
-}
-.diversity.inplace .diversity-y{
-	width: 15.5%;
-	top: 34.5vw;
-	left: 65vw;
 }
 
 #home-fun01{
@@ -644,11 +494,6 @@ canvas {
 }
 
 
-.zoom {
-	font-size: 1.5em;
-	line-height: 1.6em;
-}
-
 body {
 	transition: background-color 0.5s ease;
 }
@@ -710,14 +555,6 @@ body {
 		}
 	}
 }
-
-.cfp {
-	text-align: center;
-	font-size: 1.5em;
-	line-height: 1.6em;
-	margin-bottom: 1em;
-}
-
 
 
 /* ---------------- */
@@ -1012,46 +849,11 @@ main{
 		.icons img{
 			position: absolute;
 		}
-		.diamond{
-			width: 13.3vw;
-			top: -7vw;
-			left: 22.3vw;
-		}
-		.robot{
-			width: 16.5vw;
-			top: -6vw;
-			left: 58vw;
-		}
-		.sun{
-			width: 17.5vw;
-			top: 17vw;
-			left: 10vw;
-		}
-		.lips{
-			width: 14.9vw;
-			top: 35vw;
-			left: 60vw;
-		}
 
-		.peace{
-			width: 12vw;
-			top: 3vw;
-			left: 38vw;
-		}
 		.human{
 			width: 13.2vw;
 			top: -10vw;
 			left: 68vw;
-		}
-		.ear{
-			width: 14vw;
-			top: 35vw;
-			left: 27vw;
-		}
-		.poo{
-			width: 17vw;
-			top: 33vw;
-			left: 57vw;
 		}
 
 		.sun-2{
@@ -1126,45 +928,6 @@ main{
 		color: $color-hs-red;
 	}
 
-	.small-scrolling-text{
-		font-size: 3.5vw;
-		white-space: nowrap;
-
-		width: 100vw;
-		margin-left: -5vw;
-		margin-bottom: 10vw;
-		position: relative;
-		overflow: hidden;
-
-		color: $color-hs-blue;
-
-		.line-1,
-		.line-3{
-			position: relative;
-			left: 0;
-
-			animation-name: movetext;
-			animation-duration: 60s;
-			animation-timing-function: linear;
-			animation-iteration-count: infinite;
-			animation-direction: alternate;
-		}
-		.line-2{
-			position: absolute;
-			right: 0;
-
-			animation-name: movetext2;
-			animation-duration: 60s;
-			animation-timing-function: linear;
-			animation-iteration-count: infinite;
-			animation-direction: alternate;
-		}
-		.line-3{
-			margin-top: 4.2vw;
-		}
-
-	}
-
 	@keyframes movetext {
 		from { left: 0; }
 		to { left: -175vw; }
@@ -1174,9 +937,6 @@ main{
 		to { right: -190vw; }
 	}
 
-	.home-anim-mobile{
-		display: none;
-	}
 }
 .committee,
 .speakers{
@@ -1203,14 +963,7 @@ main{
 				height: auto;
 			}
 		}
-		.robot{
-			position: absolute;
-			top: 10vw;
-			left: 1vw;
-			width: 16vw;
 
-			transform: rotate(-50deg);
-		}
 		.rabbit{
 			position: absolute;
 			top: 16vw;
@@ -1464,10 +1217,6 @@ img.profile{
 	}
 }
 .sponsors{
-	.sponsor-tier{
-		margin-top: 100px;
-		margin-bottom: 30px;
-	}
 }
 .schedule{
 	position: relative;

@@ -1,16 +1,6 @@
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: minmax(80px, 1fr) minmax(auto, 1200px) 1fr;
-  grid-gap: 1em;
-}
-
-.grid-center {
-  align-items: center;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .content-wrap {
@@ -30,23 +20,4 @@ html, body {
 main {
   margin-top: 4em;
   color: $color-hs-beige;
-}
-
-.grid42 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
-}
-
-.grid22 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
-
-.decor {
-  display: block; position: relative; height: 20px;
-  img {
-    position: absolute; z-index: -1; overflow: hidden; display: block;
-  }
 }
