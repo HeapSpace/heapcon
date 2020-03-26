@@ -46,6 +46,25 @@ html {
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
+body {
+  font-size: 2em;
+  line-height: 1.2;
+  color: $brand-primary;
+}
+
+body,
+header{
+  background-color: $brand-secondary;
+}
+
+main{
+  margin-top: 250px;
+}
+
+section {
+  padding: 3em 5vw;
+}
+
 /** COLORS */
 
 .beige {

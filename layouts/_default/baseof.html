@@ -38,10 +38,8 @@
 
     {{ partial "header" }}
 
-    <main class="grid-2019 {{ .Params.mainClass }}">
-      <div class="content-wrap">
-        {{ block "main" . }}{{ end }}
-      </div>
+    <main class="{{ .Params.mainClass }}">
+      {{ block "main" . }}{{ end }}
     </main>
 
     {{ block "after" . }}{{ end }}

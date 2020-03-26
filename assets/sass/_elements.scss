@@ -26,6 +26,16 @@
   color: $color-hs-black;
 }
 
+h1.prominent {
+	font-size: 13vw;
+	line-height: .92;
+	margin: 0;
+}
+
+.lead {
+	font-size: 3.3vw;
+}
+
 .columns-2 {
   display: flex;
   > * {
@@ -561,17 +571,10 @@ body {
 /* ----- 2019 ----- */
 /* ---------------- */
 
-body,
-header{
-	background-color: $brand-secondary;
-}
-main{
-	margin-top: 250px;
-	color: $brand-primary;
-}
+
 
 .home {
-	padding: 0 5vw;
+	padding: 0 5vw 5vw;
 }
 
 .not-on-desktop{
