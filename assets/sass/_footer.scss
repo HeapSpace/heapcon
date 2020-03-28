@@ -1,36 +1,10 @@
-footer {
-	padding: 1em 0;
-	color: $color-hs-white;
-	text-align: center;
-	background-color: $color-hs-black;
-
-	#footer {
-		color: $color-hs-red;
-		font-size: 0.6em;
-		margin: 2em 0;
-	}
-
-	p {
-		margin: 1em 0;
-	}
-}
-
-.footer-body {
-	max-width: 1024px;
-	margin: 0 auto 4em;
-	text-align: center;
-}
-
-
-
 /* ---------------- */
 /* ----- 2019 ----- */
 /* ---------------- */
 
 footer{
-	padding: 50px 5vw;
 	color: $color-hs-white;
-	text-align: left;
+	background: $color-hs-black;
 
 	.logo {
 		max-width: 4em;
@@ -86,8 +60,6 @@ footer{
 		}
 	}
 	.logo-large{
-		width: 84vw;
-		margin-left: 3vw;
 		text-align: center;
 	}
 	.logo-large svg{
@@ -96,9 +68,23 @@ footer{
 	}
 }
 
+.footer-social {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	align-items: flex-end;
+}
+
+.footer-social img {
+	width: 1em;
+	height: 1em;
+}
+
 .footer-bottom {
 	display: flex;
 	color: $brand-primary;
+	margin-top: 3em;
+	align-items: flex-end;
 
 	a {
 		color: $brand-primary;
@@ -114,6 +100,7 @@ footer{
 	}
 
 	.part-center {
-		flex: 2;
+		flex: 3;
+		text-align: center;
 	}
 }

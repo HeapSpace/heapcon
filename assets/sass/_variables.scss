@@ -16,4 +16,11 @@ $font-main:         'Neue Machina', sans-serif;
 $font-block:         'Anton', sans-serif;
 
 /** Breakpoints **/
-$md: 768px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+
+/* Typography */
+$h1-font-size: 3em;
+$h2-font-size: 2em;
+$h3-font-size: 1.4em;

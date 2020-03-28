@@ -57,12 +57,97 @@ header{
   background-color: $brand-secondary;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+}
+
 main{
   margin-top: 250px;
 }
 
-section {
+section,
+footer{
   padding: 3em 5vw;
+}
+
+table {
+  width: 100%;
+	font-size: 0.8em;
+}
+
+td {
+	padding: 20px 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px dotted #fef4e1;
+}
+
+tr td:first-child{ text-align: left; }
+
+@media screen and (max-width: $sm) {
+
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr {
+		border: 1px solid #fef4e1;
+		margin-top: 20px;
+	 }
+
+	td {
+		/* row */
+		border: none;
+		border-bottom: 1px dotted #fef4e1;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	td:before {
+		/* table header */
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 50%;
+		padding: 0 10px;
+		white-space: nowrap;
+		text-align: left;
+	}
+
+	td:nth-of-type(1):before { content: ""; }
+	td:nth-of-type(2):before { content: "DIAMOND"; }
+	td:nth-of-type(3):before { content: "PLATINUM"; }
+	td:nth-of-type(4):before { content: "GOLD"; }
+	td:nth-of-type(5):before { content: "SILVER"; }
+	td:nth-of-type(6):before { content: "BRONZE"; }
+	td:nth-of-type(7):before { content: "VIRTUAL"; }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-even-columns {
+  > * {
+    flex: 4;
+  }
+
+  > * + * {
+    margin-left: 2em;
+  }
+}
+
+.flex-align-end {
+  align-items: flex-end;
 }
 
 /** COLORS */
@@ -109,21 +194,19 @@ h6 {
   font-weight: normal;
   clear: both;
   padding: 0;
-  margin-top: 0;
+  margin: 1em 0;
 }
 
 h1 {
-  margin: 1em 0;
-  font-size: 3em;
+  font-size: $h1-font-size;
 }
 
 h2 {
-  font-size: 2.0em;
+  font-size: $h2-font-size;
 }
 
 h3 {
-  font-size: 1.4em;
-  margin-bottom: 0.7em;
+  font-size: $h3-font-size;
 }
 
 p {
