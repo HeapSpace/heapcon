@@ -136,20 +136,6 @@ tr td:first-child{ text-align: left; }
   display: flex;
 }
 
-.flex-even-columns {
-  > * {
-    flex: 4;
-  }
-
-  > * + * {
-    margin-left: 2em;
-  }
-}
-
-.flex-align-end {
-  align-items: flex-end;
-}
-
 /** COLORS */
 
 .beige {
@@ -215,7 +201,7 @@ p {
 
 /** LINKS */
 a {
-  color: $color-hs-red;
+  color: inherit;
 }
 
 a:visited {

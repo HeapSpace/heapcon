@@ -36,6 +36,12 @@ h1.prominent {
 	font-size: 3.3vw;
 }
 
+@media (max-width: $sm) {
+  .lead {
+  	font-size: 1.5em;
+  }
+}
+
 .columns-2 {
   display: flex;
   > * {
