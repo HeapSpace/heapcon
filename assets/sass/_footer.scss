@@ -71,6 +71,18 @@ footer{
   }
 }
 
+.footer-contact {
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  a img {
+    max-height: 1em;
+    margin-right: .75em;
+  }
+}
+
 .footer-social {
 	display: flex;
 	flex-direction: column;
