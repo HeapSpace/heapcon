@@ -31,14 +31,6 @@ header {
 /* ---------------- */
 
 header{
-	a {
-		color: $color-hs-beige;
-		&:hover {
-			color: $color-hs-beige;
-		}
-	}
-
-
 	padding: 20px 5vw 60px 5vw;
 	width: 90vw;
 	/*position: relative;*/
@@ -73,27 +65,27 @@ header{
 	h1.logo svg g{
 		fill: $color-hs-blue;
 	}
-	a.powered-by{
-		font-size: 19px;
-		font-family: $font-title;
-		text-decoration: none;
-		color: $brand-primary;
-
-		position: absolute;
-		top: 47px;
-		right: 0;
-		transform: translate(-50%, -350%);
-
-		animation-name: poweredAppear;
-		animation-delay: 0.8s;
-		animation-duration: 2s;
-		animation-fill-mode: forwards;
-
-	}
-	@keyframes poweredAppear {
-		from { transform: translate(-50%, -350%); }
-		to { transform: translate(-50%, 0); }
-	}
+// 	a.powered-by{
+// 		font-size: 19px;
+// 		font-family: $font-title;
+// 		text-decoration: none;
+// 		color: $brand-primary;
+//
+// 		position: absolute;
+// 		top: 47px;
+// 		right: 0;
+// 		transform: translate(-50%, -350%);
+//
+// 		animation-name: poweredAppear;
+// 		animation-delay: 0.8s;
+// 		animation-duration: 2s;
+// 		animation-fill-mode: forwards;
+//
+// 	}
+// 	@keyframes poweredAppear {
+// 		from { transform: translate(-50%, -350%); }
+// 		to { transform: translate(-50%, 0); }
+// 	}
 
   &.open{
 		background: $color-hs-pink;
