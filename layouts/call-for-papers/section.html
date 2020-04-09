@@ -1,119 +1,51 @@
-{{ define "style" }}
-<style>
-  body {
-    background-color: #23201f;
-    margin-top: 130px;
-  }
-
-  #description {
-    padding: 4em 0;
-  }
-
-  #more {
-    padding: 1em 2em;
-  }
-  #more ul {
-    list-style: disc;
-  }
-
-  #more ul li {
-    margin-left: 2em;
-    line-height: 1.5em;
-  }
-
-  #note {
-    margin-top: 2em;
-    font-size: 0.6em;
-    line-height: 1.6em;
-  }
-
-  .red {
-    font-size: 2em;
-    color: #fd4000;
-  }
-
-  .zoom {
-    font-size: 1.3em;
-    line-height: 1.4em;
-    padding: 0 2em;
-  }
-
-  @media screen and (max-width: 768px){
-    #more p {
-      font-size: 1.5em;
-    }
-
-    #more ul {
-      font-size: 1.3em;
-    }
-  }
-</style>
-{{ end }}
-
 {{ define "main" }}
-<p class="zoom">Heapcon brings world renowned speakers to Serbia, and it showcases regional expertise as well.</p>
 
-<div id="more">
-  <div><p>Why apply?</p>
-    <ul>
-      <li>Share your knowledge, your story.</li>
-      <li>Network with 600+ software engineers and tech enthusiasts that will attend the conference.</li>
-      <li>Enjoy the hospitality Serbia is famous for!</li>
-    </ul>
+<section>
+  <p class="lead">Heapcon brings world renowned speakers to Serbia, and it showcases regional expertise as well.</p>
+
+  <p>Why apply?</p>
+  <ul>
+    <li>Share your knowledge, your story.</li>
+    <li>Network with 600+ software engineers and tech enthusiasts that will attend the conference.</li>
+    <li>Enjoy the hospitality Serbia is famous for!</li>
+  </ul>
+
+  <h2>Heapcon 2020 timeline:</h2>
+
+  <p>CfP opening</p>
+  <p class="lead">1st of March 2020</h3>
+
+  <p>Submission Deadline</p>
+  <p class="lead">31st of May, 2020</p>
+
+  <p>First speaker line-up announcement</p>
+  <p class="lead">mid April, 2020</p>
+
+  <p>CfP closing and start of the selection process</p>
+  <p class="lead">31st of May 2020</p>
+
+  <p>Full speaker line-up announcement</p>
+  <p class="lead">mid June, 2020</p>
+
+  <p>Event dates</p>
+  <p class="lead">October 22nd and 23rd 2020</p>
+
+  <h2>Important details:</h2>
+  <div class="col col-l col-bottom wide">
+    <h3 class="info">Your talk should be either 25 or 35 or 45 minutes long.</h3>
   </div>
-</div>
-
-<div class="home">
-  <div class="main-info columns-flex">
-    <div class="column-flex">
-      <h2>Heapcon 2020 timeline:</h2>
-      <div>
-        <div class="title">CfP opening</div>
-        <h3 class="info">1st of March 2020</h3>
-      </div>
-      <div class="col col-l col-bottom wide">
-        <div class="title">Submission Deadline</div>
-        <h3 class="info">31st of May, 2020</h3>
-      </div>
-      <div class="col col-l col-bottom wide">
-        <div class="title">First speaker line-up announcement</div>
-        <h3 class="info">mid April, 2020</h3>
-      </div>
-      <div class="col col-l col-bottom wide">
-        <div class="title">CfP closing and start of the selection process</div>
-        <h3 class="info">31st of May 2020</h3>
-      </div>
-      <div class="col col-l col-bottom wide">
-        <div class="title">Full speaker line-up announcement</div>
-        <h3 class="info">mid June, 2020</h3>
-      </div>
-      <div class="col col-l col-bottom wide">
-        <div class="title">Event dates</div>
-        <h3 class="info">October 22nd and 23rd 2020</h3>
-      </div>
-    </div>
-
-    <div class="column-flex">
-      <h2>Important details:</h2>
-      <div class="col col-l col-bottom wide">
-        <h3 class="info">Your talk should be either 25 or 35 or 45 minutes long.</h3>
-      </div>
-      <div class="col col-l col-bottom wide">
-        <h3 class="info">Both international and local speakers are very welcome</h3>
-      </div>
-      <div class="col col-l col-bottom wide">
-        <h3 class="info">Heapcon covers conference admission, accommodation and catering for selected speakers</h3>
-      </div>
-      <div class="col col-l col-bottom wide">
-        <h3 class="info">Early submissions are encouraged! Try to stand out by avoiding last-minute application :)</h3>
-      </div>
-    </div>
+  <div class="col col-l col-bottom wide">
+    <h3 class="info">Both international and local speakers are very welcome</h3>
+  </div>
+  <div class="col col-l col-bottom wide">
+    <h3 class="info">Heapcon covers conference admission, accommodation and catering for selected speakers</h3>
+  </div>
+  <div class="col col-l col-bottom wide">
+    <h3 class="info">Early submissions are encouraged! Try to stand out by avoiding last-minute application :)</h3>
   </div>
 
-  <div class="main-info columns-flex">
-    <p>Join great names such are <a href="https://2018.heapcon.io/speakers/arun-gupta/">Arun Gupta</a>,<a href="https://2018.heapcon.io/speakers/courtney-hemphill/"> Courtney Hemphill</a>,<a href="https://2018.heapcon.io/speakers/maximiliano-firtman/"> Maximiliano Firtman</a>,<a href="https://2018.heapcon.io/speakers/martin-splitt/"> Martin Splitt</a>,<a href="https://2018.heapcon.io/speakers/michael-ducy/"> Michael Ducy</a>,<a href="https://2018.heapcon.io/speakers/marianne-worthington/"> Marianne Worthington</a>,<a href="https://2018.heapcon.io/speakers/patrick-kettner/"> Patrick Kettner</a>,<a href="https://2018.heapcon.io/speakers/james-thomas/"> James Thomas,</a><span style="text-decoration:underline;"> <a href="https://2019.heapcon.io/speakers/rafal-leszko/where-is-my-cache-architectural-patterns-for-caching-microservices-by-example/">Rafal Leszko</a></span>, <a href="https://2019.heapcon.io/speakers/antonio-cobo/how-to-overcome-your-fears-to-become-a-conference-speaker/">Antonio Cobo</a>, <a href="https://2019.heapcon.io/speakers/heather-vancura/the-future-of-java-and-you/">Heather VanCura</a>, <a href="https://2019.heapcon.io/speakers/kaz-sato/real-world-machine-learning-with-tensorflow-and-cloud-ai/">Kaz Sato</a>, <a href="https://2019.heapcon.io/speakers/katie-koschland/ready-steady-crash/">Katie Koschland</a>, <a href="https://2019.heapcon.io/speakers/ted-neward/polytechnical-careering/">Ted Neward</a>, <a href="https://2019.heapcon.io/speakers/dave-snowden/designing-for-complexity/">Dave Snowden</a>, <a href="https://2019.heapcon.io/speakers/nikolay-matvienko/designing-data-intensive-applications-in-serverless-architecture/">Nikolay Matvienko</a>, <a href="https://2019.heapcon.io/speakers/lois-kim/navigating-through-space/">Lois Kim</a>, <a href="https://2019.heapcon.io/speakers/alex-casalboni/advanced-serverless-architectural-patterns-on-aws/">Alex Casalboni</a> and <a href="https://2019.heapcon.io/speakers/sumit-gulwani/automated-program-generation-from-input-output-examples/">Sumit Gulwani</a>.</p>
-  </div>
-</div>
+  <p>Join great names such are <a href="https://2018.heapcon.io/speakers/arun-gupta/">Arun Gupta</a>,<a href="https://2018.heapcon.io/speakers/courtney-hemphill/"> Courtney Hemphill</a>,<a href="https://2018.heapcon.io/speakers/maximiliano-firtman/"> Maximiliano Firtman</a>,<a href="https://2018.heapcon.io/speakers/martin-splitt/"> Martin Splitt</a>,<a href="https://2018.heapcon.io/speakers/michael-ducy/"> Michael Ducy</a>,<a href="https://2018.heapcon.io/speakers/marianne-worthington/"> Marianne Worthington</a>,<a href="https://2018.heapcon.io/speakers/patrick-kettner/"> Patrick Kettner</a>,<a href="https://2018.heapcon.io/speakers/james-thomas/"> James Thomas,</a><span style="text-decoration:underline;"> <a href="https://2019.heapcon.io/speakers/rafal-leszko/where-is-my-cache-architectural-patterns-for-caching-microservices-by-example/">Rafal Leszko</a></span>, <a href="https://2019.heapcon.io/speakers/antonio-cobo/how-to-overcome-your-fears-to-become-a-conference-speaker/">Antonio Cobo</a>, <a href="https://2019.heapcon.io/speakers/heather-vancura/the-future-of-java-and-you/">Heather VanCura</a>, <a href="https://2019.heapcon.io/speakers/kaz-sato/real-world-machine-learning-with-tensorflow-and-cloud-ai/">Kaz Sato</a>, <a href="https://2019.heapcon.io/speakers/katie-koschland/ready-steady-crash/">Katie Koschland</a>, <a href="https://2019.heapcon.io/speakers/ted-neward/polytechnical-careering/">Ted Neward</a>, <a href="https://2019.heapcon.io/speakers/dave-snowden/designing-for-complexity/">Dave Snowden</a>, <a href="https://2019.heapcon.io/speakers/nikolay-matvienko/designing-data-intensive-applications-in-serverless-architecture/">Nikolay Matvienko</a>, <a href="https://2019.heapcon.io/speakers/lois-kim/navigating-through-space/">Lois Kim</a>, <a href="https://2019.heapcon.io/speakers/alex-casalboni/advanced-serverless-architectural-patterns-on-aws/">Alex Casalboni</a> and <a href="https://2019.heapcon.io/speakers/sumit-gulwani/automated-program-generation-from-input-output-examples/">Sumit Gulwani</a>.</p>
+</section>
 
 {{ partial "typeform" }}
 
