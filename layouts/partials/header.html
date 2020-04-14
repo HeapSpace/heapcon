@@ -3,30 +3,32 @@
 		{{ partial "logo" }}
 	</a>
 
-	<nav id="myTopnav" class="nav-collapse">
+	<nav class="desktop-menu">
 		<ul>
-			<li class="menu-item active"><a href="#home" data-scroll>Speakers</a></li>
-			<li class="menu-item"><a href="#about" data-scroll>Schedule</a></li>
-			<li class="menu-item"><a href="#projects" data-scroll>Venue</a></li>
-			<li class="menu-item"><a href="#blog" data-scroll>Sponsors</a></li>
-			<li class="menu-item"><a href="http://www.google.com" target="_blank">Committee</a></li>
-			<li class="menu-item"><a href="http://www.google.com" target="_blank">About</a></li>
+			<li><a href="/speakers" title="See all Heapcon 2019 speakers">Speakers</a></li>
+			<li><a href="/schedule" title="See Heapcon 2019 schedule">Schedule</a></li>
+			<li><a href="/venue" title="See Heapcon 2019 venue">Venue</a></li>
+			<li><a href="/committee" title="Meet Heapcon 2019 committee">Sponsors</a></li>
+			<li class="not-on-desktop"><a href="/tickets" title="Buy Heapcon 2019 tickets">Committee</a></li>
+			<li><a href="/about" title="Learn more about Heapcon">About</a></li>
 		</ul>
 	</nav>
-	<a href="/tickets">Buy Tickets</a>
 
-	<a href="javascript:void(0);" class="icon" style="width: 1em; height: 1em; background: black;" onclick="myFunction()">
-		<i class="fa fa-bars"></i>
-	</a>
+	<a href="#" class="btn">Buy Tickets</a>
 
-	<script>
-		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "nav-collapse") {
-				x.className += " responsive";
-			} else {
-				x.className = "nav-collapse";
-			}
-		}
-	</script>
+	<nav class="menu">
+		<ul>
+			<li><a href="/speakers" title="See all Heapcon 2019 speakers">Speakers</a></li>
+			<li><a href="/schedule" title="See Heapcon 2019 schedule">Schedule</a></li>
+			<li><a href="/venue" title="See Heapcon 2019 venue">Venue</a></li>
+			<li><a href="/committee" title="Meet Heapcon 2019 committee">Sponsors</a></li>
+			<li class="not-on-desktop"><a href="/tickets" title="Buy Heapcon 2019 tickets">Committee</a></li>
+			<li><a href="/about" title="Learn more about Heapcon">About</a></li>
+		</ul>
+	</nav>
+
+	<input class="checkbox-toggle" type="checkbox">
+	<div class="btn-menu">
+		<div class="icon"></div>
+	</div>
 </header>

@@ -1,13 +1,24 @@
 header {
-	position: fixed;
-	top: 0;
-	width: calc(100% - 10vw);
-	z-index: 10;
-	text-align: center;
-	padding: 1em 5vw;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 10vw);
+  z-index: 10;
+  text-align: center;
+  padding: 1em 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .desktop-menu ul {
+    display: flex;
+    margin-left: -1em;
+    margin-right: -1em;
+
+    li {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
 }
 
 .logo {
@@ -15,44 +26,132 @@ header {
   width: 3em;
 }
 
-header nav ul {
-  display: flex;
-  margin-left: -1em;
-  margin-right: -1em;
+.checkbox-toggle {
+  position: absolute;
+  right: 25px;
+  top: 12px;
+  z-index: 15;
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  opacity: 0;
+}
 
-  li {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-
-  li a {
-    text-decoration: none;
+@media (min-width: $md) {
+  .checkbox-toggle,
+  .btn-menu {
+    display: none;
   }
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  header nav ul li {display: none;}
-  .topnav a.icon {
+@media (max-width: $md) {
+  .desktop-menu {
+    display: none;
+  }
+}
+
+/* ---------------- */
+/* ----- 2019 ----- */
+/* ---------------- */
+
+header{
+  @keyframes logoAppear {
+    from { transform: translate(0, -130%); }
+    to { transform: none; }
+  }
+
+  .btn-menu {
     float: right;
-    display: block;
-  }
-}
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  header nav.responsive {position: relative;}
-  header nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+    padding: 12px 18px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    height: 14px;
+    width: 36px;
+
+    border-radius: 19px;
+
+    .icon{
+      width: 100%;
+      height: 8px;
+      position: relative;
+
+      &:before,
+      &:after{
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        transform-origin: center center;
+        position: absolute;
+        width: 36px;
+        height: 3px;
+        background-color: $color-hs-beige;
+        content: "";
+      }
+      &:before{
+        top: 0px;
+        left: 0px;
+      }
+      &:after {
+        top: 11px;
+        left: 0px;
+      }
+    }
   }
-  header nav ul {
-    flex-direction: column;
+  .checkbox-toggle{
+    top: 40px;
+    right: 5vw;
+    width: 72px;
+    height: 38px;
   }
-  header nav.responsive li {
-    float: none;
-    display: block;
-    text-align: left;
+
+  .menu{
+    display: none;
+  }
+
+  &.open{
+    .btn-menu{
+      .icon{
+        &:before{
+          -webkit-transform: rotateZ(45deg) translate(4px, 4px);
+          transform: rotateZ(45deg) translate(4px, 4px);
+        }
+        &:after {
+          -webkit-transform: rotateZ(-45deg) translate(4px, -4px);
+          transform: rotateZ(-45deg) translate(4px, -4px);
+        }
+      }
+    }
+
+    .menu{
+      display: flex;
+      flex-direction: column;
+
+      position: absolute;
+      top: 40px;
+      left: 50%;
+
+      ul{
+        margin: 0;
+        text-align: left;
+        width: 30vw;
+        height: 180px;
+        columns: 2;
+        column-gap: 40px;
+
+        li{
+          display: block;
+          margin-bottom: 20px;
+
+          &.not-on-desktop{
+            display: none;
+          }
+        }
+
+        li a{
+          font-size: 28px;
+          text-decoration: none;
+        }
+      }
+    }
   }
 }

@@ -22,12 +22,13 @@ function inViewport($ele) {
 
 function canvasOrientation(canvas) {
   if (window.matchMedia("(max-width: 600px)").matches) {
-    // canvas.style.transform = 'rotate(90deg)';
-    // canvas.style.margin = '200px auto 100px auto';
+    canvas.style.transform = 'rotate(90deg)';
+    canvas.style.margin = '200px auto 100px auto';
   } else {
     canvas.style.transform = 'rotate(0deg)';
     canvas.style.width  = '100%';
     canvas.style.height = 'auto';
+
   }
 }
 
@@ -234,9 +235,13 @@ function jQueryInitAllPages() {
   // 2019
   if($(window).innerWidth() > 900){
     setTimeout(function(){
-      $('header h1.logo svg, header .outer-menu').css({
+      $('header h1.logo svg, header a.powered-by, header .outer-menu').css({
         animation: 'none',
         transform: 'none'
+      });
+
+      $('header a.powered-by').css({
+        transform: 'translate(-50%, 0)'
       });
     }, 2000);
   }
