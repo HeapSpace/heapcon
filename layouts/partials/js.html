@@ -2,6 +2,7 @@
 
 {{ $funfunjs := resources.Get "js/funfunctions.js" }}
 {{ $anim2019js := resources.Get "js/anim2019.js" }}
+{{ $headerjs := resources.Get "js/header.js" }}
 {{ $mainjs := resources.Get "js/main.js" }}
 {{ $js := slice $funfunjs $anim2019js $mainjs | resources.Concat "js/script.js" | minify | fingerprint }}
 <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
