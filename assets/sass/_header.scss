@@ -8,22 +8,25 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: .75em;
 
   .desktop-menu ul {
     display: flex;
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left: -.75em;
+    margin-right: -.75em;
 
     li {
-      margin-left: 1em;
-      margin-right: 1em;
+      margin-left: .75em;
+      margin-right: .75em;
+
+      a { text-decoration: none; }
     }
   }
 }
 
 .logo {
   display: block;
-  width: 3em;
+  width: 5vw;
 }
 
 .checkbox-toggle {
@@ -37,17 +40,31 @@ header {
   opacity: 0;
 }
 
-@media (min-width: $md) {
+@media (max-width: $lg) {
+  .desktop-menu {
+    font-size: .75em;
+  }
+}
+
+@media (min-width: $lg) {
   .checkbox-toggle,
   .btn-menu {
     display: none;
   }
 }
 
-@media (max-width: $md) {
+@media (max-width: $lg) {
   .desktop-menu {
     display: none;
   }
+
+  .logo {
+    width: 10vw;
+  }
+}
+
+@media (max-width: $sm) {
+  .logo { width: 15vw; }
 }
 
 /* ---------------- */
@@ -63,13 +80,9 @@ header{
   .btn-menu {
     float: right;
 
-    padding: 12px 18px;
-    margin-top: 20px;
-    margin-bottom: 23px;
-    height: 14px;
-    width: 36px;
-
-    border-radius: 19px;
+    padding: 1em;
+    height: 1em;
+    width: 2em;
 
     .icon{
       width: 100%;
@@ -84,7 +97,7 @@ header{
         position: absolute;
         width: 36px;
         height: 3px;
-        background-color: $color-hs-beige;
+        background-color: $brand-primary;
         content: "";
       }
       &:before{
@@ -125,18 +138,16 @@ header{
     .menu{
       display: flex;
       flex-direction: column;
-
+      align-items: center;
+      justify-content: center;
       position: absolute;
-      top: 40px;
-      left: 50%;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: $brand-secondary;
 
       ul{
-        margin: 0;
-        text-align: left;
-        width: 30vw;
-        height: 180px;
-        columns: 2;
-        column-gap: 40px;
 
         li{
           display: block;

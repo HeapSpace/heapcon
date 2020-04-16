@@ -55,11 +55,14 @@ a.powered-by {
   transform: rotate(-90deg);
   height: 1em;
   text-decoration: none;
+  font-size: .75em;
 
   @media (max-width: $sm) {
     left: -5em;
   }
 }
+
+
 
 
 
