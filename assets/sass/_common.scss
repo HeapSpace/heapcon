@@ -136,6 +136,27 @@ tr td:first-child{ text-align: left; }
   display: flex;
 }
 
+.flex-even-columns {
+  margin-left: -1em;
+  margin-right: -1em;
+
+  > * {
+    flex: 1;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  @media screen and (max-width: $md) {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+
+    > * {
+      margin: 1em 0;
+    }
+  }
+}
+
 /** COLORS */
 
 .beige {
@@ -222,6 +243,10 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
+}
+
+strong {
+  font-family: $font-bold;
 }
 
 /** ELEMENTS */

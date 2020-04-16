@@ -30,6 +30,11 @@
   color: $color-hs-black;
 }
 
+.bg-gradient {
+  background: linear-gradient(180deg, $brand-primary 0%, rgba(255,255,255,1) 100%);
+  color: $color-hs-black;
+}
+
 h1.prominent {
 	font-size: 13vw;
 	line-height: .92;
@@ -63,21 +68,26 @@ a.powered-by {
 }
 
 
-
-
-
-
-
-.columns-2 {
+.media {
   display: flex;
-  > * {
-    flex: 1;
-  }
+  align-items: flex-start;
 
-  @media (max-width: $sm) {
-    flex-flow: column;
+  img {
+    margin-right: 1em;
   }
 }
+
+
+.ticket-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-template: repeat(2, 1fr);
+}
+
+
+
+
+
 
 .sponsor-menu {
   display: grid;

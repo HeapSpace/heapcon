@@ -21,15 +21,9 @@ function inViewport($ele) {
 ////---- UI
 
 function canvasOrientation(canvas) {
-  if (window.matchMedia("(max-width: 600px)").matches) {
-    canvas.style.transform = 'rotate(90deg)';
-    canvas.style.margin = '200px auto 100px auto';
-  } else {
-    canvas.style.transform = 'rotate(0deg)';
-    canvas.style.width  = '100%';
-    canvas.style.height = 'auto';
-
-  }
+  canvas.style.transform = 'rotate(0deg)';
+  canvas.style.width  = '100%';
+  canvas.style.height = 'auto';
 }
 
 function colorMyBody(color) {
