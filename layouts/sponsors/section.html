@@ -1,8 +1,8 @@
 {{ define "main" }}
 
 <section>
-	<h1 class="prominent">SPONSORS</h1>
-	<p class="lead">Heapcon is an independent community conference. By sponsoring Heapcon, you are helping the development of the regional tech community.</p>
+	<h1 class="prominent text-center">SPONSORS</h1>
+	<p class="lead text-center">Heapcon is an independent community conference. By sponsoring Heapcon, you are helping the development of the regional tech community.</p>
 
 <!--	<h2 class="sponsor-tier gold">Gold</h2>-->
 
@@ -52,9 +52,14 @@
 <!--		{{ end }}-->
 <!--	</div>-->
 
+</section>
 
+<section class="bg-dark text-center">
+	<p>If you consider supporting Heapcon, fill in the form below</p>
+</section>
+
+<section class="bg-texture">
 	<div class="form">
-		<p>If you consider supporting Heapcon, fill in the form below</p>
 		<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 			<p style="display: none;">
 				<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
@@ -80,12 +85,12 @@
 			</p>
 		</form>
 	</div>
+</section>
 
 
 	<!--script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe
 	class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrctlZdfHFb7HWKH?backgroundColor=red"
 	frameborder="0" onmousewheel="" width="100%" height="834"
 	style="background: transparent; border: 1px solid #ccc; margin-top: 4em;"></iframe-->
-</section>
 
 {{ end }}

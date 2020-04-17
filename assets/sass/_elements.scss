@@ -25,6 +25,11 @@
   }
 }
 
+.bg-texture {
+  background: url("/images/gradient_bg.jpg") center no-repeat;
+  background-size: cover;
+}
+
 .bg-gradient {
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, $brand-primary 100%);
   color: $color-hs-black;
@@ -67,7 +72,6 @@ a.powered-by {
   }
 }
 
-
 .media {
   display: flex;
   align-items: flex-start;
@@ -77,17 +81,11 @@ a.powered-by {
   }
 }
 
-
 .ticket-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-template: repeat(2, 1fr);
 }
-
-
-
-
-
 
 .sponsor-menu {
   display: grid;
