@@ -12,27 +12,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'HS Grotesk';
-  src: url('/fonts/HS Grotesk.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Menoe Grotesque';
-  src: url('/fonts/Menoe-Grotesque-Std-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Anton';
-  src: url('/fonts/Anton-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
   font-family: $font-title;
   -ms-text-size-adjust: 100%;
