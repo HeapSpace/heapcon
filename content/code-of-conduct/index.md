@@ -2,6 +2,8 @@
 title: Code of Conduct
 ---
 
+{{< section >}}
+
 # Code of Conduct
 
 Heapcon acknowledges that harassment has been a real, long-standing issue in the tech community. We also acknowledge that the technology sector is not wholly representative of the diverse makeup of our society.
@@ -25,3 +27,5 @@ Conference staff will be happy to help participants contact hotel/venue security
 We expect participants to follow these rules at conference and workshop venues and conference-related social events.
 
 > As a community, and species, we should make sure that we continuously strive to improve, both in terms of social interactions & technology.
+
+{{< /section >}}
