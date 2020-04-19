@@ -1,5 +1,12 @@
 .home {
   position: relative;
+
+  #blob {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
 }
 
 .bg-primary {
@@ -141,6 +148,15 @@ a.powered-by {
     color: $color-hs-black;
   }
 }
+
+.committee li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $color-hs-black;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+}
+
 
 .text-center {
   text-align: center;

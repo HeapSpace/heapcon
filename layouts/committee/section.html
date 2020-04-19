@@ -1,72 +1,23 @@
 {{ define "main" }}
 
-<div class="committee">
-	<div class="main-info columns">
-		<div class="col col-l col-top wide year">
-			<div class="title">&nbsp;</div>
-			<div class="info">COMMITTEE</div>
-		</div>
-		<div class="col col-l col-bottom where">
-			<div class="title">Where</div>
-			<div class="info">We promote the regional tech know-how by partnering up with these tech experts in creating an exciting conference programme.</div>
-		</div>
-	</div>
+<section class="text-center" style="background: url('/images/hand.png') right center no-repeat; background-size: 50%;">
+	<h1 class="prominent">Committee</h1>
+	<p>We promote the regional tech know-how by partnering up with these tech experts in creating an exciting conference programme.</p>
+</section>
 
-	<ul class="list">
-		<li>
-			<a href="dusan-zamurovic">
-				<span class="name">Dušan Zamurović</span>
-				<span class="place">Novi Sad, Serbia</span>
-			</a>
-		</li>
-		<li>
-			<a href="martin-splitt">
-				<span class="name">Martin Splitt</span>
-				<span class="place">Zürich, Switzerland</span>
-			</a>
-		</li>
-		<li>
-			<a href="mateja-verlic-bruncic">
-				<span class="name">Mateja Verlič Brunčič</span>
-				<span class="place">Maribor, Slovenia</span>
-			</a>
-		</li>
-		<li>
-			<a href="mihael-sedmak">
-				<span class="name">Mihael Sedmak</span>
-				<span class="place">Zagreb, Croatia</span>
-			</a>
-		</li>
-		<li>
-			<a href="rustam-mehmandarov">
-				<span class="name">Rustam Mehmandarov</span>
-				<span class="place">Oslo, Norway</span>
-			</a>
-		</li>
-		<li>
-			<a href="anamarija-talijanac">
-				<span class="name">Anamarija Talijanac</span>
-				<span class="place">Zagreb, Croatia</span>
-			</a>
-		</li>
-		<li>
-			<a href="erika-pogorelc">
-				<span class="name">Erika Pogorelc</span>
-				<span class="place">Ljubljana, Slovenia</span>
-			</a>
-		</li>
-		<li>
-			<a href="igor-spasic">
-				<span class="name">Igor Spasić</span>
-				<span class="place">Belgrade, Serbia</span>
-			</a>
-		</li>
+<section class="bg-gradient">
+
+	<h2 class="text-center">Meet Heapcon 2020 committee:</h2>
+
+	<ul class="committee">
+		{{ range $.Site.Data.Committee.members }}
+			<li>
+				<div>{{ .name }}</div>
+				<div>{{ .from }}</div>
+			</li>
+		{{ end }}
 	</ul>
 
-	<div class="speakers-anim video-anim">
-		<video class="speakers-anim-1" playsinline autoplay loop muted src="/videos/committee-anim-1.mp4"></video>
-		<video class="speakers-anim-2 video-anim-2" playsinline autoplay loop muted src="/videos/committee-anim-2.mp4"></video>
-	</div>
-</div>
+</section>
 
 {{ end }}

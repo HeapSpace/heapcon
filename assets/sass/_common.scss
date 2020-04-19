@@ -236,6 +236,10 @@ hr {
   margin-bottom: 1.5em;
 }
 
+hr.inverted {
+  background-color: $color-hs-black;
+}
+
 /** IMG **/
 img {
   height: auto;
