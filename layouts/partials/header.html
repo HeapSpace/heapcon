@@ -1,4 +1,28 @@
 <header>
-	<h1 class="logo"><a href="/">{{ partial "logo" }}</a></h1>
-	<a class="powered-by" href="https://heapspace.rs">Powered by heapspace</a>
+	<a href="/" class="logo" data-scroll>
+		{{ partial "logo" }}
+	</a>
+
+	<nav class="desktop-menu">
+		<ul>
+			<li><a href="/call-for-papers" title="Heapcon 2020 call for papers">CFP</a></li>
+			<li><a href="/sponsors" title="Heapcon 2020 sponsors">Sponsors</a></li>
+			<li><a href="/committee" title="Heapcon 2020 committee">Committee</a></li>
+		</ul>
+	</nav>
+
+	<a href="/tickets" class="btn btn-default">Buy Tickets</a>
+
+	<nav class="menu">
+		<ul>
+			<li><a href="/call-for-papers" title="See all Heapcon 2019 speakers">CFP</a></li>
+			<li><a href="/sponsors" title="Meet Heapcon 2019 committee">Sponsors</a></li>
+			<li><a href="/committee" title="Heapcon 2020 committee">Committee</a></li>
+		</ul>
+	</nav>
+
+	<input class="checkbox-toggle" type="checkbox">
+	<div class="btn-menu">
+		<div class="icon"></div>
+	</div>
 </header>

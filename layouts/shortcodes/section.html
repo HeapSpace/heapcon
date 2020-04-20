@@ -1,4 +1,5 @@
 {{ $bgcolor := (index .Params 0) }}
-<div class="grid bg-{{ $bgcolor }}"><div class="content-wrap-inner">
-{{ .Inner | markdownify }}
-</div></div>
+
+<section class="grid bg-{{ $bgcolor }}">
+  {{ .Inner | markdownify }}
+</section>

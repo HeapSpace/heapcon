@@ -1,75 +1,11 @@
-footer {
-	padding: 1em 0;
-	color: $color-hs-white;
-	text-align: center;
-	background-color: $color-hs-black;
-
-	#footer {
-		color: $color-hs-red;
-		font-size: 0.6em;
-		margin: 2em 0;
-	}
-
-	p {
-		margin: 1em 0;
-	}
-}
-
-.footer-body {
-	max-width: 1024px;
-	margin: 0 auto 4em;
-	text-align: center;
-}
-
-
-
-/* ---------------- */
-/* ----- 2019 ----- */
-/* ---------------- */
-
 footer{
-	padding: 50px 5vw;
 	color: $color-hs-white;
-	text-align: left;
+	background: $color-hs-black;
 
 	.logo {
 		max-width: 4em;
 		margin-left: auto;
 		margin-right: auto;
-	}
-
-	a{
-		color: $color-hs-white;
-
-		&:hover{
-			color: $color-hs-blue;
-			text-decoration: underline;
-		}
-	}
-
-	.columns{
-		text-align: left;
-		margin-bottom: 0;
-
-		.col{
-			&.col-top,
-			&.col-bottom{
-				height: 18vw;
-			}
-
-			&.email-us{
-				font-size: 5.5vw;
-				line-height: 5.7vw;
-			}
-			&.organized-with-love{
-				width: 20vw;
-
-				font-size: 1.6vw;
-				line-height: 1.4;
-				font-family: $font-main;
-				color: $color-hs-blue;
-			}
-		}
 	}
 
 	.social-media{
@@ -89,24 +25,98 @@ footer{
 			float: left;
 		}
 	}
+
 	.logo-large{
-		width: 84vw;
-		margin-left: 3vw;
 		text-align: center;
 	}
+
 	.logo-large svg{
 		width: 100%;
 		height: auto;
 	}
 }
 
+.footer-body {
+  display: flex;
+  align-items: flex-end;
+
+  // controls the sizing of the uneven columns.
+  > div {
+    flex: 4;
+
+    // the section with the wavy logo
+    &:first-of-type {
+      color: $brand-primary;
+    }
+
+    // section with social icons
+    &:last-of-type {
+      flex: 1;
+    }
+  }
+
+  // makes sure there is space between the columns
+  > div + div {
+    margin-left: 2em;
+  }
+
+  @media (max-width: $sm) {
+    flex-direction: column;
+    align-items: flex-start;
+
+    > div + div {
+      margin-left: 0;
+      margin-top: 3em;
+    }
+  }
+}
+
+.footer-contact {
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  a img {
+    max-height: 1em;
+    margin-right: .75em;
+  }
+}
+
+.footer-social {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	align-items: flex-end;
+
+	a {
+	  width: 1em;
+	}
+
+	a + a {
+	  margin-top: .25em;
+	}
+
+	@media (max-width: $sm) {
+    flex-direction: row;
+
+    > a + a {
+      margin-left: 1em;
+      margin-top: 0;
+    }
+  }
+}
+
+.footer-social img {
+	width: 1em;
+	height: 1em;
+}
+
 .footer-bottom {
 	display: flex;
 	color: $brand-primary;
-
-	a {
-		color: $brand-primary;
-	}
+	margin-top: 3em;
+	align-items: flex-end;
 
 	.part-left,
 	.part-right {
@@ -118,6 +128,11 @@ footer{
 	}
 
 	.part-center {
-		flex: 2;
+		flex: 3;
+		text-align: center;
+
+		@media (max-width: $sm) {
+      margin: 0 1em;
+    }
 	}
 }

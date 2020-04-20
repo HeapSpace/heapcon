@@ -5,14 +5,13 @@ title: "Sponsor Heapcon"
 {{< section "secondary text-center" >}}
 
 # Heapcon
-## October 22nd—23rd, 2020.
-## Belgrade, Serbia
+
+### October 22nd—23rd, 2020.
+### Belgrade, Serbia
 
 {{< /section >}}
 
 {{< section "primary text-center" >}}
-
-## &nbsp;
 
 Heapcon is a regional tech conference for
 software engineers and technology enthusiast,
@@ -25,7 +24,6 @@ communications and publishing. The conference
 puts 14 years of IT event management into practice.
 
 {{< /section >}}
-
 
 {{< section dark >}}
 
