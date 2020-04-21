@@ -92,59 +92,6 @@ function jQueryInitAllPages() {
     });
   };
 
-  // START colored header and footer
-  // if ($(window).width <= 600) {
-  // 	// detect small screens
-  // 	colorThreshold = 200;
-  // 	footerColorThreshold = $(document).height() - 700;
-  // }
-  // if($(".bg-beige").length){
-  // 	$("footer").css('background', '#fd4000');
-  // } else {
-  // 	if(nonHome){
-  // 		if ($(window).scrollTop() > colorThreshold && $(window).scrollTop() < footerColorThreshold) {
-  // 			colorMyBody("#231f20");
-  // 			scrollDirection = 2;
-  // 		}
-  // 	} else {
-  // 		if ($(window).scrollTop() < footerColorThreshold) {
-  // 			colorMyBody("#231f20");
-  // 			scrollDirection = 2;
-  // 		}
-  // 	}
-
-  // 	$(window).scroll(function() {
-  // 		const height = $(window).scrollTop();
-
-  // 		if (scrollDirection === 1) {
-  // 			if (nonHome && height > colorThreshold) {
-  // 				colorMyBody("#231f20");
-  // 				scrollDirection = 2;
-  // 			}
-  // 		}
-  // 		else {
-  // 			if (scrollDirection === 2) {
-  // 				if (nonHome && height < colorThreshold - 100) {
-  // 					colorMyBody(nextColor());
-  // 					scrollDirection = 1;
-  // 				}
-  // 				if (height > footerColorThreshold) {
-  // 					colorMyBody(nextColor());
-  // 					scrollDirection = 3;
-  // 				}
-  // 			}
-  // 			else {
-  // 				if (height < footerColorThreshold) {
-  // 					colorMyBody("#231f20");
-  // 					scrollDirection = 2;
-  // 				}
-  // 			}
-  // 		}
-  // 	});
-  // }
-  // END colored header and footer
-
-
   var isHome = ($('.home').length) ? true : false;
   var isSchedule = ($('.schedule').length) ? true : false;
   var isPeople = ($('.speakers').length || $('.committee').length) ? true : false;
