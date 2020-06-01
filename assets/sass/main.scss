@@ -1,0 +1,52 @@
+body {
+  font-family: $font-main, sans-serif;
+  background-color: $brand-secondary;
+  color: $brand-primary;
+  font-size: 2em;
+  line-height: 1.4;
+  
+  @media (max-width: $sm) {
+    font-size: 1.5em;
+  }
+}
+
+section,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+nav {
+  padding: 2em 0;
+
+  a { margin: 0 .5em; }
+}
+
+h1 {
+  font-size: 3em;
+  margin: .5em 0;
+  line-height: 1.125;
+}
+
+a {
+  &:visited,
+  &:-webkit-any-link {
+    color: inherit;
+  }
+}
+
+.lead {
+  font-size: 1.5em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// ova klasa je bulja... Možeš ti to i bolje. Smisli bolji način da daš malo prostora linkovima u horizontalnoj listi
+.row-space {
+  > * {
+    margin: 0 .25em;
+  }
+}
