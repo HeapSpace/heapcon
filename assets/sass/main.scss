@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('/fonts/NeueMachina-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina B';
+  src: url('/fonts/NeueMachina-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   font-family: $font-main, sans-serif;
   background-color: $brand-secondary;
@@ -21,6 +35,10 @@ nav {
   padding: 2em 0;
 
   a { margin: 0 .5em; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-bold;
 }
 
 h1 {
