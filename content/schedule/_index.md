@@ -1,7 +1,7 @@
 ---
 layout: "schedule"
-title: Schedule
-description: Heapcon 2019 schedule is out, enjoy all the great talks we prepared for you. Welcome to Heapcon!
+title: Предавања
+description: "Хипкон Лајт Предавања"
 og_img: "og-schedule.png"
 outputs:
 - html

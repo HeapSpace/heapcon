@@ -1,5 +1,5 @@
 ---
-title: "grab your ticket for heapcon"
-description: "heapcon is a regional tech conference for software engineers and tech businesses"
+title: "Карте"
+description: "Хипкон Лајт Карте"
 og_img: "og-tickets.png"
 ---
