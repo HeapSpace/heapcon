@@ -1,9 +1,9 @@
 baseURL = "https://heapcon.rs"
 languageCode = "en-us"
-title = "heapcon ⬣ a new conference by heapspace"
+title = "heapcon lite ⬣ lokalno izdanje heapspace konferencije"
 
 [params]
-  description = "heapcon is a regional tech conference for software engineers and tech businesses"
+  description = "heapcon lite je lokalno izdanje konferencije za softverske inženjere"
   cookie_consent_info_url = "/cookie-information/"
 
 [permalinks]

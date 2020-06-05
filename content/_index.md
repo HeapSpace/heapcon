@@ -1,6 +1,6 @@
 ---
 customBgColor: true
-title: "heapcon • tech conference • belgrade"
-description: "heapcon is a regional tech conference for software engineers and tech businesses"
+title: "heapcon • tehnološka konferencija • beograd"
+description: "heapcon lite je lokalno izdanje konferencije za softverske inženjere"
 og_img: "hc-blue-og.png"
 ---

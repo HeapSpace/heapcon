@@ -1,16 +1,9 @@
 {{ define "main" }}
 
-<div class="schedule">
-	<ul class="tabs">
-		<li id="day-26" class="current">Sep 26th</li>
-		<li id="day-27">Sep 27th</li>
-	</ul>
-	{{ $site := .Site }}
-	{{ range $day := .Site.Data.Konfa.days -}}
-	<div class="day day-{{ $day }}">
-		{{ template "schedule/agenda_day.html" (dict "ctx" . "day" $day "site" $site) }}
-	</div>
-	{{- end }}
-</div>
+<section class=text-center>
+	<h1>Предавања</h1>
+	Ускоро!
+	<p>–</p>
+</section>
 
 {{ end }}
