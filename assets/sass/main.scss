@@ -31,6 +31,11 @@ footer {
   padding: 0 1em;
 }
 
+footer {
+  border-top: 2px solid $brand-primary;
+  padding: 1em;
+}
+
 nav {
   padding: 2em 0;
 
@@ -67,4 +72,9 @@ a {
   > * {
     margin: 0 .25em;
   }
+}
+
+.highlight {
+  background-color: $brand-primary;
+  color: $brand-secondary;
 }
