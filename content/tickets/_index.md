@@ -1,5 +1,5 @@
 ---
-title: "Карте"
-description: "Хипкон Лајт Карте"
+title: "Пријаве"
+description: "Хипкон Лајт Пријаве"
 og_img: "hc-og.png"
 ---
