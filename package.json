@@ -19,6 +19,6 @@
     "fs": "0.0.1-security",
     "fs-extra": "^7.0.1",
     "gray-matter": "^4.0.2",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.6.1"
   }
 }
