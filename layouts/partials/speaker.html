@@ -1,0 +1,28 @@
+<div class="speaker">
+  <div class="participants">
+    {{ range .participants }}
+    <div class="participant">
+
+      {{ if .photo }}
+      <div class="participant-photo">
+        <img src="{{ .photo }}" alt="{{ .name }}">
+      </div>
+      {{ end }}
+      <div>
+        <strong><a href="{{ .contact.linkedin }}">{{ .name }}</a></strong>
+        <div><em>{{ .occupation }}</em></div>
+      </div>
+    </div>
+
+    {{ end }}
+  </div>
+
+
+  <div class="lecture">
+    {{ range .lectures }}
+    <h3 class="no-margin">{{ .title }}</h3>
+    <div><em>{{ .time }}</em></div>
+    <p>{{ .abstract }}</p>
+    {{ end }}
+  </div>
+</div>

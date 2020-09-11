@@ -3,7 +3,13 @@
 <section class=text-center>
 	<h1>Предавања</h1>
 	<p>Један дан, 80 места у публици, 10 предавања из технологије, науке и бизниса.</p>
-  <p><span class="highlight">Агенда ће бити објављена 15.9.</span></p>
+	<p><span class="highlight">Сва предавања биће објављена 15.9.</span></p>
+</section>
+
+<section class="wide">
+	{{ range $.Site.Data.Speakers }}
+	{{ partial "speaker.html" . }}
+	{{ end }}
 </section>
 
 {{ end }}
