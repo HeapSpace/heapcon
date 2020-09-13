@@ -32,6 +32,10 @@ footer {
   padding: 0 1em;
 }
 
+hr {
+  border-top: 2px solid $brand-primary;
+}
+
 .wide {
   max-width: 100%;
 }
