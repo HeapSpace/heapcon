@@ -48,7 +48,15 @@ footer {
 nav {
   padding: 2em 0;
 
-  a { margin: 0 .5em; }
+  a {
+    display: inline-block;
+    margin: 0 .5em;
+    white-space: nowrap;
+
+    @media (max-width: $sm) {
+      margin-bottom: .5em;
+    }
+  }
 }
 
 h1, h2, h3, h4, h5, h6, strong {
