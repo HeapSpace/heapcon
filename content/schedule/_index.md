@@ -1,7 +1,7 @@
 ---
 layout: "schedule"
-title: Предавања
-description: "Хипкон Лајт Предавања"
+title: Агенда
+description: "Хипкон Лајт Агенда"
 og_img: "hc-og.png"
 outputs:
 - html
