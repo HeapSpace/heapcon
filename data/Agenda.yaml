@@ -10,7 +10,7 @@
   participants:
     - name: Предраг Спасојевић
       occupation: CEO Hooloovoo
-      photo: dejan_bosanac.jpg
+      photo: predrag_spasojevic.jpg
       contact:
         linkedin: https://www.linkedin.com/in/predrag-spasojevic-17132b1/
         email: predrag.spasojevic@hooloovoo.rs
@@ -68,12 +68,12 @@
   time: "13:00 - 13:10"
 
 
-- title: "ТБД"
+- title: "Отворени код - идеологија или бизнис?"
   time: "13:10 - 13:30"
-  abstract: ""
+  abstract: "Да ли је отворени код само други назив за бесплатан софтвер, и зашто није? Где живи отворени код, ко га креира и користи - и какве везе све то има са бизнисом и децом?"
   participants:
     - name: Владимир Тркуља
-      occupation: Venture Fellow at UNICEF
+      occupation: Саветник за иновације, УНИЦЕФ
       photo: vladimir_trkulja.jpg
       contact:
         linkedin: https://www.linkedin.com/in/vladimirtrkulja/
