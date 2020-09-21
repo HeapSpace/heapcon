@@ -171,11 +171,13 @@
 
 
 - title: 😢 Затварање
-  time: "17:00 - 17:15"
+  time: "18:00 - 18:15"
   participants:
     - name: Хипспејс тим
       occupation: ""
       photo: logo.jpg
+      contact:
+        linkedin: https://heapspace.rs/organizacija/tim/
 
 - title: 🍻 Матине
   time: "18:15"
@@ -183,3 +185,5 @@
     - name: Хипспејс тим
       occupation: ""
       photo: logo.jpg
+      contact:
+        linkedin: https://heapspace.rs/organizacija/tim/
